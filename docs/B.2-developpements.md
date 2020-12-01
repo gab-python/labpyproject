@@ -21,8 +21,8 @@ Remarques: Par curiosité j’ai analysé le code du projet avec **Sonarqube**, 
 -	0% de couverture du code (tests unitaires absents)
 -	573 « code smell » dont une très grande partie relève de conventions de nommage. Parmi les autres causes : trop grand nombre de paramètres pour des fonctions, Cognitive complexity to reduce
 -	17 Security Hotspots : liés à l’utilisation 
-  -	d’arguments en ligne de commande
-  -	d’expressions régulières
-  -	d’adresse IP littérales
-  -	de l’entrée standard
-  -	du générateur pseudorandom
+   -	d’arguments en ligne de commande
+   -	d’expressions régulières
+   -	d’adresse IP littérales
+   -	de l’entrée standard
+   -	du générateur pseudorandom
