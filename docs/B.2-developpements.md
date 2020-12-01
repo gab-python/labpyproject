@@ -7,7 +7,7 @@ Pour standardiser le code j’ai fait appel à [**Black**](https://github.com/ps
 Pour obtenir quelques métriques j’ai utilisé [**Sonarqube**](https://www.sonarqube.org/):
 
 Métrique | Projet | Code générique (core) | Code du jeu (apps.labpyrinthe)
---------   ------   ---------------------   ------------------------------
+-------- | ------ | --------------------- | ------------------------------
 Total (lignes) | 43 117 | 12 424 | 30 682
 Code (lignes) | 26 981 | 7 020 | 19 953
 Commentaires (lignes) | 14 284 | 4 737 | 9 545
