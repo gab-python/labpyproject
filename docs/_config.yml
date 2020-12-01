@@ -1,4 +1,5 @@
-theme: jekyll-theme-time-machine
+#theme: jekyll-theme-time-machine
+remote_theme: rundocs/jekyll-rtd-theme
 include:
   - code/
   - code/_static/
