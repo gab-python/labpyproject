@@ -1,3 +1,4 @@
 theme: jekyll-theme-time-machine
 include:
   - code/
+  - code/_static/
