@@ -2,3 +2,4 @@ remote_theme: rundocs/jekyll-rtd-theme
 include:
   - code/
   - code/_static/js/
+  - code/_static/file.png
