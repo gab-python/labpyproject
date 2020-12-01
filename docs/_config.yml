@@ -1,4 +1,4 @@
 remote_theme: rundocs/jekyll-rtd-theme
 include:
   - code/
-  - code/_static/
+  - code/_static
