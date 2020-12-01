@@ -18,7 +18,7 @@ Fichiers (modules) | 84 | 17 | 66
 
 ![quality_gate](imgs/B/quality_gate_small.png)
 
-Remarques: Par curiosité j’ai analysé le code du projet avec **Sonarqube**, là encore dans son paramétrage par défaut. Le code passe la « quality gate » avec :
+Par curiosité j’ai analysé le code du projet avec **Sonarqube**, là encore dans son paramétrage par défaut. Le code passe la « quality gate » avec :
 *	la note A en Reliability, Security et Maintainability
 *	0% de couverture du code (tests unitaires absents)
 *	573 « code smell » dont une très grande partie relève de conventions de nommage. Parmi les autres causes : trop grand nombre de paramètres pour des fonctions, Cognitive complexity to reduce
@@ -28,3 +28,8 @@ Remarques: Par curiosité j’ai analysé le code du projet avec **Sonarqube**, 
   -	d’adresse IP littérales
   -	de l’entrée standard
   -	du générateur pseudorandom
+L’outil met en évidence les classes les plus difficiles à appréhender (volume et complexité du code).
+
+Enfin, j’ai utilisé [**Sphinx**](https://www.sphinx-doc.org/en/master/) pour générer une documentation html du projet (avec le thème **Read The Docs**). Vous trouverez cette documentation ici : [documentation du code source](code/index.html).
+
+Remarque : la documentation n’évoque que les membres publics des classes, sans respecter leur « ordre chronologique » (trie alphabétique forcé par un plugin). Pour une vision complète du code, vous pouvez accéder au code source d’une classe depuis sa page de documentation.
