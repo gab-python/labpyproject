@@ -1,2 +1,2 @@
 theme: jekyll-theme-time-machine
-include: [code/_images, code/_modules, code/_sources, 'code/_static']
+include: ['code', code/_images, code/_modules, code/_sources, 'code/_static']
