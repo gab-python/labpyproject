@@ -1,4 +1,2 @@
 remote_theme: rundocs/jekyll-rtd-theme
-include: ["code/_static/file.png"]
-  
 keep_files: ["code/_static/file.png"]
