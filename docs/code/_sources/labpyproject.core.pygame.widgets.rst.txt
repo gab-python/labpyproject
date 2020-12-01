@@ -1,0 +1,8 @@
+labpyproject.core.pygame.widgets
+================================
+
+.. automodule:: labpyproject.core.pygame.widgets
+
+.. automodapi:: labpyproject.core.pygame.widgets
+   :no-heading:
+   :no-main-docstr:

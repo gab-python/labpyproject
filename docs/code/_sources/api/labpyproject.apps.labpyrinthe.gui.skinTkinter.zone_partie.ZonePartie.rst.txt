@@ -1,0 +1,21 @@
+ZonePartie
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie
+
+.. autoclass:: ZonePartie
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ZonePartie.apply_current_state
+      ~ZonePartie.draw_interface
+      ~ZonePartie.on_view_changed
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: apply_current_state
+   .. automethod:: draw_interface
+   .. automethod:: on_view_changed

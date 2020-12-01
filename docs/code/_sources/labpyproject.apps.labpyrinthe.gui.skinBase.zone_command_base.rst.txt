@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.skinBase.zone\_command\_base
+==============================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base
+   :no-heading:
+   :no-main-docstr:

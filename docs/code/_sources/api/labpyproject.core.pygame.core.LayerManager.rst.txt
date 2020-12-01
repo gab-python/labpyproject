@@ -1,0 +1,33 @@
+LayerManager
+============
+
+.. currentmodule:: labpyproject.core.pygame.core
+
+.. autoclass:: LayerManager
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~LayerManager.batch_add_item
+      ~LayerManager.batch_remove_item
+      ~LayerManager.clean
+      ~LayerManager.get_stack_for_container
+      ~LayerManager.handle_changes_internal
+      ~LayerManager.register_layerstack
+      ~LayerManager.trace
+      ~LayerManager.unregister_layerstack
+      ~LayerManager.update_displaylist
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: batch_add_item
+   .. automethod:: batch_remove_item
+   .. automethod:: clean
+   .. automethod:: get_stack_for_container
+   .. automethod:: handle_changes_internal
+   .. automethod:: register_layerstack
+   .. automethod:: trace
+   .. automethod:: unregister_layerstack
+   .. automethod:: update_displaylist

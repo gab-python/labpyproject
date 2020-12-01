@@ -1,0 +1,23 @@
+BotView
+=======
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.botview
+
+.. autoclass:: BotView
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~BotView.change_case
+      ~BotView.get_current_highbotcase
+      ~BotView.highlight
+      ~BotView.set_current_highbotcase
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: change_case
+   .. automethod:: get_current_highbotcase
+   .. automethod:: highlight
+   .. automethod:: set_current_highbotcase

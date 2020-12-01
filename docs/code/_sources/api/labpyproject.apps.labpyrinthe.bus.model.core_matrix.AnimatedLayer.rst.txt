@@ -1,0 +1,31 @@
+AnimatedLayer
+=============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. autoclass:: AnimatedLayer
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~AnimatedLayer.clear
+      ~AnimatedLayer.copy
+      ~AnimatedLayer.delete_case
+      ~AnimatedLayer.get_list_cases
+      ~AnimatedLayer.get_set_cases
+      ~AnimatedLayer.move_case
+      ~AnimatedLayer.project_layer_on_matrice
+      ~AnimatedLayer.set_case
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: clear
+   .. automethod:: copy
+   .. automethod:: delete_case
+   .. automethod:: get_list_cases
+   .. automethod:: get_set_cases
+   .. automethod:: move_case
+   .. automethod:: project_layer_on_matrice
+   .. automethod:: set_case

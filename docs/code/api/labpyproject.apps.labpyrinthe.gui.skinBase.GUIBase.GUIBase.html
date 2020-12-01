@@ -1,0 +1,1405 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GUIBase &mdash; Documentation labpyproject </title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="GUIBaseNoThread" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseNoThread.html" />
+    <link rel="prev" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> labpyproject
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../labpyproject.html">labpyproject</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../labpyproject.apps.html">labpyproject.apps</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.html">labpyproject.apps.labpyrinthe</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.html">labpyproject.apps.labpyrinthe.app</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html">app_types</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.app.app_types.AppTypes.html">AppTypes</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html">application</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.app.application.AppManager.html">AppManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.html">labpyproject.apps.labpyrinthe.bus</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.html">labpyproject.apps.labpyrinthe.bus.commands</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html">cmd_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.CommandHelper.html">CommandHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html">cmd_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.CommandManager.html">CommandManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html">gamble_datas</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataSet.html">GambleDataSet</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataObject.html">GambleDataObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.PseudoActions.html">PseudoActions</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleSearch.html">GambleSearch</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html">targets</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetObject.html">TargetObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPath.html">TargetPath</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPathStep.html">TargetPathStep</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.html">labpyproject.apps.labpyrinthe.bus.helpers</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html">exchange_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.ExchangeHelper.html">ExchangeHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html">game_configuration</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.GameConfiguration.html">GameConfiguration</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html">lab_generator</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.LabGenerator.html">LabGenerator</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html">lab_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.LabManager.html">LabManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html">lab_parser</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.LabParser.html">LabParser</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.html">labpyproject.apps.labpyrinthe.bus.model</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html">core_matrix</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabHelper.html">LabHelper</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabLevel.html">LabLevel</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.Matrice.html">Matrice</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.AnimatedLayer.html">AnimatedLayer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.Case.html">Case</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseRobot.html">CaseRobot</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseDanger.html">CaseDanger</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseGrenade.html">CaseGrenade</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseAnimation.html">CaseAnimation</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseBonus.html">CaseBonus</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html">player</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.player.LabPlayer.html">LabPlayer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html">game_manager</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.game_manager.GameManager.html">GameManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4 current"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.html">labpyproject.apps.labpyrinthe.gui</a><ul class="current">
+<li class="toctree-l5 current"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.html">labpyproject.apps.labpyrinthe.gui.skinBase</a><ul class="current">
+<li class="toctree-l6 current"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html">GUIBase</a><ul class="current">
+<li class="toctree-l7 current"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#classes">Classes</a><ul class="current">
+<li class="toctree-l8 current"><a class="current reference internal" href="#">GUIBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseNoThread.html">GUIBaseNoThread</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseThreaded.html">GUIBaseThreaded</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html">colors</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.colors.ColorHelper.html">ColorHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html">interfaces</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCarte.html">AbstractZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCommand.html">AbstractZoneCommand</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie.html">AbstractZonePartie</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneBots.html">AbstractZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneMenu.html">AbstractZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenContent.html">AbstractScreenContent</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenWait.html">AbstractScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractSwitch.html">AbstractSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractInput.html">AbstractInput</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html">screen_wait_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.ScreenWaitBase.html">ScreenWaitBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html">skin_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.SkinBase.html">SkinBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html">zone_bots_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.ZoneBotsBase.html">ZoneBotsBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html">zone_carte_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ZoneCarteBase.html">ZoneCarteBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ItemObjectBase.html">ItemObjectBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html">zone_command_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.ZoneCommandBase.html">ZoneCommandBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html">zone_menu_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.ZoneMenuBase.html">ZoneMenuBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html">zone_partie_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase.html">ZonePartieBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.html">labpyproject.apps.labpyrinthe.gui.skinConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html">pub_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.PublicationHelper.html">PublicationHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.html">labpyproject.apps.labpyrinthe.gui.skinPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html">botview</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.botview.BotView.html">BotView</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html">footer</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.footer.Footer.html">Footer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScreenWait.html">ScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScaledText.html">ScaledText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.SimplePreloader.html">SimplePreloader</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html">skinPygame</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.SkinPygame.html">SkinPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WImage.html">WImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WText.html">WText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WEntry.html">WEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WButton.html">WButton</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.Spacer.html">Spacer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.ZoneBots.html">ZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotList.html">BotList</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotItem.html">BotItem</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ItemObject.html">ItemObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.CaseView.html">CaseView</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.BotViewCarte.html">BotViewCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneDangerRobot.html">ZoneDangerRobot</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.MenuButton.html">MenuButton</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.html">labpyproject.apps.labpyrinthe.gui.skinTkinter</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.ScreenWait.html">ScreenWait</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html">skinTkinter</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.SkinTkinter.html">SkinTkinter</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CustomEntry.html">CustomEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSwitch.html">CanvasSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasImage.html">CanvasImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSpacer.html">CanvasSpacer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSeparateur.html">CanvasSeparateur</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.ZoneBots.html">ZoneBots</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ItemObject.html">ItemObject</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html">GUIConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIConsole.GUIConsole.html">GUIConsole</a></li>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIConsole.ThreadInput.html">ThreadInput</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html">GUIPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIPygame.GUIPygame.html">GUIPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html">GUITk</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUITk.GUITk.html">GUITk</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.clientConsole.html">clientConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.clientPygame.html">clientPygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.serverConsole.html">serverConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standaloneConsole.html">standaloneConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standalonePygame.html">standalonePygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standaloneTkinter.html">standaloneTkinter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../labpyproject.core.html">labpyproject.core</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.app.html">labpyproject.core.app</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.app.app_components.html">app_components</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.app.app_components.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.ThreadableComp.html">ThreadableComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.APPComp.html">APPComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteExchangeObject.html">SatelliteExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.AbstractSatelliteComp.html">AbstractSatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.DelayedAction.html">DelayedAction</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteComp.html">SatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteCompNoThread.html">SatelliteCompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUIExchangeObject.html">GUIExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.AbstractGUIComp.html">AbstractGUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUIComp.html">GUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUICompNoThread.html">GUICompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.NETExchangeObject.html">NETExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.NETComp.html">NETComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.BUSINESSComp.html">BUSINESSComp</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.app.app_components.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.io.html">labpyproject.core.io</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.io.custom_IO.html">custom_IO</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.io.custom_IO.html#functions">Functions</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.get_file_list.html">get_file_list</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.load_obj_from_file.html">load_obj_from_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.load_text_file.html">load_text_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.save_obj_in_file.html">save_obj_in_file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.net.html">labpyproject.core.net</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html">custom_TCP</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPServerContainer.html">CustomTCPServerContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.ThreadedTCPServer.html">ThreadedTCPServer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPRequestHandler.html">CustomTCPRequestHandler</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.ParseDataError.html">ParseDataError</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomRequestHelper.html">CustomRequestHelper</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPThreadedClient.html">CustomTCPThreadedClient</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.patterns.html">labpyproject.core.patterns</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html">design_patterns</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.patterns.design_patterns.Singleton.html">Singleton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.pygame.html">labpyproject.core.pygame</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.pygame.core.html">core</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.core.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.BoxModelObject.html">BoxModelObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.MetricValue.html">MetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.BoundedMetricValue.html">BoundedMetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.VirtualItem.html">VirtualItem</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.VirtualContainer.html">VirtualContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.CustomSprite.html">CustomSprite</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.RealContainer.html">RealContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.RootContainer.html">RootContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LayerManager.html">LayerManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LayerStack.html">LayerStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LocalLayer.html">LocalLayer</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.core.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.pygame.events.html">events</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.events.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomEventManager.html">CustomEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.GUIEventManager.html">GUIEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseControl.html">CustomBaseControl</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseInput.html">CustomBaseInput</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseButton.html">CustomBaseButton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.events.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html">widgets</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Background.html">Background</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Image.html">Image</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Text.html">Text</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Entry.html">Entry</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.TextButton.html">TextButton</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Button.html">Button</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Stack.html">Stack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.HStack.html">HStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.VStack.html">VStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Canvas.html">Canvas</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.HBox.html">HBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.VBox.html">VBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Root.html">Root</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.queue.html">labpyproject.core.queue</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html">queue_tools</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueManager.html">QueueManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueSimpleClient.html">QueueSimpleClient</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueSwitcher.html">QueueSwitcher</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.random.html">labpyproject.core.random</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.random.custom_random.html">custom_random</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.random.custom_random.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.random.custom_random.CustomRandom.html">CustomRandom</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.random.custom_random.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">labpyproject</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../labpyproject.html">labpyproject</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.apps.html">labpyproject.apps</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.apps.labpyrinthe.html">labpyproject.apps.labpyrinthe</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.apps.labpyrinthe.gui.html">labpyproject.apps.labpyrinthe.gui</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.apps.labpyrinthe.gui.skinBase.html">labpyproject.apps.labpyrinthe.gui.skinBase</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html">labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase</a> &raquo;</li>
+        
+      <li>GUIBase</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="guibase">
+<h1>GUIBase<a class="headerlink" href="#guibase" title="Lien permanent vers ce titre">¶</a></h1>
+<dl class="py class">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase">
+<em class="property">class </em><code class="sig-prename descclassname">labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.</code><code class="sig-name descname">GUIBase</code><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Bases : <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Interface générique du jeu.</p>
+<p>Constructeur</p>
+<p class="rubric">Attributes Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_GAME" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_GAME"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CONFIG_GAME</span></code></a></p></td>
+<td><p>mode jeu (partie en cours)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_LOADING" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_LOADING"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CONFIG_LOADING</span></code></a></p></td>
+<td><p>mode chargement (initial, partie)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_MENU" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_MENU"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CONFIG_MENU</span></code></a></p></td>
+<td><p>mode menu (accueil)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_RESIZE" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_RESIZE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CONFIG_RESIZE</span></code></a></p></td>
+<td><p>mode resize</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.allow_task_processing" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.allow_task_processing"><code class="xref py py-obj docutils literal notranslate"><span class="pre">allow_task_processing</span></code></a>()</p></td>
+<td><p>Permet de désactiver temporairement le dépilement des tâches.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.ask_goto_menu" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.ask_goto_menu"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ask_goto_menu</span></code></a>()</p></td>
+<td><p>Retour au menu (quitte la partie en cours).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.ask_quit_game" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.ask_quit_game"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ask_quit_game</span></code></a>()</p></td>
+<td><p>Quitte le jeu.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.create_interface" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.create_interface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_interface</span></code></a>()</p></td>
+<td><p>Initialise la création de l’interface.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.create_partie" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.create_partie"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_partie</span></code></a>()</p></td>
+<td><p>Partie en cours de création</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.dispatch_type_partie" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.dispatch_type_partie"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dispatch_type_partie</span></code></a>(dictargs)</p></td>
+<td><p>Affichage du type de partie.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.erase_choice" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.erase_choice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">erase_choice</span></code></a>()</p></td>
+<td><p>Efface la demande de choix précédente</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.get_partie_state" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.get_partie_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_partie_state</span></code></a>()</p></td>
+<td><p>Retourne l’état courant de l’interface.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handleExchangeObject" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handleExchangeObject"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handleExchangeObject</span></code></a>(exobj)</p></td>
+<td><p>Traite un objet d’échange provenant de l’application métier.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handleTask" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handleTask"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handleTask</span></code></a>()</p></td>
+<td><p>Méthode générique de dépilement de tâche.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_APP_info" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_APP_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handle_APP_info</span></code></a>(exobj)</p></td>
+<td><p>L’application envoie une info au satellite.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_BUS_info" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_BUS_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handle_BUS_info</span></code></a>(obj)</p></td>
+<td><p>Réception d’informations en provenance de l’appli métier.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_choice" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_choice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handle_choice</span></code></a>(obj)</p></td>
+<td><p>Retourne l’input utilisateur, particularise la méthode « void » de appcomp.GUIComp.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.init_partie" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.init_partie"><code class="xref py py-obj docutils literal notranslate"><span class="pre">init_partie</span></code></a>()</p></td>
+<td><p>Ré initialise l’interface</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_app_type_defined" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_app_type_defined"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_app_type_defined</span></code></a>()</p></td>
+<td><p>Appelée lorsque la GUI connait le type d’application associée (client, serveur, standalone)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_choice_made" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_choice_made"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_choice_made</span></code></a>(cmd)</p></td>
+<td><p>Appelée par les contrôles.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_content_published" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_content_published"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_content_published</span></code></a>(origdict)</p></td>
+<td><p>Indique que le dernier affichage a été réalisé</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_interface_created" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_interface_created"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_interface_created</span></code></a>()</p></td>
+<td><p>Informe l’app métier que la GUI a achevé la publication initiale.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_partie_created" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_partie_created"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_partie_created</span></code></a>()</p></td>
+<td><p>Process de création de la partie achevé côté business, la publication peut prendre plus de temps</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_partie_ended" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_partie_ended"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_partie_ended</span></code></a>()</p></td>
+<td><p>Partie terminée</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.play_animation_pixel" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.play_animation_pixel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">play_animation_pixel</span></code></a>()</p></td>
+<td><p>Joue une étape d’animation de mouvement.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.post_set_configuration" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.post_set_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">post_set_configuration</span></code></a>()</p></td>
+<td><p>Finalisation du process de configuration de l’interface.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.process_task" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.process_task"><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_task</span></code></a>()</p></td>
+<td><p>Traitement de la pile d’échange, appelée par les GUIs graphiques.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.refresh_view" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.refresh_view"><code class="xref py py-obj docutils literal notranslate"><span class="pre">refresh_view</span></code></a>()</p></td>
+<td><p>Réalise un update de l’affichage</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.register_partie_state" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.register_partie_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">register_partie_state</span></code></a>(state)</p></td>
+<td><p>Enregistre l’état actuel de la partie.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.sendTask" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.sendTask"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sendTask</span></code></a>(obj)</p></td>
+<td><p>Empile une réponse à destination de l’application métier.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_content" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_content"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_config_content</span></code></a>(show)</p></td>
+<td><p>Configuration écran de contenu (menu, partie)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_game" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_game"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_config_game</span></code></a>(show)</p></td>
+<td><p>Configuration écran partie</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_menu" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_menu"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_config_menu</span></code></a>(show)</p></td>
+<td><p>Configuration écran menu principal</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_wait" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_config_wait</span></code></a>(show)</p></td>
+<td><p>Configuration écran d’attente</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_configuration" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_configuration</span></code></a>(configname)</p></td>
+<td><p>Configure l’interface.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_NETInfos" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_NETInfos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_NETInfos</span></code></a>(dictargs)</p></td>
+<td><p>Affichage des infos réseau.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_bot_dead" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_bot_dead"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_bot_dead</span></code></a>(dictargs)</p></td>
+<td><p>Appelée pour lors de l’élimination de dictargs[« robot »].</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_publication" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_publication"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_carte_publication</span></code></a>(dictargs)</p></td>
+<td><p>Affichage / mise à jour de la carte</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_txt_in_preload" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_txt_in_preload"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_carte_txt_in_preload</span></code></a>(dictargs)</p></td>
+<td><p>Affichage de la carte txt dans l’écran de preload de partie</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_update" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_carte_update</span></code></a>(dictargs)</p></td>
+<td><p>Update partiel de la carte</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_content</span></code></a>(obj)</p></td>
+<td><p>Méthode principale d’affichage de contenu.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_animation_pixel" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_animation_pixel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_content_animation_pixel</span></code></a>(dictargs)</p></td>
+<td><p>Affichage d’une animation de mouvement par pixel (si LabHelper.ANIMATION_RESOLUTION == LabHelper.ANIMATION_RESOLUTION_PIXEL)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_gamble_context" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_gamble_context"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_content_gamble_context</span></code></a>(dictargs)</p></td>
+<td><p>Affichage / mise à jour des infos robots, du coup joué</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_message" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_content_message</span></code></a>(dictargs)</p></td>
+<td><p>Affichage d’un message contextuel</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_partie_server" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_partie_server"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_content_partie_server</span></code></a>(dictargs)</p></td>
+<td><p>Affichage spécifique serveur : infos partie.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_menu" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_menu"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_menu</span></code></a>()</p></td>
+<td><p>Ecran menu</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_message" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_message</span></code></a>(msg, is_input)</p></td>
+<td><p>Affichage de message ou consigne</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_partie" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_partie"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_partie</span></code></a>()</p></td>
+<td><p>Ecran partie</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_player_status" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_player_status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_player_status</span></code></a>(dictargs)</p></td>
+<td><p>Affichage des infos de statut du joueur.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.shutdown" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.shutdown"><code class="xref py py-obj docutils literal notranslate"><span class="pre">shutdown</span></code></a>()</p></td>
+<td><p>Fermeture de l’interface</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.start_animation_pixel" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.start_animation_pixel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">start_animation_pixel</span></code></a>(dictanim, dictargs)</p></td>
+<td><p>Démarre une animation de mouvement.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.start_partie" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.start_partie"><code class="xref py py-obj docutils literal notranslate"><span class="pre">start_partie</span></code></a>()</p></td>
+<td><p>Démarrage de la partie</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.toggle_help" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.toggle_help"><code class="xref py py-obj docutils literal notranslate"><span class="pre">toggle_help</span></code></a>()</p></td>
+<td><p>Affichage / masquage aide</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.user_start_partie" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.user_start_partie"><code class="xref py py-obj docutils literal notranslate"><span class="pre">user_start_partie</span></code></a>()</p></td>
+<td><p>Envoie une commande de démarrage de la partie.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes Documentation</p>
+<dl class="py attribute">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_GAME">
+<code class="sig-name descname">CONFIG_GAME</code><em class="property"> = 'CONFIG_GAME'</em><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_GAME" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>mode jeu (partie en cours)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_LOADING">
+<code class="sig-name descname">CONFIG_LOADING</code><em class="property"> = 'CONFIG_LOADING'</em><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_LOADING" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>mode chargement (initial, partie)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_MENU">
+<code class="sig-name descname">CONFIG_MENU</code><em class="property"> = 'CONFIG_MENU'</em><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_MENU" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>mode menu (accueil)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_RESIZE">
+<code class="sig-name descname">CONFIG_RESIZE</code><em class="property"> = 'CONFIG_RESIZE'</em><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.CONFIG_RESIZE" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>mode resize</p>
+</dd></dl>
+
+<p class="rubric">Methods Documentation</p>
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.allow_task_processing">
+<code class="sig-name descname">allow_task_processing</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.allow_task_processing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.allow_task_processing" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Permet de désactiver temporairement le dépilement des tâches.
+Appelée dans les méthodes handleTask de GUIBaseNoThread et
+GUIBaseThreaded</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.ask_goto_menu">
+<code class="sig-name descname">ask_goto_menu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.ask_goto_menu"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.ask_goto_menu" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retour au menu (quitte la partie en cours).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.ask_quit_game">
+<code class="sig-name descname">ask_quit_game</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.ask_quit_game"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.ask_quit_game" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Quitte le jeu.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.create_interface">
+<code class="sig-name descname">create_interface</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.create_interface"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.create_interface" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Initialise la création de l’interface.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.create_partie">
+<code class="sig-name descname">create_partie</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.create_partie"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.create_partie" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Partie en cours de création</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.dispatch_type_partie">
+<code class="sig-name descname">dispatch_type_partie</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.dispatch_type_partie"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.dispatch_type_partie" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage du type de partie.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.erase_choice">
+<code class="sig-name descname">erase_choice</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.erase_choice"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.erase_choice" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Efface la demande de choix précédente</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.get_partie_state">
+<code class="sig-name descname">get_partie_state</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.get_partie_state"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.get_partie_state" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne l’état courant de l’interface.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handleExchangeObject">
+<code class="sig-name descname">handleExchangeObject</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">exobj</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.handleExchangeObject"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handleExchangeObject" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Traite un objet d’échange provenant de l’application métier.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>exobj</strong> (<a class="reference internal" href="labpyproject.core.app.app_components.GUIExchangeObject.html#labpyproject.core.app.app_components.GUIExchangeObject" title="labpyproject.core.app.app_components.GUIExchangeObject"><em>GUIExchangeObject</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handleTask">
+<code class="sig-name descname">handleTask</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.handleTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handleTask" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Méthode générique de dépilement de tâche.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_APP_info">
+<code class="sig-name descname">handle_APP_info</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">exobj</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.handle_APP_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_APP_info" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>L’application envoie une info au satellite.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>exobj</strong> (<a class="reference internal" href="labpyproject.core.app.app_components.SatelliteExchangeObject.html#labpyproject.core.app.app_components.SatelliteExchangeObject" title="labpyproject.core.app.app_components.SatelliteExchangeObject"><em>SatelliteExchangeObject</em></a>) – avec exobj.typeexchange=SatelliteExchangeObject.SET_APP_INFO</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_BUS_info">
+<code class="sig-name descname">handle_BUS_info</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.handle_BUS_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_BUS_info" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Réception d’informations en provenance de l’appli métier.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_choice">
+<code class="sig-name descname">handle_choice</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.handle_choice"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.handle_choice" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne l’input utilisateur, particularise la méthode « void » de appcomp.GUIComp.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>exobj</strong> (<a class="reference internal" href="labpyproject.core.app.app_components.GUIExchangeObject.html#labpyproject.core.app.app_components.GUIExchangeObject" title="labpyproject.core.app.app_components.GUIExchangeObject"><em>GUIExchangeObject</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.init_partie">
+<code class="sig-name descname">init_partie</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.init_partie"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.init_partie" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Ré initialise l’interface</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_app_type_defined">
+<code class="sig-name descname">on_app_type_defined</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.on_app_type_defined"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_app_type_defined" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque la GUI connait le type d’application associée (client, serveur, standalone)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_choice_made">
+<code class="sig-name descname">on_choice_made</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cmd</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.on_choice_made"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_choice_made" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée par les contrôles.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_content_published">
+<code class="sig-name descname">on_content_published</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">origdict</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.on_content_published"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_content_published" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Indique que le dernier affichage a été réalisé</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_interface_created">
+<code class="sig-name descname">on_interface_created</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.on_interface_created"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_interface_created" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Informe l’app métier que la GUI a achevé la publication initiale.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_partie_created">
+<code class="sig-name descname">on_partie_created</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.on_partie_created"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_partie_created" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Process de création de la partie achevé côté business, la publication peut
+prendre plus de temps</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_partie_ended">
+<code class="sig-name descname">on_partie_ended</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.on_partie_ended"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.on_partie_ended" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Partie terminée</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.play_animation_pixel">
+<code class="sig-name descname">play_animation_pixel</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.play_animation_pixel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.play_animation_pixel" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Joue une étape d’animation de mouvement.
+Rq : appelée dans allow_task_processing si self.animation_running = True</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.post_set_configuration">
+<code class="sig-name descname">post_set_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.post_set_configuration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.post_set_configuration" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Finalisation du process de configuration de l’interface.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.process_task">
+<code class="sig-name descname">process_task</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.process_task"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.process_task" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Traitement de la pile d’échange, appelée par les GUIs graphiques.</p>
+<p>Rq : GUIConsole héritant de SatelliteComp, handleTask est appelée
+nativement dans la méthode run de son thread.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.refresh_view">
+<code class="sig-name descname">refresh_view</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.refresh_view"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.refresh_view" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Réalise un update de l’affichage</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.register_partie_state">
+<code class="sig-name descname">register_partie_state</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">state</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.register_partie_state"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.register_partie_state" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Enregistre l’état actuel de la partie.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.sendTask">
+<code class="sig-name descname">sendTask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.sendTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.sendTask" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Empile une réponse à destination de l’application métier.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_content">
+<code class="sig-name descname">set_config_content</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">show</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.set_config_content"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_content" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Configuration écran de contenu (menu, partie)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>show</strong> (<em>boolean</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_game">
+<code class="sig-name descname">set_config_game</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">show</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.set_config_game"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_game" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Configuration écran partie</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>show</strong> (<em>boolean</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_menu">
+<code class="sig-name descname">set_config_menu</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">show</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.set_config_menu"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_menu" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Configuration écran menu principal</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>show</strong> (<em>boolean</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_wait">
+<code class="sig-name descname">set_config_wait</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">show</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.set_config_wait"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_config_wait" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Configuration écran d’attente</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>show</strong> (<em>boolean</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_configuration">
+<code class="sig-name descname">set_configuration</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">configname</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.set_configuration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.set_configuration" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Configure l’interface.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_NETInfos">
+<code class="sig-name descname">show_NETInfos</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_NETInfos"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_NETInfos" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage des infos réseau.
+dictargs : dict généré par la méthode get_network_infos du
+composant réseau associé</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_bot_dead">
+<code class="sig-name descname">show_bot_dead</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_bot_dead"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_bot_dead" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée pour lors de l’élimination de dictargs[« robot »].</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_publication">
+<code class="sig-name descname">show_carte_publication</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_carte_publication"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_publication" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage / mise à jour de la carte</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_txt_in_preload">
+<code class="sig-name descname">show_carte_txt_in_preload</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_carte_txt_in_preload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_txt_in_preload" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage de la carte txt dans l’écran de preload de partie</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_update">
+<code class="sig-name descname">show_carte_update</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_carte_update"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_carte_update" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Update partiel de la carte</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content">
+<code class="sig-name descname">show_content</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_content"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Méthode principale d’affichage de contenu.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_animation_pixel">
+<code class="sig-name descname">show_content_animation_pixel</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_content_animation_pixel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_animation_pixel" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage d’une animation de mouvement par pixel
+(si LabHelper.ANIMATION_RESOLUTION == LabHelper.ANIMATION_RESOLUTION_PIXEL)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_gamble_context">
+<code class="sig-name descname">show_content_gamble_context</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_content_gamble_context"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_gamble_context" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage / mise à jour des infos robots, du coup joué</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_message">
+<code class="sig-name descname">show_content_message</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_content_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_message" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage d’un message contextuel</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_partie_server">
+<code class="sig-name descname">show_content_partie_server</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_content_partie_server"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_content_partie_server" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage spécifique serveur : infos partie.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>dictargs</strong> (<em>dict</em>) – {« content »: GameManager.CONTENT_PARTIE_SERVER, « msg »:}</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_menu">
+<code class="sig-name descname">show_menu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_menu"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_menu" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Ecran menu</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_message">
+<code class="sig-name descname">show_message</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">msg</span></em>, <em class="sig-param"><span class="n">is_input</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_message"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_message" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage de message ou consigne</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_partie">
+<code class="sig-name descname">show_partie</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_partie"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_partie" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Ecran partie</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_player_status">
+<code class="sig-name descname">show_player_status</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.show_player_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.show_player_status" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage des infos de statut du joueur.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.shutdown">
+<code class="sig-name descname">shutdown</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.shutdown"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.shutdown" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Fermeture de l’interface</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.start_animation_pixel">
+<code class="sig-name descname">start_animation_pixel</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dictanim</span></em>, <em class="sig-param"><span class="n">dictargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.start_animation_pixel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.start_animation_pixel" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Démarre une animation de mouvement.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.start_partie">
+<code class="sig-name descname">start_partie</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.start_partie"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.start_partie" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Démarrage de la partie</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.toggle_help">
+<code class="sig-name descname">toggle_help</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.toggle_help"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.toggle_help" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affichage / masquage aide</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.user_start_partie">
+<code class="sig-name descname">user_start_partie</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html#GUIBase.user_start_partie"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.user_start_partie" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Envoie une commande de démarrage de la partie.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseNoThread.html" class="btn btn-neutral float-right" title="GUIBaseNoThread" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html" class="btn btn-neutral float-left" title="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Gabriel Leroy - novembre 2020 - Licence Art Libre (https://artlibre.org/)
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="http://sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+serverConsole
+=============
+
+.. automodule:: labpyproject.apps.labpyrinthe.serverConsole
+   :exclude-members: labpyproject.apps.labpyrinthe

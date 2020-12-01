@@ -1,0 +1,33 @@
+NETComp
+=======
+
+.. currentmodule:: labpyproject.core.app.app_components
+
+.. autoclass:: NETComp
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~NETComp.ask_NET_info
+      ~NETComp.check_connections
+      ~NETComp.connect
+      ~NETComp.disconnect
+      ~NETComp.handleExchangeObject
+      ~NETComp.handle_BUS_info
+      ~NETComp.net_shutdown
+      ~NETComp.sendFromExchangeObject
+      ~NETComp.set_address
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: ask_NET_info
+   .. automethod:: check_connections
+   .. automethod:: connect
+   .. automethod:: disconnect
+   .. automethod:: handleExchangeObject
+   .. automethod:: handle_BUS_info
+   .. automethod:: net_shutdown
+   .. automethod:: sendFromExchangeObject
+   .. automethod:: set_address

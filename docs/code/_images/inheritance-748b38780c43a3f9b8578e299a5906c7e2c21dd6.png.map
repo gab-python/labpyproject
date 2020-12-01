@@ -1,0 +1,14 @@
+<map id="inheritance6098c0822b" name="inheritance6098c0822b">
+<area shape="rect" id="node1" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractSwitch.html#labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractSwitch" target="_top" title="Pseudo interface des boutons (ou switchs)" alt="" coords="506,4,590,22"/>
+<area shape="rect" id="node3" href="api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WButton.html#labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WButton" target="_top" title="Widget bouton image custom" alt="" coords="624,22,678,40"/>
+<area shape="rect" id="node2" href="api/labpyproject.apps.labpyrinthe.gui.skinPygame.botview.BotView.html#labpyproject.apps.labpyrinthe.gui.skinPygame.botview.BotView" target="_top" title="Vue de la case robot" alt="" coords="712,22,764,40"/>
+<area shape="rect" id="node4" href="api/labpyproject.core.pygame.core.BoxModelObject.html#labpyproject.core.pygame.core.BoxModelObject" target="_top" title="**Super classe portant les propriétés et méthodes fondamentales du box model.**" alt="" coords="4,4,93,22"/>
+<area shape="rect" id="node10" href="api/labpyproject.core.pygame.core.VirtualItem.html#labpyproject.core.pygame.core.VirtualItem" target="_top" title="**BoxModelObject supportant les attributs de gestion des z&#45;indexs (couches) ainsi que" alt="" coords="127,4,192,22"/>
+<area shape="rect" id="node5" href="api/labpyproject.core.pygame.widgets.Button.html#labpyproject.core.pygame.widgets.Button" target="_top" title="Widget bouton image." alt="" coords="522,39,574,57"/>
+<area shape="rect" id="node6" href="api/labpyproject.core.pygame.widgets.Image.html#labpyproject.core.pygame.widgets.Image" target="_top" title="Widget image basique." alt="" coords="394,21,446,39"/>
+<area shape="rect" id="node7" href="api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton" target="_top" title="Implémentation basique d&#39;un bouton." alt="" coords="368,56,472,74"/>
+<area shape="rect" id="node8" href="api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl" target="_top" title="Classe de base d&#39;un contrôle utilisateur (bouton, entry)." alt="" coords="227,56,334,74"/>
+<area shape="rect" id="node9" href="api/labpyproject.core.pygame.core.CustomSprite.html#labpyproject.core.pygame.core.CustomSprite" target="_top" title="**Sprite supportant le boxmodel, la mécanique de publication et l&#39;update optimisé.**" alt="" coords="241,21,320,39"/>
+<area shape="rect" id="node11" title="a more featureful subclass of Sprite with more attributes" alt="" coords="128,39,192,57"/>
+<area shape="rect" id="node12" title="simple base class for visible game objects" alt="" coords="23,39,74,57"/>
+</map>

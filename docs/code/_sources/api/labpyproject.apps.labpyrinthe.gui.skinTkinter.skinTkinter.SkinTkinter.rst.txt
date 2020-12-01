@@ -1,0 +1,17 @@
+SkinTkinter
+===========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter
+
+.. autoclass:: SkinTkinter
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~SkinTkinter.export_image_from_PIL
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: export_image_from_PIL

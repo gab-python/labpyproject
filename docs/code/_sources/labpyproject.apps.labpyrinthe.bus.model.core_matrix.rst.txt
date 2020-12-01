@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.bus.model.core\_matrix
+====================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. automodapi:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+   :no-heading:
+   :no-main-docstr:

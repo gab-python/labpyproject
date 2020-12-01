@@ -1,0 +1,11 @@
+labpyproject.core.queue
+=======================
+
+.. automodule:: labpyproject.core.queue
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. toctree::
+
+   queue_tools <labpyproject.core.queue.queue_tools>

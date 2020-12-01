@@ -1,0 +1,17 @@
+GambleDataObject
+================
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.commands.gamble_datas
+
+.. autoclass:: GambleDataObject
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~GambleDataObject.serialize
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: serialize

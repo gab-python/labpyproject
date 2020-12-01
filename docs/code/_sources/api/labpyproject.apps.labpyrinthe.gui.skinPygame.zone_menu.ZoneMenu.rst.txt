@@ -1,0 +1,17 @@
+ZoneMenu
+========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu
+
+.. autoclass:: ZoneMenu
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ZoneMenu.draw_interface
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: draw_interface

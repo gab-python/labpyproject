@@ -1,0 +1,129 @@
+ZoneCarteBase
+=============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base
+
+.. autoclass:: ZoneCarteBase
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ZoneCarteBase.BASE_CASE_LAYER
+      ~ZoneCarteBase.BASE_LAYER_TYPECASES
+      ~ZoneCarteBase.IMAGE_ZONE_ROBOT
+      ~ZoneCarteBase.SHAPE_BG
+      ~ZoneCarteBase.SHAPE_HIGHLIGHT_ROBOT
+      ~ZoneCarteBase.SHAPE_MASK
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ZoneCarteBase.active_single_layer
+      ~ZoneCarteBase.clean_before_resize
+      ~ZoneCarteBase.clear_all
+      ~ZoneCarteBase.clear_layer
+      ~ZoneCarteBase.compute_caze_size
+      ~ZoneCarteBase.compute_delta_coords
+      ~ZoneCarteBase.convert_case_coords
+      ~ZoneCarteBase.delete_case
+      ~ZoneCarteBase.draw_bg
+      ~ZoneCarteBase.draw_bot_highlights
+      ~ZoneCarteBase.draw_mask
+      ~ZoneCarteBase.draw_shapes
+      ~ZoneCarteBase.get_all_items
+      ~ZoneCarteBase.get_bot_highlight_datas
+      ~ZoneCarteBase.get_canvas_dimensions
+      ~ZoneCarteBase.get_item_for_case
+      ~ZoneCarteBase.get_items_for_layer
+      ~ZoneCarteBase.get_layername_for_case
+      ~ZoneCarteBase.get_real_coords_for_case
+      ~ZoneCarteBase.get_zindex_for_case
+      ~ZoneCarteBase.get_zindex_for_layername
+      ~ZoneCarteBase.hide_resize_screen
+      ~ZoneCarteBase.highlight_player
+      ~ZoneCarteBase.init_carte_dimensions
+      ~ZoneCarteBase.init_casetype_datas
+      ~ZoneCarteBase.init_layersdict
+      ~ZoneCarteBase.move_case
+      ~ZoneCarteBase.on_carte_geometry_updated
+      ~ZoneCarteBase.on_carte_published
+      ~ZoneCarteBase.on_carte_repere_changed
+      ~ZoneCarteBase.on_carte_updated
+      ~ZoneCarteBase.on_case_size_changed
+      ~ZoneCarteBase.publish_carte
+      ~ZoneCarteBase.re_initialise
+      ~ZoneCarteBase.register_GUI
+      ~ZoneCarteBase.resize_items
+      ~ZoneCarteBase.set_case
+      ~ZoneCarteBase.set_item_position
+      ~ZoneCarteBase.show_bot_dead
+      ~ZoneCarteBase.show_resize_screen
+      ~ZoneCarteBase.update_bg
+      ~ZoneCarteBase.update_carte
+      ~ZoneCarteBase.update_carte_geometry
+      ~ZoneCarteBase.update_highlight
+      ~ZoneCarteBase.update_item_view
+      ~ZoneCarteBase.update_mask
+      ~ZoneCarteBase.update_shapes
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: BASE_CASE_LAYER
+   .. autoattribute:: BASE_LAYER_TYPECASES
+   .. autoattribute:: IMAGE_ZONE_ROBOT
+   .. autoattribute:: SHAPE_BG
+   .. autoattribute:: SHAPE_HIGHLIGHT_ROBOT
+   .. autoattribute:: SHAPE_MASK
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: active_single_layer
+   .. automethod:: clean_before_resize
+   .. automethod:: clear_all
+   .. automethod:: clear_layer
+   .. automethod:: compute_caze_size
+   .. automethod:: compute_delta_coords
+   .. automethod:: convert_case_coords
+   .. automethod:: delete_case
+   .. automethod:: draw_bg
+   .. automethod:: draw_bot_highlights
+   .. automethod:: draw_mask
+   .. automethod:: draw_shapes
+   .. automethod:: get_all_items
+   .. automethod:: get_bot_highlight_datas
+   .. automethod:: get_canvas_dimensions
+   .. automethod:: get_item_for_case
+   .. automethod:: get_items_for_layer
+   .. automethod:: get_layername_for_case
+   .. automethod:: get_real_coords_for_case
+   .. automethod:: get_zindex_for_case
+   .. automethod:: get_zindex_for_layername
+   .. automethod:: hide_resize_screen
+   .. automethod:: highlight_player
+   .. automethod:: init_carte_dimensions
+   .. automethod:: init_casetype_datas
+   .. automethod:: init_layersdict
+   .. automethod:: move_case
+   .. automethod:: on_carte_geometry_updated
+   .. automethod:: on_carte_published
+   .. automethod:: on_carte_repere_changed
+   .. automethod:: on_carte_updated
+   .. automethod:: on_case_size_changed
+   .. automethod:: publish_carte
+   .. automethod:: re_initialise
+   .. automethod:: register_GUI
+   .. automethod:: resize_items
+   .. automethod:: set_case
+   .. automethod:: set_item_position
+   .. automethod:: show_bot_dead
+   .. automethod:: show_resize_screen
+   .. automethod:: update_bg
+   .. automethod:: update_carte
+   .. automethod:: update_carte_geometry
+   .. automethod:: update_highlight
+   .. automethod:: update_item_view
+   .. automethod:: update_mask
+   .. automethod:: update_shapes

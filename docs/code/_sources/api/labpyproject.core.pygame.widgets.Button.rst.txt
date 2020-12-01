@@ -1,0 +1,23 @@
+Button
+======
+
+.. currentmodule:: labpyproject.core.pygame.widgets
+
+.. autoclass:: Button
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~Button.change_view_state
+      ~Button.on_item_added_to_displaylist
+      ~Button.on_item_removed_from_displaylist
+      ~Button.send_callback
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: change_view_state
+   .. automethod:: on_item_added_to_displaylist
+   .. automethod:: on_item_removed_from_displaylist
+   .. automethod:: send_callback

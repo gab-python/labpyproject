@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.skinPygame.zone\_command
+==========================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command
+   :no-heading:
+   :no-main-docstr:

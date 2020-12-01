@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.skinConsole.pub\_helper
+=========================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper
+   :no-heading:
+   :no-main-docstr:

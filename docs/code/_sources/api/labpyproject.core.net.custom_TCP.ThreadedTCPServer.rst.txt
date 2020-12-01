@@ -1,0 +1,19 @@
+ThreadedTCPServer
+=================
+
+.. currentmodule:: labpyproject.core.net.custom_TCP
+
+.. autoclass:: ThreadedTCPServer
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ThreadedTCPServer.get_container
+      ~ThreadedTCPServer.set_container
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: get_container
+   .. automethod:: set_container

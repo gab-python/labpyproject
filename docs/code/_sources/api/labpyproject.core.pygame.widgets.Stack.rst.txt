@@ -1,0 +1,7 @@
+Stack
+=====
+
+.. currentmodule:: labpyproject.core.pygame.widgets
+
+.. autoclass:: Stack
+   :show-inheritance:

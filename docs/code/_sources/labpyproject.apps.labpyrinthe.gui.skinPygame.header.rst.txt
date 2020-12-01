@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.skinPygame.header
+===================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.header
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinPygame.header
+   :no-heading:
+   :no-main-docstr:

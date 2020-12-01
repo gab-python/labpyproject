@@ -1,0 +1,61 @@
+VirtualItem
+===========
+
+.. currentmodule:: labpyproject.core.pygame.core
+
+.. autoclass:: VirtualItem
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~VirtualItem.global_layer
+      ~VirtualItem.is_stacked
+      ~VirtualItem.level
+      ~VirtualItem.local_layer
+      ~VirtualItem.publication_layer
+      ~VirtualItem.publication_order
+      ~VirtualItem.visible
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~VirtualItem.belong_to_displaylist
+      ~VirtualItem.discard_layers
+      ~VirtualItem.fire_event
+      ~VirtualItem.get_framerate
+      ~VirtualItem.on_item_added
+      ~VirtualItem.on_item_added_to_displaylist
+      ~VirtualItem.on_item_removed
+      ~VirtualItem.on_item_removed_from_displaylist
+      ~VirtualItem.on_parent_removed
+      ~VirtualItem.on_visibility_changed
+      ~VirtualItem.parse_layer
+      ~VirtualItem.update
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: global_layer
+   .. autoattribute:: is_stacked
+   .. autoattribute:: level
+   .. autoattribute:: local_layer
+   .. autoattribute:: publication_layer
+   .. autoattribute:: publication_order
+   .. autoattribute:: visible
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: belong_to_displaylist
+   .. automethod:: discard_layers
+   .. automethod:: fire_event
+   .. automethod:: get_framerate
+   .. automethod:: on_item_added
+   .. automethod:: on_item_added_to_displaylist
+   .. automethod:: on_item_removed
+   .. automethod:: on_item_removed_from_displaylist
+   .. automethod:: on_parent_removed
+   .. automethod:: on_visibility_changed
+   .. automethod:: parse_layer
+   .. automethod:: update

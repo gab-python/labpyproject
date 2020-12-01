@@ -1,0 +1,29 @@
+AbstractZoneCommand
+===================
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.interfaces
+
+.. autoclass:: AbstractZoneCommand
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~AbstractZoneCommand.active_commande
+      ~AbstractZoneCommand.post_init_controls
+      ~AbstractZoneCommand.re_initialise
+      ~AbstractZoneCommand.set_state
+      ~AbstractZoneCommand.show_message
+      ~AbstractZoneCommand.unactive_commande
+      ~AbstractZoneCommand.update_player_power
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: active_commande
+   .. automethod:: post_init_controls
+   .. automethod:: re_initialise
+   .. automethod:: set_state
+   .. automethod:: show_message
+   .. automethod:: unactive_commande
+   .. automethod:: update_player_power

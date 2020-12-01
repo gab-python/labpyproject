@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.bus.model.player
+==============================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.bus.model.player
+
+.. automodapi:: labpyproject.apps.labpyrinthe.bus.model.player
+   :no-heading:
+   :no-main-docstr:

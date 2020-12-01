@@ -1,0 +1,10 @@
+labpyproject.core.queue.queue\_tools
+====================================
+
+.. automodule:: labpyproject.core.queue.queue_tools
+   :exclude-members:  queue
+
+.. automodapi:: labpyproject.core.queue.queue_tools
+   :no-heading:
+   :no-main-docstr:
+   :allowed-package-names: labpyproject.core.queue

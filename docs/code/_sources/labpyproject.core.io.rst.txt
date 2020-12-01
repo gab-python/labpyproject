@@ -1,0 +1,11 @@
+labpyproject.core.io
+====================
+
+.. automodule:: labpyproject.core.io
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. toctree::
+
+   custom_IO <labpyproject.core.io.custom_IO>

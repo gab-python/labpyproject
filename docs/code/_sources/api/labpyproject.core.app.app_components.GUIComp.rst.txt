@@ -1,0 +1,29 @@
+GUIComp
+=======
+
+.. currentmodule:: labpyproject.core.app.app_components
+
+.. autoclass:: GUIComp
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~GUIComp.ask_GUI_info
+      ~GUIComp.handleExchangeObject
+      ~GUIComp.handle_BUS_info
+      ~GUIComp.handle_choice
+      ~GUIComp.refresh_view
+      ~GUIComp.show_content
+      ~GUIComp.signal_GUI_ready
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: ask_GUI_info
+   .. automethod:: handleExchangeObject
+   .. automethod:: handle_BUS_info
+   .. automethod:: handle_choice
+   .. automethod:: refresh_view
+   .. automethod:: show_content
+   .. automethod:: signal_GUI_ready

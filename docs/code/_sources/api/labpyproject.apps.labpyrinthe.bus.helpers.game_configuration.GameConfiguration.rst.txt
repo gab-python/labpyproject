@@ -1,0 +1,55 @@
+GameConfiguration
+=================
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.helpers.game_configuration
+
+.. autoclass:: GameConfiguration
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~GameConfiguration.ensure_bonus_density
+      ~GameConfiguration.ensure_danger_density
+      ~GameConfiguration.get_behaviors
+      ~GameConfiguration.get_behaviors_count
+      ~GameConfiguration.get_behaviors_list
+      ~GameConfiguration.get_bonus_policy
+      ~GameConfiguration.get_bot_proportion
+      ~GameConfiguration.get_bots_number
+      ~GameConfiguration.get_carte_dimensions
+      ~GameConfiguration.get_danger_max_power
+      ~GameConfiguration.get_difficulty
+      ~GameConfiguration.get_game_repr
+      ~GameConfiguration.get_initial_bots_inter_distance
+      ~GameConfiguration.get_initial_density
+      ~GameConfiguration.get_initial_powers
+      ~GameConfiguration.get_max_aggressivite
+      ~GameConfiguration.get_max_efficacite
+      ~GameConfiguration.is_game_configured
+      ~GameConfiguration.re_initialise
+      ~GameConfiguration.set_difficulty
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: ensure_bonus_density
+   .. automethod:: ensure_danger_density
+   .. automethod:: get_behaviors
+   .. automethod:: get_behaviors_count
+   .. automethod:: get_behaviors_list
+   .. automethod:: get_bonus_policy
+   .. automethod:: get_bot_proportion
+   .. automethod:: get_bots_number
+   .. automethod:: get_carte_dimensions
+   .. automethod:: get_danger_max_power
+   .. automethod:: get_difficulty
+   .. automethod:: get_game_repr
+   .. automethod:: get_initial_bots_inter_distance
+   .. automethod:: get_initial_density
+   .. automethod:: get_initial_powers
+   .. automethod:: get_max_aggressivite
+   .. automethod:: get_max_efficacite
+   .. automethod:: is_game_configured
+   .. automethod:: re_initialise
+   .. automethod:: set_difficulty

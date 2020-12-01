@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.bus.commands.gamble\_datas
+========================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.bus.commands.gamble_datas
+
+.. automodapi:: labpyproject.apps.labpyrinthe.bus.commands.gamble_datas
+   :no-heading:
+   :no-main-docstr:

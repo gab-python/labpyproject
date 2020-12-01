@@ -1,0 +1,7 @@
+Root
+====
+
+.. currentmodule:: labpyproject.core.pygame.widgets
+
+.. autoclass:: Root
+   :show-inheritance:

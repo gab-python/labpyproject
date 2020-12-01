@@ -1,0 +1,23 @@
+.. labpyproject documentation master file, created by
+   sphinx-quickstart on Thu Jan 30 19:42:35 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Documentation du code source de labpyproject
+============================================
+
+.. note::
+
+    | Compatibilité: **python 3**.
+    | **labpyproject sur github**: https://github.com/gab-python/labpyproject
+    
+.. toctree::
+   :maxdepth: 3
+
+   labpyproject
+
+
+Recherche
+=========
+
+:ref:`search`

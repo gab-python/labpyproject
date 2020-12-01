@@ -1,0 +1,17 @@
+ThreadInput
+===========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.GUIConsole
+
+.. autoclass:: ThreadInput
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ThreadInput.run
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: run

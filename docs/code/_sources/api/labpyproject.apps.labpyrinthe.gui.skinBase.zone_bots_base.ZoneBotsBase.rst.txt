@@ -1,0 +1,45 @@
+ZoneBotsBase
+============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base
+
+.. autoclass:: ZoneBotsBase
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ZoneBotsBase.apply_partie_state
+      ~ZoneBotsBase.clear_bots_list
+      ~ZoneBotsBase.draw_interface
+      ~ZoneBotsBase.get_case_size
+      ~ZoneBotsBase.get_robot_image
+      ~ZoneBotsBase.get_robot_text
+      ~ZoneBotsBase.get_txt_legende
+      ~ZoneBotsBase.publish_robotlist
+      ~ZoneBotsBase.re_initialise
+      ~ZoneBotsBase.registerGUI
+      ~ZoneBotsBase.register_APPType
+      ~ZoneBotsBase.register_partie_state
+      ~ZoneBotsBase.setuid
+      ~ZoneBotsBase.show_bot_dead
+      ~ZoneBotsBase.update_bot_item
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: apply_partie_state
+   .. automethod:: clear_bots_list
+   .. automethod:: draw_interface
+   .. automethod:: get_case_size
+   .. automethod:: get_robot_image
+   .. automethod:: get_robot_text
+   .. automethod:: get_txt_legende
+   .. automethod:: publish_robotlist
+   .. automethod:: re_initialise
+   .. automethod:: registerGUI
+   .. automethod:: register_APPType
+   .. automethod:: register_partie_state
+   .. automethod:: setuid
+   .. automethod:: show_bot_dead
+   .. automethod:: update_bot_item

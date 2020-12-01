@@ -1,0 +1,19 @@
+labpyproject.apps.labpyrinthe.gui
+=================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   labpyproject.apps.labpyrinthe.gui.skinBase
+   labpyproject.apps.labpyrinthe.gui.skinConsole
+   labpyproject.apps.labpyrinthe.gui.skinPygame
+   labpyproject.apps.labpyrinthe.gui.skinTkinter
+   GUIConsole <labpyproject.apps.labpyrinthe.gui.GUIConsole>
+   GUIPygame <labpyproject.apps.labpyrinthe.gui.GUIPygame>
+   GUITk <labpyproject.apps.labpyrinthe.gui.GUITk>

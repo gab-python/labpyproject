@@ -1,0 +1,31 @@
+CaseDanger
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. autoclass:: CaseDanger
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CaseDanger.DANGER_MINE
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CaseDanger.get_danger_radius
+      ~CaseDanger.get_default_dict
+      ~CaseDanger.get_properties_dict
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: DANGER_MINE
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: get_danger_radius
+   .. automethod:: get_default_dict
+   .. automethod:: get_properties_dict

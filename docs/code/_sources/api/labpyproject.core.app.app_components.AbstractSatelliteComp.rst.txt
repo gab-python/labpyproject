@@ -1,0 +1,33 @@
+AbstractSatelliteComp
+=====================
+
+.. currentmodule:: labpyproject.core.app.app_components
+
+.. autoclass:: AbstractSatelliteComp
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~AbstractSatelliteComp.clean_delayed_actions
+      ~AbstractSatelliteComp.delay_action
+      ~AbstractSatelliteComp.get_SAT_info
+      ~AbstractSatelliteComp.handleExchangeObject
+      ~AbstractSatelliteComp.handleExchangeObjectType
+      ~AbstractSatelliteComp.handleTask
+      ~AbstractSatelliteComp.handle_APP_info
+      ~AbstractSatelliteComp.sendTask
+      ~AbstractSatelliteComp.shutdown
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: clean_delayed_actions
+   .. automethod:: delay_action
+   .. automethod:: get_SAT_info
+   .. automethod:: handleExchangeObject
+   .. automethod:: handleExchangeObjectType
+   .. automethod:: handleTask
+   .. automethod:: handle_APP_info
+   .. automethod:: sendTask
+   .. automethod:: shutdown

@@ -1,0 +1,8 @@
+labpyproject.core.app.app\_components
+=====================================
+
+.. automodule:: labpyproject.core.app.app_components
+
+.. automodapi:: labpyproject.core.app.app_components
+   :no-heading:
+   :no-main-docstr:

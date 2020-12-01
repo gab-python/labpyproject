@@ -1,0 +1,15 @@
+labpyproject.apps.labpyrinthe.bus.commands
+==========================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.bus.commands
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. toctree::
+
+   cmd_helper <labpyproject.apps.labpyrinthe.bus.commands.cmd_helper>
+   cmd_manager <labpyproject.apps.labpyrinthe.bus.commands.cmd_manager>
+   gamble_datas <labpyproject.apps.labpyrinthe.bus.commands.gamble_datas>
+   targets <labpyproject.apps.labpyrinthe.bus.commands.targets>

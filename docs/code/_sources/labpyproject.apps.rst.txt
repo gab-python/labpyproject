@@ -1,0 +1,12 @@
+labpyproject.apps
+=================
+
+.. automodule:: labpyproject.apps
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. toctree::
+   :maxdepth: 2
+
+   labpyproject.apps.labpyrinthe

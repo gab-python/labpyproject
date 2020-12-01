@@ -1,0 +1,12 @@
+<map id="inheritancebeb7b60b73" name="inheritancebeb7b60b73">
+<area shape="rect" id="node1" title="Internal class." alt="" coords="125,177,223,203"/>
+<area shape="rect" id="node4" title="Internal class." alt="" coords="271,104,343,129"/>
+<area shape="rect" id="node2" title="Internal class." alt="" coords="5,177,77,203"/>
+<area shape="rect" id="node3" title="Canvas widget to display graphical elements like lines or text." alt="" coords="391,55,463,80"/>
+<area shape="rect" id="node8" href="api/labpyproject.apps.labpyrinthe.gui.skinTkinter.header.Header.html#labpyproject.apps.labpyrinthe.gui.skinTkinter.header.Header" target="_top" title="Entête du jeu" alt="" coords="511,55,583,80"/>
+<area shape="rect" id="node5" title="Mix&#45;in class for querying and changing the horizontal position" alt="" coords="271,5,343,31"/>
+<area shape="rect" id="node6" title="Mix&#45;in class for querying and changing the vertical position" alt="" coords="271,55,343,80"/>
+<area shape="rect" id="node7" title="Geometry manager Grid." alt="" coords="138,29,210,55"/>
+<area shape="rect" id="node9" title="Geometry manager Pack." alt="" coords="138,79,210,104"/>
+<area shape="rect" id="node10" title="Geometry manager Place." alt="" coords="138,128,210,153"/>
+</map>

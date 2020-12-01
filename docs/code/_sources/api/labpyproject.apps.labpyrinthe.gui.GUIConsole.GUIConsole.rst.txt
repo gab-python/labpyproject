@@ -1,0 +1,51 @@
+GUIConsole
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.GUIConsole
+
+.. autoclass:: GUIConsole
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~GUIConsole.ask_input_question
+      ~GUIConsole.create_interface
+      ~GUIConsole.create_partie
+      ~GUIConsole.handle_choice
+      ~GUIConsole.input_callback
+      ~GUIConsole.let_user_send_command
+      ~GUIConsole.on_app_type_defined
+      ~GUIConsole.on_partie_created
+      ~GUIConsole.register_partie_state
+      ~GUIConsole.show_NETInfos
+      ~GUIConsole.show_carte_publication
+      ~GUIConsole.show_carte_update
+      ~GUIConsole.show_content_cases
+      ~GUIConsole.show_content_gamble_context
+      ~GUIConsole.show_content_message
+      ~GUIConsole.show_content_partie_server
+      ~GUIConsole.show_menu
+      ~GUIConsole.show_message
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: ask_input_question
+   .. automethod:: create_interface
+   .. automethod:: create_partie
+   .. automethod:: handle_choice
+   .. automethod:: input_callback
+   .. automethod:: let_user_send_command
+   .. automethod:: on_app_type_defined
+   .. automethod:: on_partie_created
+   .. automethod:: register_partie_state
+   .. automethod:: show_NETInfos
+   .. automethod:: show_carte_publication
+   .. automethod:: show_carte_update
+   .. automethod:: show_content_cases
+   .. automethod:: show_content_gamble_context
+   .. automethod:: show_content_message
+   .. automethod:: show_content_partie_server
+   .. automethod:: show_menu
+   .. automethod:: show_message

@@ -1,0 +1,14 @@
+labpyproject
+============
+
+.. automodule:: labpyproject
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. toctree::
+   :maxdepth: 3
+   :titlesonly:
+
+   labpyproject.apps
+   labpyproject.core

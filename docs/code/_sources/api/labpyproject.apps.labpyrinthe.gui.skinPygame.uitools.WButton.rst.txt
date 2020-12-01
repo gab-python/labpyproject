@@ -1,0 +1,17 @@
+WButton
+=======
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.uitools
+
+.. autoclass:: WButton
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~WButton.send_callback
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: send_callback

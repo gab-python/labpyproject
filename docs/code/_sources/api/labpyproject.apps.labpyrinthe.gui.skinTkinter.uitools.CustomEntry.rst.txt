@@ -1,0 +1,23 @@
+CustomEntry
+===========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools
+
+.. autoclass:: CustomEntry
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CustomEntry.get_input_value
+      ~CustomEntry.register_callback
+      ~CustomEntry.set_input_value
+      ~CustomEntry.take_focus
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: get_input_value
+   .. automethod:: register_callback
+   .. automethod:: set_input_value
+   .. automethod:: take_focus

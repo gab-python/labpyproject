@@ -1,0 +1,51 @@
+ZonePartieBase
+==============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base
+
+.. autoclass:: ZonePartieBase
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ZonePartieBase.STATE_CREATING
+      ~ZonePartieBase.STATE_GAME
+      ~ZonePartieBase.STATE_RESIZE
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ZonePartieBase.apply_current_state
+      ~ZonePartieBase.draw_interface
+      ~ZonePartieBase.on_carte_published
+      ~ZonePartieBase.on_resize_end
+      ~ZonePartieBase.on_resize_start
+      ~ZonePartieBase.on_view_changed
+      ~ZonePartieBase.re_initialise
+      ~ZonePartieBase.register_APPType
+      ~ZonePartieBase.register_partie_state
+      ~ZonePartieBase.set_state
+      ~ZonePartieBase.show_carte_txt_in_preload
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: STATE_CREATING
+   .. autoattribute:: STATE_GAME
+   .. autoattribute:: STATE_RESIZE
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: apply_current_state
+   .. automethod:: draw_interface
+   .. automethod:: on_carte_published
+   .. automethod:: on_resize_end
+   .. automethod:: on_resize_start
+   .. automethod:: on_view_changed
+   .. automethod:: re_initialise
+   .. automethod:: register_APPType
+   .. automethod:: register_partie_state
+   .. automethod:: set_state
+   .. automethod:: show_carte_txt_in_preload

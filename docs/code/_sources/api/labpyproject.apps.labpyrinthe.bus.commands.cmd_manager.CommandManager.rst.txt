@@ -1,0 +1,89 @@
+CommandManager
+==============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.commands.cmd_manager
+
+.. autoclass:: CommandManager
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CommandManager.CTX_BONUS
+      ~CommandManager.CTX_BY_OBJ
+      ~CommandManager.CTX_DESPERATE
+      ~CommandManager.CTX_OPTIMAL
+      ~CommandManager.DIST_APPROACH
+      ~CommandManager.OBJ_ATTACK
+      ~CommandManager.OBJ_DEFENSE
+      ~CommandManager.OBJ_MOVE
+      ~CommandManager.OBJ_RANDOM
+      ~CommandManager.OBJ_WORK
+      ~CommandManager.PA_ATTACK
+      ~CommandManager.PA_BONUS
+      ~CommandManager.PA_DANGERS
+      ~CommandManager.PA_ESCAPE
+      ~CommandManager.PA_FREE_EXIT
+      ~CommandManager.PA_OPTIMAL_MOVE
+      ~CommandManager.PA_RISKED_MOVE
+      ~CommandManager.PA_SAFE_MOVE
+      ~CommandManager.PA_STAY_IN_PLACE
+      ~CommandManager.PA_TERRAFORM
+      ~CommandManager.PA_TYPES
+      ~CommandManager.PHASIS_APPROACH
+      ~CommandManager.PHASIS_FINAL
+      ~CommandManager.PHASIS_HUNT
+      ~CommandManager.PHASIS_IN_PROGRESS
+      ~CommandManager.PHASIS_START
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CommandManager.analyse_cmd_for_robot
+      ~CommandManager.compute_cmd_for_autobot
+      ~CommandManager.init_robot_before_gamble
+      ~CommandManager.re_initialise
+      ~CommandManager.set_labLevel
+      ~CommandManager.set_liste_robot
+      ~CommandManager.validate_action_for_robot
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: CTX_BONUS
+   .. autoattribute:: CTX_BY_OBJ
+   .. autoattribute:: CTX_DESPERATE
+   .. autoattribute:: CTX_OPTIMAL
+   .. autoattribute:: DIST_APPROACH
+   .. autoattribute:: OBJ_ATTACK
+   .. autoattribute:: OBJ_DEFENSE
+   .. autoattribute:: OBJ_MOVE
+   .. autoattribute:: OBJ_RANDOM
+   .. autoattribute:: OBJ_WORK
+   .. autoattribute:: PA_ATTACK
+   .. autoattribute:: PA_BONUS
+   .. autoattribute:: PA_DANGERS
+   .. autoattribute:: PA_ESCAPE
+   .. autoattribute:: PA_FREE_EXIT
+   .. autoattribute:: PA_OPTIMAL_MOVE
+   .. autoattribute:: PA_RISKED_MOVE
+   .. autoattribute:: PA_SAFE_MOVE
+   .. autoattribute:: PA_STAY_IN_PLACE
+   .. autoattribute:: PA_TERRAFORM
+   .. autoattribute:: PA_TYPES
+   .. autoattribute:: PHASIS_APPROACH
+   .. autoattribute:: PHASIS_FINAL
+   .. autoattribute:: PHASIS_HUNT
+   .. autoattribute:: PHASIS_IN_PROGRESS
+   .. autoattribute:: PHASIS_START
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: analyse_cmd_for_robot
+   .. automethod:: compute_cmd_for_autobot
+   .. automethod:: init_robot_before_gamble
+   .. automethod:: re_initialise
+   .. automethod:: set_labLevel
+   .. automethod:: set_liste_robot
+   .. automethod:: validate_action_for_robot

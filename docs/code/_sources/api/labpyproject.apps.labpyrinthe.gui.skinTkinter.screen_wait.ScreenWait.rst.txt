@@ -1,0 +1,19 @@
+ScreenWait
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait
+
+.. autoclass:: ScreenWait
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ScreenWait.draw_interface
+      ~ScreenWait.show_image
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: draw_interface
+   .. automethod:: show_image

@@ -1,0 +1,17 @@
+Singleton
+=========
+
+.. currentmodule:: labpyproject.core.patterns.design_patterns
+
+.. autoclass:: Singleton
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~Singleton.__call__
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: __call__

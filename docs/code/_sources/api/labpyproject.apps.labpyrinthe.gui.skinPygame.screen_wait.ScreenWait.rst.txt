@@ -1,0 +1,29 @@
+ScreenWait
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait
+
+.. autoclass:: ScreenWait
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ScreenWait.draw_interface
+      ~ScreenWait.publish_message
+      ~ScreenWait.set_state
+      ~ScreenWait.show_image
+      ~ScreenWait.show_message
+      ~ScreenWait.show_preload
+      ~ScreenWait.show_txt_carte
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: draw_interface
+   .. automethod:: publish_message
+   .. automethod:: set_state
+   .. automethod:: show_image
+   .. automethod:: show_message
+   .. automethod:: show_preload
+   .. automethod:: show_txt_carte

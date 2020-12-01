@@ -1,0 +1,155 @@
+CaseRobot
+=========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. autoclass:: CaseRobot
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CaseRobot.ALL_BEHAVIORS
+      ~CaseRobot.BEHAVIOR_BUILDER
+      ~CaseRobot.BEHAVIOR_HUMAN
+      ~CaseRobot.BEHAVIOR_HUNTER
+      ~CaseRobot.BEHAVIOR_RANDOM
+      ~CaseRobot.BEHAVIOR_SAPPER
+      ~CaseRobot.BEHAVIOR_TOURIST
+      ~CaseRobot.BEHAVIOR_WINNER
+      ~CaseRobot.FAMILLE_BEHAVIOR
+      ~CaseRobot.FEATURES
+      ~CaseRobot.FEATURE_THRESHOLDS
+      ~CaseRobot.MAX_PASSED_CASES
+      ~CaseRobot.MAX_SEQ_COUNT
+      ~CaseRobot.STRAT_BONUS_ALL
+      ~CaseRobot.STRAT_BONUS_TARGET
+      ~CaseRobot.THRES_HIGH
+      ~CaseRobot.THRES_MID
+      ~CaseRobot.VITESSE_INITIALE
+      ~CaseRobot.char_repr_BEHAVIOR_BUILDER
+      ~CaseRobot.char_repr_BEHAVIOR_HUMAN
+      ~CaseRobot.char_repr_BEHAVIOR_HUNTER
+      ~CaseRobot.char_repr_BEHAVIOR_RANDOM
+      ~CaseRobot.char_repr_BEHAVIOR_SAPPER
+      ~CaseRobot.char_repr_BEHAVIOR_TOURIST
+      ~CaseRobot.char_repr_BEHAVIOR_WINNER
+      ~CaseRobot.current_vitesse
+      ~CaseRobot.game_phasis
+      ~CaseRobot.need_bonus
+      ~CaseRobot.order
+      ~CaseRobot.totalgamblecount
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CaseRobot.compute_danger_factor_dict
+      ~CaseRobot.compute_loop_factor
+      ~CaseRobot.configure_behavior
+      ~CaseRobot.create_gamble_coords_entry
+      ~CaseRobot.get_action_list
+      ~CaseRobot.get_apparent_danger_factor_for_bot
+      ~CaseRobot.get_bots_killed
+      ~CaseRobot.get_char_repr
+      ~CaseRobot.get_current_gdSet
+      ~CaseRobot.get_danger_factor_for_bot
+      ~CaseRobot.get_danger_radius
+      ~CaseRobot.get_default_dict
+      ~CaseRobot.get_feature_threshold
+      ~CaseRobot.get_feature_threshold_dict
+      ~CaseRobot.get_features_radar_datas
+      ~CaseRobot.get_killed_counts
+      ~CaseRobot.get_last_action
+      ~CaseRobot.get_main_target
+      ~CaseRobot.get_main_target_params
+      ~CaseRobot.get_prev_coords
+      ~CaseRobot.get_prev_temptarget_datas
+      ~CaseRobot.get_properties_dict
+      ~CaseRobot.get_puissance_list
+      ~CaseRobot.get_temp_target
+      ~CaseRobot.get_work_ratio
+      ~CaseRobot.init_feature_thresholds
+      ~CaseRobot.is_a_murderer
+      ~CaseRobot.register_action
+      ~CaseRobot.register_bonus
+      ~CaseRobot.register_bots_killed
+      ~CaseRobot.register_case
+      ~CaseRobot.register_current_gdSet
+      ~CaseRobot.register_death
+      ~CaseRobot.set_main_target
+      ~CaseRobot.set_temp_target
+      ~CaseRobot.update_dyn_props
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: ALL_BEHAVIORS
+   .. autoattribute:: BEHAVIOR_BUILDER
+   .. autoattribute:: BEHAVIOR_HUMAN
+   .. autoattribute:: BEHAVIOR_HUNTER
+   .. autoattribute:: BEHAVIOR_RANDOM
+   .. autoattribute:: BEHAVIOR_SAPPER
+   .. autoattribute:: BEHAVIOR_TOURIST
+   .. autoattribute:: BEHAVIOR_WINNER
+   .. autoattribute:: FAMILLE_BEHAVIOR
+   .. autoattribute:: FEATURES
+   .. autoattribute:: FEATURE_THRESHOLDS
+   .. autoattribute:: MAX_PASSED_CASES
+   .. autoattribute:: MAX_SEQ_COUNT
+   .. autoattribute:: STRAT_BONUS_ALL
+   .. autoattribute:: STRAT_BONUS_TARGET
+   .. autoattribute:: THRES_HIGH
+   .. autoattribute:: THRES_MID
+   .. autoattribute:: VITESSE_INITIALE
+   .. autoattribute:: char_repr_BEHAVIOR_BUILDER
+   .. autoattribute:: char_repr_BEHAVIOR_HUMAN
+   .. autoattribute:: char_repr_BEHAVIOR_HUNTER
+   .. autoattribute:: char_repr_BEHAVIOR_RANDOM
+   .. autoattribute:: char_repr_BEHAVIOR_SAPPER
+   .. autoattribute:: char_repr_BEHAVIOR_TOURIST
+   .. autoattribute:: char_repr_BEHAVIOR_WINNER
+   .. autoattribute:: current_vitesse
+   .. autoattribute:: game_phasis
+   .. autoattribute:: need_bonus
+   .. autoattribute:: order
+   .. autoattribute:: totalgamblecount
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: compute_danger_factor_dict
+   .. automethod:: compute_loop_factor
+   .. automethod:: configure_behavior
+   .. automethod:: create_gamble_coords_entry
+   .. automethod:: get_action_list
+   .. automethod:: get_apparent_danger_factor_for_bot
+   .. automethod:: get_bots_killed
+   .. automethod:: get_char_repr
+   .. automethod:: get_current_gdSet
+   .. automethod:: get_danger_factor_for_bot
+   .. automethod:: get_danger_radius
+   .. automethod:: get_default_dict
+   .. automethod:: get_feature_threshold
+   .. automethod:: get_feature_threshold_dict
+   .. automethod:: get_features_radar_datas
+   .. automethod:: get_killed_counts
+   .. automethod:: get_last_action
+   .. automethod:: get_main_target
+   .. automethod:: get_main_target_params
+   .. automethod:: get_prev_coords
+   .. automethod:: get_prev_temptarget_datas
+   .. automethod:: get_properties_dict
+   .. automethod:: get_puissance_list
+   .. automethod:: get_temp_target
+   .. automethod:: get_work_ratio
+   .. automethod:: init_feature_thresholds
+   .. automethod:: is_a_murderer
+   .. automethod:: register_action
+   .. automethod:: register_bonus
+   .. automethod:: register_bots_killed
+   .. automethod:: register_case
+   .. automethod:: register_current_gdSet
+   .. automethod:: register_death
+   .. automethod:: set_main_target
+   .. automethod:: set_temp_target
+   .. automethod:: update_dyn_props

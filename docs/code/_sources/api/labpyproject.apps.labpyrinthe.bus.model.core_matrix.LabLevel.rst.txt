@@ -1,0 +1,83 @@
+LabLevel
+========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. autoclass:: LabLevel
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~LabLevel.clear
+      ~LabLevel.delete_case
+      ~LabLevel.discard_cache
+      ~LabLevel.evaluate_bot_attack_proba_for_robot
+      ~LabLevel.get_animation_matrice
+      ~LabLevel.get_bot_attack_zone
+      ~LabLevel.get_bot_move_zone
+      ~LabLevel.get_case_sortie
+      ~LabLevel.get_cases_adj_impacted_by_danger
+      ~LabLevel.get_cases_reachable_by_grenade_in_dir
+      ~LabLevel.get_cases_with_same_coords
+      ~LabLevel.get_caseset_for_coordset
+      ~LabLevel.get_change_log
+      ~LabLevel.get_dimensions
+      ~LabLevel.get_dirs_for_vector
+      ~LabLevel.get_distance_between_cases
+      ~LabLevel.get_flat_matrice
+      ~LabLevel.get_layer
+      ~LabLevel.get_minelist_arround_case
+      ~LabLevel.get_path_length_between_cases
+      ~LabLevel.get_sortie_coords
+      ~LabLevel.get_step_change_log
+      ~LabLevel.get_sublevel
+      ~LabLevel.get_typecase_set
+      ~LabLevel.get_vector_for_cases
+      ~LabLevel.init_level_before_changes
+      ~LabLevel.init_level_before_step_change
+      ~LabLevel.mark_case_as_modified
+      ~LabLevel.move_case
+      ~LabLevel.scalar_product
+      ~LabLevel.set_case
+      ~LabLevel.update_bot_action_zones
+      ~LabLevel.update_cache
+      ~LabLevel.xlook_for_cases_impacted
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: clear
+   .. automethod:: delete_case
+   .. automethod:: discard_cache
+   .. automethod:: evaluate_bot_attack_proba_for_robot
+   .. automethod:: get_animation_matrice
+   .. automethod:: get_bot_attack_zone
+   .. automethod:: get_bot_move_zone
+   .. automethod:: get_case_sortie
+   .. automethod:: get_cases_adj_impacted_by_danger
+   .. automethod:: get_cases_reachable_by_grenade_in_dir
+   .. automethod:: get_cases_with_same_coords
+   .. automethod:: get_caseset_for_coordset
+   .. automethod:: get_change_log
+   .. automethod:: get_dimensions
+   .. automethod:: get_dirs_for_vector
+   .. automethod:: get_distance_between_cases
+   .. automethod:: get_flat_matrice
+   .. automethod:: get_layer
+   .. automethod:: get_minelist_arround_case
+   .. automethod:: get_path_length_between_cases
+   .. automethod:: get_sortie_coords
+   .. automethod:: get_step_change_log
+   .. automethod:: get_sublevel
+   .. automethod:: get_typecase_set
+   .. automethod:: get_vector_for_cases
+   .. automethod:: init_level_before_changes
+   .. automethod:: init_level_before_step_change
+   .. automethod:: mark_case_as_modified
+   .. automethod:: move_case
+   .. automethod:: scalar_product
+   .. automethod:: set_case
+   .. automethod:: update_bot_action_zones
+   .. automethod:: update_cache
+   .. automethod:: xlook_for_cases_impacted

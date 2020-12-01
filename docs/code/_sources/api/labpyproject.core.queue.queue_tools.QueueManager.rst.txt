@@ -1,0 +1,21 @@
+QueueManager
+============
+
+.. currentmodule:: labpyproject.core.queue.queue_tools
+
+.. autoclass:: QueueManager
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~QueueManager.get
+      ~QueueManager.get_queue
+      ~QueueManager.put
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: get
+   .. automethod:: get_queue
+   .. automethod:: put

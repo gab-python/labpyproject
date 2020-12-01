@@ -1,0 +1,57 @@
+ZoneCommandBase
+===============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base
+
+.. autoclass:: ZoneCommandBase
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ZoneCommandBase.STATE_GAME
+      ~ZoneCommandBase.STATE_MENU
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ZoneCommandBase.active_commande
+      ~ZoneCommandBase.apply_current_state
+      ~ZoneCommandBase.control_callback
+      ~ZoneCommandBase.draw_interface
+      ~ZoneCommandBase.global_control_callback
+      ~ZoneCommandBase.handle_change_states
+      ~ZoneCommandBase.post_control_callback
+      ~ZoneCommandBase.post_init_controls
+      ~ZoneCommandBase.publish_message
+      ~ZoneCommandBase.re_initialise
+      ~ZoneCommandBase.register_APPType
+      ~ZoneCommandBase.set_state
+      ~ZoneCommandBase.show_message
+      ~ZoneCommandBase.unactive_commande
+      ~ZoneCommandBase.update_player_power
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: STATE_GAME
+   .. autoattribute:: STATE_MENU
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: active_commande
+   .. automethod:: apply_current_state
+   .. automethod:: control_callback
+   .. automethod:: draw_interface
+   .. automethod:: global_control_callback
+   .. automethod:: handle_change_states
+   .. automethod:: post_control_callback
+   .. automethod:: post_init_controls
+   .. automethod:: publish_message
+   .. automethod:: re_initialise
+   .. automethod:: register_APPType
+   .. automethod:: set_state
+   .. automethod:: show_message
+   .. automethod:: unactive_commande
+   .. automethod:: update_player_power

@@ -1,0 +1,7 @@
+MenuButton
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu
+
+.. autoclass:: MenuButton
+   :show-inheritance:

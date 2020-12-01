@@ -1,0 +1,33 @@
+LabParser
+=========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.helpers.lab_parser
+
+.. autoclass:: LabParser
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~LabParser.delete_robot
+      ~LabParser.get_bots_datas
+      ~LabParser.get_parsedicts_for_listcases
+      ~LabParser.get_parsing_datas
+      ~LabParser.get_repr_view
+      ~LabParser.get_txt_view
+      ~LabParser.parse_labyrinthe
+      ~LabParser.re_initialise
+      ~LabParser.update_bots_or_XTras
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: delete_robot
+   .. automethod:: get_bots_datas
+   .. automethod:: get_parsedicts_for_listcases
+   .. automethod:: get_parsing_datas
+   .. automethod:: get_repr_view
+   .. automethod:: get_txt_view
+   .. automethod:: parse_labyrinthe
+   .. automethod:: re_initialise
+   .. automethod:: update_bots_or_XTras

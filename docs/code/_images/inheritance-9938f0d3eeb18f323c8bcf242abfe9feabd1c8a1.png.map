@@ -1,0 +1,12 @@
+<map id="inheritance49949f5649" name="inheritance49949f5649">
+<area shape="rect" id="node1" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneBots.html#labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneBots" target="_top" title="Pseudo interface de la zone d&#39;affichage des infos robots." alt="" coords="271,31,409,56"/>
+<area shape="rect" id="node10" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.ZoneBotsBase.html#labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.ZoneBotsBase" target="_top" title="Zone d&#39;information sur les robots" alt="" coords="457,31,575,56"/>
+<area shape="rect" id="node2" title="Internal class." alt="" coords="125,5,223,31"/>
+<area shape="rect" id="node5" title="Internal class." alt="" coords="304,80,376,105"/>
+<area shape="rect" id="node3" title="Internal class." alt="" coords="5,5,77,31"/>
+<area shape="rect" id="node4" title="Frame widget which may contain other widgets and can have a 3D border." alt="" coords="480,80,552,105"/>
+<area shape="rect" id="node9" href="api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.ZoneBots.html#labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.ZoneBots" target="_top" title="Zone d&#39;information sur les robots" alt="" coords="623,56,708,81"/>
+<area shape="rect" id="node6" title="Geometry manager Grid." alt="" coords="138,55,210,80"/>
+<area shape="rect" id="node7" title="Geometry manager Pack." alt="" coords="138,104,210,129"/>
+<area shape="rect" id="node8" title="Geometry manager Place." alt="" coords="138,153,210,179"/>
+</map>

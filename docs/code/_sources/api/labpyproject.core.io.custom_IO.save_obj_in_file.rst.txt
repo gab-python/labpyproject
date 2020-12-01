@@ -1,0 +1,6 @@
+save_obj_in_file
+================
+
+.. currentmodule:: labpyproject.core.io.custom_IO
+
+.. autofunction:: save_obj_in_file

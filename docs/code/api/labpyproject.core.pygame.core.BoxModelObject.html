@@ -1,0 +1,2067 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>BoxModelObject &mdash; Documentation labpyproject </title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="MetricValue" href="labpyproject.core.pygame.core.MetricValue.html" />
+    <link rel="prev" title="labpyproject.core.pygame.core" href="../labpyproject.core.pygame.core.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> labpyproject
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../labpyproject.html">labpyproject</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../labpyproject.apps.html">labpyproject.apps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.html">labpyproject.apps.labpyrinthe</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.html">labpyproject.apps.labpyrinthe.app</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html">app_types</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.app.app_types.AppTypes.html">AppTypes</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html">application</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.app.application.AppManager.html">AppManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.html">labpyproject.apps.labpyrinthe.bus</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.html">labpyproject.apps.labpyrinthe.bus.commands</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html">cmd_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.CommandHelper.html">CommandHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html">cmd_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.CommandManager.html">CommandManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html">gamble_datas</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataSet.html">GambleDataSet</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataObject.html">GambleDataObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.PseudoActions.html">PseudoActions</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleSearch.html">GambleSearch</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html">targets</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetObject.html">TargetObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPath.html">TargetPath</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPathStep.html">TargetPathStep</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.html">labpyproject.apps.labpyrinthe.bus.helpers</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html">exchange_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.ExchangeHelper.html">ExchangeHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html">game_configuration</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.GameConfiguration.html">GameConfiguration</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html">lab_generator</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.LabGenerator.html">LabGenerator</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html">lab_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.LabManager.html">LabManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html">lab_parser</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.LabParser.html">LabParser</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.html">labpyproject.apps.labpyrinthe.bus.model</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html">core_matrix</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabHelper.html">LabHelper</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabLevel.html">LabLevel</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.Matrice.html">Matrice</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.AnimatedLayer.html">AnimatedLayer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.Case.html">Case</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseRobot.html">CaseRobot</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseDanger.html">CaseDanger</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseGrenade.html">CaseGrenade</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseAnimation.html">CaseAnimation</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseBonus.html">CaseBonus</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html">player</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.player.LabPlayer.html">LabPlayer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html">game_manager</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.game_manager.GameManager.html">GameManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.html">labpyproject.apps.labpyrinthe.gui</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.html">labpyproject.apps.labpyrinthe.gui.skinBase</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html">GUIBase</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.html">GUIBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseNoThread.html">GUIBaseNoThread</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseThreaded.html">GUIBaseThreaded</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html">colors</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.colors.ColorHelper.html">ColorHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html">interfaces</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCarte.html">AbstractZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCommand.html">AbstractZoneCommand</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie.html">AbstractZonePartie</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneBots.html">AbstractZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneMenu.html">AbstractZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenContent.html">AbstractScreenContent</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenWait.html">AbstractScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractSwitch.html">AbstractSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractInput.html">AbstractInput</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html">screen_wait_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.ScreenWaitBase.html">ScreenWaitBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html">skin_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.SkinBase.html">SkinBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html">zone_bots_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.ZoneBotsBase.html">ZoneBotsBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html">zone_carte_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ZoneCarteBase.html">ZoneCarteBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ItemObjectBase.html">ItemObjectBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html">zone_command_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.ZoneCommandBase.html">ZoneCommandBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html">zone_menu_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.ZoneMenuBase.html">ZoneMenuBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html">zone_partie_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase.html">ZonePartieBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.html">labpyproject.apps.labpyrinthe.gui.skinConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html">pub_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.PublicationHelper.html">PublicationHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.html">labpyproject.apps.labpyrinthe.gui.skinPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html">botview</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.botview.BotView.html">BotView</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html">footer</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.footer.Footer.html">Footer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScreenWait.html">ScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScaledText.html">ScaledText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.SimplePreloader.html">SimplePreloader</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html">skinPygame</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.SkinPygame.html">SkinPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WImage.html">WImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WText.html">WText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WEntry.html">WEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WButton.html">WButton</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.Spacer.html">Spacer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.ZoneBots.html">ZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotList.html">BotList</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotItem.html">BotItem</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ItemObject.html">ItemObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.CaseView.html">CaseView</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.BotViewCarte.html">BotViewCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneDangerRobot.html">ZoneDangerRobot</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.MenuButton.html">MenuButton</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.html">labpyproject.apps.labpyrinthe.gui.skinTkinter</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.ScreenWait.html">ScreenWait</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html">skinTkinter</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.SkinTkinter.html">SkinTkinter</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CustomEntry.html">CustomEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSwitch.html">CanvasSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasImage.html">CanvasImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSpacer.html">CanvasSpacer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSeparateur.html">CanvasSeparateur</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.ZoneBots.html">ZoneBots</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ItemObject.html">ItemObject</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html">GUIConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIConsole.GUIConsole.html">GUIConsole</a></li>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIConsole.ThreadInput.html">ThreadInput</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html">GUIPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIPygame.GUIPygame.html">GUIPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html">GUITk</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUITk.GUITk.html">GUITk</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.clientConsole.html">clientConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.clientPygame.html">clientPygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.serverConsole.html">serverConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standaloneConsole.html">standaloneConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standalonePygame.html">standalonePygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standaloneTkinter.html">standaloneTkinter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="../labpyproject.core.html">labpyproject.core</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.app.html">labpyproject.core.app</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.app.app_components.html">app_components</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.app.app_components.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.ThreadableComp.html">ThreadableComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.APPComp.html">APPComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteExchangeObject.html">SatelliteExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.AbstractSatelliteComp.html">AbstractSatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.DelayedAction.html">DelayedAction</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteComp.html">SatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteCompNoThread.html">SatelliteCompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUIExchangeObject.html">GUIExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.AbstractGUIComp.html">AbstractGUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUIComp.html">GUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUICompNoThread.html">GUICompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.NETExchangeObject.html">NETExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.NETComp.html">NETComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.BUSINESSComp.html">BUSINESSComp</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.app.app_components.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.io.html">labpyproject.core.io</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.io.custom_IO.html">custom_IO</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.io.custom_IO.html#functions">Functions</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.get_file_list.html">get_file_list</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.load_obj_from_file.html">load_obj_from_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.load_text_file.html">load_text_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.save_obj_in_file.html">save_obj_in_file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.net.html">labpyproject.core.net</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html">custom_TCP</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPServerContainer.html">CustomTCPServerContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.ThreadedTCPServer.html">ThreadedTCPServer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPRequestHandler.html">CustomTCPRequestHandler</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.ParseDataError.html">ParseDataError</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomRequestHelper.html">CustomRequestHelper</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPThreadedClient.html">CustomTCPThreadedClient</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.patterns.html">labpyproject.core.patterns</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html">design_patterns</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.patterns.design_patterns.Singleton.html">Singleton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 current"><a class="reference internal" href="../labpyproject.core.pygame.html">labpyproject.core.pygame</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../labpyproject.core.pygame.core.html">core</a><ul class="current">
+<li class="toctree-l5 current"><a class="reference internal" href="../labpyproject.core.pygame.core.html#classes">Classes</a><ul class="current">
+<li class="toctree-l6 current"><a class="current reference internal" href="#">BoxModelObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.MetricValue.html">MetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.BoundedMetricValue.html">BoundedMetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.VirtualItem.html">VirtualItem</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.VirtualContainer.html">VirtualContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.CustomSprite.html">CustomSprite</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.RealContainer.html">RealContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.RootContainer.html">RootContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LayerManager.html">LayerManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LayerStack.html">LayerStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LocalLayer.html">LocalLayer</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.core.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.pygame.events.html">events</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.events.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomEventManager.html">CustomEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.GUIEventManager.html">GUIEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseControl.html">CustomBaseControl</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseInput.html">CustomBaseInput</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseButton.html">CustomBaseButton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.events.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html">widgets</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Background.html">Background</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Image.html">Image</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Text.html">Text</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Entry.html">Entry</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.TextButton.html">TextButton</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Button.html">Button</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Stack.html">Stack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.HStack.html">HStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.VStack.html">VStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Canvas.html">Canvas</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.HBox.html">HBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.VBox.html">VBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Root.html">Root</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.queue.html">labpyproject.core.queue</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html">queue_tools</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueManager.html">QueueManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueSimpleClient.html">QueueSimpleClient</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueSwitcher.html">QueueSwitcher</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.random.html">labpyproject.core.random</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.random.custom_random.html">custom_random</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.random.custom_random.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.random.custom_random.CustomRandom.html">CustomRandom</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.random.custom_random.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">labpyproject</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../labpyproject.html">labpyproject</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.core.html">labpyproject.core</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.core.pygame.html">labpyproject.core.pygame</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.core.pygame.core.html">labpyproject.core.pygame.core</a> &raquo;</li>
+        
+      <li>BoxModelObject</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/labpyproject.core.pygame.core.BoxModelObject.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="boxmodelobject">
+<h1>BoxModelObject<a class="headerlink" href="#boxmodelobject" title="Lien permanent vers ce titre">¶</a></h1>
+<dl class="py class">
+<dt id="labpyproject.core.pygame.core.BoxModelObject">
+<em class="property">class </em><code class="sig-prename descclassname">labpyproject.core.pygame.core.</code><code class="sig-name descname">BoxModelObject</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Bases : <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<blockquote>
+<div><p><strong>Super classe portant les propriétés et méthodes fondamentales du box model.</strong></p>
+<ul class="simple">
+<li><p>« position » au sens css du terme soit « fixed », « absolute », « static », « relative »</p></li>
+<li><p>attributs locaux pouvant être exprimés en pixel ou pourcentage :
+« x », « y », « top », « left », « bottom », « right », « width », « height », « padding », « margin »</p></li>
+<li><p>bornage des dimensions : « minwidth », « maxwidth », « minheight », « maxheight »</p></li>
+<li><p>attributs d’alignement : « align », « valign »</p></li>
+<li><p>attributs d’adaptation au contenu : « snapW », « snapH »</p></li>
+<li><p>« flex » (int, default None) : valeur de flexibilité si le conteneur parent impose un
+layout (horizontal ou vertical à l’heure actuelle)</p></li>
+</ul>
+</div></blockquote>
+<div class="admonition-remarques admonition">
+<p class="admonition-title">Remarques:</p>
+<ul class="simple">
+<li><p>l’origine du repère se situe dans le coin haut/gauche, l’axe des absisses est
+orientée vers la droite, celui des ordonnées vers le bas</p></li>
+<li><p>les metrics en % sont calculés par rapport à la surface alouée par le parent</p></li>
+<li><p>à la différence de css, width et height représentent les dimensions totales de la
+box, padding et margin inclus. Les dimensions du contenu et du fond (ou de la bordure),
+pouvant être moindres.</p></li>
+<li><p>padding et margin sont uniformes sur chacun des bords (V1 : allège les calculs)</p></li>
+<li><p>position « fixed » est gérée partiellement par les RealContainers du fait du clipping
+de leur surface de publication.</p></li>
+</ul>
+</div>
+<p>Constructeur</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>**kwargs</strong> – peut contenir toutes les propriétés de boxing supportées par BoxModelObject.</p>
+</dd>
+</dl>
+<p class="rubric">Attributes Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.ALIGN_ATTR" title="labpyproject.core.pygame.core.BoxModelObject.ALIGN_ATTR"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ALIGN_ATTR</span></code></a></p></td>
+<td><p>attributs d’alignements</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.ALIGN_CENTER" title="labpyproject.core.pygame.core.BoxModelObject.ALIGN_CENTER"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ALIGN_CENTER</span></code></a></p></td>
+<td><p>valeur d’alignement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.ALIGN_LEFT" title="labpyproject.core.pygame.core.BoxModelObject.ALIGN_LEFT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ALIGN_LEFT</span></code></a></p></td>
+<td><p>valeur d’alignement</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.ALIGN_RIGHT" title="labpyproject.core.pygame.core.BoxModelObject.ALIGN_RIGHT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ALIGN_RIGHT</span></code></a></p></td>
+<td><p>valeur d’alignement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.FLEX_ATTR" title="labpyproject.core.pygame.core.BoxModelObject.FLEX_ATTR"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FLEX_ATTR</span></code></a></p></td>
+<td><p>attribut de flex</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.METRIC_ATTR" title="labpyproject.core.pygame.core.BoxModelObject.METRIC_ATTR"><code class="xref py py-obj docutils literal notranslate"><span class="pre">METRIC_ATTR</span></code></a></p></td>
+<td><p>références internes aux attributs de position et de dimension</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_ABSOLUTE" title="labpyproject.core.pygame.core.BoxModelObject.POSITION_ABSOLUTE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">POSITION_ABSOLUTE</span></code></a></p></td>
+<td><p>équivalent de la ppté css position absolute, l’élément est positionné relativement à son parent sans « subir » de layout (normal flow css) de sa part.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_FIXED" title="labpyproject.core.pygame.core.BoxModelObject.POSITION_FIXED"><code class="xref py py-obj docutils literal notranslate"><span class="pre">POSITION_FIXED</span></code></a></p></td>
+<td><p>équivalent de la ppté css position fixed, l’élément est positionné relativement à la fenêtre.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_RELATIVE" title="labpyproject.core.pygame.core.BoxModelObject.POSITION_RELATIVE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">POSITION_RELATIVE</span></code></a></p></td>
+<td><p>équivalent de la ppté css position relative, l’élément est positionné selon le layout de son conteneur parent mais les offsets (left, right, top, bottom) sont ensuite appliqués (valeur par défaut).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_STATIC" title="labpyproject.core.pygame.core.BoxModelObject.POSITION_STATIC"><code class="xref py py-obj docutils literal notranslate"><span class="pre">POSITION_STATIC</span></code></a></p></td>
+<td><p>équivalent de la ppté css position static, l’élément est positionné selon le layout de son conteneur parent.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_VALUES" title="labpyproject.core.pygame.core.BoxModelObject.POSITION_VALUES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">POSITION_VALUES</span></code></a></p></td>
+<td><p>liste des valeurs possibles pour l’attribut position</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_ALIGN" title="labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_ALIGN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SGY_COORD_ALIGN</span></code></a></p></td>
+<td><p>stratégie de positionnement par alignement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_OFFSET" title="labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_OFFSET"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SGY_COORD_OFFSET</span></code></a></p></td>
+<td><p>stratégie de positionnement par offsets</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_RELATIVE" title="labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_RELATIVE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SGY_COORD_RELATIVE</span></code></a></p></td>
+<td><p>stratégie de positionnement relative (in flow)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_VALUE" title="labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_VALUE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SGY_COORD_VALUE</span></code></a></p></td>
+<td><p>stratégie de positionnement par coordonnée</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_FLEX" title="labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_FLEX"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SGY_DIM_FLEX</span></code></a></p></td>
+<td><p>stratégie de dimensionnement par flex</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_OFFSETS" title="labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_OFFSETS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SGY_DIM_OFFSETS</span></code></a></p></td>
+<td><p>stratégie de dimensionnement par offsets</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_VALUE" title="labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_VALUE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SGY_DIM_VALUE</span></code></a></p></td>
+<td><p>stratégie de dimensionnement par dimension explicite</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.SNAP_ATTR" title="labpyproject.core.pygame.core.BoxModelObject.SNAP_ATTR"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SNAP_ATTR</span></code></a></p></td>
+<td><p>attributs d’adaptation au contenu</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.VALIGN_BOTTOM" title="labpyproject.core.pygame.core.BoxModelObject.VALIGN_BOTTOM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VALIGN_BOTTOM</span></code></a></p></td>
+<td><p>valeur d’alignement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.VALIGN_MIDDLE" title="labpyproject.core.pygame.core.BoxModelObject.VALIGN_MIDDLE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VALIGN_MIDDLE</span></code></a></p></td>
+<td><p>valeur d’alignement</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.VALIGN_TOP" title="labpyproject.core.pygame.core.BoxModelObject.VALIGN_TOP"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VALIGN_TOP</span></code></a></p></td>
+<td><p>valeur d’alignement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.align" title="labpyproject.core.pygame.core.BoxModelObject.align"><code class="xref py py-obj docutils literal notranslate"><span class="pre">align</span></code></a></p></td>
+<td><p>Alignement horizontal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.bottom" title="labpyproject.core.pygame.core.BoxModelObject.bottom"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bottom</span></code></a></p></td>
+<td><p>Offset de positionnement bas.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.flex" title="labpyproject.core.pygame.core.BoxModelObject.flex"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flex</span></code></a></p></td>
+<td><p>Valeur de flex.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.globalRect" title="labpyproject.core.pygame.core.BoxModelObject.globalRect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">globalRect</span></code></a></p></td>
+<td><p>Rect de référence absolu.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.height" title="labpyproject.core.pygame.core.BoxModelObject.height"><code class="xref py py-obj docutils literal notranslate"><span class="pre">height</span></code></a></p></td>
+<td><p>Hauteur totale (padding et margin compris) publique.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.in_flow" title="labpyproject.core.pygame.core.BoxModelObject.in_flow"><code class="xref py py-obj docutils literal notranslate"><span class="pre">in_flow</span></code></a></p></td>
+<td><p>Appartenance au « flow de layout » parent (bool)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.left" title="labpyproject.core.pygame.core.BoxModelObject.left"><code class="xref py py-obj docutils literal notranslate"><span class="pre">left</span></code></a></p></td>
+<td><p>Offset de positionnement gauche.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.margin" title="labpyproject.core.pygame.core.BoxModelObject.margin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">margin</span></code></a></p></td>
+<td><p>Margin en px.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.maxheight" title="labpyproject.core.pygame.core.BoxModelObject.maxheight"><code class="xref py py-obj docutils literal notranslate"><span class="pre">maxheight</span></code></a></p></td>
+<td><p>Hauteur max en px.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.maxwidth" title="labpyproject.core.pygame.core.BoxModelObject.maxwidth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">maxwidth</span></code></a></p></td>
+<td><p>Largeur max en px.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.minheight" title="labpyproject.core.pygame.core.BoxModelObject.minheight"><code class="xref py py-obj docutils literal notranslate"><span class="pre">minheight</span></code></a></p></td>
+<td><p>Hauteur min en px.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.minwidth" title="labpyproject.core.pygame.core.BoxModelObject.minwidth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">minwidth</span></code></a></p></td>
+<td><p>Largeur min en px.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.padding" title="labpyproject.core.pygame.core.BoxModelObject.padding"><code class="xref py py-obj docutils literal notranslate"><span class="pre">padding</span></code></a></p></td>
+<td><p>Padding en px.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.parent" title="labpyproject.core.pygame.core.BoxModelObject.parent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></a></p></td>
+<td><p>VirtualContainer parent</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.position" title="labpyproject.core.pygame.core.BoxModelObject.position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></a></p></td>
+<td><p>Position au cens css.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.publicationRect" title="labpyproject.core.pygame.core.BoxModelObject.publicationRect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">publicationRect</span></code></a></p></td>
+<td><p>Rect de publication de l’objet</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.publicationRefRect" title="labpyproject.core.pygame.core.BoxModelObject.publicationRefRect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">publicationRefRect</span></code></a></p></td>
+<td><p>Rect de publication de référence (celui du parent en général).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.rect" title="labpyproject.core.pygame.core.BoxModelObject.rect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">rect</span></code></a></p></td>
+<td><p>Redirige la propriété rect vers self.publicationRect</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.right" title="labpyproject.core.pygame.core.BoxModelObject.right"><code class="xref py py-obj docutils literal notranslate"><span class="pre">right</span></code></a></p></td>
+<td><p>Offset de positionnement droit.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.root_reference" title="labpyproject.core.pygame.core.BoxModelObject.root_reference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">root_reference</span></code></a></p></td>
+<td><p>référence au RootContainer</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.snapH" title="labpyproject.core.pygame.core.BoxModelObject.snapH"><code class="xref py py-obj docutils literal notranslate"><span class="pre">snapH</span></code></a></p></td>
+<td><p>Adaptation à la hauteur du contenu (bool).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.snapW" title="labpyproject.core.pygame.core.BoxModelObject.snapW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">snapW</span></code></a></p></td>
+<td><p>Adaptation à la largeur du contenu (bool).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.top" title="labpyproject.core.pygame.core.BoxModelObject.top"><code class="xref py py-obj docutils literal notranslate"><span class="pre">top</span></code></a></p></td>
+<td><p>Offset de positionnement haut.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.unsnapped_publicationRect" title="labpyproject.core.pygame.core.BoxModelObject.unsnapped_publicationRect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsnapped_publicationRect</span></code></a></p></td>
+<td><p>Rect de publication avant adaptation au contenu.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.valign" title="labpyproject.core.pygame.core.BoxModelObject.valign"><code class="xref py py-obj docutils literal notranslate"><span class="pre">valign</span></code></a></p></td>
+<td><p>Alignement vertical.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.width" title="labpyproject.core.pygame.core.BoxModelObject.width"><code class="xref py py-obj docutils literal notranslate"><span class="pre">width</span></code></a></p></td>
+<td><p>Largeur totale (padding et margin compris) publique.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.x" title="labpyproject.core.pygame.core.BoxModelObject.x"><code class="xref py py-obj docutils literal notranslate"><span class="pre">x</span></code></a></p></td>
+<td><p>Abcisse locale publique.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.xabs" title="labpyproject.core.pygame.core.BoxModelObject.xabs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">xabs</span></code></a></p></td>
+<td><p>Abcisse locale absolue, hors flow de layout (usage interne).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.xflow" title="labpyproject.core.pygame.core.BoxModelObject.xflow"><code class="xref py py-obj docutils literal notranslate"><span class="pre">xflow</span></code></a></p></td>
+<td><p>Abcisse locale calculée imposée par le layout parent (usage interne).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.y" title="labpyproject.core.pygame.core.BoxModelObject.y"><code class="xref py py-obj docutils literal notranslate"><span class="pre">y</span></code></a></p></td>
+<td><p>Ordonnée locale publique.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.yabs" title="labpyproject.core.pygame.core.BoxModelObject.yabs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">yabs</span></code></a></p></td>
+<td><p>Ordonnée locale absolue, hors flow de layout (usage interne).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.yflow" title="labpyproject.core.pygame.core.BoxModelObject.yflow"><code class="xref py py-obj docutils literal notranslate"><span class="pre">yflow</span></code></a></p></td>
+<td><p>Ordonnée locale calculée imposée par le layout parent (usage interne).</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.apply_parent_layout" title="labpyproject.core.pygame.core.BoxModelObject.apply_parent_layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">apply_parent_layout</span></code></a>(prop, val)</p></td>
+<td><p>Applique le layout imposé par le conteneur parent</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.compute_coords" title="labpyproject.core.pygame.core.BoxModelObject.compute_coords"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_coords</span></code></a>(refrect)</p></td>
+<td><p>Calcul de xabs et yabs en fonction du rect de référence refrect représentant la surface alouée.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.compute_dims" title="labpyproject.core.pygame.core.BoxModelObject.compute_dims"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_dims</span></code></a>(refrect)</p></td>
+<td><p>Calcul de width et height en fonction du rect de référence refrect représentant la surface alouée.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.compute_spaces" title="labpyproject.core.pygame.core.BoxModelObject.compute_spaces"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_spaces</span></code></a>(refrect)</p></td>
+<td><p>Calcul de padding ou margin.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.define_strategy" title="labpyproject.core.pygame.core.BoxModelObject.define_strategy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">define_strategy</span></code></a>(*props)</p></td>
+<td><p>Définit la stratégie de calcul de la propriété prop parmi (xabs, yabs, width, height).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.define_strategy_coord" title="labpyproject.core.pygame.core.BoxModelObject.define_strategy_coord"><code class="xref py py-obj docutils literal notranslate"><span class="pre">define_strategy_coord</span></code></a>(prop)</p></td>
+<td><p>Stratégie de calcul de coordonnées.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.define_strategy_dim" title="labpyproject.core.pygame.core.BoxModelObject.define_strategy_dim"><code class="xref py py-obj docutils literal notranslate"><span class="pre">define_strategy_dim</span></code></a>(prop)</p></td>
+<td><p>Stratégie de calcul de dimension.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.discard_display" title="labpyproject.core.pygame.core.BoxModelObject.discard_display"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_display</span></code></a>()</p></td>
+<td><p>La position, les dimensions ou les rects internes (le contenu pour des subclasses) ont été modifiés, le rendu graphique n’est plus valable</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.discard_globalRect" title="labpyproject.core.pygame.core.BoxModelObject.discard_globalRect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_globalRect</span></code></a>()</p></td>
+<td><p>Invalide le rect global.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.discard_inner_rects" title="labpyproject.core.pygame.core.BoxModelObject.discard_inner_rects"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_inner_rects</span></code></a>()</p></td>
+<td><p>Invalide les rects de publication interne (contenu et bordure).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.discard_placement" title="labpyproject.core.pygame.core.BoxModelObject.discard_placement"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_placement</span></code></a>()</p></td>
+<td><p>La position a été modifiée, le rendu graphique dans la surface de publication du RealContainer assurant la publication n’est plus valable.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.discard_pos_coords" title="labpyproject.core.pygame.core.BoxModelObject.discard_pos_coords"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_pos_coords</span></code></a>()</p></td>
+<td><p>Invalide les propriétés _xpos et _ypos,  attributs « cachés » derrière les getters de x et y.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.discard_resize" title="labpyproject.core.pygame.core.BoxModelObject.discard_resize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_resize</span></code></a>()</p></td>
+<td><p>Marque l’objet comme non resizé.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.discard_strategy" title="labpyproject.core.pygame.core.BoxModelObject.discard_strategy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_strategy</span></code></a>(prop)</p></td>
+<td><p>Invalide la stratégie associée à la propriété prop.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.do_compute_resize" title="labpyproject.core.pygame.core.BoxModelObject.do_compute_resize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">do_compute_resize</span></code></a>()</p></td>
+<td><p>Tests préalables aux calculs de resize.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.draw_display" title="labpyproject.core.pygame.core.BoxModelObject.draw_display"><code class="xref py py-obj docutils literal notranslate"><span class="pre">draw_display</span></code></a>()</p></td>
+<td><p>Dessinne ou redessinne l’objet.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.get_border_rect" title="labpyproject.core.pygame.core.BoxModelObject.get_border_rect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_border_rect</span></code></a>()</p></td>
+<td><p>Retourne le Rect dédié à l’affichage d’une bordure ou d’un fond une fois margin retirée.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.get_content_rect" title="labpyproject.core.pygame.core.BoxModelObject.get_content_rect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_content_rect</span></code></a>()</p></td>
+<td><p>Retourne le Rect dédié à l’affichage du contenu, une fois margin et padding retirés.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.get_global_coords" title="labpyproject.core.pygame.core.BoxModelObject.get_global_coords"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_global_coords</span></code></a>()</p></td>
+<td><p>Retourne la position absolue exacte par rapport au Root.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.get_item_dimensions" title="labpyproject.core.pygame.core.BoxModelObject.get_item_dimensions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_item_dimensions</span></code></a>()</p></td>
+<td><p>Doit retourner les dimensions réelles du contenu (texte, image).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.get_metric_value" title="labpyproject.core.pygame.core.BoxModelObject.get_metric_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_metric_value</span></code></a>(prop)</p></td>
+<td><p>Retourne la valeur calculée de self.metricparams[prop]</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.get_scope_delta_coords" title="labpyproject.core.pygame.core.BoxModelObject.get_scope_delta_coords"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_scope_delta_coords</span></code></a>()</p></td>
+<td><p>Retourne le décallage dx, dy induit par le scope de contenu de cet objet.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.handle_item_snap" title="labpyproject.core.pygame.core.BoxModelObject.handle_item_snap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handle_item_snap</span></code></a>(content_width, content_height)</p></td>
+<td><p>Implémentation du snap pour un item terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.has_default_value" title="labpyproject.core.pygame.core.BoxModelObject.has_default_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_default_value</span></code></a>(propname)</p></td>
+<td><p>Indique si la propriété de nom propname a une valeur par défaut.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.move" title="labpyproject.core.pygame.core.BoxModelObject.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(dx, dy)</p></td>
+<td><p>Applique le décallage dx, dy aux coordonnées locales x, y sans modifier les métrics, modifie directement self.publicationRect.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_abs_coord_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_abs_coord_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_abs_coord_changed</span></code></a>(prop)</p></td>
+<td><p>Appelée lors d’un changement explicite de coordonnée absolue.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_alignement_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_alignement_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_alignement_changed</span></code></a>(prop)</p></td>
+<td><p>Appelée lors d’un changement explicite d’alignement.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_dimension_bound_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_dimension_bound_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_dimension_bound_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsqu’une borne de dimension a été modifiée.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_dimension_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_dimension_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_dimension_changed</span></code></a>(prop)</p></td>
+<td><p>Appelée lors d’un changement explicite de dimensions (hors process de resize).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_fixed_child_parent_coords_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_fixed_child_parent_coords_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_fixed_child_parent_coords_changed</span></code></a>()</p></td>
+<td><p>Méthode dédiée aux éléments en position fixed, appelée par le container parent alternativement à update_publicationRefRect_coords.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_flex_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_flex_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_flex_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque l’attribut flex a été modifié.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_flow_coord_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_flow_coord_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_flow_coord_changed</span></code></a>()</p></td>
+<td><p>Appelée lors d’un changement explicite de coordonnée via le layout parent.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_in_flow_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_in_flow_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_in_flow_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque l’objet entre ou sort du flux de layout parent.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_margin_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_margin_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_margin_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque la marge a été modifiée.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_offset_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_offset_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_offset_changed</span></code></a>(prop)</p></td>
+<td><p>Appelée lors d’un changement explicite d’offset (top, bottom, left, right).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_padding_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_padding_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_padding_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque le padding a été modifié.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_parent_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_parent_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_parent_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque la référence au parent est modifiée.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_position_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_position_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_position_changed</span></code></a>(newposition)</p></td>
+<td><p>Appelée lorsque l’attribut position a été modifié.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_publicationRect_coords_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_publicationRect_coords_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_publicationRect_coords_changed</span></code></a>(aftersnap)</p></td>
+<td><p>Appelée lors du process de resize quand les coordonnées seules de publicationRect ont été modifiées (pas les dimensions).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_publicationRect_dims_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_publicationRect_dims_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_publicationRect_dims_changed</span></code></a>(aftersnap)</p></td>
+<td><p>Appelée lors du process de resize quand les dimensions (et éventuellement les coords) de publicationRect ont été modifiées</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_publicationRefRect_coords_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_publicationRefRect_coords_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_publicationRefRect_coords_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque les coordonnées du rect de publication de référence (self._publicationRefRect) ont été modifiées (mais pas les dimensions).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_publicationRefRect_dims_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_publicationRefRect_dims_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_publicationRefRect_dims_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque les dimensions du rect de publication de référence (self._publicationRefRect) ont été modifiées (et éventuellement les coordonnées aussi).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.on_snap_changed" title="labpyproject.core.pygame.core.BoxModelObject.on_snap_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_snap_changed</span></code></a>()</p></td>
+<td><p>Appelée lors d’un changement explicite de snap.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.parse_alignement" title="labpyproject.core.pygame.core.BoxModelObject.parse_alignement"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_alignement</span></code></a>(value)</p></td>
+<td><p>Parse une prorpiété de type BoxModelObject.ALIGN_ATTR.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.parse_boundedmetric" title="labpyproject.core.pygame.core.BoxModelObject.parse_boundedmetric"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_boundedmetric</span></code></a>(value, minvalue, maxvalue)</p></td>
+<td><p>Parse une propriété de type BoxModelObject.METRIC_ATTR bornée.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.parse_flex" title="labpyproject.core.pygame.core.BoxModelObject.parse_flex"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_flex</span></code></a>(value)</p></td>
+<td><p>Parse l’attribut flex.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.parse_metric" title="labpyproject.core.pygame.core.BoxModelObject.parse_metric"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_metric</span></code></a>(value)</p></td>
+<td><p>Parse une propriété de type BoxModelObject.METRIC_ATTR.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.parse_position" title="labpyproject.core.pygame.core.BoxModelObject.parse_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_position</span></code></a>(val)</p></td>
+<td><p>Parse un attribut de position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.parse_properties" title="labpyproject.core.pygame.core.BoxModelObject.parse_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_properties</span></code></a>(**kwargs)</p></td>
+<td><p>Parse les propriétés présentes dans kwargs.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.parse_snap" title="labpyproject.core.pygame.core.BoxModelObject.parse_snap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_snap</span></code></a>(value)</p></td>
+<td><p>Parse une propriété de type BoxModelObject.SNAP_ATTR.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.place" title="labpyproject.core.pygame.core.BoxModelObject.place"><code class="xref py py-obj docutils literal notranslate"><span class="pre">place</span></code></a>(x, y)</p></td>
+<td><p>Positionne l’objet aux coordonnées locales x, y sans modifier les métrics, modifie directement self.publicationRect.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.post_control_boxmodel" title="labpyproject.core.pygame.core.BoxModelObject.post_control_boxmodel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">post_control_boxmodel</span></code></a>()</p></td>
+<td><p>Spécifie au besoin des valeurs par défaut (snaps).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.re_initialise_rects" title="labpyproject.core.pygame.core.BoxModelObject.re_initialise_rects"><code class="xref py py-obj docutils literal notranslate"><span class="pre">re_initialise_rects</span></code></a>()</p></td>
+<td><p>Ré initialisation des rects, conserve le paramétrage (métrics, alignements, snap).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.resize" title="labpyproject.core.pygame.core.BoxModelObject.resize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resize</span></code></a>(**kwargs)</p></td>
+<td><p>Recalcul de la taille et de la position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.set_metric_value" title="labpyproject.core.pygame.core.BoxModelObject.set_metric_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_metric_value</span></code></a>(prop, val)</p></td>
+<td><p>Affecte val à la valeur calculée de self.metricparams[prop]</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_border_rect" title="labpyproject.core.pygame.core.BoxModelObject.update_border_rect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_border_rect</span></code></a>()</p></td>
+<td><p>Met à jour le rect de bordure/fond.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_content_rect" title="labpyproject.core.pygame.core.BoxModelObject.update_content_rect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_content_rect</span></code></a>()</p></td>
+<td><p>Met à jour le rect de contenu.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_coord" title="labpyproject.core.pygame.core.BoxModelObject.update_coord"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_coord</span></code></a>(prop, refrect)</p></td>
+<td><p>Calcul de la coordonnée prop.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_core_metrics" title="labpyproject.core.pygame.core.BoxModelObject.update_core_metrics"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_core_metrics</span></code></a>(refrect)</p></td>
+<td><p>Recalcul des metricparams x, y, width, height en fonction du rect de référence refrect représentant la surface alouée.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_dim" title="labpyproject.core.pygame.core.BoxModelObject.update_dim"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_dim</span></code></a>(prop, refrect)</p></td>
+<td><p>Calcul de la dimension prop.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_globalRect" title="labpyproject.core.pygame.core.BoxModelObject.update_globalRect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_globalRect</span></code></a>()</p></td>
+<td><p>Mise à jour du rect global.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_inner_rects" title="labpyproject.core.pygame.core.BoxModelObject.update_inner_rects"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_inner_rects</span></code></a>()</p></td>
+<td><p>Met à jour les rects de publication interne (contenu et bordure).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_pos_coords" title="labpyproject.core.pygame.core.BoxModelObject.update_pos_coords"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pos_coords</span></code></a>()</p></td>
+<td><p>Recalcule _xpos et _ypos, attributs « cachés » derrière les getters de x et y.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_publicationRect" title="labpyproject.core.pygame.core.BoxModelObject.update_publicationRect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_publicationRect</span></code></a>([aftersnap])</p></td>
+<td><p>Mise à jour de publicationRect.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_publicationRefRect_coords" title="labpyproject.core.pygame.core.BoxModelObject.update_publicationRefRect_coords"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_publicationRefRect_coords</span></code></a>(x, y)</p></td>
+<td><p>Modification des coordonnées seules du rect de publication de référence.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.BoxModelObject.update_space" title="labpyproject.core.pygame.core.BoxModelObject.update_space"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_space</span></code></a>(prop, refval)</p></td>
+<td><p>Calcul d’une propriété de type padding ou margin.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes Documentation</p>
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.ALIGN_ATTR">
+<code class="sig-name descname">ALIGN_ATTR</code><em class="property"> = ['align', 'valign']</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.ALIGN_ATTR" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>attributs d’alignements</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.ALIGN_CENTER">
+<code class="sig-name descname">ALIGN_CENTER</code><em class="property"> = 'center'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.ALIGN_CENTER" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeur d’alignement</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.ALIGN_LEFT">
+<code class="sig-name descname">ALIGN_LEFT</code><em class="property"> = 'left'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.ALIGN_LEFT" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeur d’alignement</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.ALIGN_RIGHT">
+<code class="sig-name descname">ALIGN_RIGHT</code><em class="property"> = 'right'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.ALIGN_RIGHT" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeur d’alignement</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.FLEX_ATTR">
+<code class="sig-name descname">FLEX_ATTR</code><em class="property"> = ['flex']</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.FLEX_ATTR" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>attribut de flex</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.METRIC_ATTR">
+<code class="sig-name descname">METRIC_ATTR</code><em class="property"> = ['xabs', 'yabs', 'top', 'left', 'bottom', 'right', 'width', 'height', 'padding', 'margin']</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.METRIC_ATTR" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>références internes aux attributs de position et de dimension</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.POSITION_ABSOLUTE">
+<code class="sig-name descname">POSITION_ABSOLUTE</code><em class="property"> = 'absolute'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_ABSOLUTE" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>équivalent de la ppté css position absolute, l’élément est positionné relativement à son parent sans « subir » de layout (normal flow css) de sa part.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.POSITION_FIXED">
+<code class="sig-name descname">POSITION_FIXED</code><em class="property"> = 'fixed'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_FIXED" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>équivalent de la ppté css position fixed, l’élément est positionné relativement à la fenêtre.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.POSITION_RELATIVE">
+<code class="sig-name descname">POSITION_RELATIVE</code><em class="property"> = 'relative'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_RELATIVE" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>équivalent de la ppté css position relative, l’élément est positionné selon le layout de son conteneur parent mais les offsets (left, right, top, bottom) sont ensuite appliqués (valeur par défaut).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.POSITION_STATIC">
+<code class="sig-name descname">POSITION_STATIC</code><em class="property"> = 'static'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_STATIC" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>équivalent de la ppté css position static, l’élément est positionné selon le layout de son conteneur parent.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.POSITION_VALUES">
+<code class="sig-name descname">POSITION_VALUES</code><em class="property"> = ['fixed', 'absolute', 'static', 'relative']</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.POSITION_VALUES" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>liste des valeurs possibles pour l’attribut position</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_ALIGN">
+<code class="sig-name descname">SGY_COORD_ALIGN</code><em class="property"> = 'SGY_COORD_ALIGN'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_ALIGN" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>stratégie de positionnement par alignement</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_OFFSET">
+<code class="sig-name descname">SGY_COORD_OFFSET</code><em class="property"> = 'SGY_COORD_OFFSET'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_OFFSET" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>stratégie de positionnement par offsets</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_RELATIVE">
+<code class="sig-name descname">SGY_COORD_RELATIVE</code><em class="property"> = 'SGY_COORD_RELATIVE'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_RELATIVE" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>stratégie de positionnement relative (in flow)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_VALUE">
+<code class="sig-name descname">SGY_COORD_VALUE</code><em class="property"> = 'SGY_COORD_VALUE'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_COORD_VALUE" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>stratégie de positionnement par coordonnée</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_FLEX">
+<code class="sig-name descname">SGY_DIM_FLEX</code><em class="property"> = 'SGY_DIM_FLEX'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_FLEX" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>stratégie de dimensionnement par flex</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_OFFSETS">
+<code class="sig-name descname">SGY_DIM_OFFSETS</code><em class="property"> = 'SGY_DIM_OFFSETS'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_OFFSETS" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>stratégie de dimensionnement par offsets</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_VALUE">
+<code class="sig-name descname">SGY_DIM_VALUE</code><em class="property"> = 'SGY_DIM_VALUE'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.SGY_DIM_VALUE" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>stratégie de dimensionnement par dimension explicite</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.SNAP_ATTR">
+<code class="sig-name descname">SNAP_ATTR</code><em class="property"> = ['snapW', 'snapH']</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.SNAP_ATTR" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>attributs d’adaptation au contenu</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.VALIGN_BOTTOM">
+<code class="sig-name descname">VALIGN_BOTTOM</code><em class="property"> = 'bottom'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.VALIGN_BOTTOM" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeur d’alignement</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.VALIGN_MIDDLE">
+<code class="sig-name descname">VALIGN_MIDDLE</code><em class="property"> = 'middle'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.VALIGN_MIDDLE" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeur d’alignement</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.VALIGN_TOP">
+<code class="sig-name descname">VALIGN_TOP</code><em class="property"> = 'top'</em><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.VALIGN_TOP" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeur d’alignement</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.align">
+<code class="sig-name descname">align</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.align" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Alignement horizontal.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.bottom">
+<code class="sig-name descname">bottom</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.bottom" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Offset de positionnement bas.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.flex">
+<code class="sig-name descname">flex</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.flex" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Valeur de flex.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.globalRect">
+<code class="sig-name descname">globalRect</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.globalRect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Rect de référence absolu.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.height">
+<code class="sig-name descname">height</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.height" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Hauteur totale (padding et margin compris) publique.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.in_flow">
+<code class="sig-name descname">in_flow</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.in_flow" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appartenance au « flow de layout » parent (bool)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.left">
+<code class="sig-name descname">left</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.left" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Offset de positionnement gauche.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.margin">
+<code class="sig-name descname">margin</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.margin" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Margin en px.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.maxheight">
+<code class="sig-name descname">maxheight</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.maxheight" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Hauteur max en px.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.maxwidth">
+<code class="sig-name descname">maxwidth</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.maxwidth" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Largeur max en px.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.minheight">
+<code class="sig-name descname">minheight</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.minheight" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Hauteur min en px.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.minwidth">
+<code class="sig-name descname">minwidth</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.minwidth" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Largeur min en px.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.padding">
+<code class="sig-name descname">padding</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.padding" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Padding en px.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.parent">
+<code class="sig-name descname">parent</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.parent" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>VirtualContainer parent</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.position">
+<code class="sig-name descname">position</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.position" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Position au cens css.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.publicationRect">
+<code class="sig-name descname">publicationRect</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.publicationRect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Rect de publication de l’objet</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.publicationRefRect">
+<code class="sig-name descname">publicationRefRect</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.publicationRefRect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Rect de publication de référence (celui du parent en général).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.rect">
+<code class="sig-name descname">rect</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.rect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Redirige la propriété rect vers self.publicationRect</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.right">
+<code class="sig-name descname">right</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.right" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Offset de positionnement droit.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.root_reference">
+<code class="sig-name descname">root_reference</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.root_reference" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>référence au RootContainer</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.snapH">
+<code class="sig-name descname">snapH</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.snapH" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Adaptation à la hauteur du contenu (bool).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.snapW">
+<code class="sig-name descname">snapW</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.snapW" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Adaptation à la largeur du contenu (bool).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.top">
+<code class="sig-name descname">top</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.top" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Offset de positionnement haut.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.unsnapped_publicationRect">
+<code class="sig-name descname">unsnapped_publicationRect</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.unsnapped_publicationRect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Rect de publication avant adaptation au contenu.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.valign">
+<code class="sig-name descname">valign</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.valign" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Alignement vertical.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.width">
+<code class="sig-name descname">width</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.width" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Largeur totale (padding et margin compris) publique.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.x">
+<code class="sig-name descname">x</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.x" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Abcisse locale publique.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.xabs">
+<code class="sig-name descname">xabs</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.xabs" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Abcisse locale absolue, hors flow de layout (usage interne).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.xflow">
+<code class="sig-name descname">xflow</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.xflow" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Abcisse locale calculée imposée par le layout parent (usage interne).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.y">
+<code class="sig-name descname">y</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.y" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Ordonnée locale publique.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.yabs">
+<code class="sig-name descname">yabs</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.yabs" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Ordonnée locale absolue, hors flow de layout (usage interne).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.yflow">
+<code class="sig-name descname">yflow</code><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.yflow" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Ordonnée locale calculée imposée par le layout parent (usage interne).</p>
+</dd></dl>
+
+<p class="rubric">Methods Documentation</p>
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.apply_parent_layout">
+<code class="sig-name descname">apply_parent_layout</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">val</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.apply_parent_layout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.apply_parent_layout" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Applique le layout imposé par le conteneur parent</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prop</strong> (<em>str</em>) – « x » ou « y »</p></li>
+<li><p><strong>val</strong> (<em>int</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.compute_coords">
+<code class="sig-name descname">compute_coords</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">refrect</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.compute_coords"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.compute_coords" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Calcul de xabs et yabs en fonction du rect de référence refrect représentant
+la surface alouée.</p>
+<p>RQ : les dimensions doivent être mises à jour auparavant.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.compute_dims">
+<code class="sig-name descname">compute_dims</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">refrect</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.compute_dims"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.compute_dims" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Calcul de width et height en fonction du rect de référence refrect représentant
+la surface alouée.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.compute_spaces">
+<code class="sig-name descname">compute_spaces</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">refrect</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.compute_spaces"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.compute_spaces" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Calcul de padding ou margin.</p>
+<p>Rq : ces propriétés étant uniformes sur les 4 bords, on considère
+comme valeur de référence la moyenne des dimensions de refrect.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.define_strategy">
+<code class="sig-name descname">define_strategy</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">props</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.define_strategy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.define_strategy" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Définit la stratégie de calcul de la propriété prop parmi (xabs, yabs, width, height).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.define_strategy_coord">
+<code class="sig-name descname">define_strategy_coord</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.define_strategy_coord"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.define_strategy_coord" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Stratégie de calcul de coordonnées.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.define_strategy_dim">
+<code class="sig-name descname">define_strategy_dim</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.define_strategy_dim"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.define_strategy_dim" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Stratégie de calcul de dimension.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.discard_display">
+<code class="sig-name descname">discard_display</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.discard_display"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.discard_display" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>La position, les dimensions ou les rects internes (le contenu pour des subclasses)
+ont été modifiés, le rendu graphique n’est plus valable</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.discard_globalRect">
+<code class="sig-name descname">discard_globalRect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.discard_globalRect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.discard_globalRect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide le rect global.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.discard_inner_rects">
+<code class="sig-name descname">discard_inner_rects</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.discard_inner_rects"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.discard_inner_rects" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide les rects de publication interne (contenu et bordure).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.discard_placement">
+<code class="sig-name descname">discard_placement</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.discard_placement"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.discard_placement" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>La position a été modifiée, le rendu graphique dans la surface de publication
+du RealContainer assurant la publication n’est plus valable. Par contre le rendu
+« local » de cet objet reste valide.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.discard_pos_coords">
+<code class="sig-name descname">discard_pos_coords</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.discard_pos_coords"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.discard_pos_coords" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide les propriétés _xpos et _ypos,  attributs « cachés » derrière les getters de x et y.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.discard_resize">
+<code class="sig-name descname">discard_resize</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.discard_resize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.discard_resize" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Marque l’objet comme non resizé.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.discard_strategy">
+<code class="sig-name descname">discard_strategy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.discard_strategy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.discard_strategy" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide la stratégie associée à la propriété prop.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.do_compute_resize">
+<code class="sig-name descname">do_compute_resize</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.do_compute_resize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.do_compute_resize" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Tests préalables aux calculs de resize.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.draw_display">
+<code class="sig-name descname">draw_display</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.draw_display"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.draw_display" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Dessinne ou redessinne l’objet.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.get_border_rect">
+<code class="sig-name descname">get_border_rect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.get_border_rect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.get_border_rect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne le Rect dédié à l’affichage d’une bordure ou d’un fond
+une fois margin retirée.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.get_content_rect">
+<code class="sig-name descname">get_content_rect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.get_content_rect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.get_content_rect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne le Rect dédié à l’affichage du contenu, une
+fois margin et padding retirés.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.get_global_coords">
+<code class="sig-name descname">get_global_coords</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.get_global_coords"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.get_global_coords" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne la position absolue exacte par rapport au Root.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.get_item_dimensions">
+<code class="sig-name descname">get_item_dimensions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.get_item_dimensions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.get_item_dimensions" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Doit retourner les dimensions réelles du contenu (texte, image).
+A implémenter dans les subclasses utilisant le snap.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie</dt>
+<dd class="field-odd"><p>int, int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.get_metric_value">
+<code class="sig-name descname">get_metric_value</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.get_metric_value"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.get_metric_value" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne la valeur calculée de self.metricparams[prop]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.get_scope_delta_coords">
+<code class="sig-name descname">get_scope_delta_coords</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.get_scope_delta_coords"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.get_scope_delta_coords" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne le décallage dx, dy induit par le scope de contenu de cet objet.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.handle_item_snap">
+<code class="sig-name descname">handle_item_snap</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">content_width</span></em>, <em class="sig-param"><span class="n">content_height</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.handle_item_snap"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.handle_item_snap" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Implémentation du snap pour un item terminal.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>content_width</strong> (<em>int</em>) – largeur du contenu auquel s’adapter</p></li>
+<li><p><strong>content_height</strong> (<em>int</em>) – hauteur du contenu auquel s’adapter</p></li>
+</ul>
+</dd>
+</dl>
+<p>Met à jour self.publicationRect.
+A appeler au besoin dans une subclasse (texte, image).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie</dt>
+<dd class="field-odd"><p>boolean indiquant si un changement a été apporté.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.has_default_value">
+<code class="sig-name descname">has_default_value</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">propname</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.has_default_value"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.has_default_value" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Indique si la propriété de nom propname a une valeur par défaut.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.move">
+<code class="sig-name descname">move</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dx</span></em>, <em class="sig-param"><span class="n">dy</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.move"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.move" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Applique le décallage dx, dy aux coordonnées locales x, y sans modifier les métrics,
+modifie directement self.publicationRect.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_abs_coord_changed">
+<code class="sig-name descname">on_abs_coord_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_abs_coord_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_abs_coord_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors d’un changement explicite de coordonnée absolue.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_alignement_changed">
+<code class="sig-name descname">on_alignement_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_alignement_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_alignement_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors d’un changement explicite d’alignement.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_dimension_bound_changed">
+<code class="sig-name descname">on_dimension_bound_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_dimension_bound_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_dimension_bound_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsqu’une borne de dimension a été modifiée.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_dimension_changed">
+<code class="sig-name descname">on_dimension_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_dimension_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_dimension_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors d’un changement explicite de dimensions (hors process de resize).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_fixed_child_parent_coords_changed">
+<code class="sig-name descname">on_fixed_child_parent_coords_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_fixed_child_parent_coords_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_fixed_child_parent_coords_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Méthode dédiée aux éléments en position fixed, appelée par le container
+parent alternativement à update_publicationRefRect_coords.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_flex_changed">
+<code class="sig-name descname">on_flex_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_flex_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_flex_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque l’attribut flex a été modifié.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_flow_coord_changed">
+<code class="sig-name descname">on_flow_coord_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_flow_coord_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_flow_coord_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors d’un changement explicite de coordonnée via le layout parent.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_in_flow_changed">
+<code class="sig-name descname">on_in_flow_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_in_flow_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_in_flow_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque l’objet entre ou sort du flux de layout parent.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_margin_changed">
+<code class="sig-name descname">on_margin_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_margin_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_margin_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque la marge a été modifiée.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_offset_changed">
+<code class="sig-name descname">on_offset_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_offset_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_offset_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors d’un changement explicite d’offset (top, bottom, left, right).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_padding_changed">
+<code class="sig-name descname">on_padding_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_padding_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_padding_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque le padding a été modifié.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_parent_changed">
+<code class="sig-name descname">on_parent_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_parent_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_parent_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque la référence au parent est modifiée.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_position_changed">
+<code class="sig-name descname">on_position_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">newposition</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_position_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_position_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque l’attribut position a été modifié.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_publicationRect_coords_changed">
+<code class="sig-name descname">on_publicationRect_coords_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">aftersnap</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_publicationRect_coords_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_publicationRect_coords_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors du process de resize quand les coordonnées seules
+de publicationRect ont été modifiées (pas les dimensions).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>aftersnap</strong> (<em>boolean</em>) – True si consécutif à un calcul de snap, False sinon</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_publicationRect_dims_changed">
+<code class="sig-name descname">on_publicationRect_dims_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">aftersnap</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_publicationRect_dims_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_publicationRect_dims_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors du process de resize quand les dimensions (et éventuellement
+les coords) de publicationRect ont été modifiées</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>aftersnap</strong> (<em>boolean</em>) – True si consécutif à un calcul de snap, False sinon</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_publicationRefRect_coords_changed">
+<code class="sig-name descname">on_publicationRefRect_coords_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_publicationRefRect_coords_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_publicationRefRect_coords_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque les coordonnées du rect de publication de référence
+(self._publicationRefRect) ont été modifiées (mais pas les dimensions).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_publicationRefRect_dims_changed">
+<code class="sig-name descname">on_publicationRefRect_dims_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_publicationRefRect_dims_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_publicationRefRect_dims_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque les dimensions du rect de publication de référence
+(self._publicationRefRect) ont été modifiées (et éventuellement
+les coordonnées aussi).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.on_snap_changed">
+<code class="sig-name descname">on_snap_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.on_snap_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.on_snap_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors d’un changement explicite de snap.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.parse_alignement">
+<code class="sig-name descname">parse_alignement</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.parse_alignement"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.parse_alignement" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Parse une prorpiété de type BoxModelObject.ALIGN_ATTR.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie</dt>
+<dd class="field-odd"><p>une valeur (voir ppté statiques) ou None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.parse_boundedmetric">
+<code class="sig-name descname">parse_boundedmetric</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em>, <em class="sig-param"><span class="n">minvalue</span></em>, <em class="sig-param"><span class="n">maxvalue</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.parse_boundedmetric"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.parse_boundedmetric" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Parse une propriété de type BoxModelObject.METRIC_ATTR bornée.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie</dt>
+<dd class="field-odd"><p>un objet BoundedMetricValue ou None.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.parse_flex">
+<code class="sig-name descname">parse_flex</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.parse_flex"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.parse_flex" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Parse l’attribut flex.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.parse_metric">
+<code class="sig-name descname">parse_metric</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.parse_metric"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.parse_metric" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Parse une propriété de type BoxModelObject.METRIC_ATTR.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie</dt>
+<dd class="field-odd"><p>un objet MetricValue ou None.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.parse_position">
+<code class="sig-name descname">parse_position</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">val</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.parse_position"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.parse_position" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Parse un attribut de position.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.parse_properties">
+<code class="sig-name descname">parse_properties</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.parse_properties"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.parse_properties" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Parse les propriétés présentes dans kwargs.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.parse_snap">
+<code class="sig-name descname">parse_snap</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.parse_snap"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.parse_snap" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Parse une propriété de type BoxModelObject.SNAP_ATTR.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.place">
+<code class="sig-name descname">place</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.place"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.place" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Positionne l’objet aux coordonnées locales x, y sans modifier les métrics,
+modifie directement self.publicationRect.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.post_control_boxmodel">
+<code class="sig-name descname">post_control_boxmodel</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.post_control_boxmodel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.post_control_boxmodel" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Spécifie au besoin des valeurs par défaut (snaps).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.re_initialise_rects">
+<code class="sig-name descname">re_initialise_rects</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.re_initialise_rects"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.re_initialise_rects" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Ré initialisation des rects, conserve le paramétrage (métrics, alignements, snap).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.resize">
+<code class="sig-name descname">resize</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.resize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.resize" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Recalcul de la taille et de la position.
+Met à jour self.publicationRect, alias de self.rect.
+Rqs : l’attribut position est pris en compte dans les getters/setters de x et y,</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie</dt>
+<dd class="field-odd"><p>True si le resize a été modifié</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.set_metric_value">
+<code class="sig-name descname">set_metric_value</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">val</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.set_metric_value"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.set_metric_value" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Affecte val à la valeur calculée de self.metricparams[prop]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_border_rect">
+<code class="sig-name descname">update_border_rect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_border_rect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_border_rect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Met à jour le rect de bordure/fond.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_content_rect">
+<code class="sig-name descname">update_content_rect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_content_rect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_content_rect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Met à jour le rect de contenu.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_coord">
+<code class="sig-name descname">update_coord</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">refrect</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_coord"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_coord" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Calcul de la coordonnée prop.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_core_metrics">
+<code class="sig-name descname">update_core_metrics</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">refrect</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_core_metrics"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_core_metrics" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Recalcul des metricparams x, y, width, height en fonction du rect de référence refrect
+représentant la surface alouée.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_dim">
+<code class="sig-name descname">update_dim</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">refrect</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_dim"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_dim" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Calcul de la dimension prop.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_globalRect">
+<code class="sig-name descname">update_globalRect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_globalRect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_globalRect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Mise à jour du rect global.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_inner_rects">
+<code class="sig-name descname">update_inner_rects</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_inner_rects"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_inner_rects" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Met à jour les rects de publication interne (contenu et bordure).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_pos_coords">
+<code class="sig-name descname">update_pos_coords</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_pos_coords"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_pos_coords" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Recalcule _xpos et _ypos, attributs « cachés » derrière les getters de x et y.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_publicationRect">
+<code class="sig-name descname">update_publicationRect</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">aftersnap</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_publicationRect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_publicationRect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Mise à jour de publicationRect.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_publicationRefRect_coords">
+<code class="sig-name descname">update_publicationRefRect_coords</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_publicationRefRect_coords"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_publicationRefRect_coords" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Modification des coordonnées seules du rect de publication de référence.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.BoxModelObject.update_space">
+<code class="sig-name descname">update_space</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">refval</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#BoxModelObject.update_space"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.BoxModelObject.update_space" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Calcul d’une propriété de type padding ou margin.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="labpyproject.core.pygame.core.MetricValue.html" class="btn btn-neutral float-right" title="MetricValue" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../labpyproject.core.pygame.core.html" class="btn btn-neutral float-left" title="labpyproject.core.pygame.core" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Gabriel Leroy - novembre 2020 - Licence Art Libre (https://artlibre.org/)
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="http://sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

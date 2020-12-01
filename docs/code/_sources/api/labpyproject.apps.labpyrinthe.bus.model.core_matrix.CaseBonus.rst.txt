@@ -1,0 +1,41 @@
+CaseBonus
+=========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. autoclass:: CaseBonus
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CaseBonus.BONUS_AUGMENTE_VITESSE
+      ~CaseBonus.BONUS_GRENADE
+      ~CaseBonus.BONUS_MINE
+      ~CaseBonus.BONUS_PORTEE_GRENADE
+      ~CaseBonus.BONUS_PUISSANCE_GRENADE
+      ~CaseBonus.BONUS_PUISSANCE_MINE
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CaseBonus.adapt_bonus_to_robot
+      ~CaseBonus.get_default_dict
+      ~CaseBonus.get_properties_dict
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: BONUS_AUGMENTE_VITESSE
+   .. autoattribute:: BONUS_GRENADE
+   .. autoattribute:: BONUS_MINE
+   .. autoattribute:: BONUS_PORTEE_GRENADE
+   .. autoattribute:: BONUS_PUISSANCE_GRENADE
+   .. autoattribute:: BONUS_PUISSANCE_MINE
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: adapt_bonus_to_robot
+   .. automethod:: get_default_dict
+   .. automethod:: get_properties_dict

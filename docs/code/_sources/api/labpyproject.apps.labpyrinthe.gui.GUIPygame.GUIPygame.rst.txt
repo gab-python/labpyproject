@@ -1,0 +1,49 @@
+GUIPygame
+=========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.GUIPygame
+
+.. autoclass:: GUIPygame
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~GUIPygame.ask_escape
+      ~GUIPygame.ask_fullscreen
+      ~GUIPygame.before_frame_processed
+      ~GUIPygame.create_interface
+      ~GUIPygame.dispatch_type_partie
+      ~GUIPygame.on_app_type_defined
+      ~GUIPygame.on_quit_event
+      ~GUIPygame.refresh_view
+      ~GUIPygame.set_config_content
+      ~GUIPygame.set_config_game
+      ~GUIPygame.set_config_menu
+      ~GUIPygame.set_config_wait
+      ~GUIPygame.show_NETInfos
+      ~GUIPygame.show_message
+      ~GUIPygame.show_player_status
+      ~GUIPygame.shutdown
+      ~GUIPygame.toggle_help
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: ask_escape
+   .. automethod:: ask_fullscreen
+   .. automethod:: before_frame_processed
+   .. automethod:: create_interface
+   .. automethod:: dispatch_type_partie
+   .. automethod:: on_app_type_defined
+   .. automethod:: on_quit_event
+   .. automethod:: refresh_view
+   .. automethod:: set_config_content
+   .. automethod:: set_config_game
+   .. automethod:: set_config_menu
+   .. automethod:: set_config_wait
+   .. automethod:: show_NETInfos
+   .. automethod:: show_message
+   .. automethod:: show_player_status
+   .. automethod:: shutdown
+   .. automethod:: toggle_help

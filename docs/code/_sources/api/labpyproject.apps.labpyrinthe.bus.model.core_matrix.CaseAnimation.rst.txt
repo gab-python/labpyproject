@@ -1,0 +1,35 @@
+CaseAnimation
+=============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. autoclass:: CaseAnimation
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CaseAnimation.ANIM_FACE
+      ~CaseAnimation.ANIM_MOVE
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CaseAnimation.apply_animation_step
+      ~CaseAnimation.create_uid
+      ~CaseAnimation.get_default_dict
+      ~CaseAnimation.get_properties_dict
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: ANIM_FACE
+   .. autoattribute:: ANIM_MOVE
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: apply_animation_step
+   .. automethod:: create_uid
+   .. automethod:: get_default_dict
+   .. automethod:: get_properties_dict

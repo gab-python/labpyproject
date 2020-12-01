@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.skinTkinter.zone\_carte
+=========================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte
+   :no-heading:
+   :no-main-docstr:

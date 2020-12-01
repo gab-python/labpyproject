@@ -1,0 +1,53 @@
+PublicationHelper
+=================
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper
+
+.. autoclass:: PublicationHelper
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~PublicationHelper.EXT_BDR
+      ~PublicationHelper.INT_BDR
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~PublicationHelper.create_column_content
+      ~PublicationHelper.create_line_content
+      ~PublicationHelper.discard_content
+      ~PublicationHelper.draw_frame
+      ~PublicationHelper.get_screen
+      ~PublicationHelper.get_text_from_content
+      ~PublicationHelper.mesure_content
+      ~PublicationHelper.place_content_in_frame
+      ~PublicationHelper.register_partie_state
+      ~PublicationHelper.update_content
+      ~PublicationHelper.update_screen
+      ~PublicationHelper.update_screen_with_info
+      ~PublicationHelper.wrap_content
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: EXT_BDR
+   .. autoattribute:: INT_BDR
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: create_column_content
+   .. automethod:: create_line_content
+   .. automethod:: discard_content
+   .. automethod:: draw_frame
+   .. automethod:: get_screen
+   .. automethod:: get_text_from_content
+   .. automethod:: mesure_content
+   .. automethod:: place_content_in_frame
+   .. automethod:: register_partie_state
+   .. automethod:: update_content
+   .. automethod:: update_screen
+   .. automethod:: update_screen_with_info
+   .. automethod:: wrap_content

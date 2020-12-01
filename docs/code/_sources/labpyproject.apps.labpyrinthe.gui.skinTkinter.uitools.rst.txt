@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools
+=====================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools
+   :no-heading:
+   :no-main-docstr:

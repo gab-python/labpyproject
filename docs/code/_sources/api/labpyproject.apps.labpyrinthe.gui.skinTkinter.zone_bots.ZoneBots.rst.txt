@@ -1,0 +1,35 @@
+ZoneBots
+========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots
+
+.. autoclass:: ZoneBots
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ZoneBots.CASE_SIZE
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ZoneBots.clear_bots_list
+      ~ZoneBots.draw_interface
+      ~ZoneBots.get_case_size
+      ~ZoneBots.get_robot_image
+      ~ZoneBots.update_bot_item
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: CASE_SIZE
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: clear_bots_list
+   .. automethod:: draw_interface
+   .. automethod:: get_case_size
+   .. automethod:: get_robot_image
+   .. automethod:: update_bot_item

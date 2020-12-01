@@ -1,0 +1,93 @@
+LabManager
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.helpers.lab_manager
+
+.. autoclass:: LabManager
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~LabManager.add_case
+      ~LabManager.analyse_cmd_for_robot
+      ~LabManager.compute_cmd_for_autobot
+      ~LabManager.create_random_carte
+      ~LabManager.define_initial_samples
+      ~LabManager.explosion_callback
+      ~LabManager.get_bots_datas
+      ~LabManager.get_changelogs_key
+      ~LabManager.get_diff_graph_datas
+      ~LabManager.get_dimensions
+      ~LabManager.get_explosion_scenario
+      ~LabManager.get_flatmatrice
+      ~LabManager.get_graph_matrices
+      ~LabManager.get_parsedicts_for_listcases
+      ~LabManager.get_parsing_datas
+      ~LabManager.get_repr_view
+      ~LabManager.get_robot_by_uid
+      ~LabManager.get_robotlist
+      ~LabManager.handle_animation_step
+      ~LabManager.has_robot_won
+      ~LabManager.init_changelogs
+      ~LabManager.init_robot_before_gamble
+      ~LabManager.init_step_changelogs
+      ~LabManager.is_partie_ended
+      ~LabManager.move_case
+      ~LabManager.need_to_complete_XTras_after_gamble
+      ~LabManager.on_bonus_win
+      ~LabManager.on_cmd_for_robot_done
+      ~LabManager.on_robot_killed
+      ~LabManager.parse_labyrinthe
+      ~LabManager.publish_players
+      ~LabManager.random_distribute_XTras
+      ~LabManager.re_initialise
+      ~LabManager.rebuild_labyrinthe
+      ~LabManager.register_robot
+      ~LabManager.remove_case
+      ~LabManager.sort_bots_by_order
+      ~LabManager.update_bots_or_XTras
+      ~LabManager.update_robotlist
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: add_case
+   .. automethod:: analyse_cmd_for_robot
+   .. automethod:: compute_cmd_for_autobot
+   .. automethod:: create_random_carte
+   .. automethod:: define_initial_samples
+   .. automethod:: explosion_callback
+   .. automethod:: get_bots_datas
+   .. automethod:: get_changelogs_key
+   .. automethod:: get_diff_graph_datas
+   .. automethod:: get_dimensions
+   .. automethod:: get_explosion_scenario
+   .. automethod:: get_flatmatrice
+   .. automethod:: get_graph_matrices
+   .. automethod:: get_parsedicts_for_listcases
+   .. automethod:: get_parsing_datas
+   .. automethod:: get_repr_view
+   .. automethod:: get_robot_by_uid
+   .. automethod:: get_robotlist
+   .. automethod:: handle_animation_step
+   .. automethod:: has_robot_won
+   .. automethod:: init_changelogs
+   .. automethod:: init_robot_before_gamble
+   .. automethod:: init_step_changelogs
+   .. automethod:: is_partie_ended
+   .. automethod:: move_case
+   .. automethod:: need_to_complete_XTras_after_gamble
+   .. automethod:: on_bonus_win
+   .. automethod:: on_cmd_for_robot_done
+   .. automethod:: on_robot_killed
+   .. automethod:: parse_labyrinthe
+   .. automethod:: publish_players
+   .. automethod:: random_distribute_XTras
+   .. automethod:: re_initialise
+   .. automethod:: rebuild_labyrinthe
+   .. automethod:: register_robot
+   .. automethod:: remove_case
+   .. automethod:: sort_bots_by_order
+   .. automethod:: update_bots_or_XTras
+   .. automethod:: update_robotlist

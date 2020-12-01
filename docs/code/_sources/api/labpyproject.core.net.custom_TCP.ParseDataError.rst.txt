@@ -1,0 +1,6 @@
+ParseDataError
+==============
+
+.. currentmodule:: labpyproject.core.net.custom_TCP
+
+.. autoexception:: ParseDataError

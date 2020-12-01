@@ -1,0 +1,59 @@
+CustomTCPServerContainer
+========================
+
+.. currentmodule:: labpyproject.core.net.custom_TCP
+
+.. autoclass:: CustomTCPServerContainer
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CustomTCPServerContainer.uid
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CustomTCPServerContainer.allow_new_connections
+      ~CustomTCPServerContainer.check_connections
+      ~CustomTCPServerContainer.connect
+      ~CustomTCPServerContainer.disconnect
+      ~CustomTCPServerContainer.dispatch_network_infos
+      ~CustomTCPServerContainer.dispatch_network_status
+      ~CustomTCPServerContainer.dispatch_to_external_handler
+      ~CustomTCPServerContainer.do_server_accept_new_connections
+      ~CustomTCPServerContainer.get_network_infos
+      ~CustomTCPServerContainer.handle_indexed_msg
+      ~CustomTCPServerContainer.net_shutdown
+      ~CustomTCPServerContainer.send
+      ~CustomTCPServerContainer.sendFromExchangeObject
+      ~CustomTCPServerContainer.server_start_loop
+      ~CustomTCPServerContainer.server_stop_loop
+      ~CustomTCPServerContainer.set_address
+      ~CustomTCPServerContainer.shutdown
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: uid
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: allow_new_connections
+   .. automethod:: check_connections
+   .. automethod:: connect
+   .. automethod:: disconnect
+   .. automethod:: dispatch_network_infos
+   .. automethod:: dispatch_network_status
+   .. automethod:: dispatch_to_external_handler
+   .. automethod:: do_server_accept_new_connections
+   .. automethod:: get_network_infos
+   .. automethod:: handle_indexed_msg
+   .. automethod:: net_shutdown
+   .. automethod:: send
+   .. automethod:: sendFromExchangeObject
+   .. automethod:: server_start_loop
+   .. automethod:: server_stop_loop
+   .. automethod:: set_address
+   .. automethod:: shutdown

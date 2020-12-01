@@ -1,0 +1,1279 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command &mdash; Documentation labpyproject </title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../../" src="../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../_static/language_data.js"></script>
+        <script src="../../../../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Recherche" href="../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../../index.html" class="icon icon-home" alt="Documentation Home"> labpyproject
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../labpyproject.html">labpyproject</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../labpyproject.apps.html">labpyproject.apps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.html">labpyproject.apps.labpyrinthe</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.app.html">labpyproject.apps.labpyrinthe.app</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.app.app_types.html">app_types</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.app.app_types.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.app.app_types.AppTypes.html">AppTypes</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.app.app_types.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.app.application.html">application</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.app.application.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.app.application.AppManager.html">AppManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.app.application.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.html">labpyproject.apps.labpyrinthe.bus</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.html">labpyproject.apps.labpyrinthe.bus.commands</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html">cmd_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.CommandHelper.html">CommandHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html">cmd_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.CommandManager.html">CommandManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html">gamble_datas</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataSet.html">GambleDataSet</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataObject.html">GambleDataObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.PseudoActions.html">PseudoActions</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleSearch.html">GambleSearch</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.targets.html">targets</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.targets.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.targets.TargetObject.html">TargetObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPath.html">TargetPath</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPathStep.html">TargetPathStep</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.commands.targets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.html">labpyproject.apps.labpyrinthe.bus.helpers</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html">exchange_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.ExchangeHelper.html">ExchangeHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html">game_configuration</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.GameConfiguration.html">GameConfiguration</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html">lab_generator</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.LabGenerator.html">LabGenerator</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html">lab_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.LabManager.html">LabManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html">lab_parser</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.LabParser.html">LabParser</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.model.html">labpyproject.apps.labpyrinthe.bus.model</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html">core_matrix</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabHelper.html">LabHelper</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabLevel.html">LabLevel</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.Matrice.html">Matrice</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.AnimatedLayer.html">AnimatedLayer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.Case.html">Case</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseRobot.html">CaseRobot</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseDanger.html">CaseDanger</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseGrenade.html">CaseGrenade</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseAnimation.html">CaseAnimation</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseBonus.html">CaseBonus</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.model.player.html">player</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.model.player.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.model.player.LabPlayer.html">LabPlayer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.model.player.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.game_manager.html">game_manager</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.game_manager.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.bus.game_manager.GameManager.html">GameManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.bus.game_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.html">labpyproject.apps.labpyrinthe.gui</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.html">labpyproject.apps.labpyrinthe.gui.skinBase</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html">GUIBase</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.html">GUIBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseNoThread.html">GUIBaseNoThread</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseThreaded.html">GUIBaseThreaded</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html">colors</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.colors.ColorHelper.html">ColorHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html">interfaces</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCarte.html">AbstractZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCommand.html">AbstractZoneCommand</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie.html">AbstractZonePartie</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneBots.html">AbstractZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneMenu.html">AbstractZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenContent.html">AbstractScreenContent</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenWait.html">AbstractScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractSwitch.html">AbstractSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractInput.html">AbstractInput</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html">screen_wait_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.ScreenWaitBase.html">ScreenWaitBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html">skin_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.SkinBase.html">SkinBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html">zone_bots_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.ZoneBotsBase.html">ZoneBotsBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html">zone_carte_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ZoneCarteBase.html">ZoneCarteBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ItemObjectBase.html">ItemObjectBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html">zone_command_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.ZoneCommandBase.html">ZoneCommandBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html">zone_menu_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.ZoneMenuBase.html">ZoneMenuBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html">zone_partie_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase.html">ZonePartieBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinConsole.html">labpyproject.apps.labpyrinthe.gui.skinConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html">pub_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.PublicationHelper.html">PublicationHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.html">labpyproject.apps.labpyrinthe.gui.skinPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html">botview</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.botview.BotView.html">BotView</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html">footer</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.footer.Footer.html">Footer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScreenWait.html">ScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScaledText.html">ScaledText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.SimplePreloader.html">SimplePreloader</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html">skinPygame</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.SkinPygame.html">SkinPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WImage.html">WImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WText.html">WText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WEntry.html">WEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WButton.html">WButton</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.Spacer.html">Spacer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.ZoneBots.html">ZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotList.html">BotList</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotItem.html">BotItem</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ItemObject.html">ItemObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.CaseView.html">CaseView</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.BotViewCarte.html">BotViewCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneDangerRobot.html">ZoneDangerRobot</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.MenuButton.html">MenuButton</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.html">labpyproject.apps.labpyrinthe.gui.skinTkinter</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.ScreenWait.html">ScreenWait</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html">skinTkinter</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.SkinTkinter.html">SkinTkinter</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CustomEntry.html">CustomEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSwitch.html">CanvasSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasImage.html">CanvasImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSpacer.html">CanvasSpacer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSeparateur.html">CanvasSeparateur</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.ZoneBots.html">ZoneBots</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ItemObject.html">ItemObject</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUIConsole.html">GUIConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.GUIConsole.GUIConsole.html">GUIConsole</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.GUIConsole.ThreadInput.html">ThreadInput</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUIPygame.html">GUIPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.GUIPygame.GUIPygame.html">GUIPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUITk.html">GUITk</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUITk.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.GUITk.GUITk.html">GUITk</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.gui.GUITk.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.clientConsole.html">clientConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.clientPygame.html">clientPygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.serverConsole.html">serverConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.standaloneConsole.html">standaloneConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.standalonePygame.html">standalonePygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.apps.labpyrinthe.standaloneTkinter.html">standaloneTkinter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../labpyproject.core.html">labpyproject.core</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../labpyproject.core.app.html">labpyproject.core.app</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.app.app_components.html">app_components</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.app.app_components.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.ThreadableComp.html">ThreadableComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.APPComp.html">APPComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.SatelliteExchangeObject.html">SatelliteExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.AbstractSatelliteComp.html">AbstractSatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.DelayedAction.html">DelayedAction</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.SatelliteComp.html">SatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.SatelliteCompNoThread.html">SatelliteCompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.GUIExchangeObject.html">GUIExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.AbstractGUIComp.html">AbstractGUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.GUIComp.html">GUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.GUICompNoThread.html">GUICompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.NETExchangeObject.html">NETExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.NETComp.html">NETComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.app.app_components.BUSINESSComp.html">BUSINESSComp</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.app.app_components.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../labpyproject.core.io.html">labpyproject.core.io</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.io.custom_IO.html">custom_IO</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.io.custom_IO.html#functions">Functions</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.io.custom_IO.get_file_list.html">get_file_list</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.io.custom_IO.load_obj_from_file.html">load_obj_from_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.io.custom_IO.load_text_file.html">load_text_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.io.custom_IO.save_obj_in_file.html">save_obj_in_file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../labpyproject.core.net.html">labpyproject.core.net</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.net.custom_TCP.html">custom_TCP</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.net.custom_TCP.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.net.custom_TCP.CustomTCPServerContainer.html">CustomTCPServerContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.net.custom_TCP.ThreadedTCPServer.html">ThreadedTCPServer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.net.custom_TCP.CustomTCPRequestHandler.html">CustomTCPRequestHandler</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.net.custom_TCP.ParseDataError.html">ParseDataError</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.net.custom_TCP.CustomRequestHelper.html">CustomRequestHelper</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.net.custom_TCP.CustomTCPThreadedClient.html">CustomTCPThreadedClient</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.net.custom_TCP.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../labpyproject.core.patterns.html">labpyproject.core.patterns</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.patterns.design_patterns.html">design_patterns</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.patterns.design_patterns.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.patterns.design_patterns.Singleton.html">Singleton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.patterns.design_patterns.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.html">labpyproject.core.pygame</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.core.html">core</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.core.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.BoxModelObject.html">BoxModelObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.MetricValue.html">MetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.BoundedMetricValue.html">BoundedMetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.VirtualItem.html">VirtualItem</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.VirtualContainer.html">VirtualContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.CustomSprite.html">CustomSprite</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.RealContainer.html">RealContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.RootContainer.html">RootContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.LayerManager.html">LayerManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.LayerStack.html">LayerStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.core.LocalLayer.html">LocalLayer</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.core.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.events.html">events</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.events.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.events.CustomEventManager.html">CustomEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.events.GUIEventManager.html">GUIEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html">CustomBaseControl</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.events.CustomBaseInput.html">CustomBaseInput</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html">CustomBaseButton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.events.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.widgets.html">widgets</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.widgets.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.Background.html">Background</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.Image.html">Image</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.Text.html">Text</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.Entry.html">Entry</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.TextButton.html">TextButton</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.Button.html">Button</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.Stack.html">Stack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.HStack.html">HStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.VStack.html">VStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.Canvas.html">Canvas</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.HBox.html">HBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.VBox.html">VBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.pygame.widgets.Root.html">Root</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.pygame.widgets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../labpyproject.core.queue.html">labpyproject.core.queue</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.queue.queue_tools.html">queue_tools</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.queue.queue_tools.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.queue.queue_tools.QueueManager.html">QueueManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.queue.queue_tools.QueueSimpleClient.html">QueueSimpleClient</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.queue.queue_tools.QueueSwitcher.html">QueueSwitcher</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.queue.queue_tools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../labpyproject.core.random.html">labpyproject.core.random</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../labpyproject.core.random.custom_random.html">custom_random</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.random.custom_random.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../api/labpyproject.core.random.custom_random.CustomRandom.html">CustomRandom</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../labpyproject.core.random.custom_random.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">labpyproject</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../../index.html">Code du module</a> &raquo;</li>
+        
+      <li>labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Code source de labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python3</span>
+<span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Commandes du jeu : implémentation Pygame</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="c1"># import</span>
+<span class="kn">import</span> <span class="nn">pygame.locals</span>
+<span class="kn">import</span> <span class="nn">labpyproject.core.pygame.widgets</span> <span class="k">as</span> <span class="nn">wgt</span>
+<span class="kn">import</span> <span class="nn">labpyproject.core.pygame.events</span> <span class="k">as</span> <span class="nn">evt</span>
+<span class="kn">from</span> <span class="nn">labpyproject.apps.labpyrinthe.bus.game_manager</span> <span class="kn">import</span> <span class="n">GameManager</span>
+<span class="kn">from</span> <span class="nn">labpyproject.apps.labpyrinthe.bus.model.core_matrix</span> <span class="kn">import</span> <span class="n">LabHelper</span>
+<span class="kn">import</span> <span class="nn">labpyproject.apps.labpyrinthe.gui.skinPygame.uitools</span> <span class="k">as</span> <span class="nn">uit</span>
+<span class="kn">from</span> <span class="nn">labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base</span> <span class="kn">import</span> <span class="n">ZoneCommandBase</span>
+<span class="kn">from</span> <span class="nn">labpyproject.apps.labpyrinthe.gui.skinBase.interfaces</span> <span class="kn">import</span> <span class="n">AbstractSwitch</span>
+<span class="kn">from</span> <span class="nn">labpyproject.apps.labpyrinthe.app.app_types</span> <span class="kn">import</span> <span class="n">AppTypes</span>
+
+<span class="c1"># Evite l&#39;ajout non désiré de certains imports à la doc sphinx</span>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ZoneCommand&quot;</span><span class="p">]</span>
+<span class="c1"># classes</span>
+<div class="viewcode-block" id="ZoneCommand"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand">[docs]</a><span class="k">class</span> <span class="nc">ZoneCommand</span><span class="p">(</span><span class="n">wgt</span><span class="o">.</span><span class="n">HStack</span><span class="p">,</span> <span class="n">ZoneCommandBase</span><span class="p">,</span> <span class="n">evt</span><span class="o">.</span><span class="n">CustomBaseControl</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Conteneur principal des outils de navigation</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># méthodes</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">Mngr</span><span class="p">,</span> <span class="n">skin</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Constructeur</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visuel_inact</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">img_bot</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="c1"># ref au skin :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">skin</span> <span class="o">=</span> <span class="n">skin</span>
+        <span class="c1"># générique :</span>
+        <span class="n">wgt</span><span class="o">.</span><span class="n">HStack</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="n">ZoneCommandBase</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">Mngr</span><span class="p">,</span> <span class="n">skin</span><span class="p">)</span>
+        <span class="c1"># permet d&#39;abonner la zone aux événements clavier (move via flèches)</span>
+        <span class="n">evt</span><span class="o">.</span><span class="n">CustomBaseControl</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;evttypes&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">evt</span><span class="o">.</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">]}</span>
+        <span class="p">)</span>
+
+    <span class="c1">#-----&gt;  Surcharge de ZoneCommandBase</span>
+<div class="viewcode-block" id="ZoneCommand.register_APPType"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.register_APPType">[docs]</a>    <span class="k">def</span> <span class="nf">register_APPType</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app_type</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Défini le type d&#39;appli associé.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># générique</span>
+        <span class="n">ZoneCommandBase</span><span class="o">.</span><span class="n">register_APPType</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">app_type</span><span class="p">)</span>
+        <span class="c1"># spécifique</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type_app</span> <span class="o">==</span> <span class="n">AppTypes</span><span class="o">.</span><span class="n">APP_CLIENT</span><span class="p">:</span>
+            <span class="c1"># on désactive le retour au menu :</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;menu&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">False</span></div>
+
+    <span class="k">def</span> <span class="nf">_init_colors</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Couleurs portées par le skin :</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># textes</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">color_texte</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_color</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;texte&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">color_texte_dis</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_color</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;texte_dis&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">color_texte_info</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_color</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;texte_info&quot;</span><span class="p">)</span>
+        <span class="c1"># fonds</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">color_bg_command</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_color</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;bg_command&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">color_bg_info</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_color</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;bg_info&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">color_bg_input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_color</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;bg_input&quot;</span><span class="p">)</span>
+
+<div class="viewcode-block" id="ZoneCommand.toggle_help"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.toggle_help">[docs]</a>    <span class="k">def</span> <span class="nf">toggle_help</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Affiche / masque l&#39;aide</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">img_help</span><span class="o">.</span><span class="n">visible</span> <span class="o">=</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">img_help</span><span class="o">.</span><span class="n">visible</span></div>
+
+<div class="viewcode-block" id="ZoneCommand.draw_interface"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.draw_interface">[docs]</a>    <span class="k">def</span> <span class="nf">draw_interface</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Création de l&#39;interface</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">imgdict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+        <span class="c1"># 1- colonne gaucje :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">left_column</span> <span class="o">=</span> <span class="n">wgt</span><span class="o">.</span><span class="n">Stack</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s2">&quot;2%&quot;</span><span class="p">,</span> <span class="n">flex</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">left_column</span><span class="p">)</span>
+        <span class="c1"># image aide :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">img_help</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WImage</span><span class="p">(</span>
+            <span class="s2">&quot;screens&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;aide&quot;</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span>
+            <span class="n">fixed</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">height</span><span class="o">=</span><span class="s2">&quot;85%&quot;</span><span class="p">,</span>
+            <span class="n">valign</span><span class="o">=</span><span class="s2">&quot;bottom&quot;</span><span class="p">,</span>
+            <span class="n">visible</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">align</span><span class="o">=</span><span class="s2">&quot;center&quot;</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">left_column</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">img_help</span><span class="p">)</span>
+        <span class="c1"># 2- colonne droite :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">right_column</span> <span class="o">=</span> <span class="n">wgt</span><span class="o">.</span><span class="n">VStack</span><span class="p">(</span>
+            <span class="n">width</span><span class="o">=</span><span class="s2">&quot;35%&quot;</span><span class="p">,</span> <span class="n">minwidth</span><span class="o">=</span><span class="mi">355</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;colright&quot;</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">right_column</span><span class="p">)</span>
+        <span class="c1"># Conteneur des commandes de jeu :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">spacer</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">Spacer</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="n">flex</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">right_column</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">spacer</span><span class="p">)</span>
+        <span class="c1"># commandes de jeu :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_game</span> <span class="o">=</span> <span class="n">wgt</span><span class="o">.</span><span class="n">Canvas</span><span class="p">(</span>
+            <span class="n">bgcolor</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">color_bg_command</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">115</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;block-game&quot;</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">right_column</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">block_game</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_draw_game_block</span><span class="p">()</span>
+        <span class="c1"># Conteneur infos et input :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_info</span> <span class="o">=</span> <span class="n">wgt</span><span class="o">.</span><span class="n">VStack</span><span class="p">(</span>
+            <span class="n">bgcolor</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">color_bg_info</span><span class="p">,</span>
+            <span class="n">width</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span>
+            <span class="n">height</span><span class="o">=</span><span class="s2">&quot;20%&quot;</span><span class="p">,</span>
+            <span class="n">minheight</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;block-info&quot;</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">right_column</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">block_info</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_draw_infos_block</span><span class="p">()</span></div>
+
+    <span class="k">def</span> <span class="nf">_draw_infos_block</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Bloc info et input</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># Input et boutons :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">line_input</span> <span class="o">=</span> <span class="n">wgt</span><span class="o">.</span><span class="n">Stack</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_info</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">line_input</span><span class="p">)</span>
+        <span class="c1"># entry</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">choiceentry</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WEntry</span><span class="p">(</span>
+            <span class="s2">&quot;PoppinsMedium&quot;</span><span class="p">,</span>
+            <span class="mi">18</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span>
+            <span class="n">align</span><span class="o">=</span><span class="s2">&quot;center&quot;</span><span class="p">,</span>
+            <span class="n">top</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;input&quot;</span><span class="p">,</span>
+            <span class="n">height</span><span class="o">=</span><span class="s2">&quot;27&quot;</span><span class="p">,</span>
+            <span class="n">width</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span>
+            <span class="n">fgcolor</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">color_texte</span><span class="p">,</span>
+            <span class="n">bgcolor</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">color_bg_input</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">line_input</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">choiceentry</span><span class="p">)</span>
+        <span class="c1"># menu</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;menu&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WButton</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span> <span class="s2">&quot;menu_2&quot;</span><span class="p">,</span> <span class="n">left</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">fixed</span><span class="o">=</span><span class="kc">True</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">line_input</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;menu&quot;</span><span class="p">])</span>
+        <span class="c1"># aide</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;aide&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WButton</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span> <span class="s2">&quot;aide&quot;</span><span class="p">,</span> <span class="n">left</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">fixed</span><span class="o">=</span><span class="kc">True</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">line_input</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;aide&quot;</span><span class="p">])</span>
+        <span class="c1"># plein écran</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;fullscreen&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WButton</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span> <span class="s2">&quot;fullscreen&quot;</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">fixed</span><span class="o">=</span><span class="kc">True</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">line_input</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;fullscreen&quot;</span><span class="p">])</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span><span class="o">.</span><span class="n">support_fullscreen</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;fullscreen&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="c1"># quitter</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;quitter&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WButton</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span> <span class="s2">&quot;quitter_2&quot;</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">fixed</span><span class="o">=</span><span class="kc">True</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">line_input</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;quitter&quot;</span><span class="p">])</span>
+        <span class="c1"># Décor</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">img_bot</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WImage</span><span class="p">(</span>
+            <span class="s2">&quot;screens&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;decor_hunter&quot;</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span>
+            <span class="n">right</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+            <span class="n">bottom</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+            <span class="n">position</span><span class="o">=</span><span class="s2">&quot;absolute&quot;</span><span class="p">,</span>
+            <span class="n">height</span><span class="o">=</span><span class="s2">&quot;45%&quot;</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_info</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">img_bot</span><span class="p">)</span>
+        <span class="c1"># texte config partie</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">partietext</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WText</span><span class="p">(</span>
+            <span class="s2">&quot;PoppinsBlack&quot;</span><span class="p">,</span>
+            <span class="mi">18</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span>
+            <span class="n">snapH</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">left</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+            <span class="n">bottom</span><span class="o">=-</span><span class="mi">5</span><span class="p">,</span>
+            <span class="n">position</span><span class="o">=</span><span class="s2">&quot;absolute&quot;</span><span class="p">,</span>
+            <span class="n">fgcolor</span><span class="o">=</span><span class="s2">&quot;#8C9557&quot;</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_info</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">partietext</span><span class="p">)</span>
+        <span class="c1"># texte info :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">infotext</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WText</span><span class="p">(</span>
+            <span class="s2">&quot;PoppinsMedium&quot;</span><span class="p">,</span>
+            <span class="mi">14</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span>
+            <span class="n">width</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span>
+            <span class="n">padding</span><span class="o">=</span><span class="s2">&quot;5%&quot;</span><span class="p">,</span>
+            <span class="n">flex</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+            <span class="n">height</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span>
+            <span class="n">minheight</span><span class="o">=</span><span class="mi">120</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;infotext&quot;</span><span class="p">,</span>
+            <span class="n">fgcolor</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">color_texte_info</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_info</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">infotext</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_draw_game_block</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Bloc commandes de jeu</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sub_block_game</span> <span class="o">=</span> <span class="n">wgt</span><span class="o">.</span><span class="n">Stack</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">355</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">115</span><span class="p">,</span> <span class="n">align</span><span class="o">=</span><span class="s2">&quot;center&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_game</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">sub_block_game</span><span class="p">)</span>
+        <span class="c1"># boutons :</span>
+        <span class="n">bp</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;move&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;mur&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">90</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;porte&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">175</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;kill&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;grenade&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">90</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;mine&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">175</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;top&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">300</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;left&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">275</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;right&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">325</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;bottom&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">300</span><span class="p">,</span> <span class="mi">55</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;d_1&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">90</span><span class="p">,</span> <span class="mi">65</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;d_2&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">119</span><span class="p">,</span> <span class="mi">65</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;d_3&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">148</span><span class="p">,</span> <span class="mi">65</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;d_4&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">177</span><span class="p">,</span> <span class="mi">65</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;d_5&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">206</span><span class="p">,</span> <span class="mi">65</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;d_6&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">235</span><span class="p">,</span> <span class="mi">65</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;p_1&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">90</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;p_5&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">119</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;p_9&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">148</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;p_13&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">177</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;p_17&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">206</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;p_25&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">235</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+        <span class="n">bp</span><span class="p">[</span><span class="s2">&quot;valider&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">270</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">coords</span> <span class="ow">in</span> <span class="n">bp</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">name</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;_&quot;</span><span class="p">:</span>
+                <span class="n">num</span> <span class="o">=</span> <span class="n">name</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">btnname</span> <span class="o">=</span> <span class="s2">&quot;radio_&quot;</span> <span class="o">+</span> <span class="n">num</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">btnname</span> <span class="o">=</span> <span class="n">name</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WButton</span><span class="p">(</span>
+                <span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span> <span class="n">btnname</span><span class="p">,</span> <span class="n">switch</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">coords</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y</span><span class="o">=</span><span class="n">coords</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+            <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sub_block_game</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="n">name</span><span class="p">])</span>
+        <span class="c1"># textes :</span>
+        <span class="n">tp</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+        <span class="n">tp</span><span class="p">[</span><span class="s2">&quot;silhouette0001&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">300</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+        <span class="n">tp</span><span class="p">[</span><span class="s2">&quot;distance_2&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">65</span><span class="p">)</span>
+        <span class="n">tp</span><span class="p">[</span><span class="s2">&quot;puissance_2&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">coords</span> <span class="ow">in</span> <span class="n">tp</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="c1"># version enabled :</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">imgdict</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WImage</span><span class="p">(</span>
+                <span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">coords</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y</span><span class="o">=</span><span class="n">coords</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">visible</span><span class="o">=</span><span class="kc">False</span>
+            <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sub_block_game</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">imgdict</span><span class="p">[</span><span class="n">name</span><span class="p">])</span>
+            <span class="c1"># version disabled :</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">imgdict</span><span class="p">[</span><span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;_dis&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WImage</span><span class="p">(</span>
+                <span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;_dis&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">coords</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y</span><span class="o">=</span><span class="n">coords</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">visible</span><span class="o">=</span><span class="kc">False</span>
+            <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sub_block_game</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">imgdict</span><span class="p">[</span><span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;_dis&quot;</span><span class="p">])</span>
+        <span class="c1"># visuel :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visuel_inact</span> <span class="o">=</span> <span class="n">uit</span><span class="o">.</span><span class="n">WImage</span><span class="p">(</span>
+            <span class="s2">&quot;nav&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;visuel_elimine&quot;</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="p">,</span>
+            <span class="n">x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+            <span class="n">y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+            <span class="n">width</span><span class="o">=</span><span class="mi">355</span><span class="p">,</span>
+            <span class="n">height</span><span class="o">=</span><span class="mi">115</span><span class="p">,</span>
+            <span class="n">visible</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sub_block_game</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">visuel_inact</span><span class="p">)</span>
+
+<div class="viewcode-block" id="ZoneCommand.apply_current_state"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.apply_current_state">[docs]</a>    <span class="k">def</span> <span class="nf">apply_current_state</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Applique l&#39;état courant</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">current_state</span> <span class="o">==</span> <span class="n">ZoneCommandBase</span><span class="o">.</span><span class="n">STATE_MENU</span><span class="p">:</span>
+            <span class="c1"># affichages :</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">block_game</span><span class="o">.</span><span class="n">visible</span> <span class="o">=</span> <span class="kc">False</span>
+            <span class="c1"># bot :</span>
+            <span class="n">surf_bot</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_image</span><span class="p">(</span><span class="s2">&quot;screens&quot;</span><span class="p">,</span> <span class="s2">&quot;decor_hunter&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">img_bot</span><span class="o">.</span><span class="n">load_surface</span><span class="p">(</span><span class="n">surf_bot</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">current_state</span> <span class="o">==</span> <span class="n">ZoneCommandBase</span><span class="o">.</span><span class="n">STATE_GAME</span><span class="p">:</span>
+            <span class="c1"># affichages :</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">block_game</span><span class="o">.</span><span class="n">visible</span> <span class="o">=</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="ZoneCommand.handle_change_states"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.handle_change_states">[docs]</a>    <span class="k">def</span> <span class="nf">handle_change_states</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">changelist</span><span class="p">,</span> <span class="n">newstate</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Applique le changement d&#39;état à la liste</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># générique :</span>
+        <span class="n">ZoneCommandBase</span><span class="o">.</span><span class="n">handle_change_states</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">changelist</span><span class="p">,</span> <span class="n">newstate</span><span class="p">)</span>
+        <span class="c1"># textes :</span>
+        <span class="n">is_dir</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">is_dist</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">is_puis</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">txt_vis</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">newstate</span> <span class="o">==</span> <span class="n">AbstractSwitch</span><span class="o">.</span><span class="n">DISABLED</span>
+        <span class="k">for</span> <span class="n">elt</span> <span class="ow">in</span> <span class="n">changelist</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">elt</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">elt</span> <span class="o">==</span> <span class="s2">&quot;directions&quot;</span><span class="p">:</span>
+                    <span class="n">is_dir</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="k">elif</span> <span class="n">elt</span> <span class="o">==</span> <span class="s2">&quot;distances&quot;</span><span class="p">:</span>
+                    <span class="n">is_dist</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="k">elif</span> <span class="n">elt</span> <span class="o">==</span> <span class="s2">&quot;puissances&quot;</span><span class="p">:</span>
+                    <span class="n">is_puis</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">is_dir</span> <span class="ow">and</span> <span class="n">elt</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrlsdict</span><span class="p">[</span><span class="s2">&quot;directions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                    <span class="n">is_dir</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">is_dist</span> <span class="ow">and</span> <span class="n">elt</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrlsdict</span><span class="p">[</span><span class="s2">&quot;distances&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                    <span class="n">is_dist</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">is_puis</span> <span class="ow">and</span> <span class="n">elt</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrlsdict</span><span class="p">[</span><span class="s2">&quot;puissances&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                    <span class="n">is_puis</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="n">names</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="n">is_dir</span><span class="p">:</span>
+            <span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;silhouette0001&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">is_dist</span><span class="p">:</span>
+            <span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;distance_2&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">is_puis</span><span class="p">:</span>
+            <span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;puissance_2&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+            <span class="n">txtimg</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">imgdict</span><span class="p">[</span><span class="n">name</span><span class="p">]</span>
+            <span class="n">txtimg_dis</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">imgdict</span><span class="p">[</span><span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;_dis&quot;</span><span class="p">]</span>
+            <span class="c1"># visibilité</span>
+            <span class="n">txtimg</span><span class="o">.</span><span class="n">visible</span> <span class="o">=</span> <span class="n">txt_vis</span>
+            <span class="n">txtimg_dis</span><span class="o">.</span><span class="n">visible</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">txt_vis</span></div>
+
+<div class="viewcode-block" id="ZoneCommand.publish_message"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.publish_message">[docs]</a>    <span class="k">def</span> <span class="nf">publish_message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">msg</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Affichage d&#39;un message dans la zone info</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">infotext</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">msg</span></div>
+
+<div class="viewcode-block" id="ZoneCommand.affiche_type_partie"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.affiche_type_partie">[docs]</a>    <span class="k">def</span> <span class="nf">affiche_type_partie</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">txt</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Affichage du type de partie</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">partietext</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">txt</span></div>
+
+<div class="viewcode-block" id="ZoneCommand.show_player_status"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.show_player_status">[docs]</a>    <span class="k">def</span> <span class="nf">show_player_status</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dictargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Affichage des infos de statut du joueur.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># données d&#39;état</span>
+        <span class="n">client</span> <span class="o">=</span> <span class="n">dictargs</span><span class="p">[</span><span class="s2">&quot;client&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;True&quot;</span><span class="p">]</span>
+        <span class="n">connected</span> <span class="o">=</span> <span class="n">dictargs</span><span class="p">[</span><span class="s2">&quot;connected&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;True&quot;</span><span class="p">]</span>
+        <span class="n">type_partie</span> <span class="o">=</span> <span class="n">dictargs</span><span class="p">[</span><span class="s2">&quot;type_partie&quot;</span><span class="p">]</span>
+        <span class="n">viewer</span> <span class="o">=</span> <span class="n">dictargs</span><span class="p">[</span><span class="s2">&quot;viewer&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;True&quot;</span><span class="p">]</span>
+        <span class="n">robot</span> <span class="o">=</span> <span class="n">dictargs</span><span class="p">[</span><span class="s2">&quot;robot&quot;</span><span class="p">]</span>
+        <span class="n">killed</span> <span class="o">=</span> <span class="n">dictargs</span><span class="p">[</span><span class="s2">&quot;killed&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;True&quot;</span><span class="p">]</span>
+        <span class="c1"># visuels à modifier (par défaut)</span>
+        <span class="n">surf_bot</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_image</span><span class="p">(</span><span class="s2">&quot;screens&quot;</span><span class="p">,</span> <span class="s2">&quot;decor_hunter&quot;</span><span class="p">)</span>
+        <span class="n">surf_vis</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="c1">#  particularisation :</span>
+        <span class="k">if</span> <span class="n">client</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">connected</span><span class="p">:</span>
+            <span class="n">surf_vis</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_image</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;visuel_deconnecte&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">killed</span><span class="p">:</span>
+            <span class="n">surf_vis</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_image</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;visuel_elimine&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">viewer</span> <span class="ow">or</span> <span class="n">type_partie</span> <span class="o">==</span> <span class="n">GameManager</span><span class="o">.</span><span class="n">GAME_MODE_DEMO</span><span class="p">:</span>
+            <span class="n">surf_vis</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_image</span><span class="p">(</span><span class="s2">&quot;nav&quot;</span><span class="p">,</span> <span class="s2">&quot;visuel_spectateur&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">robot</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">states_surf</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">skin</span><span class="o">.</span><span class="n">get_image_for_BotItem</span><span class="p">(</span><span class="n">robot</span><span class="p">,</span> <span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="mi">60</span><span class="p">))</span>
+            <span class="n">surf_bot</span> <span class="o">=</span> <span class="n">states_surf</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="c1"># application :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">img_bot</span><span class="o">.</span><span class="n">load_surface</span><span class="p">(</span><span class="n">surf_bot</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">surf_vis</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">visuel_inact</span><span class="o">.</span><span class="n">load_surface</span><span class="p">(</span><span class="n">surf_vis</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">visuel_inact</span><span class="o">.</span><span class="n">visible</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">visuel_inact</span><span class="o">.</span><span class="n">visible</span> <span class="o">=</span> <span class="kc">False</span></div>
+
+<div class="viewcode-block" id="ZoneCommand.global_control_callback"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.global_control_callback">[docs]</a>    <span class="k">def</span> <span class="nf">global_control_callback</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ctrl</span><span class="p">,</span> <span class="n">state</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Prend en charge les contrôles globaux, retourne un boolean</span>
+<span class="sd">        indiquant si ctrl est un contrôle global.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">isglobal</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="c1"># contrôles globaux (avec roll over)</span>
+        <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="p">[</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;menu&quot;</span><span class="p">],</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;quitter&quot;</span><span class="p">],</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;aide&quot;</span><span class="p">],</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;fullscreen&quot;</span><span class="p">],</span>
+        <span class="p">]:</span>
+            <span class="n">isglobal</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="c1"># txt d&#39;info en rollover :</span>
+            <span class="n">txtover</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">if</span> <span class="n">state</span> <span class="o">==</span> <span class="n">AbstractSwitch</span><span class="o">.</span><span class="n">OVER</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;menu&quot;</span><span class="p">]:</span>
+                    <span class="n">txtover</span> <span class="o">=</span> <span class="s2">&quot;Retour au menu (en quitant la partie en cours).&quot;</span>
+                <span class="k">elif</span> <span class="n">ctrl</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;quitter&quot;</span><span class="p">]:</span>
+                    <span class="n">txtover</span> <span class="o">=</span> <span class="s2">&quot;Quitter le jeu.&quot;</span>
+                <span class="k">elif</span> <span class="n">ctrl</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;aide&quot;</span><span class="p">]:</span>
+                    <span class="n">txtover</span> <span class="o">=</span> <span class="s2">&quot;Afficher les raccourcis clavier.&quot;</span>
+                <span class="k">elif</span> <span class="n">ctrl</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;fullscreen&quot;</span><span class="p">]:</span>
+                    <span class="n">txtover</span> <span class="o">=</span> <span class="s2">&quot;Entrer/sortir du mode plein écran (Ne pas utiliser avec plusieurs moniteurs!).&quot;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_handle_txt_rollover</span><span class="p">(</span><span class="n">txtover</span><span class="p">)</span>
+            <span class="c1"># action transmise à la GUI :</span>
+            <span class="k">if</span> <span class="n">state</span> <span class="o">==</span> <span class="n">AbstractSwitch</span><span class="o">.</span><span class="n">PRESSED</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;menu&quot;</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span><span class="o">.</span><span class="n">ask_goto_menu</span><span class="p">()</span>
+                <span class="k">elif</span> <span class="n">ctrl</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;quitter&quot;</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span><span class="o">.</span><span class="n">ask_quit_game</span><span class="p">()</span>
+                <span class="k">elif</span> <span class="n">ctrl</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;aide&quot;</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">toggle_help</span><span class="p">()</span>
+                <span class="k">elif</span> <span class="n">ctrl</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">btnsdict</span><span class="p">[</span><span class="s2">&quot;fullscreen&quot;</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span><span class="o">.</span><span class="n">ask_fullscreen</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">isglobal</span></div>
+
+    <span class="c1">#-----&gt; Déplacement avec les flèches clavier :</span>
+<div class="viewcode-block" id="ZoneCommand.on_item_added_to_displaylist"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.on_item_added_to_displaylist">[docs]</a>    <span class="k">def</span> <span class="nf">on_item_added_to_displaylist</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée lorsque l&#39;item (via sa hiérarchie parente) est publié par</span>
+<span class="sd">        le root dans la displaylist finale</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># générique :</span>
+        <span class="n">wgt</span><span class="o">.</span><span class="n">Stack</span><span class="o">.</span><span class="n">on_item_added_to_displaylist</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="c1"># events :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">register</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="ZoneCommand.on_item_removed_from_displaylist"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.on_item_removed_from_displaylist">[docs]</a>    <span class="k">def</span> <span class="nf">on_item_removed_from_displaylist</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée lorsque l&#39;item (via sa hiérarchie parente) est dé-publié par</span>
+<span class="sd">        le root de la displaylist finale</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># générique :</span>
+        <span class="n">wgt</span><span class="o">.</span><span class="n">Stack</span><span class="o">.</span><span class="n">on_item_removed_from_displaylist</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="c1"># events :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">unregister</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="ZoneCommand.handle_key_event"><a class="viewcode-back" href="../../../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.handle_key_event">[docs]</a>    <span class="k">def</span> <span class="nf">handle_key_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">customeventtype</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée par le manager d&#39;événements</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            * customeventtype : CustomEventManager.KEY_PRESSED ou </span>
+<span class="sd">                    CustomEventManager.KEY_RELEASED</span>
+<span class="sd">            * event : pygame.KEYDOWN ou pygame.KEYUP</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">customeventtype</span> <span class="o">==</span> <span class="n">evt</span><span class="o">.</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="ow">in</span> <span class="n">evt</span><span class="o">.</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">ARROW_KEYS</span><span class="p">:</span>
+                <span class="c1"># code de direction :</span>
+                <span class="n">codedirect</span> <span class="o">=</span> <span class="kc">None</span>
+                <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_LEFT</span><span class="p">:</span>
+                    <span class="n">codedirect</span> <span class="o">=</span> <span class="n">LabHelper</span><span class="o">.</span><span class="n">CHAR_LEFT</span>
+                <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_RIGHT</span><span class="p">:</span>
+                    <span class="n">codedirect</span> <span class="o">=</span> <span class="n">LabHelper</span><span class="o">.</span><span class="n">CHAR_RIGHT</span>
+                <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_UP</span><span class="p">:</span>
+                    <span class="n">codedirect</span> <span class="o">=</span> <span class="n">LabHelper</span><span class="o">.</span><span class="n">CHAR_TOP</span>
+                <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_DOWN</span><span class="p">:</span>
+                    <span class="n">codedirect</span> <span class="o">=</span> <span class="n">LabHelper</span><span class="o">.</span><span class="n">CHAR_BOTTOM</span>
+                <span class="c1"># commande :</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;cmd&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">LabHelper</span><span class="o">.</span><span class="n">ACTION_MOVE</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;action&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;distance&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;direction&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">codedirect</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;puissance&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;cmd2send&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;action&quot;</span><span class="p">]</span>
+                    <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;direction&quot;</span><span class="p">]</span>
+                    <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">current_cmd</span><span class="p">[</span><span class="s2">&quot;distance&quot;</span><span class="p">]</span>
+                <span class="p">)</span>
+                <span class="c1"># envoi et post traitements</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_send_command</span><span class="p">()</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">post_control_callback</span><span class="p">()</span>
+            <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_ESCAPE</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span><span class="o">.</span><span class="n">ask_escape</span><span class="p">()</span></div></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Gabriel Leroy - novembre 2020 - Licence Art Libre (https://artlibre.org/)
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="http://sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

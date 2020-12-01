@@ -1,0 +1,41 @@
+Case
+====
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. autoclass:: Case
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~Case.x
+      ~Case.y
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~Case.generate_cuid
+      ~Case.get_default_dict
+      ~Case.get_properties_dict
+      ~Case.on_case_added
+      ~Case.parseBool
+      ~Case.parseFloat
+      ~Case.parseInt
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: x
+   .. autoattribute:: y
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: generate_cuid
+   .. automethod:: get_default_dict
+   .. automethod:: get_properties_dict
+   .. automethod:: on_case_added
+   .. automethod:: parseBool
+   .. automethod:: parseFloat
+   .. automethod:: parseInt

@@ -1,0 +1,7 @@
+<map id="inheritancead01caa84c" name="inheritancead01caa84c">
+<area shape="rect" id="node1" href="api/labpyproject.core.pygame.core.BoxModelObject.html#labpyproject.core.pygame.core.BoxModelObject" target="_top" title="**Super classe portant les propriétés et méthodes fondamentales du box model.**" alt="" coords="5,5,131,31"/>
+<area shape="rect" id="node5" href="api/labpyproject.core.pygame.core.VirtualItem.html#labpyproject.core.pygame.core.VirtualItem" target="_top" title="**BoxModelObject supportant les attributs de gestion des z&#45;indexs (couches) ainsi que" alt="" coords="179,5,271,31"/>
+<area shape="rect" id="node2" href="api/labpyproject.apps.labpyrinthe.gui.skinPygame.footer.Footer.html#labpyproject.apps.labpyrinthe.gui.skinPygame.footer.Footer" target="_top" title="Footer de la GUI pygame" alt="" coords="612,5,684,31"/>
+<area shape="rect" id="node3" href="api/labpyproject.core.pygame.widgets.Stack.html#labpyproject.core.pygame.widgets.Stack" target="_top" title="Widget Canvas virtuel." alt="" coords="492,5,564,31"/>
+<area shape="rect" id="node4" href="api/labpyproject.core.pygame.core.VirtualContainer.html#labpyproject.core.pygame.core.VirtualContainer" target="_top" title="**VirtualItem dôté des capacités d&#39;un conteneur :**" alt="" coords="319,5,444,31"/>
+</map>

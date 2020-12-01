@@ -1,0 +1,23 @@
+GUIEventManager
+===============
+
+.. currentmodule:: labpyproject.core.pygame.events
+
+.. autoclass:: GUIEventManager
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~GUIEventManager.handle_events
+      ~GUIEventManager.on_active_event
+      ~GUIEventManager.on_quit_event
+      ~GUIEventManager.on_resize_event
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: handle_events
+   .. automethod:: on_active_event
+   .. automethod:: on_quit_event
+   .. automethod:: on_resize_event

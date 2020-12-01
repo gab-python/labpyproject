@@ -1,0 +1,9 @@
+labpyproject.core.pygame.events
+===============================
+
+.. automodule:: labpyproject.core.pygame.events
+   :exclude-members: operator
+
+.. automodapi:: labpyproject.core.pygame.events
+   :no-heading:
+   :no-main-docstr:
