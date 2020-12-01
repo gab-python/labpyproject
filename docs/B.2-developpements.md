@@ -30,6 +30,6 @@ Par curiosité j’ai analysé le code du projet avec **Sonarqube**, là encore 
   -	du générateur pseudorandom
 L’outil met en évidence les classes les plus difficiles à appréhender (volume et complexité du code).
 
-Enfin, j’ai utilisé [**Sphinx**](https://www.sphinx-doc.org/en/master/) pour générer une documentation html du projet (avec le thème **Read The Docs**). Vous trouverez cette documentation ici : [**documentation du code source**](_code/index.html).
+Enfin, j’ai utilisé [**Sphinx**](https://www.sphinx-doc.org/en/master/) pour générer une documentation html du projet (avec le thème **Read The Docs**). Vous trouverez cette documentation ici : [**documentation du code source**](code/index.html).
 
 Remarque : la documentation n’évoque que les membres publics des classes, sans respecter leur « ordre chronologique » (trie alphabétique forcé par un plugin). Pour une vision complète du code, vous pouvez accéder au code source d’une classe depuis sa page de documentation.
