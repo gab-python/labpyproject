@@ -1,5 +1,0 @@
-<map id="inheritance00cc6fb1d9" name="inheritance00cc6fb1d9">
-<area shape="rect" id="node1" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCarte.html#labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCarte" target="_top" title="Pseudo interface de la zone de publication de la carte." alt="" coords="5,55,151,80"/>
-<area shape="rect" id="node3" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ZoneCarteBase.html#labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ZoneCarteBase" target="_top" title="Zone carte (labyrinthe), équivalent graphique du LabLevel." alt="" coords="199,55,321,80"/>
-<area shape="rect" id="node2" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ItemObjectBase.html#labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ItemObjectBase" target="_top" title="Objet modélisant un item graphique de la carte." alt="" coords="16,5,140,31"/>
-</map>

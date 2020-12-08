@@ -1,5 +1,0 @@
-clientPygame
-============
-
-.. automodule:: labpyproject.apps.labpyrinthe.clientPygame
-   :exclude-members: labpyproject.apps.labpyrinthe

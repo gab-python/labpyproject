@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.GUIConsole
-============================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.GUIConsole
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.GUIConsole
-   :no-heading:
-   :no-main-docstr:

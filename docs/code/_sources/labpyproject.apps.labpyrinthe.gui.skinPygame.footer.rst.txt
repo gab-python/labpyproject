@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinPygame.footer
-===================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.footer
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinPygame.footer
-   :no-heading:
-   :no-main-docstr:

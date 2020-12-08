@@ -1,7 +1,0 @@
-CanvasImage
-===========
-
-.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools
-
-.. autoclass:: CanvasImage
-   :show-inheritance:

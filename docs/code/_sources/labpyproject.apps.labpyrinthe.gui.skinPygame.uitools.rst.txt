@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinPygame.uitools
-====================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.uitools
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinPygame.uitools
-   :no-heading:
-   :no-main-docstr:

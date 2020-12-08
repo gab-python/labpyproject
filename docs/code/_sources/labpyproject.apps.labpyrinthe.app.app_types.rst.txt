@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.app.app\_types
-============================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.app.app_types
-
-.. automodapi:: labpyproject.apps.labpyrinthe.app.app_types
-   :no-heading:
-   :no-main-docstr:

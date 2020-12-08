@@ -1,7 +1,0 @@
-Canvas
-======
-
-.. currentmodule:: labpyproject.core.pygame.widgets
-
-.. autoclass:: Canvas
-   :show-inheritance:

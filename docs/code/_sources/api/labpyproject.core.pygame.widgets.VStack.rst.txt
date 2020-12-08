@@ -1,7 +1,0 @@
-VStack
-======
-
-.. currentmodule:: labpyproject.core.pygame.widgets
-
-.. autoclass:: VStack
-   :show-inheritance:

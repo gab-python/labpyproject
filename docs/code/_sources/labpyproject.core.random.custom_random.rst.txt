@@ -1,8 +1,0 @@
-labpyproject.core.random.custom\_random
-=======================================
-
-.. automodule:: labpyproject.core.random.custom_random
-
-.. automodapi:: labpyproject.core.random.custom_random
-   :no-heading:
-   :no-main-docstr:

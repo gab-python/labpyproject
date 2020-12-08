@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.GUITk
-=======================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.GUITk
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.GUITk
-   :no-heading:
-   :no-main-docstr:

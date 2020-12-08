@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.bus.helpers.lab\_manager
-======================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.bus.helpers.lab_manager
-
-.. automodapi:: labpyproject.apps.labpyrinthe.bus.helpers.lab_manager
-   :no-heading:
-   :no-main-docstr:

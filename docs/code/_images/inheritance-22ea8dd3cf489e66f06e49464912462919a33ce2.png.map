@@ -1,5 +1,0 @@
-<map id="inheritance56f6e929d8" name="inheritance56f6e929d8">
-<area shape="rect" id="node1" href="api/labpyproject.core.queue.queue_tools.QueueManager.html#labpyproject.core.queue.queue_tools.QueueManager" target="_top" title="Gestionnaire de Queue partagé dans toute l&#39;application. " alt="" coords="17,104,137,129"/>
-<area shape="rect" id="node2" href="api/labpyproject.core.queue.queue_tools.QueueSimpleClient.html#labpyproject.core.queue.queue_tools.QueueSimpleClient" target="_top" title="Client du manager de queue utilisant deux piles de tâches (entrantes, sortantes)." alt="" coords="5,55,149,80"/>
-<area shape="rect" id="node3" href="api/labpyproject.core.queue.queue_tools.QueueSwitcher.html#labpyproject.core.queue.queue_tools.QueueSwitcher" target="_top" title="Aiguilleur de tâches (queues) multi canaux." alt="" coords="18,5,137,31"/>
-</map>

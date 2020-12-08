@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinBase.skin\_base
-=====================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinBase.skin_base
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinBase.skin_base
-   :no-heading:
-   :no-main-docstr:

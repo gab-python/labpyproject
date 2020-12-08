@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinTkinter.zone\_command
-===========================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command
-   :no-heading:
-   :no-main-docstr:

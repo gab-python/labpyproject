@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinTkinter.header
-====================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.header
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinTkinter.header
-   :no-heading:
-   :no-main-docstr:

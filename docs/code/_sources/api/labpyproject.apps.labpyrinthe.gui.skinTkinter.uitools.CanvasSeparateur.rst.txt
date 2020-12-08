@@ -1,7 +1,0 @@
-CanvasSeparateur
-================
-
-.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools
-
-.. autoclass:: CanvasSeparateur
-   :show-inheritance:

@@ -1,6 +1,0 @@
-<map id="inheritance4a6c7a873f" name="inheritance4a6c7a873f">
-<area shape="rect" id="node1" href="api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataObject.html#labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataObject" target="_top" title="Données associée à une case pouvant constituer une cible lors du calcul" alt="" coords="5,153,149,179"/>
-<area shape="rect" id="node2" href="api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataSet.html#labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataSet" target="_top" title="Conteneur des données utilisées pour le calcul automatique d&#39;un coup à jouer" alt="" coords="15,104,140,129"/>
-<area shape="rect" id="node3" href="api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleSearch.html#labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleSearch" target="_top" title="Contexte de définition d&#39;un coup." alt="" coords="19,55,136,80"/>
-<area shape="rect" id="node4" href="api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.PseudoActions.html#labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.PseudoActions" target="_top" title="Objet modélisant une liste de pseudos actions définies par les méthodes de" alt="" coords="19,5,135,31"/>
-</map>

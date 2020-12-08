@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.bus.helpers.lab\_parser
-=====================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.bus.helpers.lab_parser
-
-.. automodapi:: labpyproject.apps.labpyrinthe.bus.helpers.lab_parser
-   :no-heading:
-   :no-main-docstr:

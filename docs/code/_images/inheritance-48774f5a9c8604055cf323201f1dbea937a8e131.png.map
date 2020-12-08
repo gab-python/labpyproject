@@ -1,7 +1,0 @@
-<map id="inheritanced127ce427b" name="inheritanced127ce427b">
-<area shape="rect" id="node1" href="api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton" target="_top" title="Implémentation basique d&#39;un bouton." alt="" coords="217,79,364,104"/>
-<area shape="rect" id="node2" href="api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl" target="_top" title="Classe de base d&#39;un contrôle utilisateur (bouton, entry)." alt="" coords="12,104,163,129"/>
-<area shape="rect" id="node3" href="api/labpyproject.core.pygame.events.CustomBaseInput.html#labpyproject.core.pygame.events.CustomBaseInput" target="_top" title="Implémentation basique d&#39;un input text." alt="" coords="223,128,359,153"/>
-<area shape="rect" id="node4" href="api/labpyproject.core.pygame.events.CustomEventManager.html#labpyproject.core.pygame.events.CustomEventManager" target="_top" title="Gestionnaire d&#39;événements utilisé par composition par la GUI." alt="" coords="5,55,169,80"/>
-<area shape="rect" id="node5" href="api/labpyproject.core.pygame.events.GUIEventManager.html#labpyproject.core.pygame.events.GUIEventManager" target="_top" title="&quot;Interface&quot; de la GUI utilisant par composition CustomEventManager." alt="" coords="19,5,156,31"/>
-</map>

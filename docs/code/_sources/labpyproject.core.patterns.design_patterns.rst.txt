@@ -1,8 +1,0 @@
-labpyproject.core.patterns.design\_patterns
-===========================================
-
-.. automodule:: labpyproject.core.patterns.design_patterns
-
-.. automodapi:: labpyproject.core.patterns.design_patterns
-   :no-heading:
-   :no-main-docstr:

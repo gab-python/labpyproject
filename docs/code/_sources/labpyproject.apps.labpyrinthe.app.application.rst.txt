@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.app.application
-=============================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.app.application
-   
-.. automodapi:: labpyproject.apps.labpyrinthe.app.application
-   :no-heading:
-   :no-main-docstr:

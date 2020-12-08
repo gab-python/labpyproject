@@ -1,5 +1,0 @@
-standaloneConsole
-=================
-
-.. automodule:: labpyproject.apps.labpyrinthe.standaloneConsole
-   :exclude-members: labpyproject.apps.labpyrinthe

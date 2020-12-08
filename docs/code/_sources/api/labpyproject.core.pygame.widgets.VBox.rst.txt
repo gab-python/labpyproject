@@ -1,7 +1,0 @@
-VBox
-====
-
-.. currentmodule:: labpyproject.core.pygame.widgets
-
-.. autoclass:: VBox
-   :show-inheritance:

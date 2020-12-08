@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinBase.zone\_carte\_base
-============================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base
-   :no-heading:
-   :no-main-docstr:

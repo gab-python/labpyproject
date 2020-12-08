@@ -1,5 +1,0 @@
-standalonePygame
-================
-
-.. automodule:: labpyproject.apps.labpyrinthe.standalonePygame
-   :exclude-members: labpyproject.apps.labpyrinthe

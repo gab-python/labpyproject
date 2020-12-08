@@ -1,6 +1,0 @@
-load_text_file
-==============
-
-.. currentmodule:: labpyproject.core.io.custom_IO
-
-.. autofunction:: load_text_file

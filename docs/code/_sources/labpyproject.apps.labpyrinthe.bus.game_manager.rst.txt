@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.bus.game\_manager
-===============================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.bus.game_manager
-
-.. automodapi:: labpyproject.apps.labpyrinthe.bus.game_manager
-   :no-heading:
-   :no-main-docstr:

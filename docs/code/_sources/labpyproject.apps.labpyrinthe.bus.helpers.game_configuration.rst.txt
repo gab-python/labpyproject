@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.bus.helpers.game\_configuration
-=============================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.bus.helpers.game_configuration
-
-.. automodapi:: labpyproject.apps.labpyrinthe.bus.helpers.game_configuration
-   :no-heading:
-   :no-main-docstr:

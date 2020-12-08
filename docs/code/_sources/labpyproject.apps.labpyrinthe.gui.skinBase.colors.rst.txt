@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinBase.colors
-=================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinBase.colors
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinBase.colors
-   :no-heading:
-   :no-main-docstr:

@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.bus.helpers.lab\_generator
-========================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.bus.helpers.lab_generator
-
-.. automodapi:: labpyproject.apps.labpyrinthe.bus.helpers.lab_generator
-   :no-heading:
-   :no-main-docstr:

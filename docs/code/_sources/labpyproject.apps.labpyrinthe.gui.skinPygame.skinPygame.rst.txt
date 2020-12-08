@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame
-=======================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame
-   :no-heading:
-   :no-main-docstr:

@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinPygame.zone\_bots
-=======================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots
-   :no-heading:
-   :no-main-docstr:

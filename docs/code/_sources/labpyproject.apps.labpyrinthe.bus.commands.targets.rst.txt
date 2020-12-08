@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.bus.commands.targets
-==================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.bus.commands.targets
-
-.. automodapi:: labpyproject.apps.labpyrinthe.bus.commands.targets
-   :no-heading:
-   :no-main-docstr:

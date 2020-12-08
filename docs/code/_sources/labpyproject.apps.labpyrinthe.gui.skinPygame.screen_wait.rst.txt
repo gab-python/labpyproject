@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.gui.skinPygame.screen\_wait
-=========================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait
-
-.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait
-   :no-heading:
-   :no-main-docstr:

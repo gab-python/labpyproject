@@ -1,7 +1,0 @@
-Header
-======
-
-.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.header
-
-.. autoclass:: Header
-   :show-inheritance:

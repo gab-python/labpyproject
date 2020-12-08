@@ -1,4 +1,0 @@
-<map id="inheritance51381e3777" name="inheritance51381e3777">
-<area shape="rect" id="node1" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.SkinBase.html#labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.SkinBase" target="_top" title="Superclasse des skins de LabPyrinthe." alt="" coords="5,5,87,31"/>
-<area shape="rect" id="node2" href="api/labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.SkinPygame.html#labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.SkinPygame" target="_top" title="Implémentation Pygame de SkinBase" alt="" coords="135,5,236,31"/>
-</map>

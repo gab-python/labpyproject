@@ -1,8 +1,0 @@
-labpyproject.apps.labpyrinthe.bus.commands.cmd\_helper
-======================================================
-
-.. automodule:: labpyproject.apps.labpyrinthe.bus.commands.cmd_helper
-
-.. automodapi:: labpyproject.apps.labpyrinthe.bus.commands.cmd_helper
-   :no-heading:
-   :no-main-docstr:

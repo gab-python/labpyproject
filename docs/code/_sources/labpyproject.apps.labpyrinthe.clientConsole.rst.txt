@@ -1,5 +1,0 @@
-clientConsole
-=============
-
-.. automodule:: labpyproject.apps.labpyrinthe.clientConsole
-   :exclude-members: labpyproject.apps.labpyrinthe

@@ -1,6 +1,0 @@
-load_obj_from_file
-==================
-
-.. currentmodule:: labpyproject.core.io.custom_IO
-
-.. autofunction:: load_obj_from_file

@@ -1,7 +1,0 @@
-WText
-=====
-
-.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.uitools
-
-.. autoclass:: WText
-   :show-inheritance:

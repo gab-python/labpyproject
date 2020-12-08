@@ -1,8 +1,0 @@
-labpyproject.core.pygame.core
-=============================
-
-.. automodule:: labpyproject.core.pygame.core
-
-.. automodapi:: labpyproject.core.pygame.core
-   :no-heading:
-   :no-main-docstr:

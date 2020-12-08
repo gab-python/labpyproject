@@ -1,8 +1,0 @@
-labpyproject.core.io.custom\_IO
-===============================
-
-.. automodule:: labpyproject.core.io.custom_IO
-
-.. automodapi:: labpyproject.core.io.custom_IO
-   :no-heading:
-   :no-main-docstr:
