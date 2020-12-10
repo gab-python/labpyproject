@@ -3,7 +3,7 @@
 # labpyproject
 Partage d'expérience autour du développement, de l'optimisation et de la distribution d'un jeu d'arcade en python.
 
-**Branch main**: branche dédiée à la diffusion du code source (la branche **pub** contient les éléments de publication: sites, binaires à distribuer).
+Vous êtes dans la branch **main**: branche dédiée à la diffusion du code source (la branche **pub** contient les éléments de publication: sites, binaires à distribuer).
 
 ## Documentation
 
