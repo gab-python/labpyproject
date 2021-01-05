@@ -1,0 +1,12 @@
+labpyproject.apps.labpyrinthe.bus.model
+=======================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.bus.model
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. toctree::
+
+   core_matrix <labpyproject.apps.labpyrinthe.bus.model.core_matrix>
+   player <labpyproject.apps.labpyrinthe.bus.model.player>

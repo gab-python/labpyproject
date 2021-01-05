@@ -1,0 +1,71 @@
+GambleDataSet
+=============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.commands.gamble_datas
+
+.. autoclass:: GambleDataSet
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~GambleDataSet.FILTER_LT
+      ~GambleDataSet.gamblesearch
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~GambleDataSet.add_GDObj
+      ~GambleDataSet.cache_TargetPath
+      ~GambleDataSet.cache_combinaison_grenade
+      ~GambleDataSet.cache_params_grenade
+      ~GambleDataSet.filter_property_lt
+      ~GambleDataSet.get_GDObj_list_by_dir
+      ~GambleDataSet.get_GD_memory
+      ~GambleDataSet.get_TargetPath_in_cache
+      ~GambleDataSet.get_adversaires_avance
+      ~GambleDataSet.get_combinaison_grenade_in_cache
+      ~GambleDataSet.get_cumul_by_dir
+      ~GambleDataSet.get_filterdict
+      ~GambleDataSet.get_full_GDObj_list
+      ~GambleDataSet.get_list_case
+      ~GambleDataSet.get_params_grenade_in_cache
+      ~GambleDataSet.get_pseudoactions
+      ~GambleDataSet.has_next_pseudoaction
+      ~GambleDataSet.register_cumul_by_dir
+      ~GambleDataSet.register_list_case
+      ~GambleDataSet.register_pseudoactions
+      ~GambleDataSet.set_GD_memory
+      ~GambleDataSet.set_adversaires_avance
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: FILTER_LT
+   .. autoattribute:: gamblesearch
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: add_GDObj
+   .. automethod:: cache_TargetPath
+   .. automethod:: cache_combinaison_grenade
+   .. automethod:: cache_params_grenade
+   .. automethod:: filter_property_lt
+   .. automethod:: get_GDObj_list_by_dir
+   .. automethod:: get_GD_memory
+   .. automethod:: get_TargetPath_in_cache
+   .. automethod:: get_adversaires_avance
+   .. automethod:: get_combinaison_grenade_in_cache
+   .. automethod:: get_cumul_by_dir
+   .. automethod:: get_filterdict
+   .. automethod:: get_full_GDObj_list
+   .. automethod:: get_list_case
+   .. automethod:: get_params_grenade_in_cache
+   .. automethod:: get_pseudoactions
+   .. automethod:: has_next_pseudoaction
+   .. automethod:: register_cumul_by_dir
+   .. automethod:: register_list_case
+   .. automethod:: register_pseudoactions
+   .. automethod:: set_GD_memory
+   .. automethod:: set_adversaires_avance

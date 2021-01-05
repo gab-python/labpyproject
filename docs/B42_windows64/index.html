@@ -1,0 +1,849 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="fr" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YF4SDCZF8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YF4SDCZF8');
+</script>
+
+<!-- begin _includes/seo.html --><title>PROJET &gt; Distribution &gt; 2- Exécutables pour Windows 64 - Documentation du projet labpyproject</title>
+<meta name="description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+  <meta name="author" content="Gabriel Leroy">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Documentation du projet labpyproject">
+<meta property="og:title" content="PROJET &gt; Distribution &gt; 2- Exécutables pour Windows 64">
+<meta property="og:url" content="http://localhost:4000/labpyproject/B42_windows64/">
+
+
+  <meta property="og:description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/labpyproject/assets/images/fond_projet_s0008.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/labpyproject/B42_windows64/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Gabriel Leroy",
+      "url": "http://localhost:4000/labpyproject/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/labpyproject/feed.xml" type="application/atom+xml" rel="alternate" title="Documentation du projet labpyproject Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/labpyproject/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/labpyproject/">
+          Documentation du projet labpyproject
+          <span class="site-subtitle">Partage d'expérience autour du développement, de l'optimisation et de la distribution d'un jeu d'arcade en python.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/labpyproject/A_jeu/">LE JEU</a>
+            </li><li class="masthead__menu-item">
+              <a href="/labpyproject/B_projet/">LE PROJET</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/labpyproject/assets/images/fond_projet_s0008.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          PROJET &gt; Distribution &gt; 2- Exécutables pour Windows 64
+
+        
+      </h1>
+      
+        <p class="page__lead">
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/labpyproject/B1_contexte/"><span class="nav__sub-title">Contexte</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B21_introduction/"><span class="nav__sub-title">Développements</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B31_introduction/"><span class="nav__sub-title">Optimisation</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">> Distribution</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/labpyproject/B41_introduction/">1- Introduction</a></li>
+          
+            <li><a href="/labpyproject/B42_windows64/" class="active">2- Exécutables pour Windows (64)</a></li>
+          
+            <li><a href="/labpyproject/B43_ubuntu64/">3- Exécutables pour Ubuntu (64)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B5_credits/"><span class="nav__sub-title">Crédits</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="PROJET &gt; Distribution &gt; 2- Exécutables pour Windows 64">
+    <meta itemprop="description" content="">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Plan</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#21--lhypothèse-nuitka">2.1- L’hypothèse Nuitka</a>
+    <ul>
+      <li><a href="#211--configuration-dédiée">2.1.1- Configuration dédiée</a></li>
+      <li><a href="#212--freeze-nuitka-standard">2.1.2- Freeze Nuitka « standard »</a></li>
+      <li><a href="#213--freeze-nuitka-hinted">2.1.3- Freeze Nuitka « hinted »</a></li>
+      <li><a href="#214--conclusion-à-propos-de-nuitka">2.1.4- Conclusion à propos de Nuitka</a></li>
+    </ul>
+  </li>
+  <li><a href="#22--la-solution-cx_freeze">2.2- La solution cx_Freeze</a>
+    <ul>
+      <li><a href="#221--installation">2.2.1- Installation</a></li>
+      <li><a href="#222--freeze-de-plusieurs-exécutables-avec-cx_freeze">2.2.2- Freeze de plusieurs exécutables avec cx_Freeze</a></li>
+    </ul>
+  </li>
+  <li><a href="#23--création-dun-installeur-pour-windows-avec-inno-setup">2.3- Création d’un installeur pour Windows avec Inno Setup</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="21--lhypothèse-nuitka">2.1- L’hypothèse Nuitka</h2>
+
+<p>Quelques mots de description tirés de la documentation de <a href="https://nuitka.net/"><strong>Nuitka</strong></a>:</p>
+
+<blockquote>
+  <p>Nuitka is a Python compiler written in Python. […]You feed it your Python app, it does a lot of clever things, and spits out an executable or extension module. […]It translates the Python into a C program that then is linked against libpython to execute in the same way as CPython does, in a very compatible way. It is somewhat faster than CPython already, but currently it doesn’t make all the optimizations possible, but a 312% factor on pystone is a good start (number is from version 0.6.0 and Python 2.7), and many times this is not generally achieved yet. —<cite><a href="https://nuitka.net/pages/overview.html">https://nuitka.net/pages/overview.html</a></cite>.</p>
+</blockquote>
+
+<p>Cette alternative à l’interpréteur python peut donc produire des exécutables et ceux-ci pourraient (éventuellement) s’exécuter plus rapidement que dans l’interpréteur standard. Intéressant.</p>
+
+<h3 id="211--configuration-dédiée">2.1.1- Configuration dédiée</h3>
+
+<div class="notice--warning">
+  <h4 class="no_toc">Avertissement:</h4>
+  
+<p>La configuration windows utilisée pour les builds d’OpenBLAS et de Numpy n’est pas compatible avec Nuitka (erreurs scons, powershell introuvable).</p>
+
+</div>
+
+<p>Documentation de Nuitka : <a href="https://nuitka.net/doc/user-manual.html">https://nuitka.net/doc/user-manual.html</a></p>
+
+<p>Sur une seconde machine (Conf_win_2) :</p>
+
+<p><strong>Configuration initiale</strong>: Windows 7 Edition Familiale Premium 64 bits SP1 (avec windows update complet)</p>
+
+<p><strong>Outil de compilation</strong>: 
+Installation de <a href="http://mingw-w64.org/doku.php/start"><strong>MinGW-w64</strong></a> avec l’<a href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download"><strong>installeur standalone</strong></a>.</p>
+
+<p><strong>Outil de cache</strong>: Installation de <a href="https://github.com/ccache"><strong>ccache-standalone</strong></a> depuis le <a href="https://github.com/nagayasu-shinya/ccache-win64"><strong>binaire</strong></a>.</p>
+
+<p><strong>Python</strong>: installation standard de python 3.7.5 avec l’<a href="https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe"><strong>installeur</strong></a>.</p>
+
+<p>Packages supplémentaires :</p>
+<ul>
+  <li>Packages de base :
+    <ul>
+      <li>Setuptools (41.2)</li>
+      <li>Pip (19.2.3)</li>
+    </ul>
+  </li>
+  <li>Dépendances du jeu:
+    <ul>
+      <li>Pillow (6.2.1)</li>
+      <li>Pygame (1.9.6)</li>
+      <li>Wheel Numpy 1.19 + OpenBLAS</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Et enfin Nuitka (0.6.7):</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">pip install -U nuitka
+</span></code></pre></div></div>
+
+<p><strong>Variables d’environnement</strong>:</p>
+
+<p>On crée une <strong>variable utilisateur</strong> pointant sur le compilateur gcc (64 bits dans notre cas):</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">"CC"="C:\\MinGW64\\mingw64\\bin\\gcc.exe"
+</span></code></pre></div></div>
+
+<p><strong>Structure de fichiers</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── …
+    ├── labpyproject
+    │   ├── apps
+    │   ├── core
+    │   └── …
+    └──standalonePygame.py
+</code></pre></div></div>
+<p>On va essayer de créer un exécutable de la version <strong>standalone Pygame</strong> du jeu avec Nuitka.</p>
+
+<h3 id="212--freeze-nuitka-standard">2.1.2- Freeze Nuitka « standard »</h3>
+
+<p>Dans une <strong>invite de commande windows</strong>.</p>
+
+<p><strong>On active le cache</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span><span class="nb">set </span><span class="nv">NUITKA_CCACHE_BINARY</span><span class="o">=</span>C:<span class="se">\c</span>cache<span class="se">\c</span>cache.exe
+</code></pre></div></div>
+<p><strong>On lance le freeze</strong>: voir <a href="http://manpages.ubuntu.com/manpages/trusty/man1/nuitka.1.html">http://manpages.ubuntu.com/manpages/trusty/man1/nuitka.1.html</a> pour la description des paramètres.</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span>python <span class="nt">-m</span> nuitka <span class="nt">--standalone</span> <span class="nt">--mingw64</span> <span class="nt">--windows-disable-console</span> <span class="nt">--experimental</span><span class="o">=</span>use_pefile <span class="nt">--experimental</span><span class="o">=</span>use_pefile_recurse <span class="nt">--experimental</span><span class="o">=</span>use_pefile_fullrecurse <span class="nt">--recurse-all</span> <span class="nt">--recurse-stdlib</span> <span class="nt">--python-flag</span><span class="o">=</span>no_site <span class="nt">--enable-plugin</span><span class="o">=</span><span class="nv">numpy</span><span class="o">=</span>matplotlib <span class="nt">--plugin-enable</span><span class="o">=</span>qt-plugins <span class="nt">--force-dll-dependency-cache-update</span> <span class="nt">--output-dir</span><span class="o">=</span>C:<span class="se">\W</span>orkdir<span class="se">\L</span>abPyProject<span class="se">\d</span>ist C:<span class="se">\W</span>orkdir<span class="se">\L</span>abPyProject<span class="se">\s</span>tandalonePygame.py
+</code></pre></div></div>
+<p>Après un long moment (la machine est ancienne et peu puissante), on obtient le résultat suivant:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── dist
+    │   ├── standalonePygame.build
+    │   └── standalonePygame.dist
+    │       ├── …
+    │       └── standalonePygame.exe
+    └── …
+</code></pre></div></div>
+<p>Le dossier standalonePygame.dist constitue le résultat du freeze. Il contient l’exécutable ainsi que des éléments nécessaires à son exécution :</p>
+<ul>
+  <li>Des fichiers *.pyd</li>
+  <li>De nombreuses dll parmi lesquelles python37.dll</li>
+  <li>Quatre dossiers : lib2to3, numpy, PIL, pygame</li>
+</ul>
+
+<p>Pour que l’application soit complète il faut néanmoins recopier les ressources graphiques (images, fonts) du jeu dans le dossier standalonePygame.dist en conservant leur arborescence, soit:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── …
+    └── dist
+        ├── standalonePygame.build
+        └── standalonePygame.dist
+            ├── …
+            └── labpyproject
+                └── apps
+                    └── labpyrinthe
+                        └── gui
+                            ├── skinBase
+                            │   └── rsc
+                            └── skinPygame
+                                └── rsc
+</code></pre></div></div>
+<p>Notre application est à présent complète. Les tests d’exécution donnent les résultats suivants :</p>
+<ul>
+  <li>L’exécutable produit par Nuitka est moins performant que le script lancé dans l’interpréteur python</li>
+  <li>L’application est portable, elle s’exécute sur la première machine windows (Conf_win_1) utilisée pour le build Numpy + OpenBLAS</li>
+</ul>
+
+<div class="notice--info">
+  <h4 class="no_toc">Quelques remarques:</h4>
+  
+<ul>
+  <li>le dossier standalonePygame.dist pèse 169 Mo, les ressources graphiques représentant moins de 7 Mo</li>
+  <li>standalonePygame.exe pèse 59.8 Mo</li>
+  <li>la dll associée à OpenBLAS est présente sous le nom de ibopenblas.dll et libopenblas.dll les deux pesant chacune 41.3 Mo. Cette duplication semble liée au plugin Numpy de Nuitka.</li>
+</ul>
+
+</div>
+
+<h3 id="213--freeze-nuitka-hinted">2.1.3- Freeze Nuitka « hinted »</h3>
+
+<p>Nuitka offre une seconde approche optimisée pour la production d’exécutables. Via une démarche en deux passes, on obtient plus rapidement un résultat plus compact : <a href="https://github.com/Nuitka/NUITKA-Utilities/tree/master/hinted-compilation">https://github.com/Nuitka/NUITKA-Utilities/tree/master/hinted-compilation</a>.</p>
+
+<p>On copie les trois scripts du répertoire hinted_compilation dans notre projet :</p>
+
+<p><strong>Structure de fichiers</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── …
+    ├── labpyproject
+    │   ├── apps
+    │   ├── core
+    │   └── …
+    ├── get-hints.py
+    ├── hinted-mods.py
+    ├── nuitka-hints.py
+    └── standalonePygame.py
+</code></pre></div></div>
+
+<p><strong>Première passe</strong>:</p>
+
+<p>Dans une <strong>invite de commande windows</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span><span class="nb">cd </span>c:<span class="se">\W</span>orkdir<span class="se">\L</span>abPyProject
+<span class="gp">&gt;</span><span class="w"> </span>python get-hints.py standalonePygame.py
+</code></pre></div></div>
+<p>Cette première étape crée le fichier standalonePygame-37-win32-64.json dans le dossier LabPyProject.</p>
+
+<p><strong>Deuxième passe</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span><span class="nb">cd </span>c:<span class="se">\W</span>orkdir<span class="se">\L</span>abPyProject
+<span class="gp">&gt;</span><span class="w"> </span>python nuitka-hints.py <span class="nt">--windows-disable-console</span> –outputdir<span class="o">=</span> C:<span class="se">\W</span>orkdir<span class="se">\L</span>abPyProject<span class="se">\d</span>ist2 standalonePygame.py
+</code></pre></div></div>
+<p>Après 18 mn seulement de traitements on obtient :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── dist2
+    │   ├── standalonePygame.build
+    │   └── standalonePygame.dist2
+    │       ├── …
+    │       └── standalonePygame.exe
+    └── …
+</code></pre></div></div>
+<p>Comme précédemment, on complète standalonePygame.dist2 avec les ressources graphiques nécessaires.</p>
+
+<p>Les tests d’exécution sont similaires à ceux de la version standard (moins performants que dans l’interpréteur python).</p>
+
+<p>Outre la durée de compilation bien plus brève, les différences résident dans une légère diminution du poids :</p>
+<ul>
+  <li>à présent standalonePygame.dist2 pèse 150 Mo</li>
+  <li>standalonePygame.exe pèse lui 35 Mo</li>
+</ul>
+
+<h3 id="214--conclusion-à-propos-de-nuitka">2.1.4- Conclusion à propos de Nuitka</h3>
+
+<p>Les concepteurs de Nuitka indiquent que leur outil peut optimiser certaines constructions python lors de la compilation. A l’évidence, le code de labpyproject ne fait pas partie des formes les plus favorables.</p>
+
+<p>Si on ne retient pas cet outil pour la distribution de ce projet, Nuitka n’en demeure pas moins un projet prometteur qui n’est pas arrivé encore au terme de ses développements (milestone 2 sur 6 cf <a href="https://nuitka.net/pages/overview.html">https://nuitka.net/pages/overview.html</a>).</p>
+
+<h2 id="22--la-solution-cx_freeze">2.2- La solution cx_Freeze</h2>
+
+<h3 id="221--installation">2.2.1- Installation</h3>
+
+<p>Sur la machine Conf_win_1 (ayant servi à compiler Numpy+OpenBLAS), dans notre installation standard de python 3.7.5 disposant des packages :</p>
+<ul>
+  <li>Packages de base :
+    <ul>
+      <li>Setuptools (42.0.2)</li>
+      <li>Pip (19.3.1)</li>
+      <li>Wheel (0.33.6)</li>
+      <li>Cython (0.29.14)</li>
+    </ul>
+  </li>
+  <li>Dépendances du jeu:
+    <ul>
+      <li>Pillow (6.2.1)</li>
+      <li>Pygame (1.9.6)</li>
+      <li>Wheel Numpy 1.19 + OpenBLAS</li>
+    </ul>
+  </li>
+</ul>
+
+<p>On ajoute cx_Freeze via la commande (dans la console python):</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="o">&gt;&gt;</span> pip <span class="nb">install </span>cx-Freeze
+</code></pre></div></div>
+
+<h3 id="222--freeze-de-plusieurs-exécutables-avec-cx_freeze">2.2.2- Freeze de plusieurs exécutables avec cx_Freeze</h3>
+
+<p>Cx_Freeze permet de générer plusieurs exécutables très légers en une seule opération. Nous allons créer des exécutables pour la version standalone du jeu (pyGame), la version client (pyGame) et la version serveur (console).</p>
+
+<p><strong>La structure de fichiers est la suivante</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── …
+    ├── labpyproject
+    │   ├── apps
+    │   ├── core
+    │   └── …
+    ├── dist
+    │   └── pc
+    │       └── cxf 
+    ├── clientPygame.py
+    ├── labpy_ico0001.ico
+    ├── serverConsole.py
+    ├── setup_cxf_pc.py
+    ├── standalonePygame.py
+    └── tcp_config.txt
+</code></pre></div></div>
+<p>La <strong>configuration du freeze</strong> se fait dans le fichier <strong>setup_cxf_pc.py</strong> (pour setup cx_Freeze sur pc), dont le contenu est le suivant:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# Python 3
+</span><span class="s">"""
+Setup CX_freeze pour windows
+"""</span>
+<span class="kn">import</span> <span class="nn">sys</span><span class="p">,</span> <span class="n">os</span><span class="p">,</span> <span class="n">glob</span>
+<span class="kn">from</span> <span class="nn">cx_Freeze</span> <span class="kn">import</span> <span class="n">setup</span><span class="p">,</span> <span class="n">Executable</span>
+<span class="c1"># 1- Ressources à inclure
+</span><span class="n">root</span> <span class="o">=</span> <span class="s">""</span>
+<span class="n">root_gui</span> <span class="o">=</span> <span class="n">root</span> <span class="o">+</span> <span class="s">"labpyproject</span><span class="se">\\</span><span class="s">apps</span><span class="se">\\</span><span class="s">labpyrinthe</span><span class="se">\\</span><span class="s">gui</span><span class="se">\\</span><span class="s">"</span>
+<span class="n">datas_dir_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+<span class="c1"># dirs de png :
+</span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">glob</span><span class="p">.</span><span class="n">glob</span><span class="p">(</span><span class="n">root_gui</span> <span class="o">+</span> <span class="s">"**</span><span class="se">\\</span><span class="s">*.png"</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+    <span class="n">relpath</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">root</span><span class="p">)</span>
+    <span class="n">reldir</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">relpath</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">reldir</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">datas_dir_list</span><span class="p">:</span>
+        <span class="n">datas_dir_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">reldir</span><span class="p">)</span>
+<span class="c1"># dirs de fonts :
+</span><span class="n">ttf_root</span> <span class="o">=</span> <span class="n">root_gui</span> <span class="o">+</span> <span class="s">"skinPygame</span><span class="se">\\</span><span class="s">rsc</span><span class="se">\\</span><span class="s">fonts</span><span class="se">\\</span><span class="s">"</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">glob</span><span class="p">.</span><span class="n">glob</span><span class="p">(</span><span class="n">ttf_root</span> <span class="o">+</span> <span class="s">"**</span><span class="se">\\</span><span class="s">*.ttf"</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+    <span class="n">relpath</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">root</span><span class="p">)</span>
+    <span class="n">reldir</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">relpath</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">reldir</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">datas_dir_list</span><span class="p">:</span>
+        <span class="n">datas_dir_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">reldir</span><span class="p">)</span>
+<span class="c1"># création de la liste de tupples décrivant les dirs de ressources à inclure
+</span><span class="n">datas_files</span> <span class="o">=</span> <span class="p">[(</span><span class="n">r</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">datas_dir_list</span><span class="p">]</span>
+<span class="c1"># ajout du .txt de config reseau
+</span><span class="n">datas_files</span><span class="p">.</span><span class="n">append</span><span class="p">((</span><span class="s">"tcp_config.txt"</span><span class="p">,</span> <span class="s">"tcp_config.txt"</span><span class="p">))</span>
+<span class="c1"># 2- options
+</span><span class="n">options</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+		<span class="n">zip_include_packages</span><span class="o">=</span><span class="p">[</span><span class="s">"*"</span><span class="p">],</span>
+		<span class="n">zip_exclude_packages</span><span class="o">=</span><span class="p">[],</span>
+		<span class="n">include_files</span> <span class="o">=</span> <span class="n">datas_files</span><span class="p">,</span>
+		<span class="n">include_msvcr</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
+		<span class="n">optimize</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+		<span class="n">excludes</span> <span class="o">=</span> <span class="p">[</span><span class="s">"atomicwrites"</span><span class="p">,</span>
+		            <span class="s">"curses"</span><span class="p">,</span>
+		            <span class="s">"email"</span><span class="p">,</span>
+		            <span class="s">"html"</span><span class="p">,</span>
+		            <span class="s">"http"</span><span class="p">,</span>
+		            <span class="s">"json"</span><span class="p">,</span>
+		            <span class="s">"multiprocessing"</span><span class="p">,</span>
+		            <span class="s">"pluggy"</span><span class="p">,</span>
+		            <span class="s">"pydoc_data"</span><span class="p">,</span>
+		            <span class="s">"tkinter.tk.demos"</span><span class="p">,</span>
+		            <span class="s">"tkinter.tk.images"</span><span class="p">,</span>
+		            <span class="p">],</span>
+		        <span class="p">)</span>
+<span class="c1"># 3- exe à générer
+</span><span class="n">ex_std</span> <span class="o">=</span> <span class="n">Executable</span><span class="p">(</span>
+    <span class="n">script</span><span class="o">=</span><span class="s">"standalonePygame.py"</span><span class="p">,</span>
+    <span class="n">base</span><span class="o">=</span><span class="s">'Win32GUI'</span><span class="p">,</span>
+    <span class="n">icon</span><span class="o">=</span><span class="s">"labpy_ico0001.ico"</span>
+    <span class="p">)</span>
+ <span class="n">ex_clt</span> <span class="o">=</span> <span class="n">Executable</span><span class="p">(</span>
+    <span class="n">script</span><span class="o">=</span><span class="s">"clientPygame.py"</span><span class="p">,</span>
+    <span class="n">base</span><span class="o">=</span><span class="s">'Win32GUI'</span><span class="p">,</span>
+    <span class="n">icon</span><span class="o">=</span><span class="s">"labpy_ico0001.ico"</span>
+    <span class="p">)</span>
+<span class="n">ex_svr</span> <span class="o">=</span> <span class="n">Executable</span><span class="p">(</span>
+    <span class="n">script</span><span class="o">=</span><span class="s">"serverConsole.py"</span><span class="p">,</span>
+    <span class="n">base</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+    <span class="n">icon</span><span class="o">=</span><span class="s">"labpy_ico0001.ico"</span>
+    <span class="p">)</span>
+<span class="c1"># 4- setup
+</span><span class="n">setup</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'LabPyrinthe'</span><span class="p">,</span>
+      <span class="n">version</span> <span class="o">=</span> <span class="s">'1.0'</span><span class="p">,</span>
+      <span class="n">description</span> <span class="o">=</span> <span class="s">'Python arcade maze game'</span><span class="p">,</span>
+      <span class="n">author</span><span class="o">=</span><span class="s">"Gabriel Leroy"</span><span class="p">,</span>
+      <span class="n">options</span><span class="o">=</span><span class="p">{</span><span class="s">"build_exe"</span><span class="p">:</span> <span class="n">options</span><span class="p">},</span>
+      <span class="n">executables</span><span class="o">=</span><span class="p">[</span><span class="n">ex_std</span><span class="p">,</span> <span class="n">ex_clt</span><span class="p">,</span> <span class="n">ex_svr</span><span class="p">])</span>
+</code></pre></div></div>
+<p>Ce fichier de configuration comprend 4 parties :</p>
+
+<ol>
+  <li><strong>Recherche des ressources à inclure (png, ttf, txt)</strong>. 
+On utilise le package glob pour reconstituer l’arborescence des ressources (graphiques ou de configuration). Etape que l’on faisait manuellement avec Nuitka (mais qui aurait pu être automatisée).</li>
+  <li><strong>Options du freeze</strong>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">zip_include_packages=["*"]</code> permet de diviser par 2 le poids du dossier généré.</li>
+      <li><code class="language-plaintext highlighter-rouge">include_files = datas_files</code>: inclusion des ressources recherchées au point 1</li>
+      <li><code class="language-plaintext highlighter-rouge">excludes = […]</code>: ne génère qu’un gain faible (entre 1 et 2 Mo)</li>
+    </ul>
+  </li>
+  <li><strong>Exécutables à créer</strong>. 
+Création de trois objets Executable pour nos 3 applications à freezer. Les applications pygame ont pour base Win32GUI, l’application serveur exécutée en console a elle pour base None.</li>
+  <li><strong>Finalisation de la configuration</strong> (fonction <code class="language-plaintext highlighter-rouge">setup</code>) ajoutant quelques métadonnées.</li>
+</ol>
+
+<p>Il ne reste plus qu’à lancer la <strong>compilation</strong> dans une console windows:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span><span class="nb">cd </span>C:<span class="se">\W</span>orkdir<span class="se">\L</span>abPyProject
+<span class="gp">&gt;</span><span class="w"> </span>python setup_cxf_pc.py build <span class="nt">-b</span> dist/pc/cxf
+</code></pre></div></div>
+<p>L’option –b permet d’indiquer le répertoire de destination du freeze, dont le résultat est:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── …
+    └── dist
+        └── pc
+            └── cxf
+                └── exe.win-amd64-3.7
+                    ├── labpyproject
+                    ├── lib
+                    ├── clientPygame.exe
+                    ├── python37.dll
+                    ├── serverConsole.exe
+                    ├── standalonePygame.exe
+                    └── tcp_config.txt
+</code></pre></div></div>
+<p>Le dossier exe.win-amd64-3.7 constitue le contenu que nous souhaitons diffuser, avec:</p>
+<ul>
+  <li>labpyproject : dossier contenant l’arborescence de ressources graphiques</li>
+  <li>lib : dépendances constituées d’un dossier tkinter, de fichiers *.pyd, d’une archive library.zip et de dlls dont libopenblas.dll.</li>
+  <li>les trois exe pèsent de 28 à 31 ko, ils n’embarquent pas la dll python ni aucune autre dépendance.</li>
+</ul>
+
+<p>Le dossier pèse 93.6 Mo.</p>
+
+<p>Les exécutables fonctionnent de manière plus fluide que dans l’interpréteur python. Ils sont portables sur une autre machine de même architecture (windows 64 bits) et n’alarment pas l’antivirus. <strong>Nous avons trouvé notre solution de freeze</strong>.</p>
+
+<h2 id="23--création-dun-installeur-pour-windows-avec-inno-setup">2.3- Création d’un installeur pour Windows avec Inno Setup</h2>
+
+<p>Pour que notre application soit très simple à installer et désinstaller, nous allons utiliser le logiciel libre <a href="https://jrsoftware.org/isinfo.php"><strong>Inno Setup</strong></a>.</p>
+
+<p><strong>Installation </strong>:</p>
+
+<p>Installer la dernière version stable proposée dans <a href="https://jrsoftware.org/isdl.php">https://jrsoftware.org/isdl.php</a>.</p>
+
+<p><strong>Structure de fichiers</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── …
+    ├── labpyrinthe_innosetup_win64.iss
+    ├── labpy_ico0001.ico
+    └── dist
+        └── pc
+            ├── cxf
+            │   └── exe.win-amd64-3.7
+            │       ├── labpyproject
+            │       ├── lib
+            │       ├── clientPygame.exe
+            │       ├── python37.dll
+            │       ├── serverConsole.exe
+            │       ├── standalonePygame.exe
+            │       └── tcp_config.txt
+            └── innosetup
+</code></pre></div></div>
+
+<p><strong>Configuration</strong>:</p>
+
+<p>A l’aide du <strong>wizard</strong> d’Inno Setup on crée le script labpyrinthe_innosetup_win64.iss que l’on particularise:</p>
+
+<div class="language-pascal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">;</span> <span class="n">Script</span> <span class="n">generated</span> <span class="n">by</span> <span class="n">the</span> <span class="n">Inno</span> <span class="n">Setup</span> <span class="n">Script</span> <span class="n">Wizard</span><span class="p">.</span>
+<span class="p">;</span> <span class="n">SEE</span> <span class="n">THE</span> <span class="n">DOCUMENTATION</span> <span class="k">FOR</span> <span class="n">DETAILS</span> <span class="k">ON</span> <span class="n">CREATING</span> <span class="n">INNO</span> <span class="n">SETUP</span> <span class="n">SCRIPT</span> <span class="n">FILES</span><span class="p">!</span>
+<span class="p">[</span><span class="n">Setup</span><span class="p">]</span>
+<span class="p">;</span> <span class="n">NOTE</span><span class="p">:</span> <span class="n">The</span> <span class="k">value</span> <span class="k">of</span> <span class="n">AppId</span> <span class="n">uniquely</span> <span class="n">identifies</span> <span class="n">this</span> <span class="n">application</span><span class="p">.</span> <span class="k">Do</span> <span class="k">not</span> <span class="n">use</span> <span class="n">the</span> <span class="n">same</span> <span class="n">AppId</span> <span class="k">value</span> <span class="k">in</span> <span class="n">installers</span> <span class="k">for</span> <span class="n">other</span> <span class="n">applications</span><span class="p">.</span>
+<span class="p">;</span> <span class="p">(</span><span class="k">To</span> <span class="n">generate</span> <span class="n">a</span> <span class="n">new</span> <span class="n">GUID</span><span class="p">,</span> <span class="n">click</span> <span class="n">Tools</span> <span class="p">|</span> <span class="n">Generate</span> <span class="n">GUID</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">IDE</span><span class="p">.)</span>
+<span class="n">AppId</span><span class="p">=</span><span class="cm">{7BA5F406-11D0-46ED-8D1D-54BA57871248}</span>
+<span class="n">AppName</span><span class="p">=</span><span class="n">LabPyrinthe</span>
+<span class="n">AppVersion</span><span class="p">=</span><span class="m">1.0</span>
+<span class="p">;</span><span class="n">AppVerName</span><span class="p">=</span><span class="n">LabPyrinthe</span> <span class="m">1.0</span>
+<span class="n">AppPublisher</span><span class="p">=</span><span class="n">Gabriel</span> <span class="n">Leroy</span>
+<span class="n">AppPublisherURL</span><span class="p">=</span><span class="n">https</span><span class="p">:</span><span class="c1">//github.com/gab-python/labpyproject
+</span><span class="n">AppSupportURL</span><span class="p">=</span><span class="n">https</span><span class="p">:</span><span class="c1">//github.com/gab-python/labpyproject
+</span><span class="n">AppUpdatesURL</span><span class="p">=</span><span class="n">https</span><span class="p">:</span><span class="c1">//github.com/gab-python/labpyproject
+</span><span class="n">DefaultDirName</span><span class="p">=</span><span class="cm">{autopf}</span><span class="p">\</span><span class="n">LabPyrinthe</span>
+<span class="n">DisableDirPage</span><span class="p">=</span><span class="n">yes</span>
+<span class="n">DefaultGroupName</span><span class="p">=</span><span class="n">LabPyrinthe</span>
+<span class="n">DisableProgramGroupPage</span><span class="p">=</span><span class="n">yes</span>
+<span class="p">;</span> <span class="n">The</span> <span class="p">[</span><span class="n">Icons</span><span class="p">]</span> <span class="err">"</span><span class="n">quicklaunchicon</span><span class="err">"</span> <span class="n">entry</span> <span class="k">uses</span> <span class="cm">{userappdata}</span> <span class="n">but</span> <span class="n">its</span> <span class="p">[</span><span class="n">Tasks</span><span class="p">]</span> <span class="n">entry</span> <span class="n">has</span> <span class="n">a</span> <span class="n">proper</span> <span class="n">IsAdminInstallMode</span> <span class="n">Check</span><span class="p">.</span>
+<span class="n">UsedUserAreasWarning</span><span class="p">=</span><span class="n">no</span>
+<span class="p">;</span> <span class="n">Uncomment</span> <span class="n">the</span> <span class="n">following</span> <span class="n">line</span> <span class="k">to</span> <span class="n">run</span> <span class="k">in</span> <span class="n">non</span> <span class="n">administrative</span> <span class="n">install</span> <span class="n">mode</span> <span class="p">(</span><span class="n">install</span> <span class="k">for</span> <span class="n">current</span> <span class="n">user</span> <span class="k">only</span><span class="p">.)</span>
+<span class="p">;</span><span class="n">PrivilegesRequired</span><span class="p">=</span><span class="n">lowest</span>
+<span class="n">OutputDir</span><span class="p">=</span><span class="n">C</span><span class="p">:\</span><span class="n">Workdir</span><span class="p">\</span><span class="n">LabPyProject</span><span class="p">\</span><span class="n">dist</span><span class="p">\</span><span class="n">pc</span><span class="p">\</span><span class="n">innosetup</span>
+<span class="n">OutputBaseFilename</span><span class="p">=</span><span class="n">LabPyrinthe_win64_setup</span>
+<span class="n">SetupIconFile</span><span class="p">=</span><span class="n">C</span><span class="p">:\</span><span class="n">Workdir</span><span class="p">\</span><span class="n">LabPyProject</span><span class="p">\</span><span class="n">labpy_ico0001</span><span class="p">.</span><span class="n">ico</span>
+<span class="n">Compression</span><span class="p">=</span><span class="n">lzma</span>
+<span class="n">SolidCompression</span><span class="p">=</span><span class="n">yes</span>
+<span class="n">WizardStyle</span><span class="p">=</span><span class="n">modern</span>
+<span class="p">[</span><span class="n">Languages</span><span class="p">]</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="n">french</span><span class="err">"</span><span class="p">;</span> <span class="n">MessagesFile</span><span class="p">:</span> <span class="err">"</span><span class="n">compiler</span><span class="p">:</span><span class="n">Languages</span><span class="p">\</span><span class="n">French</span><span class="p">.</span><span class="n">isl</span><span class="err">"</span>
+<span class="p">[</span><span class="n">Tasks</span><span class="p">]</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="n">desktopicon</span><span class="err">"</span><span class="p">;</span> <span class="n">Description</span><span class="p">:</span> <span class="err">"</span><span class="cm">{cm:CreateDesktopIcon}</span><span class="err">"</span><span class="p">;</span> <span class="n">GroupDescription</span><span class="p">:</span> <span class="err">"</span><span class="cm">{cm:AdditionalIcons}</span><span class="err">"</span><span class="p">;</span> <span class="n">Flags</span><span class="p">:</span> <span class="n">unchecked</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="n">quicklaunchicon</span><span class="err">"</span><span class="p">;</span> <span class="n">Description</span><span class="p">:</span> <span class="err">"</span><span class="cm">{cm:CreateQuickLaunchIcon}</span><span class="err">"</span><span class="p">;</span> <span class="n">GroupDescription</span><span class="p">:</span> <span class="err">"</span><span class="cm">{cm:AdditionalIcons}</span><span class="err">"</span><span class="p">;</span> <span class="n">Flags</span><span class="p">:</span> <span class="n">unchecked</span><span class="p">;</span> <span class="n">OnlyBelowVersion</span><span class="p">:</span> <span class="m">6.1</span><span class="p">;</span> <span class="n">Check</span><span class="p">:</span> <span class="k">not</span> <span class="n">IsAdminInstallMode</span>
+<span class="p">[</span><span class="n">Files</span><span class="p">]</span>
+<span class="n">Source</span><span class="p">:</span> <span class="err">"</span><span class="n">C</span><span class="p">:\</span><span class="n">Workdir</span><span class="p">\</span><span class="n">LabPyProject</span><span class="p">\</span><span class="n">dist</span><span class="p">\</span><span class="n">pc</span><span class="p">\</span><span class="n">cxf</span><span class="p">\</span><span class="n">exe</span><span class="p">.</span><span class="n">win</span><span class="p">-</span><span class="n">amd64</span><span class="p">-</span><span class="m">3.7</span><span class="p">\</span><span class="n">standalonePygame</span><span class="p">.</span><span class="n">exe</span><span class="err">"</span><span class="p">;</span> <span class="n">DestDir</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="err">"</span><span class="p">;</span> <span class="n">Flags</span><span class="p">:</span> <span class="n">ignoreversion</span>
+<span class="n">Source</span><span class="p">:</span> <span class="err">"</span><span class="n">C</span><span class="p">:\</span><span class="n">Workdir</span><span class="p">\</span><span class="n">LabPyProject</span><span class="p">\</span><span class="n">dist</span><span class="p">\</span><span class="n">pc</span><span class="p">\</span><span class="n">cxf</span><span class="p">\</span><span class="n">exe</span><span class="p">.</span><span class="n">win</span><span class="p">-</span><span class="n">amd64</span><span class="p">-</span><span class="m">3.7</span><span class="p">\*</span><span class="err">"</span><span class="p">;</span> <span class="n">DestDir</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="err">"</span><span class="p">;</span> <span class="n">Flags</span><span class="p">:</span> <span class="n">ignoreversion</span> <span class="n">recursesubdirs</span> <span class="n">createallsubdirs</span>
+<span class="p">;</span> <span class="n">NOTE</span><span class="p">:</span> <span class="n">Don</span><span class="err">'</span><span class="n">t</span> <span class="n">use</span> <span class="err">"</span><span class="n">Flags</span><span class="p">:</span> <span class="n">ignoreversion</span><span class="err">"</span> <span class="k">on</span> <span class="n">any</span> <span class="n">shared</span> <span class="n">system</span> <span class="n">files</span>
+<span class="p">[</span><span class="n">Icons</span><span class="p">]</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="cm">{group}</span><span class="p">\</span><span class="n">LabPyrinthe</span><span class="err">"</span><span class="p">;</span> <span class="n">Filename</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="p">\</span><span class="n">standalonePygame</span><span class="p">.</span><span class="n">exe</span><span class="err">"</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="cm">{group}</span><span class="p">\</span><span class="n">reseau</span><span class="p">\</span><span class="n">LabPyrinthe</span> <span class="n">client</span><span class="err">"</span><span class="p">;</span> <span class="n">Filename</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="p">\</span><span class="n">clientPygame</span><span class="p">.</span><span class="n">exe</span><span class="err">"</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="cm">{group}</span><span class="p">\</span><span class="n">reseau</span><span class="p">\</span><span class="n">LabPyrinthe</span> <span class="n">serveur</span><span class="err">"</span><span class="p">;</span> <span class="n">Filename</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="p">\</span><span class="n">serverConsole</span><span class="p">.</span><span class="n">exe</span><span class="err">"</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="cm">{group}</span><span class="p">\</span><span class="n">reseau</span><span class="p">\</span><span class="n">Config</span><span class="err">"</span><span class="p">;</span> <span class="n">Filename</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="p">\</span><span class="n">tcp_config</span><span class="p">.</span><span class="n">txt</span><span class="err">"</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="cm">{group}</span><span class="p">\</span><span class="cm">{cm:UninstallProgram,LabPyrinthe}</span><span class="err">"</span><span class="p">;</span> <span class="n">Filename</span><span class="p">:</span> <span class="err">"</span><span class="cm">{uninstallexe}</span><span class="err">"</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="cm">{autodesktop}</span><span class="p">\</span><span class="n">LabPyrinthe</span><span class="err">"</span><span class="p">;</span> <span class="n">Filename</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="p">\</span><span class="n">standalonePygame</span><span class="p">.</span><span class="n">exe</span><span class="err">"</span><span class="p">;</span> <span class="n">Tasks</span><span class="p">:</span> <span class="n">desktopicon</span>
+<span class="n">Name</span><span class="p">:</span> <span class="err">"</span><span class="cm">{userappdata}</span><span class="p">\</span><span class="n">Microsoft</span><span class="p">\</span><span class="n">Internet</span> <span class="n">Explorer</span><span class="p">\</span><span class="n">Quick</span> <span class="n">Launch</span><span class="p">\</span><span class="n">LabPyrinthe</span><span class="err">"</span><span class="p">;</span> <span class="n">Filename</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="p">\</span><span class="n">standalonePygame</span><span class="p">.</span><span class="n">exe</span><span class="err">"</span><span class="p">;</span> <span class="n">Tasks</span><span class="p">:</span> <span class="n">quicklaunchicon</span>
+<span class="p">[</span><span class="n">Run</span><span class="p">]</span>
+<span class="n">Filename</span><span class="p">:</span> <span class="err">"</span><span class="cm">{app}</span><span class="p">\</span><span class="n">standalonePygame</span><span class="p">.</span><span class="n">exe</span><span class="err">"</span><span class="p">;</span> <span class="n">Description</span><span class="p">:</span> <span class="err">"</span><span class="cm">{cm:LaunchProgram,LabPyrinthe}</span><span class="err">"</span><span class="p">;</span> <span class="n">Flags</span><span class="p">:</span> <span class="n">nowait</span> <span class="n">postinstall</span> <span class="n">skipifsilent</span>
+</code></pre></div></div>
+<p>On <strong>exécute</strong> ce script dans Inno Setup et on obtient le résultat suivant:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── LabPyProject
+    ├── …
+    └── dist
+        └── pc
+           ├── cxf
+           └── innosetup
+               └── LabPyrinthe_win64_setup.exe
+</code></pre></div></div>
+<p><strong>LabPyrinthe_win64_setup.exe</strong> est notre installeur du projet LabPyrinthe pour windows 64 bits. Il pèse 27.2 Mo (contre 93.6 Mo pour le dossier source généré par cx_Freeze).</p>
+
+<p>Une fois exécuté, il crée l’entrée suivante dans la liste des programmes (sous Windows 7):</p>
+
+<p><img src="/labpyproject/assets/images/pgm_win.png" alt="programmes" class="align-center" /></p>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>Sous Windows 10, le sous dossier reseau n’apparait pas, l’ensemble des raccourcis sont créés à la racine du dossier Labpyrinthe.</p>
+
+</div>
+
+<p>Nous disposons à présent d’un seul fichier à diffuser qui permet d’installer, exécuter et désinstaller très facilement notre application sur Windows 64 bits.</p>
+
+<p><strong>Installeur du jeu Labpyrinthe pour windows 64</strong>: <a href="https://github.com/gab-python/labpyproject/raw/pub/dist/Labpyrinthe/pc/LabPyrinthe_win64_setup.exe" class="btn btn--success">Télécharger</a></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gab-python/labpyproject" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+    <!--
+    <li><a href="/labpyproject/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    -->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 - Gabriel Leroy - Licence GPL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/labpyproject/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

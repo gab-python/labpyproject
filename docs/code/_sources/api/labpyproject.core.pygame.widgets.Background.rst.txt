@@ -1,0 +1,7 @@
+Background
+==========
+
+.. currentmodule:: labpyproject.core.pygame.widgets
+
+.. autoclass:: Background
+   :show-inheritance:

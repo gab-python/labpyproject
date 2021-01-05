@@ -1,0 +1,39 @@
+BotItem
+=======
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots
+
+.. autoclass:: BotItem
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~BotItem.DGR_DY
+      ~BotItem.DGR_HEIGHT
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~BotItem.compute_image_size
+      ~BotItem.create_default_surface
+      ~BotItem.draw_display
+      ~BotItem.get_item_dimensions
+      ~BotItem.get_surface_for_size
+      ~BotItem.highlight
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: DGR_DY
+   .. autoattribute:: DGR_HEIGHT
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: compute_image_size
+   .. automethod:: create_default_surface
+   .. automethod:: draw_display
+   .. automethod:: get_item_dimensions
+   .. automethod:: get_surface_for_size
+   .. automethod:: highlight

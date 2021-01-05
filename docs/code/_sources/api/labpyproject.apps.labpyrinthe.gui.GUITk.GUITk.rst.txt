@@ -1,0 +1,35 @@
+GUITk
+=====
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.GUITk
+
+.. autoclass:: GUITk
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~GUITk.create_interface
+      ~GUITk.on_resize
+      ~GUITk.post_set_configuration
+      ~GUITk.process_task
+      ~GUITk.refresh_view
+      ~GUITk.set_config_content
+      ~GUITk.set_config_game
+      ~GUITk.set_config_menu
+      ~GUITk.set_config_wait
+      ~GUITk.shutdown
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: create_interface
+   .. automethod:: on_resize
+   .. automethod:: post_set_configuration
+   .. automethod:: process_task
+   .. automethod:: refresh_view
+   .. automethod:: set_config_content
+   .. automethod:: set_config_game
+   .. automethod:: set_config_menu
+   .. automethod:: set_config_wait
+   .. automethod:: shutdown

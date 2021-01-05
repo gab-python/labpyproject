@@ -1,0 +1,51 @@
+AppManager
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.app.application
+
+.. autoclass:: AppManager
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~AppManager.APP_CLIENT
+      ~AppManager.APP_SERVER
+      ~AppManager.APP_STANDALONE
+      ~AppManager.GAME_PATH
+      ~AppManager.INTERFACE_CONSOLE
+      ~AppManager.INTERFACE_PYGAME
+      ~AppManager.INTERFACE_TK
+      ~AppManager.default_tcp_address
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~AppManager.allow_new_connections
+      ~AppManager.init_others_components
+      ~AppManager.on_GUI_Ready
+      ~AppManager.on_threads_started
+      ~AppManager.set_GUI_apptype
+      ~AppManager.wait_for_GUI
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: APP_CLIENT
+   .. autoattribute:: APP_SERVER
+   .. autoattribute:: APP_STANDALONE
+   .. autoattribute:: GAME_PATH
+   .. autoattribute:: INTERFACE_CONSOLE
+   .. autoattribute:: INTERFACE_PYGAME
+   .. autoattribute:: INTERFACE_TK
+   .. autoattribute:: default_tcp_address
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: allow_new_connections
+   .. automethod:: init_others_components
+   .. automethod:: on_GUI_Ready
+   .. automethod:: on_threads_started
+   .. automethod:: set_GUI_apptype
+   .. automethod:: wait_for_GUI

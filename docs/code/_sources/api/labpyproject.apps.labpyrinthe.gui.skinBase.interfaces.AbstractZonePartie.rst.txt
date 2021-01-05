@@ -1,0 +1,27 @@
+AbstractZonePartie
+==================
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.interfaces
+
+.. autoclass:: AbstractZonePartie
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~AbstractZonePartie.on_resize_end
+      ~AbstractZonePartie.on_resize_start
+      ~AbstractZonePartie.on_view_changed
+      ~AbstractZonePartie.re_initialise
+      ~AbstractZonePartie.register_partie_state
+      ~AbstractZonePartie.set_state
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: on_resize_end
+   .. automethod:: on_resize_start
+   .. automethod:: on_view_changed
+   .. automethod:: re_initialise
+   .. automethod:: register_partie_state
+   .. automethod:: set_state

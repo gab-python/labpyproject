@@ -1,0 +1,35 @@
+SatelliteCompNoThread
+=====================
+
+.. currentmodule:: labpyproject.core.app.app_components
+
+.. autoclass:: SatelliteCompNoThread
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~SatelliteCompNoThread.clean_delayed_actions
+      ~SatelliteCompNoThread.close_APP
+      ~SatelliteCompNoThread.delay_action
+      ~SatelliteCompNoThread.get_SAT_info
+      ~SatelliteCompNoThread.handleExchangeObject
+      ~SatelliteCompNoThread.handleExchangeObjectType
+      ~SatelliteCompNoThread.handleTask
+      ~SatelliteCompNoThread.handle_APP_info
+      ~SatelliteCompNoThread.sendTask
+      ~SatelliteCompNoThread.shutdown
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: clean_delayed_actions
+   .. automethod:: close_APP
+   .. automethod:: delay_action
+   .. automethod:: get_SAT_info
+   .. automethod:: handleExchangeObject
+   .. automethod:: handleExchangeObjectType
+   .. automethod:: handleTask
+   .. automethod:: handle_APP_info
+   .. automethod:: sendTask
+   .. automethod:: shutdown

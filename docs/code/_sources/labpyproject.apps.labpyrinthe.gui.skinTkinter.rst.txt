@@ -1,0 +1,20 @@
+labpyproject.apps.labpyrinthe.gui.skinTkinter
+=============================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. toctree::
+
+   header <labpyproject.apps.labpyrinthe.gui.skinTkinter.header>
+   screen_wait <labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait>
+   skinTkinter <labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter>
+   uitools <labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools>
+   zone_bots <labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots>
+   zone_carte <labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte>
+   zone_command <labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command>
+   zone_menu <labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu>
+   zone_partie <labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie>

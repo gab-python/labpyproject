@@ -1,0 +1,16 @@
+labpyproject.apps.labpyrinthe.bus
+=================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.bus
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   labpyproject.apps.labpyrinthe.bus.commands
+   labpyproject.apps.labpyrinthe.bus.helpers
+   labpyproject.apps.labpyrinthe.bus.model
+   game_manager <labpyproject.apps.labpyrinthe.bus.game_manager>

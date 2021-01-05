@@ -1,0 +1,51 @@
+Text
+====
+
+.. currentmodule:: labpyproject.core.pygame.widgets
+
+.. autoclass:: Text
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~Text.CENTER_ALIGN
+      ~Text.LEFT_ALIGN
+      ~Text.RIGHT_ALIGN
+      ~Text.fgcolor
+      ~Text.text
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~Text.create_text_surface
+      ~Text.discard_render
+      ~Text.discard_resize
+      ~Text.draw_display
+      ~Text.get_item_dimensions
+      ~Text.post_init_boxmodel
+      ~Text.render_text
+      ~Text.wrap_text_font
+      ~Text.wrap_text_freetype
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: CENTER_ALIGN
+   .. autoattribute:: LEFT_ALIGN
+   .. autoattribute:: RIGHT_ALIGN
+   .. autoattribute:: fgcolor
+   .. autoattribute:: text
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: create_text_surface
+   .. automethod:: discard_render
+   .. automethod:: discard_resize
+   .. automethod:: draw_display
+   .. automethod:: get_item_dimensions
+   .. automethod:: post_init_boxmodel
+   .. automethod:: render_text
+   .. automethod:: wrap_text_font
+   .. automethod:: wrap_text_freetype

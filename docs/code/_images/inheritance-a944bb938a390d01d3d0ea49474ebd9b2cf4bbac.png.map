@@ -1,0 +1,12 @@
+<map id="inheritance2e975044d0" name="inheritance2e975044d0">
+<area shape="rect" id="node1" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie.html#labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie" target="_top" title="Pseudo interface de la zone partie (carte et infos robots)" alt="" coords="271,31,417,56"/>
+<area shape="rect" id="node10" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase.html#labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase" target="_top" title="Ecran partie (carte + infos robots)" alt="" coords="465,31,589,56"/>
+<area shape="rect" id="node2" title="Internal class." alt="" coords="125,5,223,31"/>
+<area shape="rect" id="node5" title="Internal class." alt="" coords="308,80,380,105"/>
+<area shape="rect" id="node3" title="Internal class." alt="" coords="5,5,77,31"/>
+<area shape="rect" id="node4" title="Frame widget which may contain other widgets and can have a 3D border." alt="" coords="491,80,563,105"/>
+<area shape="rect" id="node9" href="api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.ZonePartie.html#labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.ZonePartie" target="_top" title="Ecran partie (carte + infos robots)" alt="" coords="637,56,729,81"/>
+<area shape="rect" id="node6" title="Geometry manager Grid." alt="" coords="138,55,210,80"/>
+<area shape="rect" id="node7" title="Geometry manager Pack." alt="" coords="138,104,210,129"/>
+<area shape="rect" id="node8" title="Geometry manager Place." alt="" coords="138,153,210,179"/>
+</map>

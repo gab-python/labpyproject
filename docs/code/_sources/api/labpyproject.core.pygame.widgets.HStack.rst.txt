@@ -1,0 +1,7 @@
+HStack
+======
+
+.. currentmodule:: labpyproject.core.pygame.widgets
+
+.. autoclass:: HStack
+   :show-inheritance:

@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<url>
+  <loc>https://gab-python.github.io/labpyproject/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/A_jeu/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B_projet/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/A1_installation/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/A2_standalone/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/A3_reseau/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B1_contexte/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B21_introduction/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B31_introduction/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B41_introduction/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B5_credits/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B22_generiques/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B23_specifiques/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/index.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B32_windows64/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B33_ubuntu64/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B42_windows64/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/B43_ubuntu64/</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.queue.queue_tools.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.app.app_components.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.net.custom_TCP.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.pygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.pygame.core.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.pygame.events.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.pygame.widgets.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.app.application.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.game_manager.GameManager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.model.core_matrix.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.CommandManager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.app.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.app.app_types.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.app.app_types.AppTypes.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.app.application.AppManager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.commands.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.CommandHelper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataSet.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataObject.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.PseudoActions.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleSearch.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.helpers.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.ExchangeHelper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.GameConfiguration.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.LabGenerator.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.LabManager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.LabParser.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.model.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabHelper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabLevel.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.Matrice.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.AnimatedLayer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.Case.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseRobot.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseDanger.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseGrenade.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseAnimation.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseBonus.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.model.player.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.bus.model.player.LabPlayer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.bus.game_manager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseNoThread.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseThreaded.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.colors.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.colors.ColorHelper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCarte.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCommand.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneBots.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneMenu.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenContent.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenWait.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractSwitch.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractInput.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.ScreenWaitBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.SkinBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.ZoneBotsBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ZoneCarteBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ItemObjectBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.ZoneCommandBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.ZoneMenuBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinConsole.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.PublicationHelper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.botview.BotView.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.footer.Footer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.header.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.header.Header.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScreenWait.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScaledText.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.SimplePreloader.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.SkinPygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WImage.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WText.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WEntry.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WButton.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.Spacer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.ZoneBots.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotList.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotItem.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneCarte.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ItemObject.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.CaseView.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.BotViewCarte.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneDangerRobot.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.ZoneMenu.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.MenuButton.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.ZonePartie.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.header.Header.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.ScreenWait.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.SkinTkinter.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CustomEntry.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSwitch.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasImage.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSpacer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSeparateur.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.ZoneBots.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ZoneCarte.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ItemObject.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.ZoneCommand.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.ZoneMenu.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.ZonePartie.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.GUIConsole.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.GUIConsole.GUIConsole.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.GUIConsole.ThreadInput.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.GUIPygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.GUIPygame.GUIPygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.gui.GUITk.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.apps.labpyrinthe.gui.GUITk.GUITk.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.clientConsole.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.clientPygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.serverConsole.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.standaloneConsole.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.standalonePygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.apps.labpyrinthe.standaloneTkinter.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.app.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.ThreadableComp.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.APPComp.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.SatelliteExchangeObject.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.AbstractSatelliteComp.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.DelayedAction.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.SatelliteComp.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.SatelliteCompNoThread.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.GUIExchangeObject.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.AbstractGUIComp.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.GUIComp.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.GUICompNoThread.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.NETExchangeObject.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.NETComp.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.app.app_components.BUSINESSComp.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.io.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.io.custom_IO.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.io.custom_IO.get_file_list.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.io.custom_IO.load_obj_from_file.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.io.custom_IO.load_text_file.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.io.custom_IO.save_obj_in_file.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.net.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.net.custom_TCP.CustomTCPServerContainer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.net.custom_TCP.ThreadedTCPServer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.net.custom_TCP.CustomTCPRequestHandler.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.net.custom_TCP.ParseDataError.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.net.custom_TCP.CustomRequestHelper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.net.custom_TCP.CustomTCPThreadedClient.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.patterns.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.patterns.design_patterns.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.patterns.design_patterns.Singleton.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.BoxModelObject.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.MetricValue.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.BoundedMetricValue.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.VirtualItem.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.VirtualContainer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.CustomSprite.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.RealContainer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.RootContainer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.LayerManager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.LayerStack.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.core.LocalLayer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.events.CustomEventManager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.events.GUIEventManager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.events.CustomBaseControl.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.events.CustomBaseInput.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.events.CustomBaseButton.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.Background.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.Image.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.Text.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.Entry.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.TextButton.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.Button.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.Stack.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.HStack.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.VStack.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.Canvas.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.HBox.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.VBox.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.pygame.widgets.Root.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.queue.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.queue.queue_tools.QueueManager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.queue.queue_tools.QueueSimpleClient.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.queue.queue_tools.QueueSwitcher.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.random.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/labpyproject.core.random.custom_random.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/api/labpyproject.core.random.custom_random.CustomRandom.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/search.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/game_manager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/commands/cmd_manager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/app/app_types.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/app/application.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/commands/cmd_helper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/commands/gamble_datas.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/helpers/exchange_helper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/helpers/game_configuration.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/helpers/lab_generator.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/helpers/lab_manager.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/helpers/lab_parser.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/model/core_matrix.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/model/player.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/GUIBase.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/colors.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/interfaces.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/screen_wait_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/skin_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/zone_bots_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/zone_carte_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/zone_command_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/zone_menu_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinBase/zone_partie_base.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinConsole/pub_helper.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/botview.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/footer.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/header.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/screen_wait.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/skinPygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/uitools.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/zone_bots.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/zone_carte.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/zone_command.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/zone_menu.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinPygame/zone_partie.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/header.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/screen_wait.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/skinTkinter.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/uitools.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/zone_bots.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/zone_carte.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/zone_command.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/zone_menu.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/skinTkinter/zone_partie.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/GUIConsole.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/GUIPygame.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/gui/GUITk.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/app/app_components.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/io/custom_IO.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/net/custom_TCP.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/patterns/design_patterns.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/pygame/core.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/pygame/events.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/pygame/widgets.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/queue/queue_tools.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/core/random/custom_random.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/index.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gab-python.github.io/labpyproject/code/_modules/labpyproject/apps/labpyrinthe/bus/commands/targets.html</loc>
+  <lastmod>2020-12-14T14:24:31+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+
+
+</urlset>
+
+

@@ -1,0 +1,659 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="fr" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YF4SDCZF8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YF4SDCZF8');
+</script>
+
+<!-- begin _includes/seo.html --><title>PROJET &gt; Distribution &gt; 3- Exécutables pour Ubuntu 64 - Documentation du projet labpyproject</title>
+<meta name="description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+  <meta name="author" content="Gabriel Leroy">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Documentation du projet labpyproject">
+<meta property="og:title" content="PROJET &gt; Distribution &gt; 3- Exécutables pour Ubuntu 64">
+<meta property="og:url" content="http://localhost:4000/labpyproject/B43_ubuntu64/">
+
+
+  <meta property="og:description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/labpyproject/assets/images/fond_projet_s0008.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/labpyproject/B43_ubuntu64/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Gabriel Leroy",
+      "url": "http://localhost:4000/labpyproject/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/labpyproject/feed.xml" type="application/atom+xml" rel="alternate" title="Documentation du projet labpyproject Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/labpyproject/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/labpyproject/">
+          Documentation du projet labpyproject
+          <span class="site-subtitle">Partage d'expérience autour du développement, de l'optimisation et de la distribution d'un jeu d'arcade en python.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/labpyproject/A_jeu/">LE JEU</a>
+            </li><li class="masthead__menu-item">
+              <a href="/labpyproject/B_projet/">LE PROJET</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/labpyproject/assets/images/fond_projet_s0008.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          PROJET &gt; Distribution &gt; 3- Exécutables pour Ubuntu 64
+
+        
+      </h1>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/labpyproject/B1_contexte/"><span class="nav__sub-title">Contexte</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B21_introduction/"><span class="nav__sub-title">Développements</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B31_introduction/"><span class="nav__sub-title">Optimisation</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">> Distribution</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/labpyproject/B41_introduction/">1- Introduction</a></li>
+          
+            <li><a href="/labpyproject/B42_windows64/">2- Exécutables pour Windows (64)</a></li>
+          
+            <li><a href="/labpyproject/B43_ubuntu64/" class="active">3- Exécutables pour Ubuntu (64)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B5_credits/"><span class="nav__sub-title">Crédits</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="PROJET &gt; Distribution &gt; 3- Exécutables pour Ubuntu 64">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Plan</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#31--freeze-des-applications-sous-ubuntu">3.1- Freeze des applications sous Ubuntu</a>
+    <ul>
+      <li><a href="#311--avertissement-à-propos-du-freeze-sous-conda">3.1.1- Avertissement à propos du freeze sous conda</a></li>
+      <li><a href="#312--installation-de-pyenv">3.1.2- Installation de pyenv</a></li>
+      <li><a href="#313--freeze-de-plusieurs-exécutables-avec-cx_freeze">3.1.3- Freeze de plusieurs exécutables avec cx_Freeze</a></li>
+    </ul>
+  </li>
+  <li><a href="#32--création-dune-archive-auto-extractible-du-freeze">3.2- Création d’une archive auto extractible du freeze</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="31--freeze-des-applications-sous-ubuntu">3.1- Freeze des applications sous Ubuntu</h2>
+
+<p>Notre version d’Ubuntu: Ubuntu 16.04 LTS 64 bits.</p>
+
+<h3 id="311--avertissement-à-propos-du-freeze-sous-conda">3.1.1- Avertissement à propos du freeze sous conda</h3>
+
+<p>Sous Linux j’utilise généralement pour installation python un environnement dédié au projet dans <a href="https://docs.conda.io/projects/conda/en/latest/index.html"><strong>conda</strong></a>. Néanmoins l’utilisation de <strong>cx_Freeze</strong> dans <strong>miniconda3</strong> sur Ubuntu a posé un problème. Si le freeze se déroule correctement, l’exécution de la version standalone du jeu compilée a provoquée l’erreur fatale suivante :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span>./Labpyrinthe
+<span class="go">Traceback (most recent call last):
+  File "/home/user/miniconda3/envs/labpyp/lib/python3.7/site-packages/cx_Freeze/initscripts/__startup__.py", line 40, in run
+    module.run()
+[…]
+</span><span class="gp">  File "/home/user/miniconda3/envs/labpyp/lib/python3.7/site-packages/PIL/Image.py", line 69, in &lt;module&gt;</span><span class="w">
+</span><span class="go">    from . import _imaging as core
+ImportError: libjpeg.so.9: cannot open shared object file: No such file or directory
+</span></code></pre></div></div>
+<p>Cette erreur serait due à l’incapacité pour <strong>Pillow</strong> de retrouver dans conda les librairies avec lesquelles il a été compilé:</p>
+<blockquote>
+  <p>Pillow needs the same version of the libraries as it was built with. So, when it was build against libjpeg.so.9, it’s going to require that in the future. Your best bet is to chose one set of jpeg libraries + dev headers and rebuild pillow against those. Conda makes it a bit more complicated, since they preload some of their libraries and Pillow has some trouble determining that at build time. —<cite><a href="https://github.com/python-pillow/Pillow/issues/1952">https://github.com/python-pillow/Pillow/issues/1952</a></cite>.</p>
+</blockquote>
+
+<p>Pour contourner ce problème nous allons utiliser <a href="https://github.com/pyenv/pyenv"><strong>pyenv</strong></a>.</p>
+
+<h3 id="312--installation-de-pyenv">3.1.2- Installation de pyenv</h3>
+
+<p><strong>Installation des pré requis</strong>: d’après <a href="https://github.com/pyenv/pyenv/wiki/Common-build-problems">https://github.com/pyenv/pyenv/wiki/Common-build-problems</a></p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> make build-essential libssl-dev zlib1g-dev libbz2-dev <span class="se">\</span>
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev <span class="se">\</span>
+xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+</code></pre></div></div>
+
+<p><strong>Installation de pyenv</strong>: d’après <a href="https://github.com/pyenv/pyenv-installer">https://github.com/pyenv/pyenv-installer</a></p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>curl https://pyenv.run | bash
+</code></pre></div></div>
+
+<p><strong>Redémarrage du shell</strong>:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">exec</span> <span class="nv">$SHELL</span>
+</code></pre></div></div>
+
+<p><strong>Mise à jour de .bashrc</strong>:</p>
+
+<p>Ajout des trois lignes suivantes au fichier $HOME/.bashrc :</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.pyenv/bin:</span><span class="nv">$PATH</span><span class="s2">"</span>
+<span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>pyenv init -<span class="si">)</span><span class="s2">"</span>
+<span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>pyenv virtualenv-init -<span class="si">)</span><span class="s2">"</span>
+</code></pre></div></div>
+
+<p><strong>On redémarre le shell</strong> (équivalent à fermer/ouvrir le terminal) et on installe <strong>python 3.7.5</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>pyenv <span class="nb">install </span>3.7.5
+<span class="go">Downloading Python-3.7.5.tar.xz...
+</span><span class="gp">-&gt;</span><span class="w"> </span>https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tar.xz
+<span class="go">Installing Python-3.7.5...
+Installed Python-3.7.5 to /home/user/.pyenv/versions/3.7.5
+</span></code></pre></div></div>
+<p>On affecte cette version de python au dossier contenant notre projet:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">cd</span> /home/user/Documents/Workdir/LabPyProject
+<span class="go">pyenv local 3.7.5
+</span></code></pre></div></div>
+<p>Cette commande a créé un fichier .python-version dans le dossier.</p>
+
+<p><strong>Vérification</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>pyenv versions
+<span class="go">  system
+* 3.7.5 (set by /home/user/Documents/Workdir/LabPyProject/.python-version)
+</span></code></pre></div></div>
+<p>A présent quand on appellera la commande python dans le dossier contenant les sources c’est cette version de python qui sera exécutée.</p>
+
+<p><strong>Configuration des packages python dans pyenv</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>pip <span class="nb">install</span> <span class="nt">--upgrade</span> pip
+</code></pre></div></div>
+<p>Installation de notre wheel Numpy + OpenBLAS :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>pip <span class="nb">install</span> /home/…/numpy-1.19.0.dev0+4787918-cp37-cp37m-linux_x86_64.whl
+</code></pre></div></div>
+<p>Installation des dépendances du jeu :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>pip <span class="nb">install</span> <span class="nt">--force</span> <span class="nv">pillow</span><span class="o">==</span>7.0.0
+<span class="gp">$</span><span class="w"> </span>pip <span class="nb">install </span>pygame
+</code></pre></div></div>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>A partir de la version 7.1 Pillow modifie le dossier d’installation de ses librairies, ce qui cause une erreur d’importation lors de l’exécution du freeze de l’application Labpyrinthe:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">ImportError: libjpeg-ba7bf5af.so.9.4.0: cannot open shared object file: No such file or directory
+</span></code></pre></div></div>
+<p>Référence: <a href="https://github.com/matrix-org/synapse/issues/7208">https://github.com/matrix-org/synapse/issues/7208</a></p>
+
+</div>
+
+<p>Et de cx_Freeze :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>pip <span class="nb">install </span>cx_Freeze
+</code></pre></div></div>
+
+<h3 id="313--freeze-de-plusieurs-exécutables-avec-cx_freeze">3.1.3- Freeze de plusieurs exécutables avec cx_Freeze</h3>
+
+<p>La structure de fichiers est la suivante :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/home/user/Documents/Workdir
+└── LabPyProject
+    ├── …
+    ├── labpyproject
+    │   ├── apps
+    │   ├── core
+    │   └── …
+    ├── dist
+    │   ├── pc
+    │   └── linux
+    │       └── cxf
+    ├── clientPygame.py
+    ├── labpy_ico0001.ico
+    ├── serverConsole.py
+    ├── setup_cxf_linux.py
+    ├── standalonePygame.py
+    └── tcp_config.txt
+</code></pre></div></div>
+<p>La <strong>configuration du freeze</strong> se fait dans le fichier <strong>setup_cxf_linux.py</strong> (pour setup cx_Freeze sur linux), dont le contenu est le suivant:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# Python 3
+</span><span class="s">"""
+Setup CX_freeze pour linux
+"""</span>
+<span class="kn">import</span> <span class="nn">sys</span><span class="p">,</span> <span class="n">os</span><span class="p">,</span> <span class="n">glob</span>
+<span class="kn">from</span> <span class="nn">cx_Freeze</span> <span class="kn">import</span> <span class="n">setup</span><span class="p">,</span> <span class="n">Executable</span>
+<span class="c1"># 1- Ressources à inclure
+</span><span class="n">root</span> <span class="o">=</span> <span class="s">""</span>
+<span class="n">root_gui</span> <span class="o">=</span> <span class="n">root</span> <span class="o">+</span> <span class="s">"labpyproject/apps/labpyrinthe/gui/"</span>
+<span class="n">datas_dir_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+<span class="c1"># dirs de png :
+</span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">glob</span><span class="p">.</span><span class="n">glob</span><span class="p">(</span><span class="n">root_gui</span> <span class="o">+</span> <span class="s">"**/*.png"</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+    <span class="n">relpath</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">root</span><span class="p">)</span>
+    <span class="n">reldir</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">relpath</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">reldir</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">datas_dir_list</span><span class="p">:</span>
+        <span class="n">datas_dir_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">reldir</span><span class="p">)</span>
+<span class="c1"># dirs de fonts :
+</span><span class="n">ttf_root</span> <span class="o">=</span> <span class="n">root_gui</span> <span class="o">+</span> <span class="s">"skinPygame/rsc/fonts/"</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">glob</span><span class="p">.</span><span class="n">glob</span><span class="p">(</span><span class="n">ttf_root</span> <span class="o">+</span> <span class="s">"**/*.ttf"</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+    <span class="n">relpath</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">relpath</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">root</span><span class="p">)</span>
+    <span class="n">reldir</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">relpath</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">reldir</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">datas_dir_list</span><span class="p">:</span>
+        <span class="n">datas_dir_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">reldir</span><span class="p">)</span>
+<span class="c1"># création de la liste de tupples décrivant les dirs de ressources à inclure
+</span><span class="n">datas_files</span> <span class="o">=</span> <span class="p">[(</span><span class="n">r</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">datas_dir_list</span><span class="p">]</span>
+<span class="c1"># ajout du .txt de config reseau
+</span><span class="n">datas_files</span><span class="p">.</span><span class="n">append</span><span class="p">((</span><span class="s">"tcp_config.txt"</span><span class="p">,</span> <span class="s">"tcp_config.txt"</span><span class="p">))</span>
+<span class="c1"># 2- options
+</span><span class="n">options</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+        <span class="n">path</span><span class="o">=</span><span class="n">sys</span><span class="p">.</span><span class="n">path</span><span class="p">,</span>
+        <span class="n">zip_include_packages</span><span class="o">=</span><span class="p">[</span><span class="s">"*"</span><span class="p">],</span>
+        <span class="n">zip_exclude_packages</span><span class="o">=</span><span class="p">[],</span>
+        <span class="n">include_files</span> <span class="o">=</span> <span class="n">datas_files</span><span class="p">,</span>
+        <span class="n">bin_path_includes</span> <span class="o">=</span> <span class="p">[</span><span class="s">"/usr/lib"</span><span class="p">],</span>
+        <span class="n">optimize</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="n">excludes</span> <span class="o">=</span> <span class="p">[</span><span class="s">"atomicwrites"</span><span class="p">,</span>
+                    <span class="s">"curses"</span><span class="p">,</span>
+                    <span class="s">"email"</span><span class="p">,</span>
+                    <span class="s">"html"</span><span class="p">,</span>
+                    <span class="s">"http"</span><span class="p">,</span>
+                    <span class="s">"json"</span><span class="p">,</span>
+                    <span class="s">"multiprocessing"</span><span class="p">,</span>
+                    <span class="s">"pluggy"</span><span class="p">,</span>
+                    <span class="s">"pydoc_data"</span><span class="p">,</span>
+                    <span class="s">"tkinter.tk.demos"</span><span class="p">,</span>
+                    <span class="s">"tkinter.tk.images"</span><span class="p">,</span>
+                    <span class="p">],</span>
+                <span class="p">)</span>
+<span class="c1"># 3- exe à générer
+</span><span class="n">ex_std</span> <span class="o">=</span> <span class="n">Executable</span><span class="p">(</span>
+    <span class="n">script</span><span class="o">=</span><span class="s">"standalonePygame.py"</span><span class="p">,</span>
+    <span class="n">targetName</span><span class="o">=</span><span class="s">"Labpyrinthe"</span><span class="p">,</span>
+    <span class="n">base</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+    <span class="n">icon</span><span class="o">=</span><span class="bp">None</span>
+    <span class="p">)</span>
+<span class="n">ex_clt</span> <span class="o">=</span> <span class="n">Executable</span><span class="p">(</span>
+    <span class="n">script</span><span class="o">=</span><span class="s">"clientPygame.py"</span><span class="p">,</span>
+    <span class="n">targetName</span><span class="o">=</span><span class="s">"Labpyrinthe_client"</span><span class="p">,</span>
+    <span class="n">base</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+    <span class="n">icon</span><span class="o">=</span><span class="bp">None</span>
+    <span class="p">)</span>
+<span class="n">ex_svr</span> <span class="o">=</span> <span class="n">Executable</span><span class="p">(</span>
+    <span class="n">script</span><span class="o">=</span><span class="s">"serverConsole.py"</span><span class="p">,</span>
+    <span class="n">targetName</span><span class="o">=</span><span class="s">"Labpyrinthe_serveur"</span><span class="p">,</span>
+    <span class="n">base</span><span class="o">=</span><span class="s">"Console"</span><span class="p">,</span>
+    <span class="n">icon</span><span class="o">=</span><span class="bp">None</span>
+    <span class="p">)</span>
+<span class="c1"># 4- setup
+</span><span class="n">setup</span><span class="p">(</span>
+    <span class="n">name</span><span class="o">=</span><span class="s">"Labpyrinthe"</span><span class="p">,</span>
+    <span class="n">version</span><span class="o">=</span><span class="s">"1.00"</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s">"Python arcade maze game"</span><span class="p">,</span>
+    <span class="n">author</span><span class="o">=</span><span class="s">"Gabriel Leroy"</span><span class="p">,</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">{</span><span class="s">"build_exe"</span><span class="p">:</span> <span class="n">options</span><span class="p">},</span>
+    <span class="n">executables</span><span class="o">=</span><span class="p">[</span><span class="n">ex_std</span><span class="p">,</span> <span class="n">ex_clt</span><span class="p">,</span> <span class="n">ex_svr</span><span class="p">]</span>
+    <span class="p">)</span>
+</code></pre></div></div>
+<p>La version linux se distingue de la version pc du setup par quelques légères différences :</p>
+<ul>
+  <li>Dans l’expression des paths de la partie1</li>
+  <li>Dans les options path et bin_path_include de la partie2</li>
+  <li>Dans les bases de la partie3</li>
+</ul>
+
+<p>Il ne reste plus qu’à <strong>lancer le freeze</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">cd</span> /home/user/Documents/Workdir/LabPyProject
+<span class="gp">$</span><span class="w"> </span>python setup_cxf_linux.py build <span class="nt">-b</span> dist/linux/cxf
+</code></pre></div></div>
+<p>Le résultat est comparable à celui obtenu sur pc:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/home/user/Documents/Workdir
+└── LabPyProject
+    ├── …
+    └── dist
+        ├── pc
+        └── linux
+            └── cxf
+                └── exe.linux-x86_64-3.7
+                    ├── labpyproject
+                    ├── lib
+                    ├── Labpyrinthe
+                    ├── Labpyrinthe_client
+                    ├── Labpyrinthe_serveur
+                    └── tcp_config.txt
+</code></pre></div></div>
+<p>A la différence de la version pc:</p>
+<ul>
+  <li>le dossier exe.linux-x86_64-3.7 pèse 141.2 Mo (contre 96 Mo sur pc) et ne contient pas de librairie dynamique liée à python à sa racine</li>
+  <li>les exécutables sont plus lourds (3.1 Mo contre 30 ko environ sur pc), ils embarquent probablement l’interpréteur python.</li>
+</ul>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>Le sous dossier lib contient bien une librairie OpenBLAS (libopenblas.so.o de 32 Mo).</p>
+
+</div>
+
+<p>Pour rendre ces applications exécutables, il faut leur accorder les droits d’exécution :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">cd </span>dist/linux/cxf/exe.linux-x86_64-3.7
+<span class="gp">$</span><span class="w"> </span><span class="nb">chmod</span> +x Labpyrinthe
+<span class="gp">$</span><span class="w"> </span><span class="nb">chmod</span> +x Labpyrinthe_client
+<span class="gp">$</span><span class="w"> </span><span class="nb">chmod</span> +x Labpyrinthe_serveur
+</code></pre></div></div>
+<p>Pour que la console de Labpyrinthe_serveur s’affiche il faut également créer dans exe.linux-x86_64-3.7 un fichier texte que l’on nomme serverlauncher.desktop et qui contient les lignes suivantes:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Desktop Entry]
+Exec=/home/user/Documents/Workdir/LabPyProject/dist/linux/cxf/exe.linux-x86_64-3.7/serverConsole
+Name=serverlauncher.desktop
+Terminal=true
+Type=Application
+</code></pre></div></div>
+<p>Référence: <a href="https://stackoverflow.com/questions/23103683/ubuntu-desktop-script-to-open-terminal-navigate-to-a-folder-and-run-compass-wat">https://stackoverflow.com/questions/23103683/ubuntu-desktop-script-to-open-terminal-navigate-to-a-folder-and-run-compass-wat</a></p>
+
+<p>A présent on peut lancer les applications par double clic ou via la commande (exemple pour la version standalone):</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>./Labpyrinthe
+</code></pre></div></div>
+
+<h2 id="32--création-dune-archive-auto-extractible-du-freeze">3.2- Création d’une archive auto extractible du freeze</h2>
+
+<p>Pour obtenir un fichier unique à distribuer j’ai adopté (faute de temps) la solution la plus simple, créer une archive auto extractible du dossier de freeze exe.linux-x86_64-3.7.</p>
+
+<p>Pour cela j’utilise l’outil <strong>p7zip</strong>, d’après <a href="https://linuxhint.com/install-7zip-compression-tool-on-ubuntu/">https://linuxhint.com/install-7zip-compression-tool-on-ubuntu/</a>.</p>
+
+<p><strong>Installation</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">sudo </span>apt-get update
+<span class="gp">$</span><span class="w"> </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>p7zip-full
+</code></pre></div></div>
+<p><strong>Vérification de l’installation</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>7z
+<span class="go">7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+p7zip Version 9.20 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,2 CPUs)
+[…]
+</span></code></pre></div></div>
+
+<p><strong>Création de l’archive</strong>:</p>
+
+<p>Par simple clic droit sur le dossier exe.linux-x86_64-3.7, option compresser, je crée l’archive exe.linux-x86_64-3.7.7z dans dist/linux/7zip. L’archive pèse 36.7 Mo (contre 141 Mo pour le dossier d’origine).</p>
+
+<p>J’ai à présent un fichier unique à distribuer pour que l’utilisateur puisse installer facilement l’application (par décompression de l’archive dans un dossier).</p>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>L’utilisateur devra néanmoins accorder les droits d’exécution aux applications et créer un fichier .desktop pour lancer l’application serveur dans une console.</p>
+
+</div>
+
+<p><strong>Archive auto extractible du jeu Labpyrinthe pour ubuntu 64</strong>: <a href="https://github.com/gab-python/labpyproject/raw/pub/dist/Labpyrinthe/linux/Labpyrinthe_exe.linux-x86_64-3.7.7z" class="btn btn--success">Télécharger</a></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gab-python/labpyproject" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+    <!--
+    <li><a href="/labpyproject/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    -->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 - Gabriel Leroy - Licence GPL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/labpyproject/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,603 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="fr" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YF4SDCZF8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YF4SDCZF8');
+</script>
+
+<!-- begin _includes/seo.html --><title>JEU &gt; standalone (stable) - Documentation du projet labpyproject</title>
+<meta name="description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+  <meta name="author" content="Gabriel Leroy">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Documentation du projet labpyproject">
+<meta property="og:title" content="JEU &gt; standalone (stable)">
+<meta property="og:url" content="http://localhost:4000/labpyproject/A2_standalone/">
+
+
+  <meta property="og:description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/labpyproject/assets/images/fond_jeu_s0003.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/labpyproject/A2_standalone/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Gabriel Leroy",
+      "url": "http://localhost:4000/labpyproject/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/labpyproject/feed.xml" type="application/atom+xml" rel="alternate" title="Documentation du projet labpyproject Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/labpyproject/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/labpyproject/">
+          Documentation du projet labpyproject
+          <span class="site-subtitle">Partage d'expérience autour du développement, de l'optimisation et de la distribution d'un jeu d'arcade en python.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/labpyproject/A_jeu/">LE JEU</a>
+            </li><li class="masthead__menu-item">
+              <a href="/labpyproject/B_projet/">LE PROJET</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/labpyproject/assets/images/fond_jeu_s0003.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          JEU &gt; standalone (stable)
+
+        
+      </h1>
+      
+        <p class="page__lead">
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/labpyproject/A1_installation/"><span class="nav__sub-title">Installation</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">> Standalone (stable)</span>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/A3_reseau/"><span class="nav__sub-title">Réseau (expérimental)</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="JEU &gt; standalone (stable)">
+    <meta itemprop="description" content="">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Lancer l’application <strong>LabPyrinthe</strong>, l’écran de chargement initial s’affiche:</p>
+
+<p><img src="/labpyproject/assets/images/chargement_initial.png" alt="chargement initial" class="align-center" /></p>
+
+<p>Une fois prête, l’application affiche l’écran d’accueil (ou menu): </p>
+
+<p><img src="/labpyproject/assets/images/menu.png" alt="menu" class="align-center" /></p>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>Une démo est une partie automatique avec uniquement des bots.</p>
+
+</div>
+
+<p>En bas à droite, la zone de saisie et d’infos comprend quatre contrôles permanents:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">bouton</th>
+      <th style="text-align: left">fonction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/btn_menu_20001.png" alt="menu" class="align-center" /></td>
+      <td style="text-align: left">retour au menu (interrompt la partie/démo en cours)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/btn_aide0001.png" alt="aide" class="align-center" /></td>
+      <td style="text-align: left">afficher l’aide (raccourcis claviers)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/btn_fullscreen0001.png" alt="fullscreen" class="align-center" /></td>
+      <td style="text-align: left">entrer/sortir du plein écran. Attention : ne pas utiliser si vous avez plusieurs moniteurs (cas non détecté sur Windows)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/btn_quitter_20001.png" alt="quitter" class="align-center" /></td>
+      <td style="text-align: left">quitter le jeu</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Une fois le niveau et le mode de jeu choisis, un nouveau labyrinthe est créé aléatoirement. Une prévisualisation texte vous donne un aperçu de la carte pendant sa publication:</p>
+
+<p><img src="/labpyproject/assets/images/charge_partie_2.png" alt="chargement partie" class="align-center" /></p>
+
+<p>Le labyrinthe s’affiche.</p>
+
+<p><img src="/labpyproject/assets/images/partie_start.png" alt="début partie" class="align-center" /></p>
+
+<p>Il est constitué de:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">case</th>
+      <th style="text-align: left">fonction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/mqlab_20002.png" alt="mur ext" class="align-center" /></td>
+      <td style="text-align: left">murs extérieurs indestructibles</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/mqlab_20041.png" alt="sortie" class="align-center" /></td>
+      <td style="text-align: left">sortie, votre objectif</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/mqlab_20003.png" alt="mur int" class="align-center" /></td>
+      <td style="text-align: left">murs intérieurs (modifiables)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/mqlab_20004.png" alt="vide" class="align-center" /></td>
+      <td style="text-align: left">case vide</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/mqlab_20005.png" alt="porte" class="align-center" /></td>
+      <td style="text-align: left">porte (franchissable comme une case vide)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/mqlab_20020.png" alt="mine" class="align-center" /></td>
+      <td style="text-align: left">mines de puissances variables</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/mqlab_20006.png" alt="bonus" class="align-center" /></td>
+      <td style="text-align: left">bonus</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La <strong>puissance</strong> des grenades et des mines correspond au nombre de cases impactées autour d’elles lors de leur explosion:</p>
+
+<p><img src="/labpyproject/assets/images/puissances.png" alt="impacts" class="align-center" /></p>
+
+<p>Les <strong>bonus</strong> permettent:</p>
+<ul>
+  <li>D’augmenter la vitesse (nombre de coups par tour de jeu)</li>
+  <li>Augmenter la portée ou la puissance des grenades</li>
+  <li>Augmenter la puissance des mines</li>
+</ul>
+
+<p>Vous avez le choix entre six <strong>actions</strong>:</p>
+<ul>
+  <li><strong>Avancer</strong> : pour vous déplacer sur une case voisine</li>
+  <li><strong>Mur</strong> : créer un mur sur une case voisine</li>
+  <li><strong>Porte</strong> : transformer un mur voisin en porte</li>
+  <li><strong>Eliminer</strong> : supprimer un joueur voisin</li>
+  <li><strong>Grenade</strong> : lancer une grenade</li>
+  <li><strong>Mine</strong> : poser une mine sur une case voisine</li>
+</ul>
+
+<p><img src="/labpyproject/assets/images/partie_action_souris.png" alt="commande" class="align-center" /></p>
+
+<p>Vous pouvez exprimer vos commandes à l’aide de la souris (dans cet exemple une porte en dessous). Ou bien vous pouvez utiliser des raccourcis claviers, cliquez sur le bouton aide pour afficher l’écran suivant:</p>
+
+<p><img src="/labpyproject/assets/images/partie_aide.png" alt="raccourcis" class="align-center" /></p>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque à propos des raccourcis clavier:</h4>
+  
+<ul>
+  <li>Lorsque vous utilisez les flèches directionnelles pour vous déplacer, votre commande est exécutée immédiatement</li>
+  <li>Pour les autres actions, vous devez valider votre commande en appuyant sur la touche [ENTREE].</li>
+</ul>
+
+</div>
+
+<p>Dans le labyrinthe vous trouverez jusqu’à six types de <strong>bots</strong> différents:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">bot</th>
+      <th style="text-align: left">comportement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0002.png" alt="winner" class="align-center" /></td>
+      <td style="text-align: left"><strong>Winner</strong>. Son but gagner la partie en rejoignant la sortie le premier.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0001.png" alt="chasseur" class="align-center" /></td>
+      <td style="text-align: left"><strong>Chasseur</strong>. Il travaille en meute et cherche à éliminer les autres joueurs, humains et Winners en priorité.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0003.png" alt="random" class="align-center" /></td>
+      <td style="text-align: left"><strong>Random</strong>. Agit aléatoirement.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0004.png" alt="touriste" class="align-center" /></td>
+      <td style="text-align: left"><strong>Touriste</strong>. Inoffensif, il se promène.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0006.png" alt="maçon" class="align-center" /></td>
+      <td style="text-align: left"><strong>Maçon</strong>. Construit des murs.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0005.png" alt="mineur" class="align-center" /></td>
+      <td style="text-align: left"><strong>Mineur</strong>. Pose des mines.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Chaque bot a une « personnalité » propre déterminée par six <strong>caractéristiques</strong>:</p>
+<ul>
+  <li>I : intelligence</li>
+  <li>a : ambition</li>
+  <li>S : instinct de survie</li>
+  <li>c : curiosité</li>
+  <li>A : agressivité</li>
+  <li>e : efficacité</li>
+</ul>
+
+<p>Exemple d’un chasseur intelligent, ambitieux, agressif et efficace mais qui a un faible instinct de survie:</p>
+
+<p><img src="/labpyproject/assets/images/radar_exemple.png" alt="radar" class="align-center" /></p>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>Les bots les plus <strong>intelligents</strong> sont capables d’anticiper plusieurs coups, de jouer sur les mines pour atteindre un adversaire éloigné.</p>
+
+</div>
+
+<p>Chaque joueur a un code couleur qui indique son degré de <strong>dangerosité</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">couleur</th>
+      <th style="text-align: left">dangerosité</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0007.png" alt="vert" class="align-center" /></td>
+      <td style="text-align: left">Inoffensif</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0008.png" alt="jaune" class="align-center" /></td>
+      <td style="text-align: left">Se défend préventivement (peut attaquer un rose ou un violet)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0009.png" alt="bleu" class="align-center" /></td>
+      <td style="text-align: left">Neutre à priori, réservé aux joueurs humains en début de partie</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0010.png" alt="rose" class="align-center" /></td>
+      <td style="text-align: left">Dangereux. N’hésitera pas à vous supprimer si ça l’arrange.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/icones0011.png" alt="violet" class="align-center" /></td>
+      <td style="text-align: left">Veut votre mort.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Ce code couleur se retrouve :</p>
+<ul>
+  <li>dans le graphe radar des caractéristiques d’un joueur</li>
+  <li>sous chaque avatar dans la liste des joueurs</li>
+  <li>dans la zone d’action affichée en survol d’un joueur</li>
+</ul>
+
+<p><img src="/labpyproject/assets/images/zone_large.png" alt="zone danger" class="align-center" /></p>
+
+<ul>
+  <li>Au centre de la zone (foncé) : les cases sur lesquelles le bot peut théoriquement se déplacer pendant son tour de jeu (fonction de sa vitesse).</li>
+  <li>En périphérie (clair) : les cases que le bot peut théoriquement atteindre avec un lancer de grenade (fonction de sa vitesse, de la portée et de la puissance max de ses grenades).</li>
+</ul>
+
+<p>Dans le détail du joueur, quatre icones indiquent:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">symbole</th>
+      <th style="text-align: left">signification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/picto_vitesse.png" alt="vitesse" class="align-center" /></td>
+      <td style="text-align: left">vitesse courante du joueur (nombre de coups/tour)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/picto_grenade.png" alt="grenade" class="align-center" /></td>
+      <td style="text-align: left">portée max / puissance max des grenades</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/picto_mine.png" alt="mine" class="align-center" /></td>
+      <td style="text-align: left">puissance max des mines</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><img src="/labpyproject/assets/images/picto_croix.png" alt="croix" class="align-center" /></td>
+      <td style="text-align: left">nombre de tués (nombre d’innocents tués)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="notice--warning">
+  <h4 class="no_toc">Attention:</h4>
+  
+<p>Si vous éliminez des innocents (codes : vert, jaune, bleu) votre facteur de dangerosité va évoluer vers le rose puis le violet et les autres joueurs se protégeront de vous….</p>
+
+</div>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gab-python/labpyproject" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+    <!--
+    <li><a href="/labpyproject/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    -->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 - Gabriel Leroy - Licence GPL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/labpyproject/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

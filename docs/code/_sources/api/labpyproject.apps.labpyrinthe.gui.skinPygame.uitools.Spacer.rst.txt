@@ -1,0 +1,7 @@
+Spacer
+======
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.uitools
+
+.. autoclass:: Spacer
+   :show-inheritance:

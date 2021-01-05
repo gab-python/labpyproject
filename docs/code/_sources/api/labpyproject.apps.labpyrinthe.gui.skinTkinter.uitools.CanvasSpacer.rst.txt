@@ -1,0 +1,7 @@
+CanvasSpacer
+============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools
+
+.. autoclass:: CanvasSpacer
+   :show-inheritance:

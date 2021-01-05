@@ -1,0 +1,500 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="fr" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YF4SDCZF8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YF4SDCZF8');
+</script>
+
+<!-- begin _includes/seo.html --><title>PROJET &gt; Développements &gt; 2- Développements génériques - Documentation du projet labpyproject</title>
+<meta name="description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+  <meta name="author" content="Gabriel Leroy">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Documentation du projet labpyproject">
+<meta property="og:title" content="PROJET &gt; Développements &gt; 2- Développements génériques">
+<meta property="og:url" content="http://localhost:4000/labpyproject/B22_generiques/">
+
+
+  <meta property="og:description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/labpyproject/assets/images/fond_projet_s0006.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/labpyproject/B22_generiques/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Gabriel Leroy",
+      "url": "http://localhost:4000/labpyproject/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/labpyproject/feed.xml" type="application/atom+xml" rel="alternate" title="Documentation du projet labpyproject Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/labpyproject/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/labpyproject/">
+          Documentation du projet labpyproject
+          <span class="site-subtitle">Partage d'expérience autour du développement, de l'optimisation et de la distribution d'un jeu d'arcade en python.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/labpyproject/A_jeu/">LE JEU</a>
+            </li><li class="masthead__menu-item">
+              <a href="/labpyproject/B_projet/">LE PROJET</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/labpyproject/assets/images/fond_projet_s0006.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          PROJET &gt; Développements &gt; 2- Développements génériques
+
+        
+      </h1>
+      
+        <p class="page__lead">
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/labpyproject/B1_contexte/"><span class="nav__sub-title">Contexte</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">> Développements</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/labpyproject/B21_introduction/">1- Introduction</a></li>
+          
+            <li><a href="/labpyproject/B22_generiques/" class="active">2- Développements génériques</a></li>
+          
+            <li><a href="/labpyproject/B23_specifiques/">3- Développements spécifiques</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B31_introduction/"><span class="nav__sub-title">Optimisation</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B41_introduction/"><span class="nav__sub-title">Distribution</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B5_credits/"><span class="nav__sub-title">Crédits</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="PROJET &gt; Développements &gt; 2- Développements génériques">
+    <meta itemprop="description" content="">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Plan</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#21--programmation-parallèle">2.1- Programmation parallèle</a>
+    <ul>
+      <li><a href="#211--système-daiguillage-de-tâches">2.1.1- Système d’aiguillage de tâches</a></li>
+      <li><a href="#212--ebauche-de-framework-applicatif-multi-thread">2.1.2- Ebauche de framework applicatif multi-thread</a></li>
+    </ul>
+  </li>
+  <li><a href="#22--prototype-de-framework-réseau-tcp">2.2- Prototype de framework réseau TCP</a></li>
+  <li><a href="#23--prototype-de-moteur-de-publication-pygame">2.3- Prototype de moteur de publication Pygame</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p>Le code directement réutilisable du projet est contenu dans le package <a href="/labpyproject/code/labpyproject.core.html"><strong>labpyproject.core</strong></a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>labpyproject
+├── labpyproject.apps
+└── labpyproject.core
+    ├── labpyproject.core.app
+    ├── labpyproject.core.io
+    ├── labpyproject.core.net
+    ├── labpyproject.core.patterns
+    ├── labpyproject.core.pygame
+    ├── labpyproject.core.queue
+    └── labpyproject.core.random
+</code></pre></div></div>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p><strong>labpyproject.core</strong> est totalement indépendant de <strong>labpyproject.apps</strong>.</p>
+
+</div>
+
+<p>Les sous packages <strong>labpyproject.core.io</strong>, <strong>labpyproject.core.patterns</strong> et <strong>labpyproject.core.random</strong> sont très embryonnaires, leur existence relève surtout d’une volonté de structurer le code.</p>
+
+<h2 id="21--programmation-parallèle">2.1- Programmation parallèle</h2>
+
+<h3 id="211--système-daiguillage-de-tâches">2.1.1- Système d’aiguillage de tâches</h3>
+
+<p>Deux threads en cours d’exécution ne pouvant communiquer directement entre eux, nous avons besoin d’un système de communication « tiers ». Celui-ci repose sur des piles de tâches (Queues). Chaque thread peut déposer une tâche dans une pile dédiée. Réciproquement il peut interroger cette pile pour en retirer une tâche.</p>
+
+<p>Ce système d’échange est implémenté dans le module <a href="/labpyproject/code/labpyproject.core.queue.queue_tools.html"><strong>queue_tools</strong></a> du sous package <strong>labpyproject.core.queue</strong>.</p>
+
+<p>Il s’appuye sur trois classes:</p>
+<ul>
+  <li><strong>QueueManager</strong>: un singleton qui prend en charge la gestion des piles de tâches</li>
+  <li><strong>QueueSimpleClient</strong>: un client associé à une pile entrante et une pile sortante</li>
+  <li><strong>QueueSwitcher</strong>: un routeur de tâches, aiguillant les tâches entrantes et sortantes entre différents canaux</li>
+</ul>
+
+<h3 id="212--ebauche-de-framework-applicatif-multi-thread">2.1.2- Ebauche de framework applicatif multi-thread</h3>
+
+<p>Ce prototype est implémenté dans le module <a href="/labpyproject/code/labpyproject.core.app.app_components.html"><strong>app_components</strong></a> du sous package <strong>labpyproject.core.app</strong>.</p>
+
+<p>Vis-à-vis des <strong>threads</strong> ce module distingue:</p>
+<ul>
+  <li>Le cas général dans lequel un composant peut générer son propre thread d’exécution (superclasse: <strong>ThreadableComp</strong>)</li>
+  <li>Le cas particulier des GUIs graphiques (<strong>Tkinter</strong>, <strong>Pygame</strong>,…) qui doivent absolument être créées dans le <strong>« scope <code class="language-plaintext highlighter-rouge">__main__</code> »</strong> du script principal</li>
+</ul>
+
+<p>Pour la communication <strong>inter-threads</strong>, ce module distingue:</p>
+<ul>
+  <li>Un composant héritant de <strong>QueueSwitcher</strong> (et de <strong>ThreadableComp</strong>), soit notre <strong>application</strong> <strong>APPComp</strong></li>
+  <li>Des composants <strong>satellites</strong> héritant de <strong>QueueSimpleClient</strong></li>
+</ul>
+
+<p>Pour combiner ces deux aspects dans les <strong>satellites</strong>, on introduit des <strong>pseudos interfaces</strong>:</p>
+<ul>
+  <li>AbstractSatelliteComp: de laquelle dérivent
+    <ul>
+      <li><strong>SatelliteComp</strong>: composant satellite héritant de ThreadableComp.</li>
+      <li><strong>SatelliteCompNoThread</strong>: composant satellite particulier (cf « scope <code class="language-plaintext highlighter-rouge">__main__</code> »)</li>
+    </ul>
+  </li>
+  <li>AbstractGUIComp: de laquelle dérivent
+    <ul>
+      <li><strong>GUIComp</strong>: composant d’interface héritant de <strong>SatelliteComp</strong> (console)</li>
+      <li><strong>GUICompNoThread</strong>: composant d’interface héritant de <strong>SatelliteCompNoThread</strong> (Tkinter, Pygame,…)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Les composants réseau <strong>NETComp</strong> et métier <strong>BUSINESSComp</strong> dérivent tous deux de <strong>SatelliteComp</strong>.</p>
+
+<p>Ce module crée également une hiérarchie d’objets d’échanges répondant à une série de besoins génériques d’interactions entre composants.</p>
+
+<p>Dans la section suivante nous allons aborder des composants satellites finalisés, avec un client et un serveur dérivés tous deux de <strong>NETComp</strong>.</p>
+
+<h2 id="22--prototype-de-framework-réseau-tcp">2.2- Prototype de framework réseau TCP</h2>
+
+<p>Le jeu devant proposer une version réseau TCP, j’ai essayé de proposer un prototype de framework client-serveur susceptible d’apporter des réponses aux questions soulevées dans l’article suivant de la documentation officielle python: <a href="https://docs.python.org/3/howto/sockets.html"><strong>https://docs.python.org/3/howto/sockets.html</strong></a>.</p>
+
+<p>Si le résultat n’est pas totalement abouti, un prototype fonctionnel est présenté dans le module <a href="/labpyproject/code/labpyproject.core.net.custom_TCP.html"><strong>custom_TCP</strong></a> du sous package <strong>labpyproject.core.net</strong>.</p>
+
+<p>Cette ébauche de framework s’appuye sur trois classes principales:</p>
+<ul>
+  <li><a href="/labpyproject/code/labpyproject.core.net.custom_TCP.CustomRequestHelper.html"><strong>CustomRequestHelper</strong></a>: une classe statique portant des données de modélisation et assurant des services de traitement des requêtes (découpage, indexation, envoi, réception et analyse d’erreurs).</li>
+  <li><a href="/labpyproject/code/labpyproject.core.net.custom_TCP.CustomTCPServerContainer.html"><strong>CustomTCPServerContainer</strong></a>: serveur “frontal” héritant de <strong>labpyproject.core.app.NETComp</strong> et utilisant par composition un serveur dérivé du package <a href="https://docs.python.org/3/library/socket.html"><strong>socket</strong></a> de l’api python.</li>
+  <li><a href="/labpyproject/code/labpyproject.core.net.custom_TCP.CustomTCPThreadedClient.html"><strong>CustomTCPThreadedClient</strong></a>: client “from scratch” héritant de <strong>labpyproject.core.app.NETComp</strong>.</li>
+</ul>
+
+<p>Ces composants (client et serveur) sont utilisés tels quels dans la version réseau du jeu labpyrinthe.</p>
+
+<h2 id="23--prototype-de-moteur-de-publication-pygame">2.3- Prototype de moteur de publication Pygame</h2>
+
+<p>Pour doter le jeu d’une interface graphique je me suis tout d’abord tourné vers <a href="http://tkinter.fdex.eu/"><strong>Tkinter</strong></a>, l’outil le plus standard à priori de la distribution python. Si j’ai pu réaliser une maquette du jeu via Tkinter, je me suis confronté aux limites suivantes:</p>
+<ul>
+  <li><strong>Limitations graphiques</strong>: bien que le box model de Tkinter soit puissant (via les gestionnaires de positionnement), il est plutôt destiné à des interfaces de type logicielles qu’à des interfaces extrêmement graphiques. Par exemple, on ne dispose pas nativement de coordonnées et de dimensions pouvant être exprimées en %. Par ailleurs les conteneurs imposent un fond opaque.</li>
+  <li><strong>Problèmes de performances</strong>: en créant de nombreux objets graphiques à partir de widgets Tkinter j’ai créé une application lente, lenteur particulièrement sensible lors des phases de publication d’un labyrinthe ou d’un resize de la fenêtre.</li>
+</ul>
+
+<p>Ces limites auraient probablement pu être en partie dépassées avec un investissement plus important sur cet outil. Notamment en créant des objets graphiques plus « bas niveau » beaucoup plus économes en traitements.
+Supposant que je me confronterai aux mêmes problématiques avec d’autres librairies graphiques de type widgets, j’ai expérimenté <a href="https://www.pygame.org"><strong>Pygame</strong></a>:</p>
+<ul>
+  <li>outil clairement orienté multimédia,</li>
+  <li>rapide (même avec des centaines de sprites affichés simultanément),</li>
+  <li>mais minimaliste dans son approche de box model et de publication.</li>
+</ul>
+
+<p>En souvenir de mon ancienne activité de développeur flash/flex dans laquelle je développais des surcouches graphiques (moteurs de publication xml to flash), je me suis lancé le défi de développer un « moteur de publication » pygame en y ajoutant:</p>
+<ul>
+  <li>un box model 2.5D (plan + zindexs)</li>
+  <li>une logique de publication</li>
+  <li>une gestion basique des événements</li>
+  <li>un jeu minimaliste de widgets de publication</li>
+</ul>
+
+<p>Le résultat de ce travail constitue le sous package <a href="/labpyproject/code/labpyproject.core.pygame.html"><strong>labpyproject.core.pygame</strong></a>.</p>
+
+<p><strong>La part la plus importante du travail concerne les aspects box model, gestion dynamique des zindexs et publication</strong>. Elle est réalisée dans le module <a href="/labpyproject/code/labpyproject.core.pygame.core.html"><strong>core</strong></a> du sous package.</p>
+
+<p>La mécanique basique de gestion des événements est développée dans le module <a href="/labpyproject/code/labpyproject.core.pygame.events.html"><strong>events</strong></a>.</p>
+
+<p>En combinant ces deux modules, le module <a href="/labpyproject/code/labpyproject.core.pygame.widgets.html"><strong>widgets</strong></a> propose un jeu de composants de publication basiques suffisant pour répondre aux besoins du jeu labpyrinthe.</p>
+
+<p>Avec cette surcouche Pygame, je dispose d’un outil de publication orienté graphisme, au spectre limité mais plus adapté à mes besoins et plus réactif que Tkinter.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gab-python/labpyproject" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+    <!--
+    <li><a href="/labpyproject/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    -->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 - Gabriel Leroy - Licence GPL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/labpyproject/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

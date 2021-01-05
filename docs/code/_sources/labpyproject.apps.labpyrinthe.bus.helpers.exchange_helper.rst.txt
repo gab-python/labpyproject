@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.bus.helpers.exchange\_helper
+==========================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper
+
+.. automodapi:: labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper
+   :no-heading:
+   :no-main-docstr:

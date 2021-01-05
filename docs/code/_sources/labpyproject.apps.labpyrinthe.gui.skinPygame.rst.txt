@@ -1,0 +1,22 @@
+labpyproject.apps.labpyrinthe.gui.skinPygame
+============================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinPygame
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. toctree::
+
+   botview <labpyproject.apps.labpyrinthe.gui.skinPygame.botview>
+   footer <labpyproject.apps.labpyrinthe.gui.skinPygame.footer>
+   header <labpyproject.apps.labpyrinthe.gui.skinPygame.header>
+   screen_wait <labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait>
+   skinPygame <labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame>
+   uitools <labpyproject.apps.labpyrinthe.gui.skinPygame.uitools>
+   zone_bots <labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots>
+   zone_carte <labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte>
+   zone_command <labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command>
+   zone_menu <labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu>
+   zone_partie <labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie>

@@ -1,0 +1,11 @@
+labpyproject.apps.labpyrinthe.gui.skinConsole
+=============================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinConsole
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. toctree::
+
+   pub_helper <labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper>

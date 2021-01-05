@@ -1,0 +1,41 @@
+CustomBaseControl
+=================
+
+.. currentmodule:: labpyproject.core.pygame.events
+
+.. autoclass:: CustomBaseControl
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CustomBaseControl.enabled
+      ~CustomBaseControl.focused
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CustomBaseControl.fire_event
+      ~CustomBaseControl.get_event_types
+      ~CustomBaseControl.handle_key_event
+      ~CustomBaseControl.handle_mouse_event
+      ~CustomBaseControl.on_enable_changed
+      ~CustomBaseControl.register
+      ~CustomBaseControl.unregister
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: enabled
+   .. autoattribute:: focused
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: fire_event
+   .. automethod:: get_event_types
+   .. automethod:: handle_key_event
+   .. automethod:: handle_mouse_event
+   .. automethod:: on_enable_changed
+   .. automethod:: register
+   .. automethod:: unregister

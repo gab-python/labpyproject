@@ -1,0 +1,1554 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>labpyproject.core.pygame.events &mdash; Documentation labpyproject </title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+        <script src="../../../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Recherche" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home" alt="Documentation Home"> labpyproject
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../labpyproject.html">labpyproject</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../labpyproject.apps.html">labpyproject.apps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.html">labpyproject.apps.labpyrinthe</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.app.html">labpyproject.apps.labpyrinthe.app</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.app.app_types.html">app_types</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.app.app_types.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.app.app_types.AppTypes.html">AppTypes</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.app.app_types.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.app.application.html">application</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.app.application.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.app.application.AppManager.html">AppManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.app.application.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.html">labpyproject.apps.labpyrinthe.bus</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.html">labpyproject.apps.labpyrinthe.bus.commands</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html">cmd_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.CommandHelper.html">CommandHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html">cmd_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.CommandManager.html">CommandManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html">gamble_datas</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataSet.html">GambleDataSet</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataObject.html">GambleDataObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.PseudoActions.html">PseudoActions</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleSearch.html">GambleSearch</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.targets.html">targets</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.targets.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.targets.TargetObject.html">TargetObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPath.html">TargetPath</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPathStep.html">TargetPathStep</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.commands.targets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.html">labpyproject.apps.labpyrinthe.bus.helpers</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html">exchange_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.ExchangeHelper.html">ExchangeHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html">game_configuration</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.GameConfiguration.html">GameConfiguration</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html">lab_generator</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.LabGenerator.html">LabGenerator</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html">lab_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.LabManager.html">LabManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html">lab_parser</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.LabParser.html">LabParser</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.model.html">labpyproject.apps.labpyrinthe.bus.model</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html">core_matrix</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabHelper.html">LabHelper</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabLevel.html">LabLevel</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.Matrice.html">Matrice</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.AnimatedLayer.html">AnimatedLayer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.Case.html">Case</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseRobot.html">CaseRobot</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseDanger.html">CaseDanger</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseGrenade.html">CaseGrenade</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseAnimation.html">CaseAnimation</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseBonus.html">CaseBonus</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.model.player.html">player</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.model.player.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.model.player.LabPlayer.html">LabPlayer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.model.player.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.game_manager.html">game_manager</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.game_manager.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.bus.game_manager.GameManager.html">GameManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.bus.game_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.html">labpyproject.apps.labpyrinthe.gui</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.html">labpyproject.apps.labpyrinthe.gui.skinBase</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html">GUIBase</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.html">GUIBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseNoThread.html">GUIBaseNoThread</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseThreaded.html">GUIBaseThreaded</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html">colors</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.colors.ColorHelper.html">ColorHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html">interfaces</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCarte.html">AbstractZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCommand.html">AbstractZoneCommand</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie.html">AbstractZonePartie</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneBots.html">AbstractZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneMenu.html">AbstractZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenContent.html">AbstractScreenContent</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenWait.html">AbstractScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractSwitch.html">AbstractSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractInput.html">AbstractInput</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html">screen_wait_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.ScreenWaitBase.html">ScreenWaitBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html">skin_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.SkinBase.html">SkinBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html">zone_bots_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.ZoneBotsBase.html">ZoneBotsBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html">zone_carte_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ZoneCarteBase.html">ZoneCarteBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ItemObjectBase.html">ItemObjectBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html">zone_command_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.ZoneCommandBase.html">ZoneCommandBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html">zone_menu_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.ZoneMenuBase.html">ZoneMenuBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html">zone_partie_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase.html">ZonePartieBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinConsole.html">labpyproject.apps.labpyrinthe.gui.skinConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html">pub_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.PublicationHelper.html">PublicationHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.html">labpyproject.apps.labpyrinthe.gui.skinPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html">botview</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.botview.BotView.html">BotView</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html">footer</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.footer.Footer.html">Footer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScreenWait.html">ScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScaledText.html">ScaledText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.SimplePreloader.html">SimplePreloader</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html">skinPygame</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.SkinPygame.html">SkinPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WImage.html">WImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WText.html">WText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WEntry.html">WEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WButton.html">WButton</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.Spacer.html">Spacer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.ZoneBots.html">ZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotList.html">BotList</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotItem.html">BotItem</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ItemObject.html">ItemObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.CaseView.html">CaseView</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.BotViewCarte.html">BotViewCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneDangerRobot.html">ZoneDangerRobot</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.MenuButton.html">MenuButton</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.html">labpyproject.apps.labpyrinthe.gui.skinTkinter</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.ScreenWait.html">ScreenWait</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html">skinTkinter</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.SkinTkinter.html">SkinTkinter</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CustomEntry.html">CustomEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSwitch.html">CanvasSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasImage.html">CanvasImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSpacer.html">CanvasSpacer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSeparateur.html">CanvasSeparateur</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.ZoneBots.html">ZoneBots</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ItemObject.html">ItemObject</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUIConsole.html">GUIConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.GUIConsole.GUIConsole.html">GUIConsole</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.GUIConsole.ThreadInput.html">ThreadInput</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUIPygame.html">GUIPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.GUIPygame.GUIPygame.html">GUIPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUITk.html">GUITk</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUITk.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../api/labpyproject.apps.labpyrinthe.gui.GUITk.GUITk.html">GUITk</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.gui.GUITk.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.clientConsole.html">clientConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.clientPygame.html">clientPygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.serverConsole.html">serverConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.standaloneConsole.html">standaloneConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.standalonePygame.html">standalonePygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.apps.labpyrinthe.standaloneTkinter.html">standaloneTkinter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../labpyproject.core.html">labpyproject.core</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../labpyproject.core.app.html">labpyproject.core.app</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.app.app_components.html">app_components</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.app.app_components.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.ThreadableComp.html">ThreadableComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.APPComp.html">APPComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.SatelliteExchangeObject.html">SatelliteExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.AbstractSatelliteComp.html">AbstractSatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.DelayedAction.html">DelayedAction</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.SatelliteComp.html">SatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.SatelliteCompNoThread.html">SatelliteCompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.GUIExchangeObject.html">GUIExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.AbstractGUIComp.html">AbstractGUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.GUIComp.html">GUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.GUICompNoThread.html">GUICompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.NETExchangeObject.html">NETExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.NETComp.html">NETComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.app.app_components.BUSINESSComp.html">BUSINESSComp</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.app.app_components.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../labpyproject.core.io.html">labpyproject.core.io</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.io.custom_IO.html">custom_IO</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.io.custom_IO.html#functions">Functions</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.io.custom_IO.get_file_list.html">get_file_list</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.io.custom_IO.load_obj_from_file.html">load_obj_from_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.io.custom_IO.load_text_file.html">load_text_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.io.custom_IO.save_obj_in_file.html">save_obj_in_file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../labpyproject.core.net.html">labpyproject.core.net</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.net.custom_TCP.html">custom_TCP</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.net.custom_TCP.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.net.custom_TCP.CustomTCPServerContainer.html">CustomTCPServerContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.net.custom_TCP.ThreadedTCPServer.html">ThreadedTCPServer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.net.custom_TCP.CustomTCPRequestHandler.html">CustomTCPRequestHandler</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.net.custom_TCP.ParseDataError.html">ParseDataError</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.net.custom_TCP.CustomRequestHelper.html">CustomRequestHelper</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.net.custom_TCP.CustomTCPThreadedClient.html">CustomTCPThreadedClient</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.net.custom_TCP.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../labpyproject.core.patterns.html">labpyproject.core.patterns</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.patterns.design_patterns.html">design_patterns</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.patterns.design_patterns.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.patterns.design_patterns.Singleton.html">Singleton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.patterns.design_patterns.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../labpyproject.core.pygame.html">labpyproject.core.pygame</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.pygame.core.html">core</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.pygame.core.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.BoxModelObject.html">BoxModelObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.MetricValue.html">MetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.BoundedMetricValue.html">BoundedMetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.VirtualItem.html">VirtualItem</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.VirtualContainer.html">VirtualContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.CustomSprite.html">CustomSprite</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.RealContainer.html">RealContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.RootContainer.html">RootContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.LayerManager.html">LayerManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.LayerStack.html">LayerStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.core.LocalLayer.html">LocalLayer</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.pygame.core.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.pygame.events.html">events</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.pygame.events.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.events.CustomEventManager.html">CustomEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.events.GUIEventManager.html">GUIEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html">CustomBaseControl</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.events.CustomBaseInput.html">CustomBaseInput</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html">CustomBaseButton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.pygame.events.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.pygame.widgets.html">widgets</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.pygame.widgets.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.Background.html">Background</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.Image.html">Image</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.Text.html">Text</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.Entry.html">Entry</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.TextButton.html">TextButton</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.Button.html">Button</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.Stack.html">Stack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.HStack.html">HStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.VStack.html">VStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.Canvas.html">Canvas</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.HBox.html">HBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.VBox.html">VBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.pygame.widgets.Root.html">Root</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.pygame.widgets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../labpyproject.core.queue.html">labpyproject.core.queue</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.queue.queue_tools.html">queue_tools</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.queue.queue_tools.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.queue.queue_tools.QueueManager.html">QueueManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.queue.queue_tools.QueueSimpleClient.html">QueueSimpleClient</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.queue.queue_tools.QueueSwitcher.html">QueueSwitcher</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.queue.queue_tools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../labpyproject.core.random.html">labpyproject.core.random</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../labpyproject.core.random.custom_random.html">custom_random</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.random.custom_random.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../api/labpyproject.core.random.custom_random.CustomRandom.html">CustomRandom</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../labpyproject.core.random.custom_random.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">labpyproject</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../index.html">Code du module</a> &raquo;</li>
+        
+      <li>labpyproject.core.pygame.events</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Code source de labpyproject.core.pygame.events</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python3</span>
+<span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">**Mécanique basique de gestion des événements pygame.**</span>
+
+<span class="sd">Classes utilisées par les modules **core** et **widgets**.</span>
+
+<span class="sd">.. note::</span>
+<span class="sd">    V1 mécanique du type top -&gt; bottom à faire évoluer en bottom -&gt; top -&gt; bottom </span>
+<span class="sd">    pour permettre la capture d&#39;événements à différents moments du flux.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="c1"># imports :</span>
+<span class="kn">import</span> <span class="nn">pygame.locals</span>
+
+<span class="c1"># Evite l&#39;ajout non désiré de certains imports à la doc sphinx</span>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;CustomEventManager&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;GUIEventManager&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;CustomBaseControl&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;CustomBaseInput&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;CustomBaseButton&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+<span class="c1"># classes :</span>
+<div class="viewcode-block" id="CustomEventManager"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomEventManager.html#labpyproject.core.pygame.events.CustomEventManager">[docs]</a><span class="k">class</span> <span class="nc">CustomEventManager</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Gestionnaire d&#39;événements utilisé par composition par la GUI.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># familles de touches :</span>
+    <span class="n">LETTERS_KEYS</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_a</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_b</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_c</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_d</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_e</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_f</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_g</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_h</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_i</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_j</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_k</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_l</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_m</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_n</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_o</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_p</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_q</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_r</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_s</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_t</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_u</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_v</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_w</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_x</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_y</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_z</span><span class="p">,</span>
+    <span class="p">]</span>  <span class="c1">#: Liste des touches de lettres</span>
+    <span class="n">NUMBERS_KEYS</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_0</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_1</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_2</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_3</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_4</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_5</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_6</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_7</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_8</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_9</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP0</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP1</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP2</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP3</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP4</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP5</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP6</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP7</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP8</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP9</span><span class="p">,</span>
+    <span class="p">]</span>  <span class="c1">#: Liste des touches d&#39;entiers</span>
+    <span class="n">PONCT_KEYS</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_EXCLAIM</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_QUOTEDBL</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_HASH</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_DOLLAR</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_AMPERSAND</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_QUOTE</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_LEFTPAREN</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_RIGHTPAREN</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_ASTERISK</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_PLUS</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_COMMA</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_MINUS</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_PERIOD</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_SLASH</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_COLON</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_SEMICOLON</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_LESS</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_EQUALS</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_GREATER</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_QUESTION</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_AT</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_LEFTBRACKET</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_BACKSLASH</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_RIGHTBRACKET</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_CARET</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_UNDERSCORE</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_BACKQUOTE</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP_PERIOD</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP_DIVIDE</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP_MULTIPLY</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP_MINUS</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP_PLUS</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP_EQUALS</span><span class="p">,</span>
+    <span class="p">]</span>  <span class="c1">#: Liste des touches de ponctutaion</span>
+    <span class="n">ARROW_KEYS</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_UP</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_DOWN</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_RIGHT</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_LEFT</span><span class="p">,</span>
+    <span class="p">]</span>  <span class="c1">#: Liste des touches de flèches</span>
+    <span class="n">COMMAND_KEYS</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_BACKSPACE</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_TAB</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_RETURN</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_ESCAPE</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_SPACE</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_DELETE</span><span class="p">,</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP_ENTER</span><span class="p">,</span>
+    <span class="p">]</span>  <span class="c1">#: Liste des touches de commande</span>
+    <span class="c1"># abonnement / désabonnement d&#39;un contrôle</span>
+    <span class="n">CE_REGISTER</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">1</span>  <span class="c1">#: événement abonnement de contrôle</span>
+    <span class="n">CE_UNREGISTER</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">2</span>  <span class="c1">#: événement désabonnement de contrôle</span>
+    <span class="c1"># événement de demande de focus pour un input</span>
+    <span class="n">CE_ASK_INPUT_FOCUS</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">USEREVENT</span> <span class="o">+</span> <span class="mi">3</span>  <span class="c1">#: événement demande de focus d&#39;input</span>
+    <span class="c1"># types d&#39;événements ciblés par un contrôle :</span>
+    <span class="n">MOUSE_CLIC</span> <span class="o">=</span> <span class="s2">&quot;MOUSE_CLIC&quot;</span>  <span class="c1">#: événement souris</span>
+    <span class="n">MOUSE_OVER</span> <span class="o">=</span> <span class="s2">&quot;MOUSE_OVER&quot;</span>  <span class="c1">#: événement souris</span>
+    <span class="n">MOUSE_OUT</span> <span class="o">=</span> <span class="s2">&quot;MOUSE_OUT&quot;</span>  <span class="c1">#: événement souris</span>
+    <span class="n">MOUSE_MOVE</span> <span class="o">=</span> <span class="s2">&quot;MOUSE_MOVE&quot;</span>  <span class="c1">#: événement souris</span>
+    <span class="n">KEY_PRESSED</span> <span class="o">=</span> <span class="s2">&quot;KEY_PRESSED&quot;</span>  <span class="c1">#: événement touche</span>
+    <span class="n">KEY_RELEASED</span> <span class="o">=</span> <span class="s2">&quot;KEY_RELEASED&quot;</span>  <span class="c1">#: événement touche</span>
+    <span class="c1"># méthodes</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">Mngr</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Constructeur</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            Mngr (GUIEventManager): interface de la GUI pygame</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># ref à la GUI :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span> <span class="o">=</span> <span class="n">Mngr</span>
+        <span class="c1"># initalisations :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_init_control_dict</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">_init_control_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialise le dict d&#39;enregistrement des contrôles (boutons et inputs).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_MOVE</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;InputControls&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;ButtonOver&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+
+<div class="viewcode-block" id="CustomEventManager.handle_events"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomEventManager.html#labpyproject.core.pygame.events.CustomEventManager.handle_events">[docs]</a>    <span class="k">def</span> <span class="nf">handle_events</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Interface avec la GUI : méthode à appeler à chaque frame d&#39;éxécution. </span>
+<span class="sd">        Dépile les événements pygame, applique les traitements internes, informe la GUI.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">e</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">CE_REGISTER</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_register_control</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">e</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">CE_UNREGISTER</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_unregister_control</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">e</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">CE_ASK_INPUT_FOCUS</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_handle_entry_focus_event</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">e</span><span class="o">.</span><span class="n">type</span> <span class="ow">in</span> <span class="p">[</span>
+                <span class="n">pygame</span><span class="o">.</span><span class="n">MOUSEBUTTONDOWN</span><span class="p">,</span>
+                <span class="n">pygame</span><span class="o">.</span><span class="n">MOUSEBUTTONUP</span><span class="p">,</span>
+                <span class="n">pygame</span><span class="o">.</span><span class="n">MOUSEMOTION</span><span class="p">,</span>
+            <span class="p">]:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_handle_mouse_evt</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">e</span><span class="o">.</span><span class="n">type</span> <span class="ow">in</span> <span class="p">[</span><span class="n">pygame</span><span class="o">.</span><span class="n">KEYDOWN</span><span class="p">,</span> <span class="n">pygame</span><span class="o">.</span><span class="n">KEYUP</span><span class="p">]:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_handle_key_evt</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">e</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">VIDEORESIZE</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span><span class="o">.</span><span class="n">on_resize_event</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">e</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">QUIT</span><span class="p">:</span>
+                <span class="c1"># si on souhaite fermer avec la touche escape :</span>
+                <span class="c1"># or (e.type == pygame.KEYDOWN and e.key == pygame.K_ESCAPE):</span>
+                <span class="c1"># Rq: touche plutôt utilisée pour quitter le plein écran.</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span><span class="o">.</span><span class="n">on_quit_event</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">e</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">ACTIVEEVENT</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">Mngr</span><span class="o">.</span><span class="n">on_active_event</span><span class="p">(</span><span class="n">e</span><span class="p">)</span></div>
+
+    <span class="k">def</span> <span class="nf">_handle_mouse_evt</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evt</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Gestion interne des événements souris</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ctrllist</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">evt</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">MOUSEBUTTONDOWN</span> <span class="ow">and</span> <span class="n">evt</span><span class="o">.</span><span class="n">button</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="c1"># ie CustomEventManager.MOUSE_CLIC avec le bouton gauche</span>
+            <span class="n">ctrllist</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">]</span>
+        <span class="k">elif</span> <span class="n">evt</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">MOUSEBUTTONUP</span> <span class="ow">and</span> <span class="n">evt</span><span class="o">.</span><span class="n">button</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="c1"># release soit CustomEventManager.MOUSE_OVER</span>
+            <span class="n">ctrllist</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_MOVE</span><span class="p">]</span>
+        <span class="k">elif</span> <span class="n">evt</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">MOUSEMOTION</span><span class="p">:</span>
+            <span class="c1"># CustomEventManager.MOUSE_OVER ou CustomEventManager.MOUSE_OUT</span>
+            <span class="n">ctrllist</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_MOVE</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">ctrllist</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span>
+        <span class="c1"># ctrl survolés ou non par la souris</span>
+        <span class="n">colidelist</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="n">noncolidelist</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="n">ctrllist</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ctrl</span><span class="o">.</span><span class="n">enabled</span> <span class="ow">and</span> <span class="n">ctrl</span><span class="o">.</span><span class="n">visible</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span><span class="o">.</span><span class="n">globalRect</span><span class="o">.</span><span class="n">collidepoint</span><span class="p">(</span><span class="n">evt</span><span class="o">.</span><span class="n">pos</span><span class="p">):</span>
+                    <span class="n">colidelist</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">noncolidelist</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+        <span class="c1"># Filtrage : on sélectionne le ctrl activé, visible et de plus grand z-index :</span>
+        <span class="n">overctrl</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">prevoverctrl</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;ButtonOver&quot;</span><span class="p">]</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">colidelist</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">overctrl</span> <span class="o">=</span> <span class="n">colidelist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="c1"># contrôles survolés ou cliqués :</span>
+        <span class="k">if</span> <span class="n">evt</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">MOUSEBUTTONDOWN</span><span class="p">:</span>
+            <span class="n">customevent</span> <span class="o">=</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">customevent</span> <span class="o">=</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OVER</span>
+        <span class="c1"># Out du précédent :</span>
+        <span class="k">if</span> <span class="n">prevoverctrl</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">prevoverctrl</span> <span class="o">!=</span> <span class="n">overctrl</span><span class="p">:</span>
+            <span class="n">prevoverctrl</span><span class="o">.</span><span class="n">handle_mouse_event</span><span class="p">(</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OUT</span><span class="p">,</span> <span class="n">evt</span><span class="p">)</span>
+        <span class="c1"># Over ou Clic du nouveau</span>
+        <span class="k">if</span> <span class="n">overctrl</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">overctrl</span><span class="o">.</span><span class="n">handle_mouse_event</span><span class="p">(</span><span class="n">customevent</span><span class="p">,</span> <span class="n">evt</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;ButtonOver&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">overctrl</span>
+
+    <span class="k">def</span> <span class="nf">_handle_entry_focus_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evt</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Gère l&#39;affectation du focus parmi les éventuels CustomBaseInput</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">entryctrl</span> <span class="o">=</span> <span class="n">evt</span><span class="o">.</span><span class="n">control</span>
+        <span class="k">for</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;InputControls&quot;</span><span class="p">]:</span>
+            <span class="n">ctrl</span><span class="o">.</span><span class="n">focused</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">entryctrl</span><span class="o">.</span><span class="n">focused</span> <span class="o">=</span> <span class="kc">True</span>
+
+    <span class="k">def</span> <span class="nf">_handle_key_evt</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evt</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Gestion interne des événements clavier</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">evt</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">KEYUP</span><span class="p">:</span>
+            <span class="n">customevent</span> <span class="o">=</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span>
+            <span class="n">alllist</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">customevent</span> <span class="o">=</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span>
+            <span class="n">alllist</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">]</span>
+        <span class="c1"># propagation systématique : seul l&#39;input focusé réagira</span>
+        <span class="k">for</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="n">alllist</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ctrl</span><span class="o">.</span><span class="n">enabled</span><span class="p">:</span>
+                <span class="n">ctrl</span><span class="o">.</span><span class="n">handle_key_event</span><span class="p">(</span><span class="n">customevent</span><span class="p">,</span> <span class="n">evt</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_register_control</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evt</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Abonnement d&#39;un control (via propagation d&#39;un evt CustomEventManager.CE_REGISTER).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ctrl</span> <span class="o">=</span> <span class="n">evt</span><span class="o">.</span><span class="n">control</span>
+        <span class="c1"># Filtrage : CustomSprite héritant de CustomBaseControl</span>
+        <span class="c1"># =&gt; tests à remplacer par une interface abstraite</span>
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ctrl</span><span class="p">,</span> <span class="n">CustomBaseControl</span><span class="p">)</span>
+            <span class="ow">or</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">ctrl</span><span class="p">,</span> <span class="s2">&quot;globalRect&quot;</span><span class="p">)</span>
+            <span class="ow">or</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">ctrl</span><span class="p">,</span> <span class="s2">&quot;visible&quot;</span><span class="p">)</span>
+            <span class="ow">or</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">ctrl</span><span class="p">,</span> <span class="s2">&quot;global_layer&quot;</span><span class="p">)</span>
+        <span class="p">):</span>
+            <span class="k">return</span>
+        <span class="n">eventtypes</span> <span class="o">=</span> <span class="n">ctrl</span><span class="o">.</span><span class="n">get_event_types</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">evttype</span> <span class="ow">in</span> <span class="n">eventtypes</span><span class="p">:</span>
+            <span class="c1"># cas particulier des inputs text :</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ctrl</span><span class="p">,</span> <span class="n">CustomBaseInput</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;InputControls&quot;</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;InputControls&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+            <span class="c1"># cas général :</span>
+            <span class="k">if</span> <span class="n">evttype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">evttype</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">evttype</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">evttype</span> <span class="ow">in</span> <span class="p">[</span>
+                <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OVER</span><span class="p">,</span>
+                <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OUT</span><span class="p">,</span>
+            <span class="p">]:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_MOVE</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_MOVE</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">evttype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">evttype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_unregister_control</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evt</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Désabonnement d&#39;un control (via propagation d&#39;un evt CustomEventManager.CE_UNREGISTER).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ctrl</span> <span class="o">=</span> <span class="n">evt</span><span class="o">.</span><span class="n">control</span>
+        <span class="n">eventtypes</span> <span class="o">=</span> <span class="n">ctrl</span><span class="o">.</span><span class="n">get_event_types</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">evttype</span> <span class="ow">in</span> <span class="n">eventtypes</span><span class="p">:</span>
+            <span class="c1"># cas particulier des inputs text :</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ctrl</span><span class="p">,</span> <span class="n">CustomBaseInput</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;InputControls&quot;</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="s2">&quot;InputControls&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+            <span class="c1"># cas général :</span>
+            <span class="k">if</span> <span class="n">evttype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">evttype</span> <span class="ow">in</span> <span class="p">[</span>
+                <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OVER</span><span class="p">,</span>
+                <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OUT</span><span class="p">,</span>
+            <span class="p">]:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_MOVE</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_MOVE</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">evttype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">evttype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">ctrl</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">]:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ctrl_dict</span><span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">ctrl</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="GUIEventManager"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.GUIEventManager.html#labpyproject.core.pygame.events.GUIEventManager">[docs]</a><span class="k">class</span> <span class="nc">GUIEventManager</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;Interface&quot; de la GUI utilisant par composition CustomEventManager.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialisation de la gestion des événements</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># Manager d&#39;événement :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_eventMngr</span> <span class="o">=</span> <span class="n">CustomEventManager</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+<div class="viewcode-block" id="GUIEventManager.handle_events"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.GUIEventManager.html#labpyproject.core.pygame.events.GUIEventManager.handle_events">[docs]</a>    <span class="k">def</span> <span class="nf">handle_events</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Méthode à appeler à chaque frame d&#39;exécution pour traiter les événements.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_eventMngr</span><span class="o">.</span><span class="n">handle_events</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="GUIEventManager.on_resize_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.GUIEventManager.html#labpyproject.core.pygame.events.GUIEventManager.on_resize_event">[docs]</a>    <span class="k">def</span> <span class="nf">on_resize_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Méthode appelée par CustomEventManager lorsque survient l&#39;événement pygame.VIDEORESIZE </span>
+<span class="sd">        (event a pour attributs : size, w, h).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="GUIEventManager.on_quit_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.GUIEventManager.html#labpyproject.core.pygame.events.GUIEventManager.on_quit_event">[docs]</a>    <span class="k">def</span> <span class="nf">on_quit_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Méthode appelée par CustomEventManager lorsque survient l&#39;événement pygame.QUIT </span>
+<span class="sd">        (l&#39;événement n&#39;a aucun attribut particulier).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="GUIEventManager.on_active_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.GUIEventManager.html#labpyproject.core.pygame.events.GUIEventManager.on_active_event">[docs]</a>    <span class="k">def</span> <span class="nf">on_active_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Méthode appelée par CustomEventManager lorsque survient l&#39;événement pygame.ACTIVEEVENT, </span>
+<span class="sd">        indiquant si la fenêtre a ou non le focus (gain : boolean (0/1) indiquant le focus, </span>
+<span class="sd">        state : non documenté).</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div></div>
+
+
+<div class="viewcode-block" id="CustomBaseControl"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl">[docs]</a><span class="k">class</span> <span class="nc">CustomBaseControl</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Classe de base d&#39;un contrôle utilisateur (bouton, entry).</span>
+<span class="sd">    A implémenter dans une succlasse héritant de CustomSprite.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evtdict</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Constructeur</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            evtdict (dict): {&quot;evttypes&quot;:}, avec evttypes une liste de valeurs parmi : </span>
+<span class="sd">                MOUSE_CLIC, MOUSE_OVER, MOUSE_OUT, KEY_PRESSED</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># spécifique :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_enabled</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_focused</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="c1"># événements écoutés :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_eventdict</span> <span class="o">=</span> <span class="n">evtdict</span>
+
+    <span class="c1"># activation du contrôle</span>
+    <span class="k">def</span> <span class="nf">_get_enabled</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Etat d&#39;activation du contrôle.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_enabled</span>
+
+    <span class="k">def</span> <span class="nf">_set_enabled</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">bool</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_enabled</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">bool</span><span class="p">(</span><span class="n">val</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_enabled</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_enabled</span> <span class="o">=</span> <span class="kc">False</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">on_enable_changed</span><span class="p">()</span>
+
+    <span class="n">enabled</span> <span class="o">=</span> <span class="nb">property</span><span class="p">(</span>
+        <span class="n">_get_enabled</span><span class="p">,</span> <span class="n">_set_enabled</span>
+    <span class="p">)</span>  <span class="c1">#: Etat d&#39;activation du contrôle (bool).</span>
+
+<div class="viewcode-block" id="CustomBaseControl.on_enable_changed"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl.on_enable_changed">[docs]</a>    <span class="k">def</span> <span class="nf">on_enable_changed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée lorsque self.enabled a été modifié.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div>
+
+    <span class="c1"># focus du contrôle</span>
+    <span class="k">def</span> <span class="nf">_get_focused</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Le contrôle a t&#39;il le focus?&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_focused</span>
+
+    <span class="k">def</span> <span class="nf">_set_focused</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">bool</span><span class="p">(</span><span class="n">val</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_focused</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_focused</span> <span class="o">=</span> <span class="kc">False</span>
+
+    <span class="n">focused</span> <span class="o">=</span> <span class="nb">property</span><span class="p">(</span><span class="n">_get_focused</span><span class="p">,</span> <span class="n">_set_focused</span><span class="p">)</span>  <span class="c1">#: Le contrôle a t&#39;il le focus?</span>
+
+<div class="viewcode-block" id="CustomBaseControl.get_event_types"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl.get_event_types">[docs]</a>    <span class="k">def</span> <span class="nf">get_event_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Retourne la liste d&#39;événements écoutés par le ctrl.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_eventdict</span><span class="p">[</span><span class="s2">&quot;evttypes&quot;</span><span class="p">]</span></div>
+
+<div class="viewcode-block" id="CustomBaseControl.register"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl.register">[docs]</a>    <span class="k">def</span> <span class="nf">register</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Abonnement auprès du manager d&#39;événements. </span>
+<span class="sd">        A ajouter à la méthode générique d&#39;ajout à la displaylist</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_eventdict</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="s2">&quot;evttypes&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_eventdict</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">args</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;control&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="p">}</span>
+            <span class="n">evt</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">Event</span><span class="p">(</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">CE_REGISTER</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">fire_event</span><span class="p">(</span><span class="n">evt</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="CustomBaseControl.unregister"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl.unregister">[docs]</a>    <span class="k">def</span> <span class="nf">unregister</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Désabonnement auprès du manager d&#39;événements. </span>
+<span class="sd">        A ajouter à la méthode générique de retrait de la displaylist</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_eventdict</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="s2">&quot;evttypes&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_eventdict</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">args</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;control&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="p">}</span>
+            <span class="n">evt</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">Event</span><span class="p">(</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">CE_UNREGISTER</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">fire_event</span><span class="p">(</span><span class="n">evt</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="CustomBaseControl.fire_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl.fire_event">[docs]</a>    <span class="k">def</span> <span class="nf">fire_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evt</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Dispatch l&#39;événement evt.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">evt</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="CustomBaseControl.handle_mouse_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl.handle_mouse_event">[docs]</a>    <span class="k">def</span> <span class="nf">handle_mouse_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">customeventtype</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée par le manager d&#39;événements</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            customeventtype : CustomEventManager.MOUSE_CLIC, CustomEventManager.MOUSE_OVER, </span>
+<span class="sd">                CustomEventManager.MOUSE_OUT</span>
+<span class="sd">            event : pygame.MOUSEBUTTONDOWN ou pygame.MOUSEMOTION        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="CustomBaseControl.handle_key_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseControl.html#labpyproject.core.pygame.events.CustomBaseControl.handle_key_event">[docs]</a>    <span class="k">def</span> <span class="nf">handle_key_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">customeventtype</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée par le manager d&#39;événements</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            customeventtype : CustomEventManager.KEY_PRESSED ou CustomEventManager.KEY_RELEASED</span>
+<span class="sd">            event : pygame.KEYDOWN ou pygame.KEYUP        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div></div>
+
+
+<div class="viewcode-block" id="CustomBaseInput"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseInput.html#labpyproject.core.pygame.events.CustomBaseInput">[docs]</a><span class="k">class</span> <span class="nc">CustomBaseInput</span><span class="p">(</span><span class="n">CustomBaseControl</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Implémentation basique d&#39;un input text.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># paramétrage par défaut :</span>
+    <span class="n">DEFAULT_EVT_DICT</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;evttypes&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">,</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">]</span>
+    <span class="p">}</span>  <span class="c1">#: paramétrage par défaut</span>
+    <span class="c1"># méthodes</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evtdict</span><span class="o">=</span><span class="n">DEFAULT_EVT_DICT</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Constructeur</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># générique</span>
+        <span class="n">CustomBaseControl</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evtdict</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="c1"># variable associée au contenu :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_inputext</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+<div class="viewcode-block" id="CustomBaseInput.handle_key_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseInput.html#labpyproject.core.pygame.events.CustomBaseInput.handle_key_event">[docs]</a>    <span class="k">def</span> <span class="nf">handle_key_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">customeventtype</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée par le manager d&#39;événements. Prise en charge de la touche d&#39;effacement, </span>
+<span class="sd">        des touches de validation, mise à jour du texte associé au contrôle.</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            customeventtype : CustomEventManager.KEY_PRESSED ou CustomEventManager.KEY_RELEASED</span>
+<span class="sd">            event : pygame.KEYDOWN ou pygame.KEYUP        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">focused</span><span class="p">:</span>
+            <span class="n">oldtext</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_inputext</span><span class="p">)</span>
+            <span class="n">reloadtext</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="k">if</span> <span class="n">customeventtype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="ow">in</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">COMMAND_KEYS</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_BACKSPACE</span><span class="p">:</span>
+                        <span class="c1"># effacement dernier char :</span>
+                        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">oldtext</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                            <span class="n">oldtext</span> <span class="o">=</span> <span class="n">oldtext</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+                    <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="ow">in</span> <span class="p">[</span>
+                        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_RETURN</span><span class="p">,</span>
+                        <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_KP_ENTER</span><span class="p">,</span>
+                    <span class="p">]:</span>
+                        <span class="c1"># validation :</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">on_entry_validated</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
+                        <span class="n">reloadtext</span> <span class="o">=</span> <span class="kc">False</span>
+                    <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="n">pygame</span><span class="o">.</span><span class="n">locals</span><span class="o">.</span><span class="n">K_SPACE</span><span class="p">:</span>
+                        <span class="n">oldtext</span> <span class="o">+=</span> <span class="s2">&quot; &quot;</span>
+                <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="ow">in</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">NUMBERS_KEYS</span><span class="p">:</span>
+                    <span class="n">oldtext</span> <span class="o">+=</span> <span class="n">event</span><span class="o">.</span><span class="n">unicode</span>
+                <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="ow">in</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">PONCT_KEYS</span><span class="p">:</span>
+                    <span class="n">oldtext</span> <span class="o">+=</span> <span class="n">event</span><span class="o">.</span><span class="n">unicode</span>
+                <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="ow">in</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">LETTERS_KEYS</span><span class="p">:</span>
+                    <span class="n">oldtext</span> <span class="o">+=</span> <span class="n">event</span><span class="o">.</span><span class="n">unicode</span>
+                <span class="c1"># maj variable interne :</span>
+                <span class="k">if</span> <span class="n">reloadtext</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_set_inputext</span><span class="p">(</span><span class="n">oldtext</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="CustomBaseInput.on_entry_validated"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseInput.html#labpyproject.core.pygame.events.CustomBaseInput.on_entry_validated">[docs]</a>    <span class="k">def</span> <span class="nf">on_entry_validated</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée par handle_key_event lorsqu&#39;une touche entrée a été pressée.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div>
+
+    <span class="k">def</span> <span class="nf">_get_inputext</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Simple getter</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_inputext</span>
+
+    <span class="k">def</span> <span class="nf">_set_inputext</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Setter du texte associé au contrôle, retourne un boolean indiquant</span>
+<span class="sd">        si la valeur a effectivement changée.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">val</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_inputext</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_inputext</span> <span class="o">=</span> <span class="n">val</span>
+            <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="n">inputext</span> <span class="o">=</span> <span class="nb">property</span><span class="p">(</span>
+        <span class="n">_get_inputext</span><span class="p">,</span> <span class="n">_set_inputext</span>
+    <span class="p">)</span>  <span class="c1">#: texte d&#39;input associé au contrôle</span>
+
+<div class="viewcode-block" id="CustomBaseInput.handle_mouse_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseInput.html#labpyproject.core.pygame.events.CustomBaseInput.handle_mouse_event">[docs]</a>    <span class="k">def</span> <span class="nf">handle_mouse_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">customeventtype</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée par le manager d&#39;événements. Demande de focus.</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            customeventtype : CustomEventManager.MOUSE_CLIC, CustomEventManager.MOUSE_OVER, </span>
+<span class="sd">                CustomEventManager.MOUSE_OUT</span>
+<span class="sd">            event : pygame.MOUSEBUTTONDOWN ou pygame.MOUSEMOTION        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">customeventtype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">:</span>
+            <span class="c1"># demande le focus</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ask_input_focus</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="CustomBaseInput.ask_input_focus"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseInput.html#labpyproject.core.pygame.events.CustomBaseInput.ask_input_focus">[docs]</a>    <span class="k">def</span> <span class="nf">ask_input_focus</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Propage un evt de demande de focus.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">evt</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">Event</span><span class="p">(</span>
+            <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">CE_ASK_INPUT_FOCUS</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;control&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="p">}</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">fire_event</span><span class="p">(</span><span class="n">evt</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="CustomBaseButton"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton">[docs]</a><span class="k">class</span> <span class="nc">CustomBaseButton</span><span class="p">(</span><span class="n">CustomBaseControl</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Implémentation basique d&#39;un bouton.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Etats</span>
+    <span class="n">UNSELECTED</span> <span class="o">=</span> <span class="s2">&quot;UNSELECTED&quot;</span>  <span class="c1">#: valeur d&#39;état</span>
+    <span class="n">OVER</span> <span class="o">=</span> <span class="s2">&quot;OVER&quot;</span>  <span class="c1">#: valeur d&#39;état</span>
+    <span class="n">PRESSED</span> <span class="o">=</span> <span class="s2">&quot;PRESSED&quot;</span>  <span class="c1">#: valeur d&#39;état</span>
+    <span class="n">SELECTED</span> <span class="o">=</span> <span class="s2">&quot;SELECTED&quot;</span>  <span class="c1">#: valeur d&#39;état</span>
+    <span class="n">DISABLED</span> <span class="o">=</span> <span class="s2">&quot;DISABLED&quot;</span>  <span class="c1">#: valeur d&#39;état</span>
+    <span class="n">ENABLED</span> <span class="o">=</span> <span class="s2">&quot;ENABLED&quot;</span>  <span class="c1">#: valeur d&#39;état</span>
+    <span class="n">STATES</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">UNSELECTED</span><span class="p">,</span>
+        <span class="n">OVER</span><span class="p">,</span>
+        <span class="n">PRESSED</span><span class="p">,</span>
+        <span class="n">SELECTED</span><span class="p">,</span>
+        <span class="n">DISABLED</span><span class="p">,</span>
+    <span class="p">]</span>  <span class="c1">#: valeurs d&#39;état possibles</span>
+    <span class="c1"># méthodes :</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">switch</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">shortcutkey</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Constructeur</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            switch : False = bouton simple, True = bouton sélectionnable/désélectionnable</span>
+<span class="sd">            shortcutkey : code de touche optionnel équivalent à un clic        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># paramétrage :</span>
+        <span class="n">evtdict</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;evttypes&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OVER</span><span class="p">,</span>
+                <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OUT</span><span class="p">,</span>
+                <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">,</span>
+            <span class="p">]</span>
+        <span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_shortcutkey</span> <span class="o">=</span> <span class="n">shortcutkey</span>
+        <span class="k">if</span> <span class="n">shortcutkey</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">evtdict</span><span class="p">[</span><span class="s2">&quot;evttypes&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">)</span>
+            <span class="n">evtdict</span><span class="p">[</span><span class="s2">&quot;evttypes&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">)</span>
+        <span class="c1"># générique</span>
+        <span class="n">CustomBaseControl</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evtdict</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="c1"># spécifique :</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_is_switch</span> <span class="o">=</span> <span class="n">switch</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_current_state</span> <span class="o">=</span> <span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">UNSELECTED</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_view_state</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_enabled</span> <span class="o">=</span> <span class="kc">True</span>
+
+<div class="viewcode-block" id="CustomBaseButton.is_switch"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton.is_switch">[docs]</a>    <span class="k">def</span> <span class="nf">is_switch</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Indique si le bouton se comporte comme un switch.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_switch</span></div>
+
+<div class="viewcode-block" id="CustomBaseButton.get_state"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton.get_state">[docs]</a>    <span class="k">def</span> <span class="nf">get_state</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Retourne l&#39;état du bouton.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_current_state</span></div>
+
+<div class="viewcode-block" id="CustomBaseButton.set_state"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton.set_state">[docs]</a>    <span class="k">def</span> <span class="nf">set_state</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Modifie l&#39;état du bouton.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">state</span> <span class="ow">in</span> <span class="p">[</span><span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">ENABLED</span><span class="p">,</span> <span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">DISABLED</span><span class="p">]:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_handle_activation</span><span class="p">(</span><span class="n">state</span> <span class="o">==</span> <span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">ENABLED</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">state</span> <span class="o">==</span> <span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">ENABLED</span><span class="p">:</span>
+                <span class="n">state</span> <span class="o">=</span> <span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">UNSELECTED</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_current_state</span> <span class="o">=</span> <span class="n">state</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_show_state</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_current_state</span><span class="p">)</span></div>
+
+    <span class="k">def</span> <span class="nf">_handle_activation</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">enable</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Modifie l&#39;état d&#39;activation.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">enable</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_enabled</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_enabled</span> <span class="o">=</span> <span class="n">enable</span>
+
+    <span class="k">def</span> <span class="nf">_show_state</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Modifie l&#39;apparence du bouton.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">state</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_view_state</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_view_state</span> <span class="o">=</span> <span class="n">state</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">change_view_state</span><span class="p">(</span><span class="n">state</span><span class="p">)</span>
+
+<div class="viewcode-block" id="CustomBaseButton.change_view_state"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton.change_view_state">[docs]</a>    <span class="k">def</span> <span class="nf">change_view_state</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Modifie physiquement l&#39;apparence du bouton.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="CustomBaseButton.on_enable_changed"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton.on_enable_changed">[docs]</a>    <span class="k">def</span> <span class="nf">on_enable_changed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée lorsque self.enabled a été modifié.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">enabled</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">set_state</span><span class="p">(</span><span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">DISABLED</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">set_state</span><span class="p">(</span><span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">ENABLED</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="CustomBaseButton.handle_mouse_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton.handle_mouse_event">[docs]</a>    <span class="k">def</span> <span class="nf">handle_mouse_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">customeventtype</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée par le manager d&#39;événements</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            customeventtype : CustomEventManager.MOUSE_CLIC, CustomEventManager.MOUSE_OVER, </span>
+<span class="sd">                CustomEventManager.MOUSE_OUT</span>
+<span class="sd">            event : pygame.MOUSEBUTTONDOWN ou pygame.MOUSEMOTION        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">st</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">customeventtype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OVER</span><span class="p">:</span>
+            <span class="n">st</span> <span class="o">=</span> <span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">OVER</span>
+        <span class="k">elif</span> <span class="n">customeventtype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_OUT</span><span class="p">:</span>
+            <span class="n">st</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_current_state</span>
+        <span class="k">elif</span> <span class="n">customeventtype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">MOUSE_CLIC</span><span class="p">:</span>
+            <span class="n">st</span> <span class="o">=</span> <span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">PRESSED</span>
+        <span class="k">if</span> <span class="n">st</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">st</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_view_state</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_show_state</span><span class="p">(</span><span class="n">st</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">send_callback</span><span class="p">(</span><span class="n">st</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="CustomBaseButton.send_callback"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton.send_callback">[docs]</a>    <span class="k">def</span> <span class="nf">send_callback</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Méthode destinée à transmettre l&#39;état au manager de ce contrôle.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># à subclasser</span>
+        <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="CustomBaseButton.handle_key_event"><a class="viewcode-back" href="../../../../api/labpyproject.core.pygame.events.CustomBaseButton.html#labpyproject.core.pygame.events.CustomBaseButton.handle_key_event">[docs]</a>    <span class="k">def</span> <span class="nf">handle_key_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">customeventtype</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appelée par le manager d&#39;événements.</span>
+<span class="sd">        </span>
+<span class="sd">        Args:</span>
+<span class="sd">            customeventtype : CustomEventManager.KEY_PRESSED ou CustomEventManager.KEY_RELEASED</span>
+<span class="sd">            event : pygame.KEYDOWN ou pygame.KEYUP        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">st</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">_shortcutkey</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">customeventtype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_PRESSED</span><span class="p">:</span>
+                <span class="n">st</span> <span class="o">=</span> <span class="n">CustomBaseButton</span><span class="o">.</span><span class="n">PRESSED</span>
+            <span class="k">elif</span> <span class="n">customeventtype</span> <span class="o">==</span> <span class="n">CustomEventManager</span><span class="o">.</span><span class="n">KEY_RELEASED</span><span class="p">:</span>
+                <span class="n">st</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_current_state</span>
+            <span class="k">if</span> <span class="n">st</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_show_state</span><span class="p">(</span><span class="n">st</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">send_callback</span><span class="p">(</span><span class="n">st</span><span class="p">)</span></div></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020 - Gabriel Leroy - Licence GPL
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="http://sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

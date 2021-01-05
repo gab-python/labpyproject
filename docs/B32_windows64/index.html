@@ -1,0 +1,1024 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="fr" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YF4SDCZF8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YF4SDCZF8');
+</script>
+
+<!-- begin _includes/seo.html --><title>PROJET &gt; Optimisation &gt; 2- Numpy + OpenBLAS sur Windows 64 - Documentation du projet labpyproject</title>
+<meta name="description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+  <meta name="author" content="Gabriel Leroy">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Documentation du projet labpyproject">
+<meta property="og:title" content="PROJET &gt; Optimisation &gt; 2- Numpy + OpenBLAS sur Windows 64">
+<meta property="og:url" content="http://localhost:4000/labpyproject/B32_windows64/">
+
+
+  <meta property="og:description" content="Un jeu de labyrinthe en python 3, des développements génériques et un retour d’expérience sur des questions techniques.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/labpyproject/assets/images/fond_projet_s0007.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/labpyproject/B32_windows64/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Gabriel Leroy",
+      "url": "http://localhost:4000/labpyproject/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/labpyproject/feed.xml" type="application/atom+xml" rel="alternate" title="Documentation du projet labpyproject Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/labpyproject/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/labpyproject/">
+          Documentation du projet labpyproject
+          <span class="site-subtitle">Partage d'expérience autour du développement, de l'optimisation et de la distribution d'un jeu d'arcade en python.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/labpyproject/A_jeu/">LE JEU</a>
+            </li><li class="masthead__menu-item">
+              <a href="/labpyproject/B_projet/">LE PROJET</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/labpyproject/assets/images/fond_projet_s0007.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          PROJET &gt; Optimisation &gt; 2- Numpy + OpenBLAS sur Windows 64
+
+        
+      </h1>
+      
+        <p class="page__lead">
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/labpyproject/B1_contexte/"><span class="nav__sub-title">Contexte</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B21_introduction/"><span class="nav__sub-title">Développements</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">> Optimisation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/labpyproject/B31_introduction/">1- Introduction</a></li>
+          
+            <li><a href="/labpyproject/B32_windows64/" class="active">2- Numpy + OpenBLAS sur Windows (64)</a></li>
+          
+            <li><a href="/labpyproject/B33_ubuntu64/">3- Numpy + OpenBLAS sur Ubuntu (64)</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B41_introduction/"><span class="nav__sub-title">Distribution</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/labpyproject/B5_credits/"><span class="nav__sub-title">Crédits</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="PROJET &gt; Optimisation &gt; 2- Numpy + OpenBLAS sur Windows 64">
+    <meta itemprop="description" content="">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Plan</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#21--build-openblas-sur-windows-64">2.1- Build OpenBLAS sur windows 64</a>
+    <ul>
+      <li><a href="#211--méthodes-de-build-identifiées">2.1.1- Méthodes de build identifiées</a></li>
+      <li><a href="#212--configuration">2.1.2- Configuration</a></li>
+      <li><a href="#213--procedure-de-build-dopenblas-adoptée">2.1.3- Procedure de build d’OpenBLAS adoptée</a>
+        <ul>
+          <li><a href="#etape-1-clonage">Etape 1: clonage</a></li>
+          <li><a href="#etape-2-param">Etape 2: param.</a></li>
+          <li><a href="#etape-3-msvc">Etape 3: MSVC</a></li>
+          <li><a href="#etape-4-compilation">Etape 4: compilation</a></li>
+          <li><a href="#etape-5-installation">Etape 5: installation</a></li>
+          <li><a href="#etape-6-lib-dimport">Etape 6: lib d’import</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#22--compilation-de-numpy-avec-openblas">2.2- Compilation de Numpy avec OpenBLAS</a>
+    <ul>
+      <li><a href="#221--mise-à-jour-de-la-configuration">2.2.1- Mise à jour de la configuration</a></li>
+      <li><a href="#222--procédure-de-build-de-numpy-avec-openblas">2.2.2- Procédure de build de Numpy avec OpenBLAS</a>
+        <ul>
+          <li><a href="#etape-1-env-vars">Etape 1: ENV VARS</a></li>
+          <li><a href="#etape-2-clonage">Etape 2: clonage</a></li>
+          <li><a href="#etape-3-insertion">Etape 3: insertion</a></li>
+          <li><a href="#etape-4-config">Etape 4: config.</a></li>
+          <li><a href="#etape-5-msvc">Etape 5: MSVC</a></li>
+          <li><a href="#etape-6-compilation">Etape 6: compilation</a></li>
+          <li><a href="#etape-7-wheel">Etape 7: wheel</a></li>
+          <li><a href="#etape-8-installation">Etape 8: installation</a></li>
+          <li><a href="#vérification">Vérification</a></li>
+          <li><a href="#résultat">Résultat</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="21--build-openblas-sur-windows-64">2.1- Build OpenBLAS sur windows 64</h2>
+
+<h3 id="211--méthodes-de-build-identifiées">2.1.1- Méthodes de build identifiées</h3>
+
+<p>Différentes méthodes de build d’OpenBLAS sont proposées :</p>
+<ul>
+  <li>GNU ABI :
+    <ul>
+      <li>M1 : <a href="https://github.com/arrayfire/arrayfire/wiki/CBLAS-for-Windows#source-build">avec Cygwin et MinGW</a></li>
+      <li>M2 : <a href="https://github.com/xianyi/OpenBLAS/wiki/How-to-use-OpenBLAS-in-Microsoft-Visual-Studio#build-openblas-on-windows-os">avec MinGW et MSYS</a></li>
+      <li>M3 : <a href="https://scipy.github.io/devdocs/building/windows.html#id4">avec MSYS2 et MinGW</a></li>
+    </ul>
+  </li>
+  <li>MSVC ABI :
+    <ul>
+      <li>M4 : <a href="https://github.com/xianyi/OpenBLAS/wiki/How-to-use-OpenBLAS-in-Microsoft-Visual-Studio#1-native-msvc-abi">LLVM via conda</a></li>
+      <li>M5 : <a href="https://github.com/xianyi/OpenBLAS/wiki/How-to-use-OpenBLAS-in-Microsoft-Visual-Studio#cmake-and-visual-studio">CMake et Visual Studio</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Après de très nombreux essais infructueux, la procédure de build d’OpenBLAS adoptée s’inspire largement de M1 et emprunte à M2 la création (probablement optionnelle) de librairie d’import pour Visual Studio.</p>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>La méthode M4 est une alternative intéressante. La configuration de l’environnement conda est simple. Les solutions de build de librairies OpenBLAS sont bien décrites. L’exemple par défaut produit le fichier libopenblas.lib (70 Mo) en 3h, quand notre procédure en demande 4h30. 
+Par contre, la compilation d’une librairie python (numpy) avec le résultat du build n’est pas abordée dans cet article (cf utilisation des mêmes compilateurs pour OpenBLAS et numpy).</p>
+
+<p>A tester:</p>
+<ul>
+  <li>Adapter la procédure de build d’OpenBLAS de M4 pour produire une dll (-DBUILD_SHARED_LIBS=ON dans la commande cmake)</li>
+  <li>Décliner la procédure de build de numpy proposée plus loin en pointant via les variables CC et FC vers les compilateurs clang-cl et flang utilisés pour OpenBLAS dans M4.</li>
+</ul>
+
+</div>
+
+<h3 id="212--configuration">2.1.2- Configuration</h3>
+
+<p>Sur une première machine (Conf_win_1):</p>
+
+<p><strong>Configuration initiale </strong>: Windows 7 pro 64 bits SP1 (avec windows update complet)</p>
+
+<p><strong>Installation de python</strong>:</p>
+<ul>
+  <li>Installation standard de python 3.7.5: via l’<a href="https ://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe">installeur</a></li>
+  <li>Pré requis supplémentaires:
+    <div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="o">&gt;&gt;</span> python –m pip <span class="nb">install </span>wheel setuptools Cython&gt;<span class="o">=</span>0.29.13
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>L’utilisation de Visual Studio avec python peut nécessiter la mise à jour de setuptools:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="o">&gt;&gt;</span> python –m pip <span class="nb">install</span> –U pip setuptools
+</code></pre></div></div>
+<p>Ressources:</p>
+<ul>
+  <li><a href="https://wiki.python.org/moin/WindowsCompilers">https://wiki.python.org/moin/WindowsCompilers</a></li>
+  <li><a href="https://dimitri.janczak.net/2017/05/20/python-3-6-visual-studio-2017/">https://dimitri.janczak.net/2017/05/20/python-3-6-visual-studio-2017/</a></li>
+</ul>
+
+</div>
+
+<p><strong>Installation de git</strong>: installation de git 2.24 depuis <a href="https ://git-scm.com/download/win">https ://git-scm.com/download/win</a></p>
+
+<p><strong>Outils de compilation GNU pour windows</strong>: Installation de <a href="http ://www.cygwin.com/"><strong>Cygwin</strong></a>, <a href="http ://www.mingw.org/"><strong>MinGW</strong></a> et <a href="http ://mingw-w64.org/doku.php"><strong>MinGW-w64</strong></a> d’après l’<a href="https ://www3.ntu.edu.sg/home/ehchua/programming/howto/Cygwin_HowTo.html"><strong>article de référence</strong></a>.</p>
+
+<div class="notice--warning">
+  <h4 class="no_toc">Remarque importante:</h4>
+  
+<p>Lors de l’installation de <strong>Cygwin</strong> sélectionner le package <strong>Devel</strong> dans son <strong>intégralité</strong> pour s’assurer d’avoir tous les compilateurs nécessaires.</p>
+
+</div>
+
+<p><strong>System path</strong>: à l’issue des installations standards de ces outils, la variable d’environnement <strong>système Path</strong> comprend notamment  les chemins suivants:</p>
+<ul>
+  <li>C:\MinGW;</li>
+  <li>C:\MinGW\bin;</li>
+  <li>C:\cygwin64\bin;</li>
+  <li>%systemroot%\System32\WindowsPowerShell\v1.0\;</li>
+  <li>C:\Program Files\Git\cmd;</li>
+</ul>
+
+<h3 id="213--procedure-de-build-dopenblas-adoptée">2.1.3- Procedure de build d’OpenBLAS adoptée</h3>
+
+<p>Dans le <strong>terminal Cygwin64</strong> (en mode administrateur).</p>
+
+<h4 id="etape-1-clonage"><strong>Etape 1</strong>: clonage</h4>
+
+<p>Clonage d’<strong>OpenBLAS</strong> dans un dossier de travail:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">cd</span> <span class="s2">"C:</span><span class="se">\W</span><span class="s2">orkdir"</span>
+<span class="gp">$</span><span class="w"> </span>git clone https://github.com/xianyi/OpenBLAS.git
+<span class="gp">$</span><span class="w"> </span><span class="nb">cd </span>OpenBLAS
+</code></pre></div></div>
+
+<p>Structure de fichiers partielle à l’issue du clonage :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir
+└── OpenBLAS
+    ├── …
+    └── Makefile.rule
+</code></pre></div></div>
+
+<h4 id="etape-2-param"><strong>Etape 2</strong>: param.</h4>
+
+<p>Paramètres de <strong>build</strong> spécifiés dans le fichier <strong>Makefile.rule</strong> à la racine du dossier OpenBLAS (seuls les paramètres actifs sont reportés ci-dessous):</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#
+#  Beginning of user configuration
+#
+[…]
+VERSION = 0.3.8.dev
+DYNAMIC_ARCH = 1
+DYNAMIC_OLDER = 1
+CC = x86_64-w64-mingw32-gcc
+FC = x86_64-w64-mingw32-gfortran
+HOSTCC = gcc
+BINARY=64
+USE_THREAD = 0
+USE_LOCKING = 1
+BUILD_LAPACK_DEPRECATED = 1
+NO_WARMUP = 1
+NO_AFFINITY = 1
+COMMON_PROF = -pg
+[…]
+#
+#  End of user configuration
+#
+</code></pre></div></div>
+
+<div class="notice--warning">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>OpenBLAS pouvant poser quelques problème sur Windows 64 bits en version multi threaded, la version single threaded (soit <strong>USE_THREAD = 0</strong>) semble conseillée (<a href="https://mingwpy.github.io/blas_lapack.html#openblas">source</a>).</p>
+
+</div>
+
+<h4 id="etape-3-msvc"><strong>Etape 3</strong>: MSVC</h4>
+
+<p>Activation des outils <strong>Visual Studio</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>cmd /k C:<span class="se">\\</span>Program<span class="se">\ </span>Files<span class="se">\ \(</span>x86<span class="se">\)\\</span>Microsoft<span class="se">\ </span>Visual<span class="se">\ </span>Studio<span class="se">\\</span>2019<span class="se">\\</span>BuildTools<span class="se">\\</span>VC<span class="se">\\</span>Auxiliary<span class="se">\\</span>Build<span class="se">\\</span>vcvars64.bat
+</code></pre></div></div>
+<p>Le terminal affiche les informations suivantes :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.3.10
+** Copyright (c) 2019 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+</span></code></pre></div></div>
+
+<h4 id="etape-4-compilation"><strong>Etape 4</strong>: compilation</h4>
+
+<p>On lance la <strong>compilation</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>make
+</code></pre></div></div>
+<p>4h30 plus tard (la machine est ancienne), le terminal conclue sur ces mots :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">[…]
+OpenBLAS build complete. (BLAS CBLAS LAPACK LAPACKE)
+  OS               ... WINNT
+  Architecture     ... x86_64
+  BINARY           ... 64bit
+  C compiler       ... GCC  (command line : x86_64-w64-mingw32-gcc)
+  Fortran compiler ... GFORTRAN  (command line : x86_64-w64-mingw32-gfortran)
+  Library Name     ... libopenblas-r0.3.8.dev.a (Single threaded)
+To install the library, you can run "make PREFIX=/path/to/your/installation install".
+install :
+</span></code></pre></div></div>
+
+<h4 id="etape-5-installation"><strong>Etape 5</strong>: installation</h4>
+
+<p>Création du <strong>dossier d’installation d’OpenBLAS</strong>.</p>
+
+<p>On crée un sous répertoire dédié :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">mkdir</span> <span class="nt">-p</span> package
+</code></pre></div></div>
+<p>Puis on lance le processus d’installation :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>make <span class="nv">PREFIX</span><span class="o">=</span>./package <span class="nb">install</span>
+</code></pre></div></div>
+<p>Le terminal affiche les informations suivantes :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">make PREFIX=./package install
+make -j 2 -f Makefile.install install
+make[1] : on entre dans le répertoire « /cygdrive/c/Workdir/OpenBLAS »
+Generating openblas_config.h in ./package/include
+Generating f77blas.h in ./package/include
+Generating cblas.h in ./package/include
+Copying LAPACKE header files to ./package/include
+Copying the static library to ./package/lib
+Copying the shared library to ./package/lib
+Generating openblas.pc in ./package/lib/pkgconfig
+Generating OpenBLASConfig.cmake in ./package/lib/cmake/openblas
+Generating OpenBLASConfigVersion.cmake in ./package/lib/cmake/openblas
+Install OK!
+make[1] : on quitte le répertoire « /cygdrive/c/Workdir/OpenBLAS »
+</span></code></pre></div></div>
+<p>A l’issue de cette étape la structure de fichiers est la suivante :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir 
+└── OpenBLAS
+    ├── …
+    └── package
+        ├── bin
+        │   └── libopenblas.dll
+        ├── include
+        │   └── headers c (*.h)
+        └── lib
+            ├── libopenblas.a
+            ├── libopenblas.dll.a
+            ├── libopenblas-r0.3.8.dev.a
+            ├── cmake
+            └── pkgconfig
+</code></pre></div></div>
+
+<h4 id="etape-6-lib-dimport"><strong>Etape 6</strong>: lib d’import</h4>
+
+<p>Création (optionnelle) de la <strong>librairie d’import pour Visual Studio</strong> (<a href="https://github.com/xianyi/OpenBLAS/wiki/How-to-use-OpenBLAS-in-Microsoft-Visual-Studio#generate-import-library-before-0210-version">source</a>).</p>
+
+<p>Dans le <strong>terminal x64 Native Tools Command Prompt for VS2019</strong>:</p>
+
+<p>On se déplace dans le sous dossier exports d’ OpenBLAS :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span><span class="nb">cd </span>C:<span class="se">\W</span>orkdir<span class="se">\O</span>penBLAS<span class="se">\e</span>xports
+</code></pre></div></div>
+<p>On lance l’outil lib.exe de la suite d’outils Visual Studio :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span>lib.exe /machine:x64 /def:libopenblas.def
+</code></pre></div></div>
+<p>Le terminal affiche les informations suivantes :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">Microsoft (R) Library Manager Version 14.23.28107.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+   Création de la bibliothèque libopenblas.lib et de l'objet libopenblas.exp
+</span></code></pre></div></div>
+<p>Deux fichiers ont été créés dans le dossier exports :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir 
+└── OpenBLAS
+    ├── …
+    └── exports
+        ├── libopenblas.exp
+        ├── libopenblas.lib
+        └── …
+</code></pre></div></div>
+<p>On copie ces deux fichiers dans le sous dossier package/lib :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir 
+└── OpenBLAS
+    ├── …
+    └── package
+        ├── bin
+        │   └── libopenblas.dll
+        ├── include
+        │   └── headers c (*.h)
+        └── lib
+            ├── libopenblas.a
+            ├── libopenblas.dll.a
+            ├── libopenblas-r0.3.8.dev.a
+            ├── libopenblas.exp
+            ├── libopenblas.lib
+            └── …
+</code></pre></div></div>
+<p>A présent OpenBLAS /package constitue notre dossier d’installation OpenBLAS.</p>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>Taille des fichiers :</p>
+<ul>
+  <li>libopenblas.dll (41 314 ko)</li>
+  <li>libopenblas.a (1 ko)</li>
+  <li>libopenblas.dll.a (5 290 ko)</li>
+  <li>libopenblas-r0.3.8.dev.a (49 786 ko)</li>
+  <li>libopenblas.lib (1 595 ko)</li>
+</ul>
+
+<p>Nature des fichiers (<a href="https://groups.google.com/forum/#!topic/openblas-users/YBfetRdPRlk">source</a>):</p>
+<ul>
+  <li>libopenblas.a : est la librairie statique pour MinGW sur windows</li>
+  <li>libopenblas.dll.a est la librairie d’import pour Visual Studio, équivalente à libopenblas.lib (pourtant de tailles différentes)</li>
+</ul>
+
+<p>Le fait que la librairie statique ne fasse que 1 ko interroge pourtant. Ne s’agirait-il pas plutôt de libopenblas-r0.3.8.dev.a qui fait près de 50 Mo ?</p>
+
+</div>
+
+<h2 id="22--compilation-de-numpy-avec-openblas">2.2- Compilation de Numpy avec OpenBLAS</h2>
+
+<p>Comme pour la compilation d’OpenBLAS, la procédure de build de Numpy + OpenBLAS proposée ci-dessous est le fruit d’un grand nombre d’essais/erreurs.</p>
+
+<p>Les ressources suivantes ont été utiles :</p>
+<ul>
+  <li><a href="https://scipy.github.io/devdocs/building/windows.html">https://scipy.github.io/devdocs/building/windows.html</a></li>
+  <li><a href="https://groups.google.com/g/openblas-users/c/EuGTc6bWhZw/m/NVH6P-WzFvkJ">https://groups.google.com/g/openblas-users/c/EuGTc6bWhZw/m/NVH6P-WzFvkJ</a></li>
+  <li><a href="https://stackoverflow.com/questions/24347450/how-do-you-add-additional-files-to-a-wheel">https://stackoverflow.com/questions/24347450/how-do-you-add-additional-files-to-a-wheel</a></li>
+  <li><a href="https://lucumr.pocoo.org/2014/1/27/python-on-wheels/">https://lucumr.pocoo.org/2014/1/27/python-on-wheels/</a></li>
+  <li><a href="https://stackoverflow.com/questions/26059111/build-a-wheel-egg-and-all-dependencies-for-a-python-project">https://stackoverflow.com/questions/26059111/build-a-wheel-egg-and-all-dependencies-for-a-python-project</a></li>
+  <li><a href="https://stackoverflow.com/questions/44043990/how-to-build-a-python-wheel-with-compiled-fortran-extension-module-without-requi">https://stackoverflow.com/questions/44043990/how-to-build-a-python-wheel-with-compiled-fortran-extension-module-without-requi</a></li>
+  <li><a href="https://stackoverflow.com/questions/24071491/how-can-i-make-a-python-wheel-from-an-existing-native-library">https://stackoverflow.com/questions/24071491/how-can-i-make-a-python-wheel-from-an-existing-native-library</a></li>
+</ul>
+
+<h3 id="221--mise-à-jour-de-la-configuration">2.2.1- Mise à jour de la configuration</h3>
+
+<p>Pour éviter des échecs de chargement de dlls lors du build de Numpy (en particulier pour l’objet multiaaray_umath) il s’avère nécessaire d’étendre le PATH système.</p>
+
+<p>L’outil <a href="http://www.dependencywalker.com/"><strong>Dependancy Walker</strong></a> indique que libopenblas.dll dépend de deux autres dlls « manquantes »: libgcc_s_seh-1.dll et LIBGFORTRAN-4.DLL. Ces deux dlls (présentes dans différents dossiers de C:) partagent un emplacement commun: C:\cygwin64\usr\x86_64-w64-mingw32\sys-root\mingw\bin.</p>
+
+<p>On ajoute ce chemin à la variable d’environnement <strong>système PATH</strong>, à présent, cette variable comprend en particulier:</p>
+<ul>
+  <li>C:\MinGW;</li>
+  <li>C:\MinGW\bin;</li>
+  <li>C:\cygwin64\bin;</li>
+  <li>%systemroot%\System32\WindowsPowerShell\v1.0\;</li>
+  <li>C:\Program Files\Git\cmd;</li>
+  <li><strong>C:\cygwin64\usr\x86_64-w64-mingw32\sys-root\mingw\bin</strong></li>
+</ul>
+
+<h3 id="222--procédure-de-build-de-numpy-avec-openblas">2.2.2- Procédure de build de Numpy avec OpenBLAS</h3>
+
+<p>Dans le <strong>terminal Cygwin64</strong> (en mode administrateur).</p>
+
+<h4 id="etape-1-env-vars"><strong>Etape 1</strong>: ENV VARS</h4>
+
+<p>Variables d’<strong>environnement</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">export </span><span class="nv">DNDEBUG</span><span class="o">=</span>1 
+<span class="gp">$</span><span class="w"> </span><span class="nb">export </span><span class="nv">OPT</span><span class="o">=</span>1
+<span class="gp">$</span><span class="w"> </span><span class="nb">export </span><span class="nv">CC</span><span class="o">=</span>c:/cygwin64/bin/x86_64-w64-mingw32-gcc.exe
+<span class="gp">$</span><span class="w"> </span><span class="nb">export </span><span class="nv">FC</span><span class="o">=</span>c:/cygwin64/bin/x86_64-w64-mingw32-gfortran.exe
+</code></pre></div></div>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarques:</h4>
+  
+<ul>
+  <li>La première ligne limite les traces affichées dans la console</li>
+  <li>La seconde active l’optimisation pour le compilateur C. Attention l’optimisation pour le compilateur Fortran (FOPT=1) crée une erreur</li>
+  <li>Les deux dernières lignes indiquent explicitement les compilateurs C et Fortran à utiliser (les mêmes que ceux utilisés pour OpenBLAS)</li>
+</ul>
+
+</div>
+
+<h4 id="etape-2-clonage"><strong>Etape 2</strong>: clonage</h4>
+
+<p>Clonage des sources <strong>numpy</strong> dans le répertoire de travail:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">cd </span>c:
+<span class="gp">$</span><span class="w"> </span><span class="nb">cd</span> <span class="s2">"c:/Workdir"</span>
+<span class="gp">$</span><span class="w"> </span>git clone https://github.com/numpy/numpy.git
+<span class="gp">$</span><span class="w"> </span><span class="nb">cd </span>numpy
+</code></pre></div></div>
+
+<h4 id="etape-3-insertion"><strong>Etape 3</strong>: insertion</h4>
+
+<p>Insertion d’élément de <strong>OpenBLAS/package</strong> dans les sources <strong>numpy</strong>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir 
+├── OpenBLAS
+└── numpy
+    ├── …
+    └── numpy
+        ├── …
+        └── core
+            ├── …
+            ├── libopenblas.dll # (1)
+            ├── include
+            │   └── numpy
+            │       └── libopenblas 
+            │           └── headers c (*.h) # (2)
+            └── libopenblas
+                └── lib # (3)
+</code></pre></div></div>
+
+<div class="notice--info">
+  <h4 class="no_toc">Références:</h4>
+  
+<ul>
+  <li><strong>(1)</strong> La dll est copiée depuis OpenBLAS/package/bin. On la copie dans numpy/numpy/core car le plugin Numpy de Nuitka la recherchera ici ou dans un éventuels dossier numpy/.libs.</li>
+  <li><strong>(2)</strong> numpy/numpy/core/include/numpy/libopenblas contient les copies des hearders c contenus dans OpenBLAS/package/include. Le dossier numpy/numpy/core/include/numpy existant déjà dans les sources on y ajoute les include OpenBLAS dans un sous dossier dédié.</li>
+  <li><strong>(3)</strong> numpy/numpy/core/libopenblas/lib contient les copies des fichiers contenus dans OpenBLAS/package/lib.</li>
+</ul>
+
+</div>
+
+<h4 id="etape-4-config"><strong>Etape 4</strong>: config.</h4>
+
+<p>Configuration du <strong>build</strong>.</p>
+
+<p>Repérage des trois fichiers à modifier dans les sources numpy :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir 
+├── OpenBLAS
+└── numpy
+    ├── …
+    ├── setup.py
+    ├── site.cfg.example # -&gt; site.cfg après modif
+    └── numpy
+        ├── …
+        └── setup.py
+</code></pre></div></div>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>Dans cette solution on ne modifie pas le fichier MANIFEST.in.</p>
+
+</div>
+
+<p><strong>Modifications apportées à numpy/setup.py</strong></p>
+
+<p>Avant la fonction setup_package(), <strong>ligne 370</strong> on insère le code suivant:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#************************************************************************
+# MODIF 1 :
+</span><span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span><span class="p">,</span> <span class="n">Distribution</span>
+<span class="k">class</span> <span class="nc">BinaryDistribution</span><span class="p">(</span><span class="n">Distribution</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">has_ext_modules</span><span class="p">(</span><span class="n">foo</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">True</span>
+<span class="c1">#************************************************************************
+</span></code></pre></div></div>
+<p>Puis au sein de la fonction setup_package(), on insère <strong>ligne 448</strong> le code suivant:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">#************************************************************************
+</span>    <span class="c1"># MODIF 2 :
+</span>    <span class="n">metadata</span><span class="p">[</span><span class="s">"distclass"</span><span class="p">]</span><span class="o">=</span><span class="n">BinaryDistribution</span>
+    <span class="c1">#metadata["include_package_data"]=True
+</span>    <span class="c1">#************************************************************************
+</span></code></pre></div></div>
+<p>Qui précède à présent le dernier bloc try/finally/return de la fonction.</p>
+
+<p><strong>Modifications apportées à numpy/numpy/setup.py</strong></p>
+
+<p>Le fichier étant court, voici sa version modifiée :</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env python
+</span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">print_function</span>
+
+<span class="k">def</span> <span class="nf">configuration</span><span class="p">(</span><span class="n">parent_package</span><span class="o">=</span><span class="s">''</span><span class="p">,</span><span class="n">top_path</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="kn">from</span> <span class="nn">numpy.distutils.misc_util</span> <span class="kn">import</span> <span class="n">Configuration</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">Configuration</span><span class="p">(</span><span class="s">'numpy'</span><span class="p">,</span> <span class="n">parent_package</span><span class="p">,</span> <span class="n">top_path</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'compat'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'core'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'distutils'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'doc'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'f2py'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'fft'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'lib'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'linalg'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'ma'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'matrixlib'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'polynomial'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'random'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_subpackage</span><span class="p">(</span><span class="s">'testing'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_data_dir</span><span class="p">(</span><span class="s">'doc'</span><span class="p">)</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_data_dir</span><span class="p">(</span><span class="s">'tests'</span><span class="p">)</span>
+    <span class="c1">#************************************************************************
+</span>    <span class="c1"># MODIF : openblas et ses dépendances
+</span>    <span class="n">config</span><span class="p">.</span><span class="n">add_data_dir</span><span class="p">((</span><span class="s">'core/include/numpy/libopenblas'</span><span class="p">,</span> <span class="s">'core/include/numpy/libopenblas'</span><span class="p">))</span>
+    <span class="n">config</span><span class="p">.</span><span class="n">add_data_files</span><span class="p">((</span><span class="s">'core'</span><span class="p">,</span> <span class="s">'core/libopenblas.dll'</span><span class="p">))</span>
+    <span class="c1">#************************************************************************
+</span>    <span class="n">config</span><span class="p">.</span><span class="n">make_config_py</span><span class="p">()</span> <span class="c1"># installs __config__.py
+</span>    <span class="k">return</span> <span class="n">config</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'This is the wrong setup.py file to run'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Cette modification assure la copie de la dll et des headers dans le résultat du build.</p>
+
+<p><strong>Création de numpy/site.cfg</strong></p>
+
+<p>Ce fichier est créé par enregistrement de numpy/site.cfg.example en numpy/site.cfg.</p>
+
+<p>Les seules lignes actives de ce fichiers (ie non précédées de #) sont les suivantes :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[openblas]
+libraries = openblas
+library_dirs = C:\Workdir\numpy\numpy\core\libopenblas\lib
+include_dirs =  C:\Workdir\numpy\numpy\core\include\numpy\libopenblas
+src_dirs=C:\Workdir\OpenBLAS, C:\Workdir\OpenBLAS\lapack-netlib\BLAS\SRC , C:\Workdir\OpenBLAS\lapack-netlib\CBLAS\src, C:\Workdir\OpenBLAS\lapack-netlib\LAPACKE\src, C:\Workdir\OpenBLAS\lapack-netlib\SRC, C:\Workdir\OpenBLAS\relapack\src, C:\Workdir\OpenBLAS\reference, C:\Workdir\OpenBLAS\interface
+</code></pre></div></div>
+<p>Les variables library_dirs et include_dirs pointent explicitement vers les fichiers copiés dans les sources Numpy.
+A contrario, src_dirs pointe vers tous les répertoires originaux d’OpenBLAS contenant du code source.</p>
+
+<h4 id="etape-5-msvc"><strong>Etape 5</strong>: MSVC</h4>
+
+<p>Activation des outils <strong>Visual Studio</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>cmd /k C:<span class="se">\\</span>Program<span class="se">\ </span>Files<span class="se">\ \(</span>x86<span class="se">\)\\</span>Microsoft<span class="se">\ </span>Visual<span class="se">\ </span>Studio<span class="se">\\</span>2019<span class="se">\\</span>BuildTools<span class="se">\\</span>VC<span class="se">\\</span>Auxiliary<span class="se">\\</span>Build<span class="se">\\</span>vcvars64.bat
+</code></pre></div></div>
+<p>Le terminal affiche les informations suivantes :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.3.10
+** Copyright (c) 2019 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+</span></code></pre></div></div>
+
+<h4 id="etape-6-compilation"><strong>Etape 6</strong>: compilation</h4>
+
+<p>On lance la compilation:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>C:/Users/admin/AppData/Local/Programs/Python/Python37/python.exe setup.py build
+</code></pre></div></div>
+<p>Extraits des logs affichés dans la console :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">Processing numpy/random\_bounded_integers.pxd.in
+[...]
+Cythonizing sources
+[...]
+  FOUND:
+    libraries = ['libopenblas', 'libopenblas']
+    library_dirs = ['C:\\Workdir\\numpy\\numpy\\core\\openblas\\lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+[...]
+running build
+[...]
+customize MSVCCompiler
+[...]
+compiling C sources
+[...]
+Running from numpy source directory.
+C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\distutils\dist.py:274: UserWarning: Unknown distribution option: 'define_macros'
+  warnings.warn(msg)
+</span></code></pre></div></div>
+
+<div class="notice--info">
+  <h4 class="no_toc">Deux choses à noter:</h4>
+  
+<ul>
+  <li>Les 4 lignes suivant FOUND indiquent que des composantes d’OpenBLAS ont été reconnues. Ce type de message devrait survenir à plusieurs reprises dans les logs.</li>
+  <li>Le traitement s’achève sur un warning concernant l’option « define_macros », avertissement que l’on ignore.</li>
+</ul>
+
+</div>
+
+<h4 id="etape-7-wheel"><strong>Etape 7</strong>: wheel</h4>
+
+<p>Création de la wheel d’installation de Numpy:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>C:/Users/admin/AppData/Local/Programs/Python/Python37/python.exe setup.py bdist_wheel
+</code></pre></div></div>
+<p>Extraits des logs affichés dans la console :</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">numpy/random\_bounded_integers.pxd.in has not changed
+[...]
+Cythonizing sources
+[...]
+  FOUND:
+    libraries = ['libopenblas', 'libopenblas']
+    library_dirs = ['C:\\Workdir\\numpy\\numpy\\core\\openblas\\lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+[...]
+running bdist_wheel
+running build
+[...]
+customize MSVCCompiler
+[...]
+compiling C sources
+[...]
+installing to build\bdist.win-amd64\wheel
+running install
+[...]
+Running from numpy source directory.
+C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\distutils\dist.py:274: UserWarning: Unknown distribution option: 'define_macros'
+  warnings.warn(msg)
+C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\site-packages\wheel\pep425tags.py:83: RuntimeWarning: Config variable 'Py_DEBUG' is unset, Python ABI tag may be incorrect
+  warn=(impl == 'cp')):
+C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\site-packages\wheel\pep425tags.py:88: RuntimeWarning: Config variable 'WITH_PYMALLOC' is unset, Python ABI tag may be incorrect
+  sys.version_info &lt; (3, 8))) \
+</span></code></pre></div></div>
+<p>Les traitements s’achèvent sur trois avertissements que l’on ignore. La Wheel d’installation de Numpy a été créée dans numpy/dist:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:/Workdir 
+├── OpenBLAS
+└── numpy
+    ├── …
+    ├── build
+    ├── dist
+    │   └── numpy-1.19.0.dev0+d4b495c-cp37-cp37m-win_amd64.whl
+    └── numpy.egg-info
+</code></pre></div></div>
+<p>Le fichier pèse 14 182 ko.</p>
+
+<h4 id="etape-8-installation"><strong>Etape 8</strong>: installation</h4>
+
+<p>Installation de la wheel Numpy.</p>
+
+<p>Dans le <strong>terminal x64 Native Tools Command Prompt for VS2019</strong>:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span>python <span class="nt">-m</span> pip <span class="nb">install </span>C:<span class="se">\W</span>orkdir<span class="se">\n</span>umpy<span class="se">\d</span>ist<span class="se">\n</span>umpy-1.19.0.dev0+d4b495c-cp37-cp37m-win_amd64.whl
+</code></pre></div></div>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarque:</h4>
+  
+<p>Pour désinstaller la wheel:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="w"> </span>python <span class="nt">-m</span> pip uninstall numpy
+</code></pre></div></div>
+
+</div>
+
+<h4 id="vérification"><strong>Vérification</strong></h4>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">&gt;</span><span class="o">&gt;&gt;</span> import numpy
+<span class="gp">&gt;</span><span class="o">&gt;&gt;</span> numpy.__config__.show<span class="o">()</span>
+<span class="go">blas_mkl_info:
+  NOT AVAILABLE
+blis_info:
+  NOT AVAILABLE
+openblas_info:
+    libraries = ['libopenblas', 'libopenblas']
+    library_dirs = ['C:\\Workdir\\numpy\\numpy\\core\\libopenblas\\lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+blas_opt_info:
+    libraries = ['libopenblas', 'libopenblas']
+    library_dirs = ['C:\\Workdir\\numpy\\numpy\\core\\libopenblas\\lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+lapack_mkl_info:
+  NOT AVAILABLE
+openblas_lapack_info:
+    libraries = ['libopenblas', 'libopenblas']
+    library_dirs = ['C:\\Workdir\\numpy\\numpy\\core\\libopenblas\\lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+lapack_opt_info:
+    libraries = ['libopenblas', 'libopenblas']
+    library_dirs = ['C:\\Workdir\\numpy\\numpy\\core\\libopenblas\\lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+</span><span class="gp">&gt;</span><span class="o">&gt;&gt;</span>
+</code></pre></div></div>
+<p>Les librairies relatives à BLAS et LAPACK sont bien définies.</p>
+
+<h4 id="résultat"><strong>Résultat</strong></h4>
+
+<p>Une fois cette version accélérée de Numpy installée le jeu tourne de manière beaucoup plus fluide. 
+De plus notre wheel est portable, elle fonctionne parfaitement sur une autre machine Windows 64 bits (Windows 7 Ed Familiale 64 bits).</p>
+
+<p><strong>Wheel Numpy 1.19 compilée avec OpenBLAS pour Windows 64</strong>: <a href="https://github.com/gab-python/labpyproject/raw/pub/dist/Wheel_Numpy_OpenBLAS/pc/numpy-1.19.0.dev0%2Bd4b495c-cp37-cp37m-win_amd64.whl" class="btn btn--success">Télécharger</a></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/gab-python/labpyproject" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+    <!--
+    <li><a href="/labpyproject/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    -->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 - Gabriel Leroy - Licence GPL. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/labpyproject/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

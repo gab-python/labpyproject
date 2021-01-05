@@ -1,0 +1,33 @@
+ItemObjectBase
+==============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base
+
+.. autoclass:: ItemObjectBase
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ItemObjectBase.create_view
+      ~ItemObjectBase.delete_view
+      ~ItemObjectBase.get_current_image
+      ~ItemObjectBase.get_real_coords
+      ~ItemObjectBase.set_case
+      ~ItemObjectBase.set_current_image
+      ~ItemObjectBase.set_real_coords
+      ~ItemObjectBase.set_visible
+      ~ItemObjectBase.set_zindex
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: create_view
+   .. automethod:: delete_view
+   .. automethod:: get_current_image
+   .. automethod:: get_real_coords
+   .. automethod:: set_case
+   .. automethod:: set_current_image
+   .. automethod:: set_real_coords
+   .. automethod:: set_visible
+   .. automethod:: set_zindex

@@ -1,0 +1,63 @@
+LayerStack
+==========
+
+.. currentmodule:: labpyproject.core.pygame.core
+
+.. autoclass:: LayerStack
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~LayerStack.globallayer
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~LayerStack.add_container
+      ~LayerStack.add_element
+      ~LayerStack.add_item
+      ~LayerStack.apply_offset
+      ~LayerStack.create_base_layer
+      ~LayerStack.create_locallayer
+      ~LayerStack.delete_layer
+      ~LayerStack.fire_offset_change
+      ~LayerStack.get_base_layer
+      ~LayerStack.get_globalrange
+      ~LayerStack.handle_changelist
+      ~LayerStack.is_empty
+      ~LayerStack.post_add_stack
+      ~LayerStack.post_create_layer
+      ~LayerStack.register_offset
+      ~LayerStack.remove_container
+      ~LayerStack.remove_element
+      ~LayerStack.remove_item
+      ~LayerStack.trace
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: globallayer
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: add_container
+   .. automethod:: add_element
+   .. automethod:: add_item
+   .. automethod:: apply_offset
+   .. automethod:: create_base_layer
+   .. automethod:: create_locallayer
+   .. automethod:: delete_layer
+   .. automethod:: fire_offset_change
+   .. automethod:: get_base_layer
+   .. automethod:: get_globalrange
+   .. automethod:: handle_changelist
+   .. automethod:: is_empty
+   .. automethod:: post_add_stack
+   .. automethod:: post_create_layer
+   .. automethod:: register_offset
+   .. automethod:: remove_container
+   .. automethod:: remove_element
+   .. automethod:: remove_item
+   .. automethod:: trace

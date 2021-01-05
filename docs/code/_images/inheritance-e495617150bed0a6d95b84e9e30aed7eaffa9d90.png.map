@@ -1,0 +1,6 @@
+<map id="inheritancec2d82e96b9" name="inheritancec2d82e96b9">
+<area shape="rect" id="node1" href="api/labpyproject.core.app.app_components.APPComp.html#labpyproject.core.app.app_components.APPComp" target="_top" title="Composant d&#39;application servant de routeur pour la gestion des piles de tâches." alt="" coords="184,31,269,56"/>
+<area shape="rect" id="node4" href="api/labpyproject.apps.labpyrinthe.app.application.AppManager.html#labpyproject.apps.labpyrinthe.app.application.AppManager" target="_top" title="**Manager de l&#39;application multi&#45;threads**." alt="" coords="317,31,420,56"/>
+<area shape="rect" id="node2" href="api/labpyproject.core.app.app_components.ThreadableComp.html#labpyproject.core.app.app_components.ThreadableComp" target="_top" title="Superclasse des composants dédiés à un usage en thread." alt="" coords="5,5,136,31"/>
+<area shape="rect" id="node3" href="api/labpyproject.core.queue.queue_tools.QueueSwitcher.html#labpyproject.core.queue.queue_tools.QueueSwitcher" target="_top" title="Aiguilleur de tâches (queues) multi canaux." alt="" coords="11,55,130,80"/>
+</map>

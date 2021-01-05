@@ -1,0 +1,7 @@
+AbstractScreenContent
+=====================
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.interfaces
+
+.. autoclass:: AbstractScreenContent
+   :show-inheritance:

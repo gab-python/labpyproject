@@ -1,0 +1,5 @@
+standaloneTkinter
+=================
+
+.. automodule:: labpyproject.apps.labpyrinthe.standaloneTkinter
+   :exclude-members: labpyproject.apps.labpyrinthe

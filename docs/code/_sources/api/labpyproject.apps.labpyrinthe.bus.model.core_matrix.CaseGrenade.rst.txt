@@ -1,0 +1,27 @@
+CaseGrenade
+===========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.model.core_matrix
+
+.. autoclass:: CaseGrenade
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CaseGrenade.DANGER_GRENADE
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CaseGrenade.get_default_dict
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: DANGER_GRENADE
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: get_default_dict

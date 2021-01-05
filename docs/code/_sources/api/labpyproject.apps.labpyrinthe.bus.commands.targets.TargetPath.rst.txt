@@ -1,0 +1,25 @@
+TargetPath
+==========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.commands.targets
+
+.. autoclass:: TargetPath
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~TargetPath.add_pathstep
+      ~TargetPath.copy
+      ~TargetPath.get_coords_list
+      ~TargetPath.get_last_step
+      ~TargetPath.get_steps_list
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: add_pathstep
+   .. automethod:: copy
+   .. automethod:: get_coords_list
+   .. automethod:: get_last_step
+   .. automethod:: get_steps_list

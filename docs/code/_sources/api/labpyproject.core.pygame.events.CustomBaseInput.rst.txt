@@ -1,0 +1,35 @@
+CustomBaseInput
+===============
+
+.. currentmodule:: labpyproject.core.pygame.events
+
+.. autoclass:: CustomBaseInput
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CustomBaseInput.DEFAULT_EVT_DICT
+      ~CustomBaseInput.inputext
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CustomBaseInput.ask_input_focus
+      ~CustomBaseInput.handle_key_event
+      ~CustomBaseInput.handle_mouse_event
+      ~CustomBaseInput.on_entry_validated
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: DEFAULT_EVT_DICT
+   .. autoattribute:: inputext
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: ask_input_focus
+   .. automethod:: handle_key_event
+   .. automethod:: handle_mouse_event
+   .. automethod:: on_entry_validated

@@ -1,0 +1,7 @@
+HBox
+====
+
+.. currentmodule:: labpyproject.core.pygame.widgets
+
+.. autoclass:: HBox
+   :show-inheritance:

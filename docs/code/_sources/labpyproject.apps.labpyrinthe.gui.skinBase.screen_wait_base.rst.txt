@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.skinBase.screen\_wait\_base
+=============================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base
+   :no-heading:
+   :no-main-docstr:

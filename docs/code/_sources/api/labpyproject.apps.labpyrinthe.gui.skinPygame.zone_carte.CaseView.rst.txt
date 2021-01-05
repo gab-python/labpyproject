@@ -1,0 +1,31 @@
+CaseView
+========
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte
+
+.. autoclass:: CaseView
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CaseView.RESIZEMODE
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CaseView.change_case
+      ~CaseView.get_source_size
+      ~CaseView.get_surface_for_size
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: RESIZEMODE
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: change_case
+   .. automethod:: get_source_size
+   .. automethod:: get_surface_for_size

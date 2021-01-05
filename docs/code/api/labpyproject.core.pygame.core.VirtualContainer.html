@@ -1,0 +1,1446 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>VirtualContainer &mdash; Documentation labpyproject </title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="CustomSprite" href="labpyproject.core.pygame.core.CustomSprite.html" />
+    <link rel="prev" title="VirtualItem" href="labpyproject.core.pygame.core.VirtualItem.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> labpyproject
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../labpyproject.html">labpyproject</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../labpyproject.apps.html">labpyproject.apps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.html">labpyproject.apps.labpyrinthe</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.html">labpyproject.apps.labpyrinthe.app</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html">app_types</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.app.app_types.AppTypes.html">AppTypes</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.app_types.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html">application</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.app.application.AppManager.html">AppManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.app.application.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.html">labpyproject.apps.labpyrinthe.bus</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.html">labpyproject.apps.labpyrinthe.bus.commands</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html">cmd_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.CommandHelper.html">CommandHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html">cmd_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.CommandManager.html">CommandManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.cmd_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html">gamble_datas</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataSet.html">GambleDataSet</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleDataObject.html">GambleDataObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.PseudoActions.html">PseudoActions</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.GambleSearch.html">GambleSearch</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.gamble_datas.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html">targets</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetObject.html">TargetObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPath.html">TargetPath</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.commands.targets.TargetPathStep.html">TargetPathStep</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.commands.targets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.html">labpyproject.apps.labpyrinthe.bus.helpers</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html">exchange_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.ExchangeHelper.html">ExchangeHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html">game_configuration</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.GameConfiguration.html">GameConfiguration</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.game_configuration.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html">lab_generator</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.LabGenerator.html">LabGenerator</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_generator.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html">lab_manager</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.LabManager.html">LabManager</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html">lab_parser</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.LabParser.html">LabParser</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.helpers.lab_parser.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.html">labpyproject.apps.labpyrinthe.bus.model</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html">core_matrix</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabHelper.html">LabHelper</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.LabLevel.html">LabLevel</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.Matrice.html">Matrice</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.AnimatedLayer.html">AnimatedLayer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.Case.html">Case</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseRobot.html">CaseRobot</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseDanger.html">CaseDanger</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseGrenade.html">CaseGrenade</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseAnimation.html">CaseAnimation</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.core_matrix.CaseBonus.html">CaseBonus</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.core_matrix.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html">player</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.model.player.LabPlayer.html">LabPlayer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.model.player.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html">game_manager</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.bus.game_manager.GameManager.html">GameManager</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.bus.game_manager.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.html">labpyproject.apps.labpyrinthe.gui</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.html">labpyproject.apps.labpyrinthe.gui.skinBase</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html">GUIBase</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBase.html">GUIBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseNoThread.html">GUIBaseNoThread</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.GUIBaseThreaded.html">GUIBaseThreaded</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.GUIBase.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html">colors</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.colors.ColorHelper.html">ColorHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.colors.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html">interfaces</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCarte.html">AbstractZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneCommand.html">AbstractZoneCommand</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie.html">AbstractZonePartie</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneBots.html">AbstractZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneMenu.html">AbstractZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenContent.html">AbstractScreenContent</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractScreenWait.html">AbstractScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractSwitch.html">AbstractSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractInput.html">AbstractInput</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html">screen_wait_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.ScreenWaitBase.html">ScreenWaitBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html">skin_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.SkinBase.html">SkinBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.skin_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html">zone_bots_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.ZoneBotsBase.html">ZoneBotsBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_bots_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html">zone_carte_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ZoneCarteBase.html">ZoneCarteBase</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.ItemObjectBase.html">ItemObjectBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_carte_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html">zone_command_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.ZoneCommandBase.html">ZoneCommandBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_command_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html">zone_menu_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.ZoneMenuBase.html">ZoneMenuBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html">zone_partie_base</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase.html">ZonePartieBase</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.html">labpyproject.apps.labpyrinthe.gui.skinConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html">pub_helper</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.PublicationHelper.html">PublicationHelper</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinConsole.pub_helper.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.html">labpyproject.apps.labpyrinthe.gui.skinPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html">botview</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.botview.BotView.html">BotView</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.botview.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html">footer</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.footer.Footer.html">Footer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.footer.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScreenWait.html">ScreenWait</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.ScaledText.html">ScaledText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.SimplePreloader.html">SimplePreloader</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html">skinPygame</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.SkinPygame.html">SkinPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.skinPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WImage.html">WImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WText.html">WText</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WEntry.html">WEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.WButton.html">WButton</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.Spacer.html">Spacer</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.ZoneBots.html">ZoneBots</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotList.html">BotList</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.BotItem.html">BotItem</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ItemObject.html">ItemObject</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.CaseView.html">CaseView</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.BotViewCarte.html">BotViewCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.ZoneDangerRobot.html">ZoneDangerRobot</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.MenuButton.html">MenuButton</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.html">labpyproject.apps.labpyrinthe.gui.skinTkinter</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html">header</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.header.Header.html">Header</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.header.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html">screen_wait</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.ScreenWait.html">ScreenWait</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html">skinTkinter</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.SkinTkinter.html">SkinTkinter</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.skinTkinter.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html">uitools</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CustomEntry.html">CustomEntry</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSwitch.html">CanvasSwitch</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasImage.html">CanvasImage</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSpacer.html">CanvasSpacer</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.CanvasSeparateur.html">CanvasSeparateur</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.uitools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html">zone_bots</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.ZoneBots.html">ZoneBots</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_bots.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html">zone_carte</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ZoneCarte.html">ZoneCarte</a></li>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.ItemObject.html">ItemObject</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_carte.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html">zone_command</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.ZoneCommand.html">ZoneCommand</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_command.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html">zone_menu</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.ZoneMenu.html">ZoneMenu</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html">zone_partie</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#classes">Classes</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.ZonePartie.html">ZonePartie</a></li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_partie.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html">GUIConsole</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIConsole.GUIConsole.html">GUIConsole</a></li>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIConsole.ThreadInput.html">ThreadInput</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIConsole.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html">GUIPygame</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUIPygame.GUIPygame.html">GUIPygame</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUIPygame.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html">GUITk</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html#classes">Classes</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="labpyproject.apps.labpyrinthe.gui.GUITk.GUITk.html">GUITk</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.gui.GUITk.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.clientConsole.html">clientConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.clientPygame.html">clientPygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.serverConsole.html">serverConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standaloneConsole.html">standaloneConsole</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standalonePygame.html">standalonePygame</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.apps.labpyrinthe.standaloneTkinter.html">standaloneTkinter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="../labpyproject.core.html">labpyproject.core</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.app.html">labpyproject.core.app</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.app.app_components.html">app_components</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.app.app_components.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.ThreadableComp.html">ThreadableComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.APPComp.html">APPComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteExchangeObject.html">SatelliteExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.AbstractSatelliteComp.html">AbstractSatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.DelayedAction.html">DelayedAction</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteComp.html">SatelliteComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.SatelliteCompNoThread.html">SatelliteCompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUIExchangeObject.html">GUIExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.AbstractGUIComp.html">AbstractGUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUIComp.html">GUIComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.GUICompNoThread.html">GUICompNoThread</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.NETExchangeObject.html">NETExchangeObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.NETComp.html">NETComp</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.app.app_components.BUSINESSComp.html">BUSINESSComp</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.app.app_components.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.io.html">labpyproject.core.io</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.io.custom_IO.html">custom_IO</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.io.custom_IO.html#functions">Functions</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.get_file_list.html">get_file_list</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.load_obj_from_file.html">load_obj_from_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.load_text_file.html">load_text_file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.io.custom_IO.save_obj_in_file.html">save_obj_in_file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.net.html">labpyproject.core.net</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html">custom_TCP</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPServerContainer.html">CustomTCPServerContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.ThreadedTCPServer.html">ThreadedTCPServer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPRequestHandler.html">CustomTCPRequestHandler</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.ParseDataError.html">ParseDataError</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomRequestHelper.html">CustomRequestHelper</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.net.custom_TCP.CustomTCPThreadedClient.html">CustomTCPThreadedClient</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.net.custom_TCP.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.patterns.html">labpyproject.core.patterns</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html">design_patterns</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.patterns.design_patterns.Singleton.html">Singleton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.patterns.design_patterns.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 current"><a class="reference internal" href="../labpyproject.core.pygame.html">labpyproject.core.pygame</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../labpyproject.core.pygame.core.html">core</a><ul class="current">
+<li class="toctree-l5 current"><a class="reference internal" href="../labpyproject.core.pygame.core.html#classes">Classes</a><ul class="current">
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.BoxModelObject.html">BoxModelObject</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.MetricValue.html">MetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.BoundedMetricValue.html">BoundedMetricValue</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.VirtualItem.html">VirtualItem</a></li>
+<li class="toctree-l6 current"><a class="current reference internal" href="#">VirtualContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.CustomSprite.html">CustomSprite</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.RealContainer.html">RealContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.RootContainer.html">RootContainer</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LayerManager.html">LayerManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LayerStack.html">LayerStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.core.LocalLayer.html">LocalLayer</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.core.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.pygame.events.html">events</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.events.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomEventManager.html">CustomEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.GUIEventManager.html">GUIEventManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseControl.html">CustomBaseControl</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseInput.html">CustomBaseInput</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.events.CustomBaseButton.html">CustomBaseButton</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.events.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html">widgets</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Background.html">Background</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Image.html">Image</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Text.html">Text</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Entry.html">Entry</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.TextButton.html">TextButton</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Button.html">Button</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Stack.html">Stack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.HStack.html">HStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.VStack.html">VStack</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Canvas.html">Canvas</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.HBox.html">HBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.VBox.html">VBox</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.pygame.widgets.Root.html">Root</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.pygame.widgets.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.queue.html">labpyproject.core.queue</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html">queue_tools</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueManager.html">QueueManager</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueSimpleClient.html">QueueSimpleClient</a></li>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.queue.queue_tools.QueueSwitcher.html">QueueSwitcher</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.queue.queue_tools.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../labpyproject.core.random.html">labpyproject.core.random</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../labpyproject.core.random.custom_random.html">custom_random</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.random.custom_random.html#classes">Classes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="labpyproject.core.random.custom_random.CustomRandom.html">CustomRandom</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../labpyproject.core.random.custom_random.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">labpyproject</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../labpyproject.html">labpyproject</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.core.html">labpyproject.core</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.core.pygame.html">labpyproject.core.pygame</a> &raquo;</li>
+        
+          <li><a href="../labpyproject.core.pygame.core.html">labpyproject.core.pygame.core</a> &raquo;</li>
+        
+      <li>VirtualContainer</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/labpyproject.core.pygame.core.VirtualContainer.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="virtualcontainer">
+<h1>VirtualContainer<a class="headerlink" href="#virtualcontainer" title="Lien permanent vers ce titre">¶</a></h1>
+<dl class="py class">
+<dt id="labpyproject.core.pygame.core.VirtualContainer">
+<em class="property">class </em><code class="sig-prename descclassname">labpyproject.core.pygame.core.</code><code class="sig-name descname">VirtualContainer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">bgcolor</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Bases : <a class="reference internal" href="labpyproject.core.pygame.core.VirtualItem.html#labpyproject.core.pygame.core.VirtualItem" title="labpyproject.core.pygame.core.VirtualItem"><code class="xref py py-class docutils literal notranslate"><span class="pre">labpyproject.core.pygame.core.VirtualItem</span></code></a></p>
+<p><strong>VirtualItem dôté des capacités d’un conteneur :</strong></p>
+<ul>
+<li><p>publication : ajout / suppression d’objets enfants</p></li>
+<li><p>propagation du resize aux objets enfants</p></li>
+<li><p>layouts basiques : via la propriété direction :</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>direction = None : layout absolu (canvas), cas par défaut</p></li>
+<li><p>direction = « horizontal » : layout des éléments de position fixed ou absolute selon
+l’axe x</p></li>
+<li><p>direction = « vertical » : respectivement selon l’axe y</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>Virtual indique que cet objet n’a pas de surface propre (au sens pygame). Comme VirtualItem
+il ne s’agit pas d’un objet de publication réel. Par contre il s’inscrit dans la gestion
+générique des couches et de la publication. Sa descendance sera publié réellement par
+un RealContainer parent (Root par défaut).</p>
+<div class="admonition-todo admonition" id="id1">
+<p class="admonition-title">À faire</p>
+<p>Support de la visibilité, actuellement effectif uniquement pour les composants disposant
+d’une surface de publication.</p>
+</div>
+<p>Constructeur</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>bgcolor</strong> (<em>str</em>) – couleur héxa</p></li>
+<li><p><strong>**kwargs</strong> – peut contenir direction ainsi que toutes les propriétés de VirtualItem.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Attributes Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.DIRECTION_ATTR" title="labpyproject.core.pygame.core.VirtualContainer.DIRECTION_ATTR"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DIRECTION_ATTR</span></code></a></p></td>
+<td><p>valeurs de direction possibles</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.DIRECTION_HORIZONTAL" title="labpyproject.core.pygame.core.VirtualContainer.DIRECTION_HORIZONTAL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DIRECTION_HORIZONTAL</span></code></a></p></td>
+<td><p>valeurs de direction équivalentes</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.DIRECTION_VERTICAL" title="labpyproject.core.pygame.core.VirtualContainer.DIRECTION_VERTICAL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DIRECTION_VERTICAL</span></code></a></p></td>
+<td><p>valeurs de direction équivalentes</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.bgcolor" title="labpyproject.core.pygame.core.VirtualContainer.bgcolor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bgcolor</span></code></a></p></td>
+<td><p>Couleur de fond (str héxa) convertie au format pygame.Color.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.direction" title="labpyproject.core.pygame.core.VirtualContainer.direction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">direction</span></code></a></p></td>
+<td><p>Direction de layout (None par défaut)</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.add_from_hierarchy" title="labpyproject.core.pygame.core.VirtualContainer.add_from_hierarchy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_from_hierarchy</span></code></a>(childlist)</p></td>
+<td><p>Chaine de remontée des items à publier en direction du RealContainer.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.add_item" title="labpyproject.core.pygame.core.VirtualContainer.add_item"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_item</span></code></a>(*childs, **kwargs)</p></td>
+<td><p>Ajout d’un ou plusieurs item(s) virtuel(s).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.apply_parent_layout" title="labpyproject.core.pygame.core.VirtualContainer.apply_parent_layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">apply_parent_layout</span></code></a>(prop, val)</p></td>
+<td><p>Applique le layout imposé par le conteneur parent</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.configure_child_added" title="labpyproject.core.pygame.core.VirtualContainer.configure_child_added"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure_child_added</span></code></a>(child)</p></td>
+<td><p>Configuration au moment de l’ajout du child.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.configure_child_removed" title="labpyproject.core.pygame.core.VirtualContainer.configure_child_removed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure_child_removed</span></code></a>(child)</p></td>
+<td><p>Configuration au moment de la suppression du child.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.create_background" title="labpyproject.core.pygame.core.VirtualContainer.create_background"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_background</span></code></a>()</p></td>
+<td><p>Crée un CustomSprite de fond si bgcolor != None.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.discard_allocated_area" title="labpyproject.core.pygame.core.VirtualContainer.discard_allocated_area"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_allocated_area</span></code></a>()</p></td>
+<td><p>Invalide la mise à jour des surfaces alouées aux childs.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.discard_globalRect" title="labpyproject.core.pygame.core.VirtualContainer.discard_globalRect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_globalRect</span></code></a>()</p></td>
+<td><p>Invalide la position globale absolue exacte</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.discard_layout" title="labpyproject.core.pygame.core.VirtualContainer.discard_layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_layout</span></code></a>()</p></td>
+<td><p>Invalide le layout des childs.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.discard_layout_list" title="labpyproject.core.pygame.core.VirtualContainer.discard_layout_list"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_layout_list</span></code></a>()</p></td>
+<td><p>Invalide les listes de childs liées au layout.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.discard_snap" title="labpyproject.core.pygame.core.VirtualContainer.discard_snap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">discard_snap</span></code></a>()</p></td>
+<td><p>Invalide l’éventuel calcul de snap.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.get_snap_childs" title="labpyproject.core.pygame.core.VirtualContainer.get_snap_childs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_snap_childs</span></code></a>()</p></td>
+<td><p>Retourne la liste des childs à prendre en compte pour les calculs de snap sauf le fond.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.handle_snap" title="labpyproject.core.pygame.core.VirtualContainer.handle_snap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">handle_snap</span></code></a>()</p></td>
+<td><p>Prise en charge des snaps à la fin du process de resize : pour éviter un bouclage sans fin du process on recalcule les rects en repositionnant au besoin les childs, sans les re resizer.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.has_flexible_childs" title="labpyproject.core.pygame.core.VirtualContainer.has_flexible_childs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_flexible_childs</span></code></a>()</p></td>
+<td><p>Indique si un ou plusieurs childs sont flexibles.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.layout_childs" title="labpyproject.core.pygame.core.VirtualContainer.layout_childs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">layout_childs</span></code></a>()</p></td>
+<td><p>Applique le layout basique (si direction != None) aux childs de position fixed ou relative.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.mark_container_as_resized" title="labpyproject.core.pygame.core.VirtualContainer.mark_container_as_resized"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mark_container_as_resized</span></code></a>()</p></td>
+<td><p>En cas de resize personnalisé, re valide tous les marqueurs de resize.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_bgcolor_changed" title="labpyproject.core.pygame.core.VirtualContainer.on_bgcolor_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_bgcolor_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque la couleur de fond a été modifiée.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_display_discarded" title="labpyproject.core.pygame.core.VirtualContainer.on_child_display_discarded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_child_display_discarded</span></code></a>(child)</p></td>
+<td><p>Chaine de remontée des discard d’update jusqu’au prochain RealContainer.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_flex_changed" title="labpyproject.core.pygame.core.VirtualContainer.on_child_flex_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_child_flex_changed</span></code></a>(child)</p></td>
+<td><p>Appelée par un child dont l’attribut flex a été modifié.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_placement_discarded" title="labpyproject.core.pygame.core.VirtualContainer.on_child_placement_discarded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_child_placement_discarded</span></code></a>(child)</p></td>
+<td><p>Chaine de remontée des discard d’update jusqu’au prochain RealContainer.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_position_changed" title="labpyproject.core.pygame.core.VirtualContainer.on_child_position_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_child_position_changed</span></code></a>(child)</p></td>
+<td><p>Appelée par un child dont l’attribut position a été modifié.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_snap_changed" title="labpyproject.core.pygame.core.VirtualContainer.on_child_snap_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_child_snap_changed</span></code></a>(child)</p></td>
+<td><p>Appelée par un child dont l’attribut snap a été modifié.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_unresized" title="labpyproject.core.pygame.core.VirtualContainer.on_child_unresized"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_child_unresized</span></code></a>(child)</p></td>
+<td><p>Appelée lorsqu’un child n’est plus resizé.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_direction_changed" title="labpyproject.core.pygame.core.VirtualContainer.on_direction_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_direction_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque la propriété direction a été modifiée.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_item_added" title="labpyproject.core.pygame.core.VirtualContainer.on_item_added"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_item_added</span></code></a>(parent)</p></td>
+<td><p>Appelée par le container parent lorsque l’item est ajouté.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_item_added_to_displaylist" title="labpyproject.core.pygame.core.VirtualContainer.on_item_added_to_displaylist"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_item_added_to_displaylist</span></code></a>()</p></td>
+<td><p>Appelée lorsque l’item (via sa hiérarchie parente) est publié par le root dans la displaylist finale.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_item_removed" title="labpyproject.core.pygame.core.VirtualContainer.on_item_removed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_item_removed</span></code></a>()</p></td>
+<td><p>Appelée par le container parent lorsque l’item est supprimé</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_item_removed_from_displaylist" title="labpyproject.core.pygame.core.VirtualContainer.on_item_removed_from_displaylist"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_item_removed_from_displaylist</span></code></a>()</p></td>
+<td><p>Appelée lorsque l’item (via sa hiérarchie parente) est dé-publié par le root de la displaylist finale.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_parent_removed" title="labpyproject.core.pygame.core.VirtualContainer.on_parent_removed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_parent_removed</span></code></a>()</p></td>
+<td><p>Propagé si un parent a été supprimé sans que celui ne supprime sa hiérarchie.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_publicationRect_coords_changed" title="labpyproject.core.pygame.core.VirtualContainer.on_publicationRect_coords_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_publicationRect_coords_changed</span></code></a>(aftersnap)</p></td>
+<td><p>Appelée lors du process de resize quand les coordonnées seules de publicationRect ont été modifiées (pas les dimensions).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_publicationRect_dims_changed" title="labpyproject.core.pygame.core.VirtualContainer.on_publicationRect_dims_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_publicationRect_dims_changed</span></code></a>(aftersnap)</p></td>
+<td><p>Appelée lors du process de resize quand les dimensions (et éventuellement les coords) de publicationRect ont été modifiées</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_publicationRefRect_coords_changed" title="labpyproject.core.pygame.core.VirtualContainer.on_publicationRefRect_coords_changed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_publicationRefRect_coords_changed</span></code></a>()</p></td>
+<td><p>Appelée lorsque les coordonnées du rect de publication de référence (self._publicationRefRect) ont été modifiées (mais pas les dimensions).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_resize_achieved" title="labpyproject.core.pygame.core.VirtualContainer.on_resize_achieved"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_resize_achieved</span></code></a>()</p></td>
+<td><p>Appelée à la fin du process de resize de VirtualContainer pour post traitement éventuel.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.on_snap_occured" title="labpyproject.core.pygame.core.VirtualContainer.on_snap_occured"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_snap_occured</span></code></a>()</p></td>
+<td><p>Indique que self.publicationRect.width et/ou self.publicationRect.height ont été modifiées lors du process de resize par application d’un snap (adaptation au contenu).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.parse_direction" title="labpyproject.core.pygame.core.VirtualContainer.parse_direction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_direction</span></code></a>(val)</p></td>
+<td><p>Parse l’attribut direction</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.remove_from_hierarchy" title="labpyproject.core.pygame.core.VirtualContainer.remove_from_hierarchy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove_from_hierarchy</span></code></a>(childlist)</p></td>
+<td><p>Chaine de remontée des items à supprimer en direction du RealContainer.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.remove_item" title="labpyproject.core.pygame.core.VirtualContainer.remove_item"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove_item</span></code></a>(*childs)</p></td>
+<td><p>Suppression d’un ou plusieurs item(s) virtuel(s)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.resize" title="labpyproject.core.pygame.core.VirtualContainer.resize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resize</span></code></a>(**kwargs)</p></td>
+<td><p>Recalcul de la taille et de la position</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.resize_background" title="labpyproject.core.pygame.core.VirtualContainer.resize_background"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resize_background</span></code></a>()</p></td>
+<td><p>Resize le fond.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.update" title="labpyproject.core.pygame.core.VirtualContainer.update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update</span></code></a>(*args)</p></td>
+<td><p>Appelée à chaque frame: gestion du resize.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.update_backround_coords" title="labpyproject.core.pygame.core.VirtualContainer.update_backround_coords"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_backround_coords</span></code></a>()</p></td>
+<td><p>Met à jour les coordonnées du rect de publication du fond.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.update_childs" title="labpyproject.core.pygame.core.VirtualContainer.update_childs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_childs</span></code></a>()</p></td>
+<td><p>Redéfinition systématique de la surface alouée à chaque child et appel à sa méthode resize (recalcul au besoin).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.update_layout_list" title="labpyproject.core.pygame.core.VirtualContainer.update_layout_list"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_layout_list</span></code></a>()</p></td>
+<td><p>Reconstitue les listes de childs liées au layout.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer.xget_childs" title="labpyproject.core.pygame.core.VirtualContainer.xget_childs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">xget_childs</span></code></a>([context])</p></td>
+<td><p>Retourne la liste de tous les items de la hiérarchie</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes Documentation</p>
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.DIRECTION_ATTR">
+<code class="sig-name descname">DIRECTION_ATTR</code><em class="property"> = [['horizontal', 'h', 'x'], ['vertical', 'v', 'y']]</em><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.DIRECTION_ATTR" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeurs de direction possibles</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.DIRECTION_HORIZONTAL">
+<code class="sig-name descname">DIRECTION_HORIZONTAL</code><em class="property"> = ['horizontal', 'h', 'x']</em><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.DIRECTION_HORIZONTAL" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeurs de direction équivalentes</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.DIRECTION_VERTICAL">
+<code class="sig-name descname">DIRECTION_VERTICAL</code><em class="property"> = ['vertical', 'v', 'y']</em><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.DIRECTION_VERTICAL" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>valeurs de direction équivalentes</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.bgcolor">
+<code class="sig-name descname">bgcolor</code><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.bgcolor" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Couleur de fond (str héxa) convertie au format pygame.Color.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.direction">
+<code class="sig-name descname">direction</code><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.direction" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Direction de layout (None par défaut)</p>
+</dd></dl>
+
+<p class="rubric">Methods Documentation</p>
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.add_from_hierarchy">
+<code class="sig-name descname">add_from_hierarchy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">childlist</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.add_from_hierarchy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.add_from_hierarchy" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Chaine de remontée des items à publier en direction du RealContainer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>childlist</strong> (<em>list</em>) – liste de VirtualItem(s)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.add_item">
+<code class="sig-name descname">add_item</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">childs</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.add_item"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.add_item" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Ajout d’un ou plusieurs item(s) virtuel(s).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>childs</strong> (<em>list</em>) – liste de VirtualItem(s)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.apply_parent_layout">
+<code class="sig-name descname">apply_parent_layout</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prop</span></em>, <em class="sig-param"><span class="n">val</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.apply_parent_layout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.apply_parent_layout" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Applique le layout imposé par le conteneur parent</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prop</strong> (<em>str</em>) – « x » ou « y »</p></li>
+<li><p><strong>val</strong> (<em>int</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.configure_child_added">
+<code class="sig-name descname">configure_child_added</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.configure_child_added"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.configure_child_added" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Configuration au moment de l’ajout du child.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="labpyproject.core.pygame.core.VirtualItem.html#labpyproject.core.pygame.core.VirtualItem" title="labpyproject.core.pygame.core.VirtualItem"><em>VirtualItem</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.configure_child_removed">
+<code class="sig-name descname">configure_child_removed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.configure_child_removed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.configure_child_removed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Configuration au moment de la suppression du child.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="labpyproject.core.pygame.core.VirtualItem.html#labpyproject.core.pygame.core.VirtualItem" title="labpyproject.core.pygame.core.VirtualItem"><em>VirtualItem</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.create_background">
+<code class="sig-name descname">create_background</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.create_background"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.create_background" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Crée un CustomSprite de fond si bgcolor != None.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.discard_allocated_area">
+<code class="sig-name descname">discard_allocated_area</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.discard_allocated_area"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.discard_allocated_area" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide la mise à jour des surfaces alouées aux childs.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.discard_globalRect">
+<code class="sig-name descname">discard_globalRect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.discard_globalRect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.discard_globalRect" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide la position globale absolue exacte</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.discard_layout">
+<code class="sig-name descname">discard_layout</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.discard_layout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.discard_layout" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide le layout des childs.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.discard_layout_list">
+<code class="sig-name descname">discard_layout_list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.discard_layout_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.discard_layout_list" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide les listes de childs liées au layout.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.discard_snap">
+<code class="sig-name descname">discard_snap</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.discard_snap"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.discard_snap" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Invalide l’éventuel calcul de snap.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.get_snap_childs">
+<code class="sig-name descname">get_snap_childs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.get_snap_childs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.get_snap_childs" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne la liste des childs à prendre en compte pour les calculs de snap sauf le fond.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.handle_snap">
+<code class="sig-name descname">handle_snap</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.handle_snap"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.handle_snap" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Prise en charge des snaps à la fin du process de resize : pour éviter un bouclage
+sans fin du process on recalcule les rects en repositionnant au besoin les childs,
+sans les re resizer.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.has_flexible_childs">
+<code class="sig-name descname">has_flexible_childs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.has_flexible_childs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.has_flexible_childs" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Indique si un ou plusieurs childs sont flexibles.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.layout_childs">
+<code class="sig-name descname">layout_childs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.layout_childs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.layout_childs" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Applique le layout basique (si direction != None) aux childs de position fixed ou relative.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.mark_container_as_resized">
+<code class="sig-name descname">mark_container_as_resized</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.mark_container_as_resized"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.mark_container_as_resized" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>En cas de resize personnalisé, re valide tous les marqueurs de resize.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_bgcolor_changed">
+<code class="sig-name descname">on_bgcolor_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_bgcolor_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_bgcolor_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque la couleur de fond a été modifiée.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_child_display_discarded">
+<code class="sig-name descname">on_child_display_discarded</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_child_display_discarded"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_display_discarded" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Chaine de remontée des discard d’update jusqu’au prochain RealContainer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="labpyproject.core.pygame.core.VirtualItem.html#labpyproject.core.pygame.core.VirtualItem" title="labpyproject.core.pygame.core.VirtualItem"><em>VirtualItem</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_child_flex_changed">
+<code class="sig-name descname">on_child_flex_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_child_flex_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_flex_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée par un child dont l’attribut flex a été modifié.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="labpyproject.core.pygame.core.BoxModelObject.html#labpyproject.core.pygame.core.BoxModelObject" title="labpyproject.core.pygame.core.BoxModelObject"><em>BoxModelObject</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_child_placement_discarded">
+<code class="sig-name descname">on_child_placement_discarded</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_child_placement_discarded"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_placement_discarded" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Chaine de remontée des discard d’update jusqu’au prochain RealContainer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="labpyproject.core.pygame.core.BoxModelObject.html#labpyproject.core.pygame.core.BoxModelObject" title="labpyproject.core.pygame.core.BoxModelObject"><em>BoxModelObject</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_child_position_changed">
+<code class="sig-name descname">on_child_position_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_child_position_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_position_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée par un child dont l’attribut position a été modifié.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="labpyproject.core.pygame.core.BoxModelObject.html#labpyproject.core.pygame.core.BoxModelObject" title="labpyproject.core.pygame.core.BoxModelObject"><em>BoxModelObject</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_child_snap_changed">
+<code class="sig-name descname">on_child_snap_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_child_snap_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_snap_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée par un child dont l’attribut snap a été modifié.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="labpyproject.core.pygame.core.BoxModelObject.html#labpyproject.core.pygame.core.BoxModelObject" title="labpyproject.core.pygame.core.BoxModelObject"><em>BoxModelObject</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_child_unresized">
+<code class="sig-name descname">on_child_unresized</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_child_unresized"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_child_unresized" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsqu’un child n’est plus resizé.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="labpyproject.core.pygame.core.BoxModelObject.html#labpyproject.core.pygame.core.BoxModelObject" title="labpyproject.core.pygame.core.BoxModelObject"><em>BoxModelObject</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_direction_changed">
+<code class="sig-name descname">on_direction_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_direction_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_direction_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque la propriété direction a été modifiée.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_item_added">
+<code class="sig-name descname">on_item_added</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">parent</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_item_added"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_item_added" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée par le container parent lorsque l’item est ajouté.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>parent</strong> (<a class="reference internal" href="#labpyproject.core.pygame.core.VirtualContainer" title="labpyproject.core.pygame.core.VirtualContainer"><em>VirtualContainer</em></a>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_item_added_to_displaylist">
+<code class="sig-name descname">on_item_added_to_displaylist</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_item_added_to_displaylist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_item_added_to_displaylist" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque l’item (via sa hiérarchie parente) est publié par
+le root dans la displaylist finale.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_item_removed">
+<code class="sig-name descname">on_item_removed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_item_removed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_item_removed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée par le container parent lorsque l’item est supprimé</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_item_removed_from_displaylist">
+<code class="sig-name descname">on_item_removed_from_displaylist</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_item_removed_from_displaylist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_item_removed_from_displaylist" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque l’item (via sa hiérarchie parente) est dé-publié par
+le root de la displaylist finale.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_parent_removed">
+<code class="sig-name descname">on_parent_removed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_parent_removed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_parent_removed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Propagé si un parent a été supprimé sans que celui ne supprime sa hiérarchie.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_publicationRect_coords_changed">
+<code class="sig-name descname">on_publicationRect_coords_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">aftersnap</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_publicationRect_coords_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_publicationRect_coords_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors du process de resize quand les coordonnées seules
+de publicationRect ont été modifiées (pas les dimensions).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>aftersnap</strong> (<em>boolean</em>) – True si consécutif à un calcul de snap, False sinon</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_publicationRect_dims_changed">
+<code class="sig-name descname">on_publicationRect_dims_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">aftersnap</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_publicationRect_dims_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_publicationRect_dims_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lors du process de resize quand les dimensions (et éventuellement
+les coords) de publicationRect ont été modifiées</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>aftersnap</strong> (<em>boolean</em>) – True si consécutif à un calcul de snap, False sinon</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_publicationRefRect_coords_changed">
+<code class="sig-name descname">on_publicationRefRect_coords_changed</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_publicationRefRect_coords_changed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_publicationRefRect_coords_changed" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée lorsque les coordonnées du rect de publication de référence
+(self._publicationRefRect) ont été modifiées (mais pas les dimensions).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_resize_achieved">
+<code class="sig-name descname">on_resize_achieved</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_resize_achieved"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_resize_achieved" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée à la fin du process de resize de VirtualContainer pour post traitement éventuel.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.on_snap_occured">
+<code class="sig-name descname">on_snap_occured</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.on_snap_occured"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.on_snap_occured" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Indique que self.publicationRect.width et/ou self.publicationRect.height ont été modifiées
+lors du process de resize par application d’un snap (adaptation au contenu).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.parse_direction">
+<code class="sig-name descname">parse_direction</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">val</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.parse_direction"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.parse_direction" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Parse l’attribut direction</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>val</strong> (<em>str</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.remove_from_hierarchy">
+<code class="sig-name descname">remove_from_hierarchy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">childlist</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.remove_from_hierarchy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.remove_from_hierarchy" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Chaine de remontée des items à supprimer en direction du RealContainer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>childlist</strong> (<em>list</em>) – liste de VirtualItem(s)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.remove_item">
+<code class="sig-name descname">remove_item</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">childs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.remove_item"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.remove_item" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Suppression d’un ou plusieurs item(s) virtuel(s)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>childs</strong> (<em>list</em>) – liste de VirtualItem(s)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.resize">
+<code class="sig-name descname">resize</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.resize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.resize" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Recalcul de la taille et de la position</p>
+<ul class="simple">
+<li><p>direction : None (canvas), horizontal (liste h), vertical (liste v)</p></li>
+<li><p>si direction != None : prise en compte des attributs flex des childs</p></li>
+<li><p>snapW (boolean) : si True le container définit sa largeur par rapport à son contenu</p></li>
+<li><p>snapH (boolean) : si True le container définit sa hauteur par rapport à son contenu</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.resize_background">
+<code class="sig-name descname">resize_background</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.resize_background"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.resize_background" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Resize le fond.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.update">
+<code class="sig-name descname">update</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.update"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.update" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Appelée à chaque frame: gestion du resize.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.update_backround_coords">
+<code class="sig-name descname">update_backround_coords</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.update_backround_coords"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.update_backround_coords" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Met à jour les coordonnées du rect de publication du fond.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.update_childs">
+<code class="sig-name descname">update_childs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.update_childs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.update_childs" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Redéfinition systématique de la surface alouée à chaque child et appel
+à sa méthode resize (recalcul au besoin).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.update_layout_list">
+<code class="sig-name descname">update_layout_list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.update_layout_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.update_layout_list" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Reconstitue les listes de childs liées au layout.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="labpyproject.core.pygame.core.VirtualContainer.xget_childs">
+<code class="sig-name descname">xget_childs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">context</span><span class="o">=</span><span class="default_value">'publication'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/labpyproject/core/pygame/core.html#VirtualContainer.xget_childs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#labpyproject.core.pygame.core.VirtualContainer.xget_childs" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Retourne la liste de tous les items de la hiérarchie</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres</dt>
+<dd class="field-odd"><p><strong>context</strong> (<em>str</em>) – permet de spécifier le contexte d’usage (par défaut « publication »)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="labpyproject.core.pygame.core.CustomSprite.html" class="btn btn-neutral float-right" title="CustomSprite" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="labpyproject.core.pygame.core.VirtualItem.html" class="btn btn-neutral float-left" title="VirtualItem" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020 - Gabriel Leroy - Licence GPL
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="http://sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

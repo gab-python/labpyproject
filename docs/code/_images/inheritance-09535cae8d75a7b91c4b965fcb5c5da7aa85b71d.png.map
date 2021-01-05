@@ -1,0 +1,10 @@
+<map id="inheritance78f49ccfac" name="inheritance78f49ccfac">
+<area shape="rect" id="node1" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie.html#labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZonePartie" target="_top" title="Pseudo interface de la zone partie (carte et infos robots)" alt="" coords="395,4,513,25"/>
+<area shape="rect" id="node8" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase.html#labpyproject.apps.labpyrinthe.gui.skinBase.zone_partie_base.ZonePartieBase" target="_top" title="Ecran partie (carte + infos robots)" alt="" coords="552,4,651,25"/>
+<area shape="rect" id="node2" href="api/labpyproject.core.pygame.core.BoxModelObject.html#labpyproject.core.pygame.core.BoxModelObject" target="_top" title="**Super classe portant les propriétés et méthodes fondamentales du box model.**" alt="" coords="4,44,105,64"/>
+<area shape="rect" id="node6" href="api/labpyproject.core.pygame.core.VirtualItem.html#labpyproject.core.pygame.core.VirtualItem" target="_top" title="**BoxModelObject supportant les attributs de gestion des z&#45;indexs (couches) ainsi que" alt="" coords="144,44,217,64"/>
+<area shape="rect" id="node3" href="api/labpyproject.core.pygame.widgets.HStack.html#labpyproject.core.pygame.widgets.HStack" target="_top" title="Box virtuelle à layout horizontal." alt="" coords="573,44,630,64"/>
+<area shape="rect" id="node7" href="api/labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.ZonePartie.html#labpyproject.apps.labpyrinthe.gui.skinPygame.zone_partie.ZonePartie" target="_top" title="Ecran partie (carte + infos robots)" alt="" coords="690,25,764,45"/>
+<area shape="rect" id="node4" href="api/labpyproject.core.pygame.widgets.Stack.html#labpyproject.core.pygame.widgets.Stack" target="_top" title="Widget Canvas virtuel." alt="" coords="425,44,483,64"/>
+<area shape="rect" id="node5" href="api/labpyproject.core.pygame.core.VirtualContainer.html#labpyproject.core.pygame.core.VirtualContainer" target="_top" title="**VirtualItem dôté des capacités d&#39;un conteneur :**" alt="" coords="256,44,357,64"/>
+</map>

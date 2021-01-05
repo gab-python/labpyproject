@@ -1,0 +1,19 @@
+ExchangeHelper
+==============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.helpers.exchange_helper
+
+.. autoclass:: ExchangeHelper
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ExchangeHelper.createGUIObj
+      ~ExchangeHelper.createNETObj
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: createGUIObj
+   .. automethod:: createNETObj

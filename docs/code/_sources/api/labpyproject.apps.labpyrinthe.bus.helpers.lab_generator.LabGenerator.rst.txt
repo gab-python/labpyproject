@@ -1,0 +1,27 @@
+LabGenerator
+============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.helpers.lab_generator
+
+.. autoclass:: LabGenerator
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~LabGenerator.compute_case_number
+      ~LabGenerator.compute_case_number_for_typecase_on_axis
+      ~LabGenerator.create_random_carte
+      ~LabGenerator.estime_densite
+      ~LabGenerator.estime_densites_for_typecase_on_axis
+      ~LabGenerator.sample_submatrices
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: compute_case_number
+   .. automethod:: compute_case_number_for_typecase_on_axis
+   .. automethod:: create_random_carte
+   .. automethod:: estime_densite
+   .. automethod:: estime_densites_for_typecase_on_axis
+   .. automethod:: sample_submatrices

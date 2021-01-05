@@ -1,0 +1,25 @@
+CommandHelper
+=============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.bus.commands.cmd_helper
+
+.. autoclass:: CommandHelper
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CommandHelper.format_cmd_sequence
+      ~CommandHelper.format_game_cmd
+      ~CommandHelper.split_cmd_sequence
+      ~CommandHelper.split_game_cmd
+      ~CommandHelper.translate_cmd
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: format_cmd_sequence
+   .. automethod:: format_game_cmd
+   .. automethod:: split_cmd_sequence
+   .. automethod:: split_game_cmd
+   .. automethod:: translate_cmd

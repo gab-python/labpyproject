@@ -1,0 +1,31 @@
+ZoneDangerRobot
+===============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinPygame.zone_carte
+
+.. autoclass:: ZoneDangerRobot
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ZoneDangerRobot.create_view
+      ~ZoneDangerRobot.delete_view
+      ~ZoneDangerRobot.get_real_coords
+      ~ZoneDangerRobot.place_and_size_graphObjRef
+      ~ZoneDangerRobot.set_current_image
+      ~ZoneDangerRobot.set_real_coords
+      ~ZoneDangerRobot.set_visible
+      ~ZoneDangerRobot.update_view
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: create_view
+   .. automethod:: delete_view
+   .. automethod:: get_real_coords
+   .. automethod:: place_and_size_graphObjRef
+   .. automethod:: set_current_image
+   .. automethod:: set_real_coords
+   .. automethod:: set_visible
+   .. automethod:: update_view

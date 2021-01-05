@@ -1,0 +1,12 @@
+labpyproject.core.app
+=====================
+
+.. automodule:: labpyproject.core.app
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. toctree::
+
+   app_components <labpyproject.core.app.app_components>

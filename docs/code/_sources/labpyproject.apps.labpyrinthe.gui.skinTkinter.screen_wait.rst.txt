@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.skinTkinter.screen\_wait
+==========================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.skinTkinter.screen_wait
+   :no-heading:
+   :no-main-docstr:

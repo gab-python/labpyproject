@@ -1,0 +1,43 @@
+AbstractSwitch
+==============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.interfaces
+
+.. autoclass:: AbstractSwitch
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~AbstractSwitch.DISABLED
+      ~AbstractSwitch.ENABLED
+      ~AbstractSwitch.OVER
+      ~AbstractSwitch.PRESSED
+      ~AbstractSwitch.SELECTED
+      ~AbstractSwitch.STATES
+      ~AbstractSwitch.UNSELECTED
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~AbstractSwitch.get_state
+      ~AbstractSwitch.is_switch
+      ~AbstractSwitch.set_state
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: DISABLED
+   .. autoattribute:: ENABLED
+   .. autoattribute:: OVER
+   .. autoattribute:: PRESSED
+   .. autoattribute:: SELECTED
+   .. autoattribute:: STATES
+   .. autoattribute:: UNSELECTED
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: get_state
+   .. automethod:: is_switch
+   .. automethod:: set_state

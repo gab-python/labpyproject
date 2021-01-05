@@ -1,0 +1,17 @@
+Header
+======
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinTkinter.header
+
+.. autoclass:: Header
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~Header.on_resize
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: on_resize

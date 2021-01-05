@@ -1,0 +1,19 @@
+QueueSwitcher
+=============
+
+.. currentmodule:: labpyproject.core.queue.queue_tools
+
+.. autoclass:: QueueSwitcher
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~QueueSwitcher.get_queuecmd_from_channel
+      ~QueueSwitcher.put_queuecmd_in_channel
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: get_queuecmd_from_channel
+   .. automethod:: put_queuecmd_in_channel

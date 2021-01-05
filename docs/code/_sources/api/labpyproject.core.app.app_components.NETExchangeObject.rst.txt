@@ -1,0 +1,43 @@
+NETExchangeObject
+=================
+
+.. currentmodule:: labpyproject.core.app.app_components
+
+.. autoclass:: NETExchangeObject
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~NETExchangeObject.CHECK_CONN
+      ~NETExchangeObject.CONNECT
+      ~NETExchangeObject.DISCONNECT
+      ~NETExchangeObject.GET_BUS_INFO
+      ~NETExchangeObject.GET_NET_INFO
+      ~NETExchangeObject.NET_ERROR
+      ~NETExchangeObject.NET_SHUTDOWN
+      ~NETExchangeObject.NET_STATUS
+      ~NETExchangeObject.RECEIVE
+      ~NETExchangeObject.SEND
+      ~NETExchangeObject.SEND_ERROR
+      ~NETExchangeObject.SET_ADDRESS
+      ~NETExchangeObject.SET_BUS_INFO
+      ~NETExchangeObject.SET_NET_INFO
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: CHECK_CONN
+   .. autoattribute:: CONNECT
+   .. autoattribute:: DISCONNECT
+   .. autoattribute:: GET_BUS_INFO
+   .. autoattribute:: GET_NET_INFO
+   .. autoattribute:: NET_ERROR
+   .. autoattribute:: NET_SHUTDOWN
+   .. autoattribute:: NET_STATUS
+   .. autoattribute:: RECEIVE
+   .. autoattribute:: SEND
+   .. autoattribute:: SEND_ERROR
+   .. autoattribute:: SET_ADDRESS
+   .. autoattribute:: SET_BUS_INFO
+   .. autoattribute:: SET_NET_INFO

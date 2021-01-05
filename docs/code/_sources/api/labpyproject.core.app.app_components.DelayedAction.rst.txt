@@ -1,0 +1,23 @@
+DelayedAction
+=============
+
+.. currentmodule:: labpyproject.core.app.app_components
+
+.. autoclass:: DelayedAction
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~DelayedAction.cancel
+      ~DelayedAction.is_removable
+      ~DelayedAction.start
+      ~DelayedAction.timer_callback
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: cancel
+   .. automethod:: is_removable
+   .. automethod:: start
+   .. automethod:: timer_callback

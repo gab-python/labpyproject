@@ -1,0 +1,23 @@
+TextButton
+==========
+
+.. currentmodule:: labpyproject.core.pygame.widgets
+
+.. autoclass:: TextButton
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~TextButton.change_view_state
+      ~TextButton.on_item_added_to_displaylist
+      ~TextButton.on_item_removed_from_displaylist
+      ~TextButton.send_callback
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: change_view_state
+   .. automethod:: on_item_added_to_displaylist
+   .. automethod:: on_item_removed_from_displaylist
+   .. automethod:: send_callback

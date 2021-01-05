@@ -1,0 +1,47 @@
+ScreenWaitBase
+==============
+
+.. currentmodule:: labpyproject.apps.labpyrinthe.gui.skinBase.screen_wait_base
+
+.. autoclass:: ScreenWaitBase
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ScreenWaitBase.STATE_CREATING
+      ~ScreenWaitBase.STATE_CREATING_RSC
+      ~ScreenWaitBase.STATE_LOADING
+      ~ScreenWaitBase.STATE_LOADING_RSC
+      ~ScreenWaitBase.STATE_NEUTRAL
+      ~ScreenWaitBase.STATE_NEUTRAL_RSC
+      ~ScreenWaitBase.STATE_RESIZE
+      ~ScreenWaitBase.STATE_RESIZE_RSC
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ScreenWaitBase.draw_interface
+      ~ScreenWaitBase.get_initial_state
+      ~ScreenWaitBase.set_state
+      ~ScreenWaitBase.show_image
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: STATE_CREATING
+   .. autoattribute:: STATE_CREATING_RSC
+   .. autoattribute:: STATE_LOADING
+   .. autoattribute:: STATE_LOADING_RSC
+   .. autoattribute:: STATE_NEUTRAL
+   .. autoattribute:: STATE_NEUTRAL_RSC
+   .. autoattribute:: STATE_RESIZE
+   .. autoattribute:: STATE_RESIZE_RSC
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: draw_interface
+   .. automethod:: get_initial_state
+   .. automethod:: set_state
+   .. automethod:: show_image

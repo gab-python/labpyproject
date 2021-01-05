@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.gui.GUIPygame
+===========================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.gui.GUIPygame
+
+.. automodapi:: labpyproject.apps.labpyrinthe.gui.GUIPygame
+   :no-heading:
+   :no-main-docstr:

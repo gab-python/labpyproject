@@ -1,0 +1,12 @@
+<map id="inheritance5c5f28a172" name="inheritance5c5f28a172">
+<area shape="rect" id="node1" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneMenu.html#labpyproject.apps.labpyrinthe.gui.skinBase.interfaces.AbstractZoneMenu" target="_top" title="Pseudo interface de la zone d&#39;affichage du menu principal." alt="" coords="271,31,416,56"/>
+<area shape="rect" id="node10" href="api/labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.ZoneMenuBase.html#labpyproject.apps.labpyrinthe.gui.skinBase.zone_menu_base.ZoneMenuBase" target="_top" title="Sous écran menu" alt="" coords="464,31,587,56"/>
+<area shape="rect" id="node2" title="Internal class." alt="" coords="125,5,223,31"/>
+<area shape="rect" id="node5" title="Internal class." alt="" coords="307,80,379,105"/>
+<area shape="rect" id="node3" title="Internal class." alt="" coords="5,5,77,31"/>
+<area shape="rect" id="node4" title="Frame widget which may contain other widgets and can have a 3D border." alt="" coords="489,80,561,105"/>
+<area shape="rect" id="node9" href="api/labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.ZoneMenu.html#labpyproject.apps.labpyrinthe.gui.skinTkinter.zone_menu.ZoneMenu" target="_top" title="Accueil du jeu : version simplifiée (sans boutons)" alt="" coords="635,56,725,81"/>
+<area shape="rect" id="node6" title="Geometry manager Grid." alt="" coords="138,55,210,80"/>
+<area shape="rect" id="node7" title="Geometry manager Pack." alt="" coords="138,104,210,129"/>
+<area shape="rect" id="node8" title="Geometry manager Place." alt="" coords="138,153,210,179"/>
+</map>

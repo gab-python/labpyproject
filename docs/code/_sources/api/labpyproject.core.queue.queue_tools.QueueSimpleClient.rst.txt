@@ -1,0 +1,21 @@
+QueueSimpleClient
+=================
+
+.. currentmodule:: labpyproject.core.queue.queue_tools
+
+.. autoclass:: QueueSimpleClient
+   :show-inheritance:
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~QueueSimpleClient.are_queues_active
+      ~QueueSimpleClient.get_cmd_from_queue
+      ~QueueSimpleClient.put_cmd_in_queue
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: are_queues_active
+   .. automethod:: get_cmd_from_queue
+   .. automethod:: put_cmd_in_queue

@@ -1,0 +1,49 @@
+CustomTCPThreadedClient
+=======================
+
+.. currentmodule:: labpyproject.core.net.custom_TCP
+
+.. autoclass:: CustomTCPThreadedClient
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~CustomTCPThreadedClient.uid
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~CustomTCPThreadedClient.connect
+      ~CustomTCPThreadedClient.disconnect
+      ~CustomTCPThreadedClient.dispatch_network_infos
+      ~CustomTCPThreadedClient.dispatch_network_status
+      ~CustomTCPThreadedClient.dispatch_to_external_handler
+      ~CustomTCPThreadedClient.get_network_infos
+      ~CustomTCPThreadedClient.net_shutdown
+      ~CustomTCPThreadedClient.on_component_thread_started
+      ~CustomTCPThreadedClient.send
+      ~CustomTCPThreadedClient.sendFromExchangeObject
+      ~CustomTCPThreadedClient.set_address
+      ~CustomTCPThreadedClient.shutdown
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: uid
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: connect
+   .. automethod:: disconnect
+   .. automethod:: dispatch_network_infos
+   .. automethod:: dispatch_network_status
+   .. automethod:: dispatch_to_external_handler
+   .. automethod:: get_network_infos
+   .. automethod:: net_shutdown
+   .. automethod:: on_component_thread_started
+   .. automethod:: send
+   .. automethod:: sendFromExchangeObject
+   .. automethod:: set_address
+   .. automethod:: shutdown

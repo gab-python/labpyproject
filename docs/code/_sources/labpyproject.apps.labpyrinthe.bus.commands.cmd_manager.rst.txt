@@ -1,0 +1,8 @@
+labpyproject.apps.labpyrinthe.bus.commands.cmd\_manager
+=======================================================
+
+.. automodule:: labpyproject.apps.labpyrinthe.bus.commands.cmd_manager
+   
+.. automodapi:: labpyproject.apps.labpyrinthe.bus.commands.cmd_manager
+   :no-heading:
+   :no-main-docstr:
