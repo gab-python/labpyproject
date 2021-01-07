@@ -2348,7 +2348,7 @@ class VirtualContainer(VirtualItem):
         if not isinstance(val, pygame.Color):
             try:
                 val = pygame.Color(val)
-            except ValueError:
+            except (TypeError, ValueError):
                 val = None
         if val != None and val != self._bgcolor:
             self._bgcolor = val
@@ -3109,7 +3109,7 @@ class CustomSprite(VirtualItem, pygame.sprite.DirtySprite):
         if not isinstance(col, pygame.Color):
             try:
                 col = pygame.Color(col)
-            except ValueError:
+            except (TypeError, ValueError):
                 col = self.transp_color
         if col != self._bgcolor:
             self._bgcolor = col
@@ -3324,7 +3324,7 @@ class RealContainer(VirtualContainer, pygame.sprite.LayeredDirty):
         if not isinstance(val, pygame.Color):
             try:
                 val = pygame.Color(val)
-            except ValueError:
+            except (TypeError, ValueError):
                 val = None
         if val != None and val != self._bgcolor:
             # pas de transparence :

@@ -5,10 +5,13 @@
 
 .. note::
 
-   Compatibilité: pygame 1.9 (SDL 1.2)
+   Compatibilité: pygame 1.9 (SDL 1.2) et pygame 2 (SDL 2)
 
-Todo:
-   A porter sur pygame 2 (SDL 2)
+.. admonition:: portage sur pygame 2
+   
+   Les développeurs de Pygame annoncent une rétro compatibilité quasi complète avec la version 2. 
+   Pour ce package une seule modification a été nécessaire: caster une valeur en pygame.Color ne 
+   renvoit plus une ValueError mais un TypeError.
    
 
 .. admonition:: Application concrète
