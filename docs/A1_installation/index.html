@@ -272,8 +272,10 @@
   </li>
   <li><a href="#2--installer-depuis-les-sources">2- Installer depuis les sources</a>
     <ul>
-      <li><a href="#21--configuration-python">2.1- Configuration python</a></li>
+      <li><a href="#21--installation-de-git">2.1- Installation de git</a></li>
       <li><a href="#22--clônage-des-sources">2.2- Clônage des sources</a></li>
+      <li><a href="#23--configuration-python">2.3- Configuration python</a></li>
+      <li><a href="#24--non-conda">2.4- Non conda</a></li>
     </ul>
   </li>
 </ul>
@@ -350,31 +352,16 @@
 
 <h2 id="2--installer-depuis-les-sources">2- Installer depuis les sources</h2>
 
-<p>Cette méthode s’adresse aux utilisateurs ayant une connaissance préalable de python.</p>
+<p>Cette méthode s’adresse aux utilisateurs avertis ayant une expérience préalable d’installations en ligne de commande.</p>
 
-<h3 id="21--configuration-python">2.1- Configuration python</h3>
+<h3 id="21--installation-de-git">2.1- Installation de git</h3>
 
-<p>Idéalement créer un environnement virtuel dédié, avec des outils tels que <a href="https://docs.conda.io/projects/conda/en/latest/index.html"><strong>conda</strong></a> ou <a href="https://github.com/pyenv/pyenv"><strong>pyenv</strong></a>.</p>
-
-<p>Paramétrer cet environnement virtuel avec <strong>python 3.7.5</strong>.</p>
-
-<p>Installer une <strong>version accélérée de Numpy</strong> (version conseillée 1.19):</p>
-<ul>
-  <li>Vous pouvez compiler votre propre version de Numpy avec <strong>OpenBLAS</strong> (open source). Voir <a href="/labpyproject/B31_introduction">Projet &gt; Optimisation</a>. C’est relativement simple sur Linux, beaucoup moins sur Windows.</li>
-  <li>Ou bien vous pouvez installer <a href="https://software.intel.com/content/www/us/en/develop/tools/distribution-for-python/choose-download.html"><strong>Intel® Distribution for Python</strong></a>. Cette boite à outil comprend notament une version de Numpy accélérée avec Intel MKL (freeware mais non open source).</li>
-</ul>
-
-<p>Installer les librairies suivantes:</p>
-<ul>
-  <li><strong>pillow</strong> (version conseillée: 7.0.0)</li>
-  <li><strong>pygame</strong> (version conseillée: 1.9.6)</li>
-</ul>
+<p>Si vous ne disposez pas de <a href="https://git-scm.com"><strong>git</strong></a>, téléchargez et installez la version correspondant à votre plateforme depuis la page <a href="https://git-scm.com/downloads">Downloads</a>.</p>
 
 <h3 id="22--clônage-des-sources">2.2- Clônage des sources</h3>
 
 <ul>
-  <li>Disposer de <a href="https://git-scm.com"><strong>git</strong></a>.</li>
-  <li>Créer un répertoire dédié.</li>
+  <li>Créer un répertoire dédié sur votre disque dur.</li>
   <li>Ouvrir une console et se déplacer dans ce répertoire.</li>
   <li>Entrer la commande:
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone https://github.com/gab-python/labpyproject.git
@@ -387,11 +374,88 @@
 └── labpyproject
     ├── apps
     ├── core
-    └── __init__.py
+    ├── docs
+    ├── ...
+    ├── env_conda_intelMKL.yml
+    ├── env_conda_openBLAS.yml
+    └── ...
 </code></pre></div></div>
 
 <p>Les scripts de lancement des différentes applications sont situés dans le répertoire <code class="language-plaintext highlighter-rouge">labpyprojetc/apps/labpyrinthe</code>.</p>
 
+<h3 id="23--configuration-python">2.3- Configuration python</h3>
+
+<p>Pour des utilisateurs ne pratiquant pas python, l’approche la plus simple consiste à utiliser <a href="https://docs.conda.io/projects/conda/en/latest/index.html"><strong>conda</strong></a> pour installer et configurer python pour le jeu.</p>
+
+<p><strong>Installer Miniconda</strong></p>
+
+<p>Miniconda est une version compacte d’Anaconda. Vous trouverez les instructions d’installation correspondant à votre plate forme à  cette <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/"><strong>adresse</strong></a>.</p>
+
+<p><strong>Créer un environnement conda pour le jeu</strong></p>
+
+<p>Deux solutions s’offrent à vous:</p>
+<ul>
+  <li><a href="https://github.com/gab-python/labpyproject/blob/main/env_conda_openBLAS.yml"><strong>env_conda_openBLAS.yml</strong></a>: environnement python accéléré avec openBLAS</li>
+  <li><a href="https://github.com/gab-python/labpyproject/blob/main/env_conda_intelMKL.yml"><strong>env_conda_intelMKL.yml</strong></a>: environnement python accéléré avec Intel MKL</li>
+</ul>
+
+<p>La première correspond à une solution 100% open source, la seconde utilise des librairies Intel sous licence Intel Simplified Software License (code propriétaire mais d’utilisation freeware).</p>
+
+<div class="notice--info">
+  <h4 class="no_toc">Remarques:</h4>
+  
+<ul>
+  <li>Sous Windows, la solution openBLAS fait tout de même appel à quelques éléments MKL.</li>
+  <li>La solution Intel MKL est un peu plus performante que la solution openBLAS.</li>
+</ul>
+
+</div>
+
+<p>Dans une invite de commande, créez un environnement virtuel à l’aide de l’un des deux fichiers .yml de configuration:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda env create -f env_conda_openBLAS.yml
+</code></pre></div></div>
+
+<p>Cette commande va créer l’environnement virtuel conda de nom <strong>labpyrinthe_oB</strong>.</p>
+
+<p>ou:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda env create -f env_conda_intelMKL.yml
+</code></pre></div></div>
+
+<p>Cette commande va créer l’environnement virtuel conda de nom <strong>labpyrinthe_iM</strong>.</p>
+
+<p><strong>Activer l’environnement virtuel</strong></p>
+
+<p>Ouvrir une console et se déplacer dans le dossier d’installation des sources (votre_répertoire/labpyproject). Tapez l’une des commandes suivantes (en fonction de votre choix précédent):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda activate labpyrinthe_oB
+</code></pre></div></div>
+
+<p>ou</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda activate labpyrinthe_iM
+</code></pre></div></div>
+
+<p><strong>Lancer un scipt d’exécution du jeu</strong></p>
+
+<p>Déplacez vous dans le sous dossier apps/labpyrinthe, et exécutez un script (dans cet exemple la version standalone pygame du jeu):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd apps/labpyrinthe
+python standalonePygame.py
+</code></pre></div></div>
+
+<h3 id="24--non-conda">2.4- Non conda</h3>
+
+<p>Si vous êtes un utilisateur de python et que vous préférez un autre outil, vous devrez créer un environnement python avec les caractéristiques suivantes:</p>
+
+<ul>
+  <li>python&gt;=3.7.7, &lt;=3.7.9</li>
+  <li>pip</li>
+  <li>pillow=7.0.0</li>
+  <li>numpy=1.19</li>
+  <li>pygame==2.0.1</li>
+</ul>
 
         
       </section>
