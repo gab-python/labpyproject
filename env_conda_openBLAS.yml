@@ -1,0 +1,14 @@
+name: labpyrinthe_oB
+channels:
+  - conda-forge
+  - defaults
+  - intel
+dependencies:
+  - python>=3.7.7, <=3.7.9
+  - pip
+  - pillow=7.0.0
+  - numpy=1.19
+  - pip:
+    - pygame==2.0.1
+prefix: /home/gab/miniconda3/envs/labpyrinthe_oB
+
