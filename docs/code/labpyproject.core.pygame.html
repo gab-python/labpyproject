@@ -776,13 +776,11 @@
 <p><strong>Prototype de « moteur de publication »  Pygame</strong>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Compatibilité: pygame 1.9 (SDL 1.2) et pygame 2 (SDL 2)</p>
-</div>
-<div class="admonition-portage-sur-pygame-2 admonition">
-<p class="admonition-title">portage sur pygame 2</p>
-<p>Les développeurs de Pygame annoncent une rétro compatibilité quasi complète avec la version 2.
-Pour ce package une seule modification a été nécessaire: caster une valeur en pygame.Color ne
-renvoit plus une ValueError mais un TypeError.</p>
+<p>Compatibilité: pygame&gt;=1.9.6</p>
+<p>Ce package a été développé avec pygame 1.9.6 (SDL 1.2) et testé avec pygame 2.0.1 (SDL 2).
+Le « portage » sur pygame 2 a été très simple, ceci confirmant la rétro compatibilité quasi
+totale annoncée par les développeurs de pygame. La seule modification nécessaire a été la suivante:
+caster une valeur en pygame.Color ne renvoit plus une ValueError mais un TypeError dans pygame 2.</p>
 </div>
 <div class="admonition-application-concrete admonition">
 <p class="admonition-title">Application concrète</p>
