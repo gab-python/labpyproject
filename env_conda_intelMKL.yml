@@ -10,5 +10,4 @@ dependencies:
   - numpy=1.19
   - pip:
     - pygame==2.0.1
-prefix: /home/gab/miniconda3/envs/labpyrinthe_iM
 
