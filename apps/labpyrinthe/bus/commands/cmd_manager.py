@@ -3508,7 +3508,6 @@ class CommandManager:
         # on exclut les robots déja traités
         filterdef = [b for b in botslist if not gsearch.kill_search_already_done(b)]
         for b in filterdef:
-            start = time.perf_counter()
             finded, paObj = self._search_scheduled_attaque(robot, targetcase=b)
             if finded:
                 # on mémorise l'action
